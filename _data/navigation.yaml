@@ -1,0 +1,107 @@
+- header: COMPANY
+  children:
+  - name: Home
+    link: /
+    class: normal       
+
+  - name: Blog
+    link: https://blog.goldfishservice.xyz/
+    class: normal
+
+  - name: Help Us
+    link: /join/
+    class: normal       
+
+  - name: KOI Services
+    link: /courses/
+    class: normal
+
+  - name: Proxy Mining
+    link: /services/
+    class: child
+
+  - name: Pooled Mining
+    link: /services/
+    class: child
+
+  - name: Shared Data
+    link: /services/
+    class: child
+
+- header: COMPANY
+  children:
+  - name: Developers
+    link: https://docs.goldfishservice.xyz/
+    class: normal   
+
+  - name: KOI Desktop App
+    link: /download/
+    class: normal
+
+  - name: Support
+    link: "emailto:support@goldfishservice.xyz"
+    class: child
+
+  - name: Careers
+    link: "emailto:jobs@goldfishservice.xyz"
+    class: normal
+
+  - name: Brand Guidelines
+    link: /style-guide.pdf
+    class: normal    
+
+  - name: Blog
+    link: /developer-toolkit/
+    class: normal
+
+  # - name: WhitePaper
+  #   link: /
+  #   class: child    
+
+- header: GET INVOLVED
+  children:
+  - name: Start Earning KOI
+    link: /download/
+    class: normal
+
+  - name: Buy KOI
+    link: "sales@goldfishservice.xyz"
+    class: normal        
+
+  - name: Earn KOI for Code
+    link: "market@goldfishservice.xyz"
+    class: normal     
+
+  # - name: Watch Some Webinars
+  #   link: /
+  #   class: normal 
+
+  # - name: Become a Goldfish
+  #   link: /
+  #   class: normal     
+
+  - name: Join the Community
+    link: < insert discord link here > 
+    class: normal 
+
+- header: GET IN TOUCH
+  children:
+  - name: sales@goldfishservice.xyz
+    link: "mailto:sales@goldfishservice.xyz"
+    class: normal
+
+  - name: developer@goldfishservice.xyz
+    link: "mailto:developer@goldfishservice.xyz"
+    class: normal
+
+  - name: hello@goldfishservice.xyz
+    link: "mailto:hello@goldfishservice.xyz"
+    class: normal
+
+  - name: jobs@goldfishservice.xyz
+    link: "mailto:jobs@goldfishservice.xyz"
+    class: normal
+
+  - name: press@goldfishservice.xyz
+    link: "mailto:press@goldfishservice.xyz"
+    class: normal            

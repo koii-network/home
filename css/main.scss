@@ -1,0 +1,376 @@
+---
+---
+
+@charset "utf-8";
+
+// Example Defaults
+// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
+
+// $spacing-unit:     30px;
+
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
+
+// $grey-color:       #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+// // Width of the content area
+// $content-width:    800px;
+
+// $on-palm:          600px;
+// $on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// variables.less
+$theme-primary: #BCF3EF;
+$theme-red: red;
+$theme-dark: #171753;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "mixins",
+        "base"
+;
+
+body {
+        font-family: 'Catamaran';
+}
+.row.container {
+        max-width: 1280px;
+    }
+// .navbar-header {
+//         background: $theme-dark;
+// }
+body, nav {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+img {
+        max-height: 100%;
+}
+
+a.page-scroll.bg-button {
+        background: white;
+        margin-right: 4rem;
+        margin-top: calc(50% - 4.05rem);
+        min-height: fit-content;
+        padding: 0.05rem 0.5rem 0.20rem 0.5rem;
+        color: $theme-dark !important;
+        border-radius: 5px;
+}
+nav#mainNav {
+        background: $theme-dark;
+        border-color: $theme-dark;
+}
+
+header {
+        min-height: 70vh;
+        background: white;
+}
+.header-content h1, .header-content p, .header-content a {
+        color: $theme-dark;
+        text-align: left;
+        float: left;
+}
+
+.header-content h1 {
+        margin-top: 4rem;
+        font-weight: 700;
+        font-family: 'Catamaran';
+}
+
+a.btn.btn-primary.btn-xl.page-scroll {
+        padding: 0.25rem 0.75rem 0.45rem 0.75rem;
+        border-radius: 0.25rem;
+        color: white;
+        margin-right: 1rem;
+}
+
+.blue {
+        background-color: $theme-dark;
+}
+.red {
+        background-color: $theme-red;
+}
+
+.bg-primary {
+        background: $theme-primary;
+        color: $theme-dark;
+        text-align: center;
+}
+.row.container {
+        width: fit-content;
+        margin: auto;
+        display: block;
+        min-height: 33vh;
+    }
+img.headerImage {
+        float: right;
+}
+.col-sm-4.callout {
+        border: 1px solid #ffffff70;
+        margin: 3rem;
+        max-width: calc(33% - 6rem);
+        border-radius: 1rem;
+        color: white;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+}
+.callout h3 {
+        font-weight: 700;
+        font-size: 2.15rem;
+        padding-bottom: 1rem;
+        text-transform: capitalize;
+    }
+h1 {
+        font-weight: 700;
+}
+h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+}
+p {
+        display: block;
+        width: 100%;
+    }
+a.callToActionButton {
+        padding: 1rem 3rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $theme-red;
+        font-weight: 900;
+        letter-spacing: 0.09rem;
+        background: #ffffffe8;
+        border-radius: 0.85rem;
+        border: 1px solid #ff00002e;
+        margin: auto;
+    }
+    .peer-power img.icon {
+        float: left;
+        display: block;
+        margin-bottom: 4rem;
+        margin-right: 3rem;
+    }
+    .peer-power {
+        background:  $theme-dark;
+        color: white !important;
+    }
+.bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
+        text-align: left;
+    }
+
+    .whitelist h1 {
+        text-align: center;
+        font-size: 4.5rem !important;
+    }
+    .whitelist h2, .whitelist h3, .whitelist p {
+        text-align: center;
+    }
+    #about a.callToActionButton {
+        background: $theme-dark;
+        color: white;
+        text-decoration: none;
+    }
+
+    .callout h3, .callout span {
+        text-align: left;
+        float: left;
+    }
+    .callout.blue h3, .callout.blue span {
+        text-align: center;
+        float: unset;
+    }
+    .whitelist span {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: left;
+    }
+
+    section#whitelist {
+        background: white;
+    }
+
+    .whitelist h2, .whitelist span {
+        text-align: left;
+        float: left;
+    }
+    .whitelist .col-sm-4 {
+        padding: 2rem;
+    }
+    .whitelist h2 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        padding-left: 2.85rem;
+    }
+
+    .whitelist h1, .whitelist h2, .whitelist p {
+        text-align: center !important;
+        display: block !important;
+    }
+    .whitelist a.callToActionButton {
+        background: $theme-red;
+        color: white;
+        text-decoration: none;
+    }
+    .partners h2 {
+        color: $theme-dark;
+    }
+    aside.bg-dark.partners {
+        background: $theme-primary;
+    }
+    .partners img {
+        padding: 1rem;
+    }
+
+    // Footer
+    footer {
+        background: $theme-dark;
+        color: white;
+    }
+    img.koi {
+        float: right;
+        margin-top: 5rem;
+    }
+    footer .col-sm-10 {
+        margin-top: 5rem;
+    }
+    footer h1 {
+        font-size: 4.5rem !important;
+    }
+    footer span.subheader {
+        padding-top: 0.5rem !important;
+        display: block;
+        font-size: 1.75rem;
+        padding-bottom: 3rem;
+    }
+    footer h2 {
+        margin-top: 0;
+    }
+    .mcform input {
+        font-size: 1.75rem;
+        float: left;
+        color: $theme-dark;
+        border-radius: 0.25rem;
+        border: none;
+        background: #ffffffbf;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .mcform button {
+        font-size: 1.75rem;
+        margin-top: -0.1rem;
+        margin-left: 1rem;
+        color: #171753;
+        padding-top: 0.5rem;
+        padding-bottom: 0.25rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }    
+    footer li.nav-item {
+        list-style-type: none;
+        color: white;
+    }
+    footer ul {
+        padding: 0;
+    }
+    footer hr {
+        border: solid 0.1px #ffffff14;
+        max-width: calc(100% - 3rem);
+    }
+    .row.container.menu {
+        float: left;
+    }
+    footer a {
+        color: white;
+    }
+    .row.container.menu {
+        width: 100%;
+        font-size: 1.75rem;
+        margin-bottom: 10rem !important;
+    }
+    footer .col-sm-10 {
+        margin-top: 5rem;
+        padding-right: 10rem;
+    }
+    footer .row.container {
+        padding-top: 3rem;
+    }
+    
+    footer h3 {
+        font-size: 2.05rem;
+        font-weight: 600;
+    }
+    
+    a.nav-link.child::before {
+        content: "- ";
+    }
+    
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+
+
+
+    .col-sm-4.callout.blue {
+        width: 100% !important;
+        max-width: calc(100% - 6rem);
+    }
+
+    // footer
+    .col-sm-2 {
+        float: left;
+    }
+    
+    .row.container {
+        min-height: 50vh;
+        padding-bottom: 2rem;
+    }
+    .col-sm-4.callout.blue {
+        max-width: calc(100% - 6rem) !important;
+    }
+    .callout h3, .callout span {
+        display: block !important;
+        position: relative !important;
+    }
+    .col-sm-4.callout {
+        width: calc(100% - 6rem) !important;
+        max-width: unset !important;
+        max-height: unset !important;
+        height: fit-content !important;
+        display: block !important;
+        position: relative !important;
+        min-height: fit-content !important;
+        border: none;
+    }
+    .callout span {
+        padding-bottom: 1rem;
+    }
+    .mcform button {
+        width: 100%;
+        margin: 0;
+    }
+    footer h1 {
+        display: block;
+        margin-top: 4rem;
+    }
+    .peer-power h1 {
+        float: left;
+    }
+    
+    
+}
