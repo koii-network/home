@@ -43,7 +43,10 @@ $theme-dark: #171753;
         "mixins",
         "base"
 ;
-
+html, body {
+        height: 100%;
+        width: 100vw;
+        overflow-x: hidden;
 body {
         font-family: 'Catamaran';
 }
