@@ -43,7 +43,10 @@ $theme-dark: #171753;
         "mixins",
         "base"
 ;
-
+html, body {
+        height: 100%;
+        width: 100vw;
+        overflow-x: hidden;
 body {
         font-family: 'Catamaran';
 }
@@ -170,7 +173,7 @@ a.callToActionButton {
         background:  $theme-dark;
         color: white !important;
     }
-.bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
+        .bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
         text-align: left;
     }
 
@@ -284,6 +287,7 @@ a.callToActionButton {
     footer li.nav-item {
         list-style-type: none;
         color: white;
+        padding-top: 0.1rem;
     }
     footer ul {
         padding: 0;
@@ -382,6 +386,13 @@ a.page-scroll.bg-button {
     .peer-power h1 {
         float: left;
     }
+    .peer-power h2, .peer-power h1, .peer-power p {
+        float: left;
+    }
+    .whitelist span, .whitelist h1, .whitelist h2 {
+        text-align: center !important;
+    }
+    
     nav a {
             color: white !important;
             z-index: 999;
