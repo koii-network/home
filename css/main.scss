@@ -173,7 +173,7 @@ a.callToActionButton {
         background:  $theme-dark;
         color: white !important;
     }
-.bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
+        .bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
         text-align: left;
     }
 
@@ -377,5 +377,8 @@ a.callToActionButton {
     .peer-power h2, .peer-power h1, .peer-power p {
         float: left;
     }
-    
+    .whitelist span, .whitelist h1, .whitelist h2 {
+        text-align: center !important;
+    }
+}
 }
