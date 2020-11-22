@@ -9,11 +9,11 @@
     class: normal
 
   - name: Help Us
-    link: /join/
+    link: /koi/
     class: normal       
 
   - name: KOI Services
-    link: /courses/
+    link: /services/
     class: normal
 
   - name: Proxy Mining
@@ -35,7 +35,7 @@
     class: normal   
 
   - name: KOI Desktop App
-    link: /download/
+    link: /koi/
     class: normal
 
   - name: Support
@@ -46,12 +46,12 @@
     link: "emailto:jobs@goldfishservice.xyz"
     class: normal
 
-  - name: Brand Guidelines
-    link: /style-guide.pdf
-    class: normal    
+  # - name: Brand Guidelines
+  #   link: /koi/
+  #   class: normal    
 
   - name: Blog
-    link: /developer-toolkit/
+    link: https://blog.goldfishservice.xyz/
     class: normal
 
   # - name: WhitePaper
@@ -61,7 +61,7 @@
 - header: GET INVOLVED
   children:
   - name: Start Earning KOI
-    link: /download/
+    link: /koi/
     class: normal
 
   - name: Buy KOI
@@ -81,7 +81,7 @@
   #   class: normal     
 
   - name: Join the Community
-    link: < insert discord link here > 
+    link: https://discord.gg/b2VzkEv2
     class: normal 
 
 - header: GET IN TOUCH
@@ -91,7 +91,7 @@
     class: normal
 
   - name: developer@goldfishservice.xyz
-    link: "mailto:developer@goldfishservice.xyz"
+    link: "mailto:developers@goldfishservice.xyz"
     class: normal
 
   - name: hello@goldfishservice.xyz
