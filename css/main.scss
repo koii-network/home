@@ -334,10 +334,24 @@ a.callToActionButton {
         font-size: 1.5rem;
         color: $theme-dark;
     }
+    a.callToActionButton.blue {
+        background: $theme-dark;
+        border: 1px solid white;
+        color: white;
+    }
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-
+    #about img.headerImage {
+        display: none;
+    }
+    a.callToActionButton {
+        width: calc(100% - 10rem);
+        display: block;
+        margin-bottom: 1rem;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
 header a.btn.btn-primary.btn-xl.page-scroll {
     font-size: 2.25rem;
     display: block;

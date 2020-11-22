@@ -1,10 +1,85 @@
 ---
 layout: front
 permalink: /services/
+stylesheet: services.css
 ---
+<style>
+    #howItWorks img.headerImage {
+        float: unset;
+        height: 15rem;
+        margin-top: 5rem;
+    }
+    img.headerImage {
+        float: unset;
+        max-width: 100%;
+    }
+    section#peer-power {
+        background: white;
+        color: #171753 !important;
+    }
+    .col-sm-4.callout {
+        background: #171753;
+    }
+    section#howItWorks {
+        background: #171753;
+        color: white;
+    }
+    .col-sm-4.callout {
+        background: #171753;
+        height: 18rem !important;
+        min-height: fit-content !important;
+    }
+    .col-sm-4.callout.blue {
+        background: white;
+        color: #171753;
+        height: 13rem !important;
+        min-height: fit-content !important;
+    }
+    .callout a {
+        border: 1px solid white;
+        display: block;
+        width: fit-content;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 0.25rem;
+        margin-top: 0.75rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 0.3rem;
+    }
+</style>
+<section class="bg-primary peer-power" id="peer-power">
+    <div class="row container">
+        <div class="row container">
+            <div class="col-sm-12">
+                <img class="icon" src="/img/leaves.png">
+                <h1>Peer Powered</h1>
+                <h2>Harness the Power of the Crowd</h2>
+                <p>KOI is a people-powered data marketplace. Find strength in numbers when you build with our data services, or use our proxy network to access resources.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col-sm-4 callout">
+            <h3>Proxy Services</h3>
+            <span>Our network of peer devices is distributed globally, and you can access it ethically. Most of the proxy industry depends on malware- we're in this to build a better web.</span>
+        </div>
+        <div class="col-sm-4 callout">
+            <h3>Crowd Data Mining</h3>
+            <span>Easily and quickly build large data sets and run web scrapers. Just tell us which information you need, and we can help. <a href="https://goldfishservice.xyz/">Try a Demo</a>
+            </span>
+        </div>
+        <div class="col-sm-4 callout">
+            <h3>Public Data</h3>
+            <span>We're building the largest archive on the web. If you're working on a data science project, we can help.</span>
+        </div>
+    </div>
+    <a class="callToActionButton" href="mailto:sales@goldfishservice.xyz">Talk to an Expert</a>
+</section>
 
-{% include header.html %}
-{% include about.html %}
-{% include services.html %}
-{% include getYourShare.html %}
+{% include servicesHowItWorks.html %}
+<!-- {% include getYourShare.html %} -->
 {% include partners.html %}
