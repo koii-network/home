@@ -284,6 +284,7 @@ a.callToActionButton {
         padding-bottom: 0.25rem;
         padding-left: 1rem;
         padding-right: 1rem;
+        margin-left: -2rem;
     }    
     footer li.nav-item {
         list-style-type: none;
@@ -324,7 +325,15 @@ a.callToActionButton {
     a.nav-link.child::before {
         content: "- ";
     }
-    
+    #howItWorks img.headerImage {
+        display: none;
+    }
+    .whitelist .col-sm-4 span {
+        font-weight: 600;
+        letter-spacing: 0.03rem;
+        font-size: 1.5rem;
+        color: $theme-dark;
+    }
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
