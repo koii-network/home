@@ -40,7 +40,7 @@
 
   - name: Support
     link: "emailto:support@goldfishservice.xyz"
-    class: child
+    class: normal
 
   - name: Careers
     link: "emailto:jobs@goldfishservice.xyz"
