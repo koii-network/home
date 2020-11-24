@@ -341,7 +341,19 @@ a.callToActionButton {
     }
 
 /* Tablet */
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 700px ) {
+    a.btn.btn-primary.btn-xl.page-scroll.blue {
+        margin-left: -2.5rem;
+    }
+    a.btn.btn-primary.btn-xl.page-scroll {
+        float: right;
+        position: absolute;
+        bottom: calc(30rem - 100vh);
+        z-index: 9999;
+    }
+    a.btn.btn-primary.btn-xl.page-scroll.red {
+        right: -2.5rem;
+    }
     #about img.headerImage {
         display: none;
     }
