@@ -39,11 +39,11 @@
     class: normal
 
   - name: Support
-    link: "emailto:support@goldfishservice.xyz"
+    link: "mailto:support@goldfishservice.xyz"
     class: normal
 
   - name: Careers
-    link: "emailto:jobs@goldfishservice.xyz"
+    link: "mailto:jobs@goldfishservice.xyz"
     class: normal
 
   # - name: Brand Guidelines
@@ -65,11 +65,11 @@
     class: normal
 
   - name: Buy KOI
-    link: "sales@goldfishservice.xyz"
+    link: "mailto:sales@goldfishservice.xyz"
     class: normal        
 
   - name: Earn KOI for Code
-    link: "market@goldfishservice.xyz"
+    link: "mailto:market@goldfishservice.xyz"
     class: normal     
 
   # - name: Watch Some Webinars
