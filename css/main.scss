@@ -340,8 +340,54 @@ a.callToActionButton {
         color: white;
     }
 
+    // fixing homepage how it works
+    .whitelist .col-sm-4 h2 {
+        font-size: 2.5rem;
+    }
+    .whitelist .col-sm-4 span {
+        font-size: 1.2em;
+    }
+
+    .whitelist .col-sm-4 {
+        border: 1px solid red;
+        border-radius: 1rem;
+        padding: 0.05rem !important;
+        padding-bottom: 3.5rem !important;
+        padding-top: 2rem !important;
+        margin: 1rem;
+        max-width: calc(33% - 2rem);
+    }
+    .whitelist .col-sm-12 h1 {
+        font-size: 3.28rem !important;
+    }
+    
+    .whitelist .col-sm-12 span {
+        font-size: 1.75rem !important;
+        font-weight: 600;
+        color: gray;
+        letter-spacing: 0.10rem;
+    }
+    
+    .whitelist .col-sm-12 h2 {
+        text-align: center !important;
+        float: unset;
+        margin: unset;
+        padding: unset;
+        font-weight: 600;
+    }
+    .whitelist .col-sm-12 h1 {
+        font-size: 3.48rem !important;
+        font-weight: 500;
+    }
+
+    
 /* Tablet */
 @media screen and (max-width: 700px ) {
+    .whitelist .col-sm-4 {
+        max-width: unset;
+        border: unset;
+        margin-bottom: 10rem !important;
+    }
     a.btn.btn-primary.btn-xl.page-scroll.blue {
         margin-left: -2.5rem;
     }
@@ -438,3 +484,5 @@ a.page-scroll.bg-button {
         float: unset !important;
     }
 }
+
+
