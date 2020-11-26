@@ -39,11 +39,11 @@
     class: normal
 
   - name: Support
-    link: "mailto:support@goldfishservice.xyz"
+    link: "mailto:support@openkoi.com"
     class: normal
 
   - name: Careers
-    link: "mailto:jobs@goldfishservice.xyz"
+    link: "mailto:jobs@openkoi.com"
     class: normal
 
   # - name: Brand Guidelines
@@ -65,11 +65,11 @@
     class: normal
 
   - name: Buy KOI
-    link: "mailto:sales@goldfishservice.xyz"
+    link: "mailto:sales@openkoi.com"
     class: normal        
 
   - name: Earn KOI for Code
-    link: "mailto:market@goldfishservice.xyz"
+    link: "mailto:market@openkoi.com"
     class: normal     
 
   # - name: Watch Some Webinars
@@ -87,21 +87,21 @@
 - header: GET IN TOUCH
   children:
   - name: sales@goldfishservice.xyz
-    link: "mailto:sales@goldfishservice.xyz"
+    link: "mailto:sales@openkoi.com"
     class: normal
 
   - name: developer@goldfishservice.xyz
-    link: "mailto:developers@goldfishservice.xyz"
+    link: "mailto:developers@openkoi.com"
     class: normal
 
   - name: hello@goldfishservice.xyz
-    link: "mailto:hello@goldfishservice.xyz"
+    link: "mailto:hello@openkoi.com"
     class: normal
 
   - name: jobs@goldfishservice.xyz
-    link: "mailto:jobs@goldfishservice.xyz"
+    link: "mailto:jobs@openkoi.com"
     class: normal
 
   - name: press@goldfishservice.xyz
-    link: "mailto:press@goldfishservice.xyz"
+    link: "mailto:press@openkoi.com"
     class: normal            
