@@ -5,7 +5,7 @@
     class: normal       
 
   - name: Blog
-    link: https://blog.goldfishservice.xyz/
+    link: https://blog.openkoi.com/
     class: normal
 
   - name: Help Us
@@ -31,7 +31,7 @@
 - header: COMPANY
   children:
   - name: Developers
-    link: https://docs.goldfishservice.xyz/
+    link: "mailto:developers@openkoi.com"
     class: normal   
 
   - name: KOI Desktop App
@@ -86,22 +86,22 @@
 
 - header: GET IN TOUCH
   children:
-  - name: sales@goldfishservice.xyz
+  - name: sales@openkoi.com
     link: "mailto:sales@openkoi.com"
     class: normal
 
-  - name: developer@goldfishservice.xyz
+  - name: developer@openkoi.com
     link: "mailto:developers@openkoi.com"
     class: normal
 
-  - name: hello@goldfishservice.xyz
+  - name: hello@openkoi.com
     link: "mailto:hello@openkoi.com"
     class: normal
 
-  - name: jobs@goldfishservice.xyz
+  - name: jobs@openkoi.com
     link: "mailto:jobs@openkoi.com"
     class: normal
 
-  - name: press@goldfishservice.xyz
+  - name: press@openkoi.com
     link: "mailto:press@openkoi.com"
     class: normal            
