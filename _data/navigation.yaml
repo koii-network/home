@@ -16,15 +16,15 @@
     link: /services/
     class: normal
 
-  - name: Proxy Mining
+  - name: Archival Tools
     link: /services/
     class: child
 
-  - name: Pooled Mining
+  - name: Content Moderation 
     link: /services/
     class: child
 
-  - name: Shared Data
+  - name: Accountability Tools
     link: /services/
     class: child
 
