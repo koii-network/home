@@ -116,7 +116,7 @@ a.btn.btn-primary.btn-xl.page-scroll {
         text-align: center;
 }
 .row.container {
-        width: fit-content;
+        width: calc(100% - 10rem);
         margin: auto;
         display: block;
         min-height: 33vh;
@@ -149,250 +149,296 @@ h3 {
         margin-bottom: 0.5rem;
 }
 p {
-        display: block;
-        width: 100%;
-    }
+    display: block;
+    width: 100%;
+}
+.peer-power .col-sm-4.callout {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: -webkit-fill-available;
+}
 a.callToActionButton {
-        padding: 1rem 3rem;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        color: $theme-red;
-        font-weight: 900;
-        letter-spacing: 0.09rem;
-        background: #ffffffe8;
-        border-radius: 0.85rem;
-        border: 1px solid #ff00002e;
-        margin: auto;
-    }
-    .peer-power img.icon {
-        float: left;
-        display: block;
-        margin-bottom: 4rem;
-        margin-right: 3rem;
-    }
-    .peer-power {
-        background:  $theme-dark;
-        color: white !important;
-    }
-        .bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
-        text-align: left;
-    }
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $theme-red;
+    font-weight: 900;
+    letter-spacing: 0.09rem;
+    background: white;
+    border-radius: 0.85rem;
+    border: 1px solid #ff00002e;
+    margin: auto;
+}
+.peer-power img.icon {
+    float: left;
+    display: block;
+    margin-bottom: 4rem;
+    margin-right: 3rem;
+}
+.peer-power {
+    background:  $theme-dark;
+    color: white !important;
+}
+    .bg-primary h1, .bg-primary span, .bg-primary h2, .bg-primary p, .bg-primary h3 {
+    text-align: left;
+}
 
-    .whitelist h1 {
-        text-align: center;
-        font-size: 4.5rem !important;
-    }
-    .whitelist h2, .whitelist h3, .whitelist p {
-        text-align: center;
-    }
-    #about a.callToActionButton {
-        background: $theme-dark;
-        color: white;
-        text-decoration: none;
-    }
+.whitelist h1 {
+    text-align: center;
+    font-size: 4.5rem !important;
+}
+.whitelist h2, .whitelist h3, .whitelist p {
+    text-align: center;
+}
+#about a.callToActionButton {
+    background: $theme-dark;
+    color: white;
+    text-decoration: none;
+}
 
-    .callout h3, .callout span {
-        text-align: left;
-        float: left;
-    }
-    .callout.blue h3, .callout.blue span {
-        text-align: center;
-        float: unset;
-    }
-    .whitelist span {
-        padding-left: 3rem;
-        padding-right: 3rem;
-        text-align: left;
-    }
+.callout h3, .callout span {
+    text-align: left;
+    float: left;
+}
+.callout.blue h3, .callout.blue span {
+    text-align: center;
+    float: unset;
+}
+.whitelist span {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+}
 
-    section#whitelist {
-        background: white;
-    }
+section#whitelist {
+    background: white;
+}
 
-    .whitelist h2, .whitelist span {
-        text-align: left;
-        float: left;
-    }
-    .whitelist .col-sm-4 {
-        padding: 2rem;
-    }
-    .whitelist h2 {
-        font-size: 2.25rem;
-        font-weight: 600;
-        padding-left: 2.85rem;
-    }
+.whitelist h2, .whitelist span {
+    text-align: left;
+    float: left;
+}
+.whitelist .col-sm-4 {
+    padding: 2rem;
+}
+.whitelist h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding-left: 2.85rem;
+}
 
-    .whitelist h1, .whitelist h2, .whitelist p {
-        text-align: center !important;
-        display: block !important;
-    }
-    .whitelist a.callToActionButton {
-        background: $theme-red;
-        color: white;
-        text-decoration: none;
-    }
-    .partners h2 {
-        color: $theme-dark;
-    }
-    aside.bg-dark.partners {
-        background: $theme-primary;
-    }
-    .partners img {
-        padding: 1rem;
-    }
+.whitelist h1, .whitelist h2, .whitelist p {
+    text-align: center !important;
+    display: block !important;
+}
+.whitelist a.callToActionButton {
+    background: $theme-red;
+    color: white;
+    text-decoration: none;
+}
+.partners h2 {
+    color: $theme-dark;
+}
+aside.bg-dark.partners {
+    background: $theme-primary;
+}
+.partners img {
+    padding: 1rem;
+}
 
-    // Footer
-    footer {
-        background: $theme-dark;
-        color: white;
-    }
-    img.koi {
-        float: right;
-        margin-top: 5rem;
-    }
-    footer .col-sm-10 {
-        margin-top: 5rem;
-    }
-    footer h1 {
-        font-size: 4.5rem !important;
-    }
-    footer span.subheader {
-        padding-top: 0.5rem !important;
-        display: block;
-        font-size: 1.75rem;
-        padding-bottom: 3rem;
-    }
-    footer h2 {
-        margin-top: 0;
-    }
-    .mcform input {
-        font-size: 1.75rem;
-        float: left;
-        color: $theme-dark;
-        border-radius: 0.25rem;
-        border: none;
-        background: #ffffffbf;
-        padding: 0.5rem;
-        text-align: center;
-    }
-    .mcform button {
-        font-size: 1.75rem;
-        margin-top: -0.1rem;
-        margin-left: 1rem;
-        color: #171753;
-        padding-top: 0.5rem;
-        padding-bottom: 0.25rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-left: -2rem;
-    }    
-    footer li.nav-item {
-        list-style-type: none;
-        color: white;
-        padding-top: 0.1rem;
-    }
-    footer ul {
-        padding: 0;
-    }
-    footer hr {
-        border: solid 0.1px #ffffff14;
-        max-width: calc(100% - 3rem);
-    }
-    .row.container.menu {
-        float: left;
-    }
-    footer a {
-        color: white;
-    }
-    .row.container.menu {
-        width: 100%;
-        font-size: 1.75rem;
-        margin-bottom: 10rem !important;
-    }
-    footer .col-sm-10 {
-        margin-top: 5rem;
-        padding-right: 10rem;
-    }
-    footer .row.container {
-        padding-top: 3rem;
-    }
-    
-    footer h3 {
-        font-size: 2.05rem;
-        font-weight: 600;
-    }
-    
-    a.nav-link.child::before {
-        content: "- ";
-    }
-    #howItWorks img.headerImage {
-        display: none;
-    }
-    .whitelist .col-sm-4 span {
-        font-weight: 600;
-        letter-spacing: 0.03rem;
-        font-size: 1.5rem;
-        color: $theme-dark;
-    }
-    a.callToActionButton.blue {
-        background: $theme-dark;
-        border: 1px solid white;
-        color: white;
-    }
+// Footer
+footer {
+    background: $theme-dark;
+    color: white;
+}
+img.koi {
+    float: right;
+    margin-top: 5rem;
+}
+footer .col-sm-10 {
+    margin-top: 5rem;
+}
+footer h1 {
+    font-size: 4.5rem !important;
+}
+footer span.subheader {
+    padding-top: 0.5rem !important;
+    display: block;
+    font-size: 1.75rem;
+    padding-bottom: 3rem;
+}
+footer h2 {
+    margin-top: 0;
+}
+.mcform input {
+    font-size: 1.75rem;
+    float: left;
+    color: $theme-dark;
+    border-radius: 0.25rem;
+    border: none;
+    background: #ffffffbf;
+    padding: 0.5rem;
+    text-align: center;
+}
+.mcform button {
+    font-size: 1.75rem;
+    margin-top: -0.1rem;
+    margin-left: 1rem;
+    color: #171753;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -2rem;
+}    
+footer li.nav-item {
+    list-style-type: none;
+    color: white;
+    padding-top: 0.1rem;
+}
+footer ul {
+    padding: 0;
+}
+footer hr {
+    border: solid 0.1px #ffffff14;
+    max-width: calc(100% - 3rem);
+}
+.row.container.menu {
+    float: left;
+}
+footer a {
+    color: white;
+}
+.row.container.menu {
+    width: 100%;
+    font-size: 1.75rem;
+    margin-bottom: 10rem !important;
+}
+footer .col-sm-10 {
+    margin-top: 5rem;
+    padding-right: 10rem;
+}
+footer .row.container {
+    padding-top: 3rem;
+}
 
-    // fixing homepage how it works
-    .whitelist .col-sm-4 h2 {
-        font-size: 2.5rem;
-    }
-    .whitelist .col-sm-4 span {
-        font-size: 1.2em;
-    }
+footer h3 {
+    font-size: 2.05rem;
+    font-weight: 600;
+}
 
-    .whitelist .col-sm-4 {
-        border: 1px solid red;
-        border-radius: 1rem;
-        padding: 0.05rem !important;
-        padding-bottom: 3.5rem !important;
-        padding-top: 2rem !important;
-        margin: 1rem;
-        max-width: calc(33% - 2rem);
-    }
-    .whitelist .col-sm-12 h1 {
-        font-size: 3.28rem !important;
-    }
-    
-    .whitelist .col-sm-12 span {
-        font-size: 1.75rem !important;
-        font-weight: 600;
-        color: gray;
-        letter-spacing: 0.10rem;
-    }
-    
-    .whitelist .col-sm-12 h2 {
-        text-align: center !important;
-        float: unset;
-        margin: unset;
-        padding: unset;
-        font-weight: 600;
-    }
-    .whitelist .col-sm-12 h1 {
-        font-size: 3.48rem !important;
-        font-weight: 500;
-    }
-    .partners img {
-        max-width: 16rem;
-    }
-    
-    
-    .col-sm-4 span {
-        font-size: 1.2em;
-    }
-    .header-content p {
-        font-size: 2.16rem !important;
-    }
-    
+a.nav-link.child::before {
+    content: "- ";
+}
+#howItWorks img.headerImage {
+    display: none;
+}
+.whitelist .col-sm-4 span {
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+    font-size: 1.5rem;
+    color: $theme-dark;
+}
+a.callToActionButton.blue {
+    background: $theme-dark;
+    border: 1px solid white;
+    color: white;
+}
+
+// fixing homepage how it works
+.whitelist .col-sm-4 h2 {
+    font-size: 2.5rem;
+}
+.whitelist .col-sm-4 span {
+    font-size: 1.2em;
+}
+
+.whitelist .col-sm-4 {
+    border: 1px solid red;
+    border-radius: 1rem;
+    padding: 0.05rem !important;
+    padding-bottom: 3.5rem !important;
+    padding-top: 2rem !important;
+    margin: 1rem;
+    max-width: calc(33% - 2rem);
+}
+.whitelist .col-sm-12 h1 {
+    font-size: 3.28rem !important;
+}
+
+.whitelist .col-sm-12 span {
+    font-size: 1.75rem !important;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 0.10rem;
+}
+
+.whitelist .col-sm-12 h2 {
+    text-align: center !important;
+    float: unset;
+    margin: unset;
+    padding: unset;
+    font-weight: 600;
+}
+.whitelist .col-sm-12 h1 {
+    font-size: 3.48rem !important;
+    font-weight: 500;
+}
+.partners img {
+    max-width: 16rem;
+}
+
+
+.col-sm-4 span {
+    font-size: 1.2em;
+}
+.header-content p {
+    font-size: 2.16rem !important;
+}
+h1 strong {
+    display: block;
+    font-size: 3.25rem;
+    color: #a94442;
+}
+.header-content h1, .header-content h1 strong {
+    font-size: 5.5rem !important;
+}
+
+// hover animations
+a.btn.btn-primary.btn-xl.page-scroll:hover {
+    text-decoration: underline;
+    background: #f0a24b;
+}
+a.page-scroll:hover {
+    color: #f0a24b !important;
+    text-decoration: underline;
+}
+a.page-scroll.bg-button:hover {
+    background: white !important;
+    text-decoration: underline;
+}
+a.callToActionButton:hover {
+    color: #f0a24b !important;
+    text-decoration: underline;
+}
+.whitelist span.seat {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
 /* Tablet */
 @media screen and (max-width: 700px ) {
+
+    .header-content h1 {
+        font-size: 6.5rem;
+    }
+    .row.container {
+        min-height: fit-content;
+        min-width:100%;
+    }
     .whitelist .col-sm-4 {
         max-width: unset;
         border: unset;
@@ -420,19 +466,19 @@ a.callToActionButton {
         margin-left: auto !important;
         margin-right: auto !important;
     }
-header a.btn.btn-primary.btn-xl.page-scroll {
-    font-size: 2.25rem;
-    display: block;
-}
-a.page-scroll.bg-button {
-    background: white !important;
-    text-align: center;
-    font-size: 1.75rem !important;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-}
+    header a.btn.btn-primary.btn-xl.page-scroll {
+        font-size: 2.25rem;
+        display: block;
+    }
+    a.page-scroll.bg-button {
+        background: white !important;
+        text-align: center;
+        font-size: 1.75rem !important;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
     .col-sm-4.callout.blue {
         width: 100% !important;
         max-width: calc(100% - 6rem);
@@ -444,7 +490,6 @@ a.page-scroll.bg-button {
     }
     
     .row.container {
-        min-height: 50vh;
         padding-bottom: 2rem;
     }
     .col-sm-4.callout.blue {
@@ -486,12 +531,37 @@ a.page-scroll.bg-button {
     }
     
     nav a {
-            color: white !important;
-            z-index: 999;
-            font-size: 2.5rem;
-        }
+        color: white !important;
+        z-index: 999;
+        font-size: 2.5rem;
+    }
     img.headerImage {
         float: unset !important;
+    }
+    a.btn.btn-primary.btn-xl.page-scroll {
+        font-size: 3.5rem !important;
+    }
+    .whitelist h2 {
+        text-align: center;
+        width: 100%;
+        margin-left: -1.5rem;
+    }
+
+    // temp hide footer menu 
+    footer .row.container.menu {
+        display: none;
+    }
+    
+    
+    footer .col-sm-10 {
+        width: 100%;
+        padding-right: 1.5rem;
+    }
+    footer {
+        padding-bottom: 5rem;
+    }
+    .header-content h1 strong {
+        font-size: 2.25rem !important;
     }
 }
 
