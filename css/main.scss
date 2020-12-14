@@ -437,6 +437,11 @@ a.callToActionButton:hover {
 /* Tablet */
 @media screen and (max-width: 700px ) {
 
+    strong#headerScrollText {
+        display: block;
+        font-size: inherit !important;
+        float: left;
+    }
     .header-content h1 {
         font-size: 6.5rem;
     }
