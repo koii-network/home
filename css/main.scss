@@ -426,7 +426,12 @@ a.callToActionButton:hover {
     text-align: center;
 }
 
-
+.bg-primary a {
+    color: $theme-red;
+}
+.bg-primary a:hover {
+    text-decoration: underline;
+}
 
 
 /* Tablet */
