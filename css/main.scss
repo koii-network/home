@@ -433,10 +433,12 @@ a.callToActionButton:hover {
     text-decoration: underline;
 }
 
-
 /* Tablet */
 @media screen and (max-width: 700px ) {
-
+    .callout a {
+        display: block;
+        background: red;
+    }
     strong#headerScrollText {
         display: block;
         font-size: inherit !important;
