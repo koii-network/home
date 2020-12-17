@@ -83,6 +83,10 @@
   - name: Join the Community
     link: https://discord.gg/dRsAJ6kAcP
     class: normal 
+    
+  - name: Read the Whitepaper
+    link: /whitepaper.pdf
+    class: normal  
 
 - header: GET IN TOUCH
   children:
