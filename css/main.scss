@@ -505,10 +505,6 @@ a.callToActionButton:hover {
         margin-right: auto;
         margin-top: 0;
     }
-    .col-sm-4.callout.blue {
-        width: 100% !important;
-        max-width: calc(100% - 6rem);
-    }
 
     // footer
     .col-sm-2 {
@@ -517,9 +513,6 @@ a.callToActionButton:hover {
     
     .row.container {
         padding-bottom: 2rem;
-    }
-    .col-sm-4.callout.blue {
-        max-width: calc(100% - 6rem) !important;
     }
     .callout h3, .callout span {
         display: block !important;
