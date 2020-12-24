@@ -437,6 +437,7 @@ a.callToActionButton:hover {
 @media screen and (max-width: 700px ) {
      .header-content h1 span,  span.typed-cursor.typed-cursor--blink {
         display: none;
+        min-height: 6.5rem;
      }
 
      strong#headerScrollText {
