@@ -432,6 +432,10 @@ a.callToActionButton:hover {
 .bg-primary a:hover {
     text-decoration: underline;
 }
+.row.container .row.container {
+    margin: unset;
+    width: 100%;
+}
 
 /* Tablet */
 @media screen and (max-width: 700px ) {
