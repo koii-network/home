@@ -432,9 +432,18 @@ a.callToActionButton:hover {
 .bg-primary a:hover {
     text-decoration: underline;
 }
+span.typed-cursor.typed-cursor--blink {
+    display: none;
+}
 
 /* Tablet */
 @media screen and (max-width: 700px ) {
+
+     strong#headerScrollText {
+        display: block;
+        float: left;
+        min-width: calc(100% - 5rem);
+     }
     .callout a {
         display: block;
         background: red;
