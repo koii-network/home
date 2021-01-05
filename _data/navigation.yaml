@@ -60,8 +60,8 @@
 
 - header: GET INVOLVED
   children:
-  - name: Start Earning KOI
-    link: /koi/
+  - name: Run a node, earn KOI
+    link: /downloads/
     class: normal
 
   - name: Buy KOI
