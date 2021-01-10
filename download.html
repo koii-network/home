@@ -3,6 +3,11 @@ layout: front
 permalink: /downloads/
 stylesheet: koi.css
 ---
+<style>
+    .col-sm-4.callout.blue:hover {
+        background: #03a84e;
+    }
+</style>
 <header>
     <div class="header-content">
         <div class="row container">
@@ -23,17 +28,23 @@ stylesheet: koi.css
         </div>
     </div>
     <div class="row container">
-        <div class="col-sm-4 callout blue">
-            <h3>Windows</h3>
-            <a href="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.0_Win.zip" download>Start Download</a>
-        </div>
-        <div class="col-sm-4 callout blue">
-            <h3>Mac</h3>
-            <a href="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.0_Mac.zip" download>Start Download</a>
-        </div>
-        <div class="col-sm-4 callout blue">
-            <h3>Ubuntu</h3>
-            <a href="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.0_Linux.zip" download>Start Download</a>
-        </div>
+        <a href="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.0_Win.zip" download>
+            <div class="col-sm-4 callout blue">
+                <h3>Windows</h3>
+                Start Download
+            </div>
+        </a>
+        <a href="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.0_Mac.zip" download>
+            <div class="col-sm-4 callout blue">
+                <h3>Mac</h3>
+                Start Download
+            </div>
+        </a>
+        <a href="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.0_Linux.zip" download>
+            <div class="col-sm-4 callout blue">
+                <h3>Ubuntu</h3>
+                Start Download
+            </div>
+        </a>
     </div>
 </section>
