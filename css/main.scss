@@ -132,6 +132,8 @@ img.headerImage {
         color: white;
         padding-top: 2rem;
         padding-bottom: 2.5rem;
+        float: unset;
+        display: inline-block;
 }
 .callout h3 {
         font-weight: 700;
@@ -168,6 +170,9 @@ a.callToActionButton {
     border-radius: 0.85rem;
     border: 1px solid #ff00002e;
     margin: auto;
+}
+.partners img {
+    max-height: 100px;
 }
 .peer-power img.icon {
     float: left;
