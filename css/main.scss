@@ -245,10 +245,24 @@ section#whitelist {
     color: $theme-dark;
 }
 aside.bg-dark.partners {
-    background: $theme-primary;
+    background: white;
+}
+img.koi-fish-left {
+    float: left;
+    margin-left: 7rem;
+    max-width: 8rem;
+}
+section#save-the-web {
+    background: linear-gradient(to bottom, #bcf3ef 80%, white 95%);
+}
+.partners a {
+    min-width: 200px;
 }
 .partners img {
-    padding: 1rem;
+    width: 14rem;
+    max-height: unset;
+    max-width: unset !important;
+    padding: 0;
 }
 
 // Footer
@@ -440,6 +454,15 @@ a.callToActionButton:hover {
 footer .row.container .row.container {
     margin: unset;
     width: 100%;
+}
+#peer-power b {
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    font-size: 1.6rem;
 }
 
 /* Tablet */
