@@ -28,7 +28,7 @@
     link: /services/
     class: child
 
-- header: COMPANY
+- header: COMMUNITY
   children:
   - name: Developers
     link: https://docs.openkoi.com/
