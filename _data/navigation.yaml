@@ -12,12 +12,12 @@
     link: /koi/
     class: normal       
 
-  - name: KOI Services
-    link: /services/
+  - name: Build With Koi
+    link: https://docs.openkoi.com/
     class: normal
 
   - name: Archival Tools
-    link: /services/
+    link: https://docs.openkoi.com/
     class: child
 
   - name: Content Moderation 
@@ -31,7 +31,7 @@
 - header: COMPANY
   children:
   - name: Developers
-    link: "mailto:developers@openkoi.com"
+    link: https://docs.openkoi.com/
     class: normal   
 
   - name: KOI Desktop App
@@ -51,7 +51,7 @@
   #   class: normal    
 
   - name: Blog
-    link: https://blog.goldfishservice.xyz/
+    link: https://blog.openkoi.com/
     class: normal
 
   # - name: WhitePaper
@@ -69,16 +69,8 @@
     class: normal        
 
   - name: Earn KOI for Code
-    link: "mailto:market@openkoi.com"
+    link: https://discord.gg/dRsAJ6kAcP
     class: normal     
-
-  # - name: Watch Some Webinars
-  #   link: /
-  #   class: normal 
-
-  # - name: Become a Goldfish
-  #   link: /
-  #   class: normal     
 
   - name: Join the Community
     link: https://discord.gg/dRsAJ6kAcP
