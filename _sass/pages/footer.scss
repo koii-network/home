@@ -1,0 +1,72 @@
+@import '../variables';
+
+footer {
+    background: $blueDark;
+    color: $white;
+}
+
+footer span.subheader {
+    padding-top: 0.5rem !important;
+    display: block;
+    font-size: 1.75rem;
+    padding-bottom: 3rem;
+}
+footer h2 {
+    margin-top: 0;
+}
+.mcform input {
+    font-size: 1.75rem;
+    float: left;
+    color: $theme-dark;
+    border-radius: 0.25rem;
+    border: none;
+    background: #ffffffbf;
+    padding: 0.5rem;
+    text-align: center;
+}
+.mcform button {
+    font-size: 1.75rem;
+    margin-top: -0.1rem;
+    margin-left: 1rem;
+    color: #171753;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -2rem;
+}    
+footer li.nav-item {
+    list-style-type: none;
+    color: white;
+    padding-top: 0.1rem;
+}
+footer ul {
+    padding: 0;
+}
+footer hr {
+    border: solid 0.1px #ffffff14;
+    max-width: calc(100% - 3rem);
+}
+.row.container.menu {
+    float: left;
+}
+footer a {
+    color: white;
+}
+.row.container.menu {
+    width: 100%;
+    font-size: 1.75rem;
+    margin-bottom: 10rem !important;
+}
+footer .col-sm-10 {
+    margin-top: 5rem;
+    padding-right: 10rem;
+}
+footer .row.container {
+    padding-top: 3rem;
+}
+
+footer h3 {
+    font-size: 2.05rem;
+    font-weight: 600;
+}
