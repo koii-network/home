@@ -1,0 +1,13 @@
+@import "../variables";
+
+#join {
+    background: $blueDark;
+    color: $white;
+    .container {
+        .join-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
