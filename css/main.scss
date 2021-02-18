@@ -151,18 +151,6 @@ p {
     margin-right: 1rem;
     width: -webkit-fill-available;
 }
-a.callToActionButton {
-    padding: 1rem 3rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: $theme-red;
-    font-weight: 900;
-    letter-spacing: 0.09rem;
-    background: white;
-    border-radius: 0.85rem;
-    border: 1px solid #ff00002e;
-    margin: auto;
-}
 .partners img {
     max-height: 100px;
 }
@@ -187,12 +175,6 @@ a.callToActionButton {
 .whitelist h2, .whitelist h3, .whitelist p {
     text-align: center;
 }
-#about a.callToActionButton {
-    background: $theme-dark;
-    color: white;
-    text-decoration: none;
-}
-
 .callout h3, .callout span {
     text-align: left;
     float: left;
@@ -494,9 +476,6 @@ footer .row.container .row.container {
     }
     a.btn.btn-primary.btn-xl.page-scroll.red {
         right: -2.5rem;
-    }
-    #about img.headerImage {
-        display: none;
     }
     a.callToActionButton {
         width: calc(100% - 10rem);

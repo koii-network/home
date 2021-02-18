@@ -1,0 +1,25 @@
+@import "../variables";
+
+#about {
+    background: white;
+    .container {
+        display: flex;
+        align-items: center;
+        .about-left {
+        }
+        .about-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .about-card {
+                background: $blueLight;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+                border-radius: 8px;
+                max-width: 352px;
+                min-width: 352px;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    }
+}
