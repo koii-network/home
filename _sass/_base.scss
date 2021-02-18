@@ -1,9 +1,11 @@
-@import './pages/nav.scss';
-@import './pages/footer.scss';
-@import './pages/header.scss';
-@import './pages/about.scss';
-@import './pages/join.scss';
-@import './pages/save-the-web.scss';
+@import './pages/home/nav.scss';
+@import './pages/home/footer.scss';
+@import './pages/home/header.scss';
+@import './pages/home/about.scss';
+@import './pages/home/join.scss';
+@import './pages/home/save-the-web.scss';
+
+@import './pages/downloads/header.scss';
 
 html,
 body {
