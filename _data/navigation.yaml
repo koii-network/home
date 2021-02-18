@@ -12,24 +12,12 @@
     link: /koi/
     class: normal       
 
-  - name: KOI Services
+  - name: Services
     link: /services/
     class: normal
 
-  - name: Archival Tools
-    link: /services/
-    class: child
-
-  - name: Content Moderation 
-    link: /services/
-    class: child
-
-  - name: Accountability Tools
-    link: /services/
-    class: child
-
-- header: COMPANY
-  children:
+# - header: ''
+#   children:
   - name: Developers
     link: "mailto:developers@openkoi.com"
     class: normal   

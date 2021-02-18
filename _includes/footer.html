@@ -1,40 +1,38 @@
 <footer>
-    <div class="row container">
+    <div class="container">
         <h2>Run a node.</h2>
         <h3>Join the network, and help us preserve the best of human knowledge.</h3>
-        <div class="col-sm-10">
-            <div class="row container">
-                <div class="col-sm-12">
-                    <h2>Put your machines to good use.</h2>
-                    <span class="subheader">
-                        Join the network, and help us preserve the best of human knowledge.
+        <div class="row">
+            <div class="col-sm-6">
+                <h6>Stay up to date</h6>
+                <p>Email address</p>
+                <div class="input-group" onclick="{ return window.location.href = 'http://eepurl.com/he-SCz'}">
+                    <input type="text" class="form-control" placeholder="name@example.com">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Subscribe</button>
                     </span>
                 </div>
-                <div class="col-sm-6">
-                    <h2>Stay in touch:</h2>
-                </div>
-                <div class="col-sm-6 mcform" id="mcform"
-                    onclick="{ return window.location.href = 'http://eepurl.com/he-SCz'}">
-                    <input type="text" placeholder="name@example.com"><button>Subscribe</button>
+            </div>
+            <!-- <div class="col-sm-6 mcform" id="mcform"
+                onclick="{ return window.location.href = 'http://eepurl.com/he-SCz'}">
+                <input type="text" placeholder="name@example.com"><button>Subscribe</button>
+            </div> -->
+        </div>
+        <div class="row footer-options-wrapper">
+            {% for item in site.data.navigation %}
+            <div class="col-sm-4 footer-option">
+                <h3 class="footer-option-title">{{ item.header }}</h3>
+                <div class="footer-option-list">
+                    {% for child in item.children %}
+                    <div class="nav-item">
+                        <a class="nav-link {{ child.class }}" href="{{ child.link }}">
+                            {{ child.name }}
+                        </a>
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
-            <div class="row container menu">
-                <hr>
-                {% for item in site.data.navigation %}
-                <div class="col-sm-3">
-                    <h3>{{ item.header }}</h3>
-                    <ul>
-                        {% for child in item.children %}
-                        <li class="nav-item">
-                            <a class="nav-link {{ child.class }}" href="{{ child.link }}">
-                                {{ child.name }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endfor %}
-            </div>
+            {% endfor %}
         </div>
     </div>
 </footer>
