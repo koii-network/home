@@ -1,0 +1,13 @@
+@import "../variables";
+
+#save-web {
+    background: linear-gradient(to bottom, #bcf3ef 80%, white 95%);
+    color: $blueDark;
+    .container {
+        .join-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
