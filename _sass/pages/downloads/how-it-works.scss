@@ -31,4 +31,31 @@
             justify-content: center;
         }
     }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            h1 {
+                font-size: 32px;
+                text-align: center;
+            }
+            .how-it-works-left {
+                .how-it-works-description {
+                    margin-bottom: 32px;
+                    .description-item {
+                        margin-bottom: 28px;
+                        h4 {
+                            font-size: 20px;
+                        }
+                        p {
+                            font-size: 17px;
+                            margin-left: 19px;
+                        }
+                    }
+                }
+            }
+            .how-it-works-right {
+                margin-bottom: 36px;
+            }
+        }
+    }
 }
