@@ -12,3 +12,18 @@ See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 - Start by adding your info in `_config.yml`
 - In `_layouts/front.html` reorder or remove section as you prefer.
 
+## Using this repo
+This repo deploys to openkoi.com via Github Pages whenever a new commit is made to the 'main' branch. 
+
+To run the repo locally, you can install ruby and jekyll (https://jekyllrb.com/docs/installation/) and then run 
+```bundle install
+bundle exec jekyll server
+```
+
+This will run a server on port 4000 in your localhost, and will refresh whenever you save changes to a new file.
+
+VSCode also supports several extensions which can streamline things significantly. 
+
+## Minor Changes
+If you are just fixing a typo, or making a small text change, you can also simply edit the file using github.com's interface. As long as you commit to the 'main' branch, the site will update.
+
