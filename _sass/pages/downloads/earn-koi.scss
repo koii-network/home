@@ -22,4 +22,10 @@
             flex: 1;
         }
     }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .earn-koi-img-wrapper {
+            padding-left: 15px;
+        }
+    }
 }
