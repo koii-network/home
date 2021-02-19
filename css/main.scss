@@ -3,10 +3,6 @@
 
 @charset "utf-8";
 
-$theme-primary: #bcf3ef;
-$theme-red: red;
-$theme-dark: #171753;
-
 @import "mixins", "base";
 
 html,
@@ -30,4 +26,31 @@ nav {
 
 /* Tablet */
 @media screen and (max-width: 700px) {
+}
+
+h1 {
+    font-size: 40px !important;
+}
+h2 {
+    font-size: 32px !important;
+}
+h3 {
+    font-size: 24px !important;
+}
+h4 {
+    font-size: 22px !important;
+}
+h6 {
+    font-size: 18px !important;
+}
+p {
+    font-size: 16px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $catamaran;
 }
