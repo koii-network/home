@@ -12,12 +12,24 @@
     link: /koi/
     class: normal       
 
-  - name: Services
-    link: /services/
+  - name: Build With Koi
+    link: https://docs.openkoi.com/
     class: normal
 
-# - header: ''
-#   children:
+  - name: Archival Tools
+    link: https://docs.openkoi.com/
+    class: child
+
+  - name: Content Moderation 
+    link: /services/
+    class: child
+
+  - name: Accountability Tools
+    link: /services/
+    class: child
+
+- header: COMMUNITY
+  children:
   - name: Developers
     link: https://docs.openkoi.com/
     class: normal   
