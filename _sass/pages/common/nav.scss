@@ -1,5 +1,27 @@
 @import "variables";
 
 #topbar {
-    color: $blueDark;
+    height: 75px;
+    padding: 0 10px;
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                margin-left: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a.nav-link {
+                    font-size: 18px;
+                    color: $blueDark;
+                    &.download {
+                        background: $blueDark;
+                        color: $white;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+                        border-radius: 4px;
+                        padding: 2px 20px;
+                    }
+                }
+            }
+        }
+    }
 }
