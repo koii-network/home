@@ -32,5 +32,26 @@
         }
     }
     @media (max-width: $sm) {
+        padding: 50px 0 20px;
+        .container {
+            h1 {
+                font-size: 32px !important;
+            }
+            h3 {
+                font-size: 20px !important;
+                margin-bottom: 20px;
+            }
+            .btn {
+                width: 100%;
+            }
+            .share-options {
+                .share-option {
+                    margin: 0 10px;
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
     }
 }

@@ -26,4 +26,33 @@
             }
         }
     }
+    @media (max-width: $sm) {
+        padding: 50px 0 25px;
+        .container {
+            h1 {
+                font-size: 32px !important;
+                margin-bottom: 18px;
+            }
+            h3 {
+                font-size: 20px !important;
+                margin-bottom: 30px;
+            }
+            .row {
+                padding: 0;
+                .join-option {
+                    img {
+                        width: 60px;
+                    }
+                    b {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .join-btn-wrapper {
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
