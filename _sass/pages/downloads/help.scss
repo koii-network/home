@@ -44,9 +44,11 @@
         }
     }
     @media (max-width: $sm) {
-        min-height: unset;
-        padding: 100px 0;
+        padding: 56px 0;
         .container {
+            h3 {
+                margin-bottom: 56px;
+            }
             .system-card-wrapper {
                 .system-card {
                     max-width: 88px;
