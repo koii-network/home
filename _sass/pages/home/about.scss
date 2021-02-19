@@ -38,6 +38,7 @@
         }
     }
     @media (max-width: $sm) {
+        padding: 50px 0 20px;
         .container {
             flex-direction: column;
             .learn-left {
@@ -47,6 +48,13 @@
                 }
                 .btn {
                     width: 100%;
+                }
+                h1 {
+                    font-size: 32px !important;
+                }
+                h3 {
+                    font-size: 20px !important;
+                    margin-bottom: 20px;
                 }
             }
             .learn-right {
