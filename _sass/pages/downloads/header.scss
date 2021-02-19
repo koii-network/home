@@ -4,11 +4,20 @@
     background: $blueLight;
     color: $blueDark;
     padding: 75px 0;
-    min-height: 456px;
+    min-height: 504px;
+    display: flex;
+    align-items: center;
     .container {
+        h1 {
+            margin-bottom: 15px;
+        }
+        .header-description {
+            margin-bottom: 48px;
+        }
         .system-card-wrapper {
             .system-card {
                 max-width: 256px;
+                min-width: 256px;
                 height: 150px;
                 background: $orange;
                 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
@@ -17,6 +26,13 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                color: $blueDark;
+                img {
+                    margin-bottom: 10px;
+                }
+                h4 {
+                    margin-bottom: 0;
+                }
                 p {
                     text-align: center;
                     margin-bottom: 0;
