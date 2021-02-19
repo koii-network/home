@@ -42,6 +42,9 @@
             flex-direction: column;
             .learn-left {
                 width: 100%;
+                h1 {
+                    font-size: 32px !important;
+                }
                 .btn {
                     width: 100%;
                 }
