@@ -1,9 +1,9 @@
 @import "variables";
 
-footer {
+#footer {
     background: $blueDark;
     color: $white;
-    padding: 70px 0;
+    padding: 70px 0 24px;
     .container {
         h3 {
             margin-bottom: 23px;
@@ -28,6 +28,7 @@ footer {
         }
         .footer-options-wrapper {
             margin-top: 32px;
+            margin-bottom: 47px;
             .footer-option {
                 .footer-option-title {
                     margin-bottom: 13px;
