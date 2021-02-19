@@ -1,8 +1,21 @@
 @import "variables";
 
 #topbar {
-    height: 75px;
+    min-height: 75px;
     padding: 0 10px;
+    background: $blueLight;
+    .navbar-toggler {
+        margin-left: 32px;
+    }
+    .download-wrapper {
+        .download {
+            background: $blueDark;
+            color: $white;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+            border-radius: 4px;
+            padding: 2px 20px;
+        }
+    }
     .navbar-collapse {
         .navbar-nav {
             .nav-item {
@@ -23,5 +36,16 @@
                 }
             }
         }
+    }
+    @media (max-width: $sm) {
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    justify-content: left;
+                }
+            }
+        }
+    }
+    @media (max-width: $xl) {
     }
 }
