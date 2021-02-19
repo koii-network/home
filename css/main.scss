@@ -54,3 +54,17 @@ h5,
 h6 {
     font-family: $catamaran;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-blueDark {
+    background: $blueDark;
+    color: $white;
+}
+.btn-orange {
+    background: $orange;
+    color: $blueDark;
+}
