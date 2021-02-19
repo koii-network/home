@@ -5,4 +5,14 @@
     color: $blueDark;
     padding: 75px 0;
     min-height: 456px;
+    .container {
+        .create-tasks-left {
+            h4, p {
+                margin-bottom: 24px;
+            }
+            p {
+                width: 68%;
+            }
+        }
+    }
 }
