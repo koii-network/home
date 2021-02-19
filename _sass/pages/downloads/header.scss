@@ -6,13 +6,20 @@
     padding: 75px 0;
     min-height: 456px;
     .container {
-        .footer-options-wrapper {
-            .footer-option {
-                .footer-option-list {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    max-height: 100px;
+        .system-card-wrapper {
+            .system-card {
+                max-width: 256px;
+                height: 150px;
+                background: $orange;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+                border-radius: 6px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                p {
+                    text-align: center;
+                    margin-bottom: 0;
                 }
             }
         }
