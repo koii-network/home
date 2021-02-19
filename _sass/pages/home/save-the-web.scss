@@ -1,0 +1,33 @@
+@import "variables";
+
+#save-web {
+    display: flex;
+    background: linear-gradient(to bottom, #bcf3ef 64%, white 86%);
+    color: $blueDark;
+    padding: 70px 0 20px;
+    height: 700px;
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        h3 {
+            margin-bottom: 80px;
+        }
+        .btn {
+            padding: 0 55px;
+            height: 48px;
+        }
+        .share-options {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: auto;
+            .share-option {
+                margin: 0 10px;
+                img {
+                    width: 150px;
+                }
+            }
+        }
+    }
+}

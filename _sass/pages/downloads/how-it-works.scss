@@ -1,0 +1,61 @@
+@import "variables";
+
+#how-it-works {
+    color: $blueDark;
+    padding: 75px 0 40px;
+    min-height: 456px;
+    background: url("/img/download/bg-wave.png");
+    background-size: 100% 100%;
+    .container {
+        h1 {
+            margin-bottom: 25px;
+        }
+        .how-it-works-left {
+            .how-it-works-description {
+                margin-bottom: 60px;
+                .description-item {
+                    margin-bottom: 35px;
+                    p {
+                        margin-left: 30px;
+                        a {
+                            color: $green;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .how-it-works-right {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            h1 {
+                font-size: 32px;
+                text-align: center;
+            }
+            .how-it-works-left {
+                .how-it-works-description {
+                    margin-bottom: 32px;
+                    .description-item {
+                        margin-bottom: 28px;
+                        h4 {
+                            font-size: 20px;
+                        }
+                        p {
+                            font-size: 17px;
+                            margin-left: 19px;
+                        }
+                    }
+                }
+            }
+            .how-it-works-right {
+                margin-bottom: 36px;
+            }
+        }
+    }
+}

@@ -3,48 +3,10 @@ layout: front
 permalink: /downloads/
 stylesheet: koi.css
 ---
-<style>
-    .col-sm-4.callout.blue:hover {
-        background: #03a84e;
-    }
-</style>
-<header>
-    <div class="header-content">
-        <div class="row container">
-            <div class="col-sm-6">
-                <h1>KOI is a Network Dedicated to Truth</h1>
-                <p>Install our node software to join the network and begin helping us keep the internet accountable.</p>
-            </div>
-            <div class="col-sm-6">
-            </div>
-        </div>
-    </div>
-</header>
-<section class="bg-primary" id="howItWorks">
-    <div class="row container">
-        <div class="col-md-12">
-            <h1>Koi is Compact</h1>
-            <span style="float:left;">Koi uses less than 1GB of RAM, and only 250mb of storage. Run a node to help us map the web, earn KOI. All you need is an internet connection!</span>
-        </div>
-    </div>
-    <div class="row container">
-        <a onclick="alert('The beta cap has been reached. Be sure to subscribe to our mailing list to get into the next round. If you already participated in round 1, please be sure to subscribe to receive a notice when you can claim your 100 KOI bonus.')"  hrefn="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.1_Win.zip" download>
-            <div class="col-sm-4 callout blue">
-                <h3>Windows</h3>
-                Start Download
-            </div>
-        </a>
-        <a onclick="alert('The beta cap has been reached. Be sure to subscribe to our mailing list to get into the next round. If you already participated in round 1, please be sure to subscribe to receive a notice when you can claim your 100 KOI bonus.')"  hrefn="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.1_Win.zip" download>
-            <div class="col-sm-4 callout blue">
-                <h3>Mac</h3>
-                Start Download
-            </div>
-        </a>
-        <a onclick="alert('The beta cap has been reached. Be sure to subscribe to our mailing list to get into the next round. If you already participated in round 1, please be sure to subscribe to receive a notice when you can claim your 100 KOI bonus.')"  hrefn="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.1_Win.zip" download>
-            <div class="col-sm-4 callout blue">
-                <h3>Ubuntu</h3>
-                Start Download
-            </div>
-        </a>
-    </div>
-</section>
+
+{% include download/header.html %}
+{% include download/how-it-works.html %}
+{% include download/running-node.html %}
+{% include download/earn-koi.html %}
+{% include download/create-tasks.html %}
+{% include download/help.html %}

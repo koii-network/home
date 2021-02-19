@@ -1,0 +1,29 @@
+@import "variables";
+
+#join {
+    background: $blueDark;
+    color: $white;
+    padding: 88px 0;
+    .container {
+        h1 {
+            margin-bottom: 38px;
+        }
+        h3 {
+            margin-bottom: 60px;
+        }
+        .row {
+            padding: 0 100px;
+            margin-bottom: 77px;
+            .join-option {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .join-btn-wrapper {
+            .btn {
+                width: 200px;
+            }
+        }
+    }
+}
