@@ -2,27 +2,33 @@
 
 #how-it-works {
     color: $blueDark;
-    padding: 75px 0;
+    padding: 75px 0 40px;
     min-height: 456px;
-    background: url('/img/download/bg-wave.png');
+    background: url("/img/download/bg-wave.png");
     background-size: 100% 100%;
     .container {
-        .system-card-wrapper {
-            .system-card {
-                max-width: 256px;
-                height: 150px;
-                background: $orange;
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
-                border-radius: 6px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                p {
-                    text-align: center;
-                    margin-bottom: 0;
+        h1 {
+            margin-bottom: 25px;
+        }
+        .how-it-works-left {
+            .how-it-works-description {
+                margin-bottom: 60px;
+                .description-item {
+                    margin-bottom: 35px;
+                    p {
+                        margin-left: 30px;
+                        a {
+                            color: #237B75;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
+        }
+        .how-it-works-right {
+            display: flex;
+            justify-content: center;
         }
     }
 }
