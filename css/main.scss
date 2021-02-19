@@ -60,6 +60,7 @@ h6 {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    border-radius: 8px;
 }
 .btn-blueDark {
     background: $blueDark;
@@ -67,5 +68,9 @@ h6 {
 }
 .btn-orange {
     background: $orange;
+    color: $blueDark;
+}
+.btn-white {
+    background: $white;
     color: $blueDark;
 }
