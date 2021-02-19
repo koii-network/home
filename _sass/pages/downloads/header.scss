@@ -42,4 +42,32 @@
             }
         }
     }
+    @media (max-width: $sm) {
+        min-height: unset;
+        padding: 100px 0;
+        .container {
+            h1 {
+                font-size: 32px !important;
+            }
+            .header-description {
+                font-size: 20px !important;
+            }
+            .system-card-wrapper {
+                .system-card {
+                    max-width: 88px;
+                    min-width: 88px;
+                    height: 72px;
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    h4 {
+                        font-size: 17px !important;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $xl) {
+    }
 }
