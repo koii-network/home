@@ -9,6 +9,9 @@
         .running-node-left {
             display: flex;
             justify-content: center;
+            img {
+                width: 100%;
+            }
         }
         .running-node-right {
             h3 {
@@ -16,6 +19,14 @@
             }
             p {
                 margin-bottom: 21px;
+            }
+        }
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            .running-node-right {
+                margin-bottom: 80px;
             }
         }
     }
