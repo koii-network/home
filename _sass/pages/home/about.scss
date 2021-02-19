@@ -37,4 +37,23 @@
             }
         }
     }
+    @media (max-width: $sm) {
+        .container {
+            flex-direction: column;
+            .learn-left {
+                width: 100%;
+                .btn {
+                    width: 100%;
+                }
+            }
+            .learn-right {
+                width: 100%;
+                .learn-card {
+                    width: 100%;
+                    max-width: 100%;
+                    margin: 8px 0;
+                }
+            }
+        }
+    }
 }
