@@ -48,38 +48,38 @@
 
 - header: GET INVOLVED
   children:
-  - name: Run a node, earn KOI
+  - name: Run a node
     link: /downloads/
     class: normal
 
-  - name: Buy KOI
+  - name: Purchase
     link: "mailto:sales@openkoi.com"
     class: normal        
 
-  - name: Earn KOI for Code
+  - name: Earn for Code
     link: https://discord.gg/dRsAJ6kAcP
     class: normal     
 
-  - name: Join the Community
+  - name: Join the Discord
     link: https://discord.gg/dRsAJ6kAcP
     class: normal 
     
-  - name: Read the Whitepaper
+  - name: Whitepaper
     link: /whitepaper.pdf
     class: normal  
 
 - header: GET IN TOUCH
   children:
+  - name: hello@openkoi.com
+    link: "mailto:hello@openkoi.com"
+    class: normal
+
   - name: sales@openkoi.com
     link: "mailto:sales@openkoi.com"
     class: normal
 
   - name: developer@openkoi.com
     link: "mailto:developers@openkoi.com"
-    class: normal
-
-  - name: hello@openkoi.com
-    link: "mailto:hello@openkoi.com"
     class: normal
 
   - name: jobs@openkoi.com
