@@ -1,7 +1,7 @@
 @import "variables";
 
 #koi-header {
-    background: $blueLight;
+    background: $white;
     color: $blueDark;
     padding-top: 75px;
     min-height: 456px;
@@ -15,12 +15,15 @@
             margin-bottom: 56px;
         }
         .header-btn-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
             .btn {
-                width: 200px;
-                height: 48px;
-                font-size: 24px;
+                width: 150px;
+                height: 40px;
+                font-size: 18px;
                 &.btn-join {
-                    margin-left: 48px;
+                    margin-left: 20px;
                 }
             }
         }
