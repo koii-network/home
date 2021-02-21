@@ -33,6 +33,10 @@
     }
     @media (max-width: $sm) {
         padding: 56px 0;
+        background: url("/img/download/wave-mobile.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: bottom;
         .container {
             h1 {
                 font-size: 32px;
