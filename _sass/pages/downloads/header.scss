@@ -28,6 +28,20 @@
                 justify-content: center;
                 color: $blueDark;
                 text-decoration: none;
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+                &.o-1 {
+                    animation-duration: 0s;
+                }
+                &.o-2 {
+                    animation-duration: .5s;
+                }
+                &.o-3 {
+                    animation-duration: 1s;
+                }
                 cursor: pointer;
                 img {
                     margin-bottom: 10px;

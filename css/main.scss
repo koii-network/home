@@ -68,10 +68,19 @@ a {
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
     font-weight: 600 !important;
+    transition: opacity .45s cubic-bezier(0.25, 1, 0.33, 1), transform .45s cubic-bezier(0.25, 1, 0.33, 1), border-color .45s cubic-bezier(0.25, 1, 0.33, 1), color .45s cubic-bezier(0.25, 1, 0.33, 1), background-color .45s cubic-bezier(0.25, 1, 0.33, 1), box-shadow .45s cubic-bezier(0.25, 1, 0.33, 1);
+    &:hover {
+        /* box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16); */
+        box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.16);
+        transform: translateY(-3px);
+    }
 }
 .btn-blueDark {
     background: $blueDark;
     color: $white;
+    &:hover {
+        color: $white;
+    }
 }
 .btn-orange {
     background: $orange;
