@@ -59,7 +59,10 @@
     @media (max-width: $xl) {
         .container {
             h3 {
-                margin-bottom: 20px;
+                margin-bottom: 27px;
+                font-size: 20px !important;
+                font-weight: 400;
+                line-height: 32px;
             }
             p.field-label {
                 font-size: 15px !important;
@@ -96,9 +99,10 @@
                         padding-left: 32px;
                         .nav-item {
                             .nav-link {
-                                font-size: 18px;
+                                font-size: 18px !important;
                                 color: $white;
                                 padding: 0;
+                                font-weight: 300;
                                 &:hover {
                                     text-decoration: underline;;
                                 }

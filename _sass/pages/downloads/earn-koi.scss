@@ -24,8 +24,18 @@
     }
     @media (max-width: $sm) {
         padding: 56px 0;
-        .earn-koi-img-wrapper {
-            padding-left: 15px;
+        .container {
+            .earn-koi-img-wrapper {
+                padding-left: 15px;
+            }
+            .earn-koi-description {
+                h3 {
+                    line-height: 24px;
+                }
+                p {
+                    line-height: 28px;
+                }
+            }
         }
     }
 }

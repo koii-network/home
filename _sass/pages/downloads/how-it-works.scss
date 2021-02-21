@@ -39,7 +39,7 @@
         background-position: bottom;
         .container {
             h1 {
-                font-size: 32px;
+                font-size: 32px !important;
                 text-align: center;
             }
             .how-it-works-left {
@@ -51,7 +51,7 @@
                             font-size: 20px;
                         }
                         p {
-                            font-size: 17px;
+                            font-size: 17px !important;
                             margin-left: 19px;
                         }
                     }
