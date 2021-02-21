@@ -1,4 +1,5 @@
 - header: COMPANY
+  class: col-sm-5 company
   children:
   - name: Home
     link: /
@@ -38,15 +39,16 @@
   #   link: /koi/
   #   class: normal    
 
-  - name: Blog
-    link: https://blog.openkoi.com/
-    class: normal
+  # - name: Blog
+  #   link: https://blog.openkoi.com/
+  #   class: normal
 
   # - name: WhitePaper
   #   link: /
   #   class: child    
 
 - header: GET INVOLVED
+  class: col-sm-4 get-involved
   children:
   - name: Run a node
     link: /downloads/
@@ -69,6 +71,7 @@
     class: normal  
 
 - header: GET IN TOUCH
+  class: col-sm-3 get-in-touch
   children:
   - name: hello@openkoi.com
     link: "mailto:hello@openkoi.com"

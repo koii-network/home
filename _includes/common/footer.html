@@ -16,7 +16,7 @@
         </div>
         <div class="row footer-options-wrapper">
             {% for item in site.data.navigation %}
-            <div class="col-sm-4 footer-option">
+            <div class="footer-option {{ item.class }}">
                 <h6 class="footer-option-title">{{ item.header }}</h6>
                 <div class="footer-option-list">
                     {% for child in item.children %}
