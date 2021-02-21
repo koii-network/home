@@ -30,7 +30,7 @@ nav {
 
 h1 {
     font-size: 40px !important;
-    font-weight: 700;
+    font-weight: 600;
 }
 h2 {
     font-size: 32px !important;
@@ -64,6 +64,7 @@ h6 {
     font-size: 24px;
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    font-weight: 600 !important;
 }
 .btn-blueDark {
     background: $blueDark;
