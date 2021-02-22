@@ -12,8 +12,9 @@
         .system-card-wrapper {
             margin-bottom: 83px;
             .system-card {
+                width: 100%;
                 max-width: 256px;
-                min-width: 256px;
+                // min-width: 256px;
                 height: 150px;
                 background: $orange;
                 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
@@ -45,11 +46,13 @@
     }
     @media (max-width: $sm) {
         padding: 56px 0;
+        min-height: unset;
         .container {
             h3 {
                 margin-bottom: 56px;
             }
             .system-card-wrapper {
+                margin-bottom: 50px;
                 .system-card {
                     max-width: 88px;
                     min-width: 88px;
@@ -57,6 +60,7 @@
                     img {
                         width: 20px;
                         height: 20px;
+                        margin-bottom: 6px;
                     }
                     h4 {
                         font-size: 17px !important;

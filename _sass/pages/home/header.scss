@@ -3,7 +3,7 @@
 #home-header {
     background: $blueLight;
     color: $blueDark;
-    padding-top: 75px;
+    // padding-top: 75px;
     min-height: 456px;
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
         }
         h3 {
             margin-bottom: 56px;
+            font-weight: normal;
         }
         .header-btn-wrapper {
             .btn {
@@ -30,7 +31,7 @@
         min-height: unset;
         .container {
             h1 {
-                font-size: 30px !important;
+                font-size: 24px !important;
                 text-align: center;
             }
             h3 {
@@ -42,6 +43,9 @@
                 width: 100%;
                 .btn {
                     // width: 100%;
+                    width: 140px;
+                    height: 40px;
+                    font-size: 18px;
                     &.btn-join {
                         margin-left: 0px;
                         margin-top: 10px;

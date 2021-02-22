@@ -4,6 +4,8 @@
     min-height: 75px;
     padding: 0 10px;
     background: $blueLight;
+    transition: all 0.8s;
+    z-index: 10;
     .navbar-toggler {
         margin-left: 32px;
     }
@@ -49,5 +51,12 @@
         }
     }
     @media (max-width: $xl) {
+        .container-fluid {
+            .navbar-brand {
+                img {
+                    width: 44px;
+                }
+            }
+        }
     }
 }
