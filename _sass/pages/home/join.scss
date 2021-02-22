@@ -61,7 +61,7 @@
             .join-btn-wrapper {
                 position: relative;
                 .btn {
-                    width: 140px;
+                    min-width: 255px;
                     height: 40px;
                     font-size: 18px;
                 }

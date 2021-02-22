@@ -8,6 +8,9 @@
     z-index: 10;
     .navbar-toggler {
         margin-left: 32px;
+        .nav-menu-icon {
+            color: $white;
+        }
     }
     .download-wrapper {
         .download {
@@ -41,11 +44,28 @@
         }
     }
     @media (max-width: $sm) {
+        background: $blueDark;
+        .download-wrapper {
+            .download {
+                border: solid 1px white;
+            }
+        }
         .navbar-collapse {
             .navbar-nav {
                 .nav-item {
                     justify-content: left;
                     margin-left: 0;
+                    a.nav-link {
+                        color: $white;
+                        &.download {
+                            background: $blueDark;
+                            color: $white;
+                            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+                            border-radius: 4px;
+                            padding: 2px 20px;
+                            border: solid 1px white;
+                        }
+                    }
                 }
             }
         }

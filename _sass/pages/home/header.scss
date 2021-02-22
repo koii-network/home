@@ -28,27 +28,30 @@
     }
     @media (max-width: $sm) {
         padding: 30px 0;
-        min-height: unset;
+        // min-height: unset;
+        min-height: calc(100vh - 75px) !important;
         .container {
+            justify-content: space-around !important;
             h1 {
                 font-size: 24px !important;
                 text-align: center;
             }
             h3 {
                 font-size: 20px !important;
-                margin-bottom: 23px;
+                margin-bottom: 100px;
             }
             .header-btn-wrapper {
-                flex-direction: column;
+                // flex-direction: column;
+                justify-content: center;
                 width: 100%;
                 .btn {
                     // width: 100%;
-                    width: 140px;
+                    min-width: 140px;
                     height: 40px;
                     font-size: 18px;
                     &.btn-join {
-                        margin-left: 0px;
-                        margin-top: 10px;
+                        margin-left: 15px;
+                        // margin-top: 10px;
                     }
                 }
             }
