@@ -1,9 +1,10 @@
 @import "variables";
 
 #learn {
-    background: $white;
+    position: relative;
+    // background: $white;
     color: $blueDark;
-    padding: 58px 0;
+    padding: 58px 0 125px 0;
     .container {
         display: flex;
         align-items: flex-start;
@@ -45,6 +46,20 @@
                     margin-bottom: 0;
                 }
             }
+        }
+    }
+    .clip-path {
+        position: absolute;
+        bottom: -2px;
+        width: 100%;
+        height: 300px;
+        background: $blueDark;
+        clip-path: polygon(0% 13%, 0 100%, 101% 100%);
+    }
+    @media (max-width: $md) {
+        padding: 58px 0;
+        .clip-path {
+            display: none;
         }
     }
     @media (max-width: $sm) {

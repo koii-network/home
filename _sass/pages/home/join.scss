@@ -3,7 +3,7 @@
 #join {
     background: $blueDark;
     color: $white;
-    padding: 88px 0;
+    padding-bottom: 88px;
     .container {
         h1 {
             margin-bottom: 38px;
@@ -32,6 +32,9 @@
                 left: 100%;
             }
         }
+    }
+    @media (max-width: $md) {
+        padding-top: 88px;
     }
     @media (max-width: $sm) {
         padding: 50px 0 25px;
