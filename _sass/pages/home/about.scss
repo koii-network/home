@@ -2,7 +2,7 @@
 
 #learn {
     position: relative;
-    // background: $white;
+    background: $blueLight;
     color: $blueDark;
     padding: 58px 0 125px 0;
     .container {
@@ -15,10 +15,11 @@
                 margin-bottom: 35px;
             }
             h3 {
-                margin-bottom: 65px;
+                margin-bottom: 15px;
                 font-weight: normal;
             }
             .btn-wrapper {
+                margin-top: 45px;
                 .btn {
                     width: 200px;
                     height: 48px;
@@ -31,7 +32,7 @@
             flex-direction: column;
             align-items: center;
             .learn-card {
-                background: $blueLight;
+                background: $white;
                 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
                 border-radius: 8px;
                 max-width: 352px;
