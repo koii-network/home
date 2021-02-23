@@ -130,8 +130,8 @@ a {
     //     background: #b30000;
     // }
 }
-// @media (max-width: $sm) {
-//     header {
-//         min-height: calc(100vh - 75px) !important;
-//     }
-// }
+@media (max-width: $sm) {
+    header {
+        min-height: calc(100vh - 75px) !important;
+    }
+}

@@ -34,10 +34,14 @@
                 // }
 
                 cursor: pointer;
-                img {
-                    margin-bottom: 10px;
+                .img-wrapper {
+                    flex: 1;
+                    img {
+                        margin-bottom: 10px;
+                    }
                 }
                 h4 {
+                    flex: 1;
                     margin-bottom: 0;
                 }
                 p {
@@ -52,21 +56,29 @@
         padding: 100px 0;
         .container {
             h1 {
-                font-size: 32px !important;
+                font-size: 35px !important;
+                text-align: center;
             }
             .header-description {
                 font-size: 20px !important;
                 font-weight: normal;
+                line-height: 32px;
+                margin-bottom: 15px;
             }
             .system-card-wrapper {
                 .system-card {
-                    max-width: 88px;
-                    min-width: 88px;
+                    max-width: 216px;
+                    min-width: 216px;
                     height: 72px;
-                    img {
-                        width: 20px;
-                        height: 20px;
-                        margin-bottom: 6px;
+                    flex-direction: row;
+                    margin-top: 40px;
+                    .img-wrapper {
+                        text-align: center;
+                        img {
+                            width: auto;
+                            height: 45px;
+                            margin-bottom: 0px;
+                        }
                     }
                     h4 {
                         font-size: 17px !important;
@@ -76,6 +88,6 @@
         }
     }
     @media (max-width: $xl) {
-        padding: 50px 0;
+        padding: 0;
     }
 }

@@ -29,7 +29,7 @@
     @media (max-width: $sm) {
         padding: 30px 0;
         // min-height: unset;
-        min-height: calc(100vh - 75px) !important;
+        // min-height: calc(100vh - 75px) !important;
         .container {
             justify-content: space-around !important;
             h1 {
