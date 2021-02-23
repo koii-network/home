@@ -3,7 +3,7 @@
 #topbar {
     min-height: 75px;
     padding: 0 10px;
-    background: $blueLight;
+    background: $blueDark;
     transition: all 0.8s;
     z-index: 10;
     .navbar-toggler {
@@ -31,13 +31,14 @@
                 align-items: center;
                 a.nav-link {
                     font-size: 18px;
-                    color: $blueDark;
+                    color: $white;
                     &.download {
-                        background: $blueDark;
+                        background: transparent;
                         color: $white;
                         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
                         border-radius: 4px;
                         padding: 2px 20px;
+                        border: solid 1px white;
                     }
                 }
             }
