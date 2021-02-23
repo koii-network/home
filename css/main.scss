@@ -132,6 +132,6 @@ a {
 }
 @media (max-width: $sm) {
     header {
-        min-height: calc(100vh - 75px) !important;
+        min-height: calc(100vh) !important;
     }
 }

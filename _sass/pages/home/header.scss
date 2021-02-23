@@ -1,7 +1,7 @@
 @import "variables";
 
 #home-header {
-    background-image: url('/img/homepage/vector.png'), linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%);
+    background-image: url('/img/homepage/vector.png'), $blueDark;
     background-repeat: no-repeat;
     color: $white;
     padding-top: 75px;
@@ -17,10 +17,17 @@
             font-weight: normal;
         }
         .header-btn-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
             .btn {
                 width: 200px;
                 height: 48px;
                 font-size: 24px;
+                background: $blueDark;
+                border: 1.5px solid $white;
+                border-radius: 8px;
+                color: $white;
                 &.btn-join {
                     margin-left: 48px;
                 }
@@ -35,12 +42,15 @@
         .container {
             justify-content: space-around !important;
             h1 {
-                font-size: 24px !important;
-                text-align: center;
+                font-size: 32px !important;
+                text-align: left;
+                line-height: 48px;
+                margin-bottom: 25px;
             }
             h3 {
                 font-size: 20px !important;
-                margin-bottom: 100px;
+                margin-bottom: 65px;
+                line-height: 32px;
             }
             .header-btn-wrapper {
                 // flex-direction: column;
@@ -49,7 +59,8 @@
                 .btn {
                     // width: 100%;
                     min-width: 140px;
-                    height: 40px;
+                    max-width: 136px;
+                    height: 44px;
                     font-size: 18px;
                     &.btn-join {
                         margin-left: 15px;
