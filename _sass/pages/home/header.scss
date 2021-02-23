@@ -1,10 +1,11 @@
 @import "variables";
 
 #home-header {
-    background: $blueDark;
-    color: $blueDark;
-    // padding-top: 75px;
-    min-height: 456px;
+    background-image: url('/img/homepage/vector.png'), linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%);
+    background-repeat: no-repeat;
+    color: $white;
+    padding-top: 75px;
+    min-height: 448px;
     display: flex;
     align-items: center;
     .container {
@@ -28,6 +29,7 @@
     }
     @media (max-width: $sm) {
         padding: 30px 0;
+        background-image: url('/img/homepage/vector-mobile.png'), linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%);
         // min-height: unset;
         // min-height: calc(100vh - 75px) !important;
         .container {

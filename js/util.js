@@ -11,12 +11,9 @@
     var aTop = $("#topbar").height();
     if ($(this).scrollTop() >= aTop) {
       console.log("$(this).scrollTop()", $(this).scrollTop(), aTop);
-      $("#topbar").css({ position: "fixed", boxShadow: "0px 10px 10px -7px rgb(0 0 0 / 30%)" });
-      // alert("header just passed.");
-      // instead of alert you can use to show your ad
-      // something like $('#footAd').slideup();
+      $("#topbar").css({ background: 'linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%)', boxShadow: "0px 10px 10px -7px rgb(0 0 0 / 30%)" });
     } else {
-      $("#topbar").css({ position: "relative", boxShadow: "unset" });
+      $("#topbar").css({ background: 'transparent', boxShadow: "unset" });
     }
   });
 })(jQuery); // End of use strict
