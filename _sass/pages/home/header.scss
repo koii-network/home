@@ -1,7 +1,7 @@
 @import "variables";
 
 #home-header {
-    background-image: url('/img/homepage/vector.png'), $blueDark;
+    background-image: url('/img/homepage/vector.png'), $blueDarkBg;
     background-repeat: no-repeat;
     color: $white;
     padding-top: 75px;
@@ -63,7 +63,7 @@
                     height: 44px;
                     font-size: 18px;
                     &.btn-join {
-                        margin-left: 15px;
+                        margin-left: 40px;
                         // margin-top: 10px;
                     }
                 }
