@@ -37,36 +37,46 @@
         padding-top: 88px;
     }
     @media (max-width: $sm) {
-        padding: 50px 0 25px;
+        padding: 50px 50px 25px;
         .container {
             h1 {
-                font-size: 24px !important;
-                margin-bottom: 18px;
+                font-size: 32px !important;
+                text-align: center;
             }
             h3 {
                 font-size: 20px !important;
                 margin-bottom: 30px;
+                line-height: 32px;
             }
             .row {
                 padding: 0;
+                margin-bottom: 45px;
                 .join-option {
+                    margin-bottom: 35px;
                     img {
-                        width: 60px;
+                        margin-bottom: 10px;
                     }
                     b {
-                        font-size: 12px !important;
+                        font-size: 24px !important;
+                        line-height: 32px;
+                        font-weight: 600;
                     }
                 }
             }
             .join-btn-wrapper {
                 position: relative;
+                margin-bottom: 60px;
+                z-index: 1;
                 .btn {
-                    min-width: 255px;
-                    height: 40px;
+                    min-width: 228px;
+                    height: 44px;
                     font-size: 18px;
                 }
                 .fish-group {
                     width: 80px;
+                    top: 9px;
+                    left: 88%;
+                    z-index: -1;
                 }
             }
         }
