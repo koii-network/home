@@ -25,9 +25,6 @@
     @media (max-width: $sm) {
         padding: 56px 0;
         .container {
-            .earn-koi-img-wrapper {
-                padding-left: 15px;
-            }
             .earn-koi-description {
                 h3 {
                     line-height: 24px;
@@ -36,6 +33,9 @@
                     line-height: 28px;
                 }
             }
+        }
+        .earn-koi-img-wrapper {
+            padding-left: 15px;
         }
     }
 }
