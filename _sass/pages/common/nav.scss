@@ -3,14 +3,20 @@
 #topbar {
     position: fixed;
     min-height: 75px;
-    padding: 0 10px;
-    background: transparent;
+    padding: 0;
+    background: $blueDarkBg;
     transition: all 0.8s;
     z-index: 10;
-    .navbar-toggler {
-        margin-left: 32px;
-        .nav-menu-icon {
-            color: $white;
+    .toggler-wrapper {
+        height: 100%;
+        min-height: 54px;
+        display: flex;
+        align-items: center;
+        .navbar-toggler {
+            // margin-left: 32px;
+            .nav-menu-icon {
+                color: $white;
+            }
         }
     }
     .download-wrapper {
@@ -46,6 +52,9 @@
         }
     }
     @media (max-width: $sm) {
+        .toggler-wrapper {
+            height: 75px;
+        }
         .download-wrapper {
             .download {
                 border: solid 1px white;
@@ -61,10 +70,10 @@
                         color: $white;
                         &.download {
                             color: $white;
-                            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
-                            border-radius: 4px;
-                            padding: 2px 20px;
-                            border: solid 1px white;
+                            box-shadow: unset;
+                            border-radius: 0px;
+                            padding: 0.5rem 0;
+                            border: none;
                         }
                     }
                 }

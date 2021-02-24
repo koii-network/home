@@ -10,6 +10,7 @@
             margin-bottom: 73px;
         }
         .help-bottom-description {
+            margin-top: 80px;
             a {
                 color: $green;
             }
@@ -21,6 +22,9 @@
         .container {
             h3 {
                 margin-bottom: 0px;
+            }
+            .help-bottom-description {
+                margin-top: 40px;
             }
         }
     }

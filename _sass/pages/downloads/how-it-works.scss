@@ -17,6 +17,7 @@
                     margin-bottom: 35px;
                     p {
                         margin-left: 30px;
+                        line-height: 28px;
                         a {
                             color: $green;
                             text-decoration: underline;
@@ -48,11 +49,12 @@
                     .description-item {
                         margin-bottom: 28px;
                         h4 {
-                            font-size: 20px;
+                            font-size: 20px !important;
                         }
                         p {
                             font-size: 17px !important;
                             margin-left: 19px;
+                            line-height: 28px;
                         }
                     }
                 }

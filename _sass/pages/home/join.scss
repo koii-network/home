@@ -37,15 +37,16 @@
         padding-top: 88px;
     }
     @media (max-width: $sm) {
-        padding: 50px 50px 25px;
+        padding: 50px 0px;
         .container {
             h1 {
                 font-size: 32px !important;
                 text-align: center;
             }
+            padding: 0 45px;
             h3 {
                 font-size: 20px !important;
-                margin-bottom: 30px;
+                margin-bottom: 65px;
                 line-height: 32px;
             }
             .row {
