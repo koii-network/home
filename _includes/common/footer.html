@@ -1,0 +1,35 @@
+<section id="footer">
+    <div class="container">
+        <h2>Run a node.</h2>
+        <h3 class="footer-description">Join the network, and help us preserve the best of human knowledge.</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <h6>Stay up to date</h6>
+                <p class="field-label">Email address</p>
+                <div class="input-group" onclick="{ return window.location.href = 'http://eepurl.com/he-SCz'}">
+                    <input type="text" class="form-control" placeholder="name@example.com">
+                    <span class="input-group-btn">
+                        <button class="btn btn-orange" type="button">Sign up</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-options-wrapper">
+            {% for item in site.data.navigation %}
+            <div class="footer-option {{ item.class }}">
+                <h6 class="footer-option-title">{{ item.header }}</h6>
+                <div class="footer-option-list">
+                    {% for child in item.children %}
+                    <div class="nav-item mb-1">
+                        <a class="nav-link {{ child.class }}" href="{{ child.link }}">
+                            {{ child.name }}
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <p class="text-center mb-0">©KOI Co. 2021</p>
+</section>

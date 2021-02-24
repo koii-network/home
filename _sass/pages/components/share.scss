@@ -1,0 +1,23 @@
+@import "variables";
+
+#share-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    flex-wrap: wrap;
+    .share-option {
+        margin: 0 10px;
+        img {
+            width: 150px;
+        }
+    }
+    @media (max-width: $sm) {
+        .share-option {
+            margin: 0 10px;
+            img {
+                width: 100px;
+            }
+        }
+    }
+}

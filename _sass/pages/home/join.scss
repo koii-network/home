@@ -1,0 +1,85 @@
+@import "variables";
+
+#join {
+    background: $blueDarkBg;
+    color: $white;
+    padding-bottom: 88px;
+    .container {
+        h1 {
+            margin-bottom: 38px;
+        }
+        h3 {
+            margin-bottom: 60px;
+            font-weight: normal;
+        }
+        .row {
+            padding: 0 100px;
+            margin-bottom: 77px;
+            .join-option {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .join-btn-wrapper {
+            position: relative;
+            .btn {
+                width: 200px;
+            }
+            .fish-group {
+                position: absolute;
+                top: 0;
+                left: 100%;
+            }
+        }
+    }
+    @media (max-width: $md) {
+        padding-top: 88px;
+    }
+    @media (max-width: $sm) {
+        padding: 50px 0px;
+        .container {
+            h1 {
+                font-size: 32px !important;
+                text-align: center;
+            }
+            padding: 0 45px;
+            h3 {
+                font-size: 20px !important;
+                margin-bottom: 65px;
+                line-height: 32px;
+            }
+            .row {
+                padding: 0;
+                margin-bottom: 30px;
+                .join-option {
+                    margin-bottom: 50px;
+                    img {
+                        margin-bottom: 10px;
+                    }
+                    b {
+                        font-size: 24px !important;
+                        line-height: 32px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .join-btn-wrapper {
+                position: relative;
+                margin-bottom: 60px;
+                z-index: 1;
+                .btn {
+                    min-width: 228px;
+                    height: 44px;
+                    font-size: 18px;
+                }
+                .fish-group {
+                    width: 80px;
+                    top: 9px;
+                    left: 88%;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

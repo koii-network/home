@@ -9,26 +9,12 @@ stylesheet: koi.css
         height: 15rem;
         margin-top: 5rem;
     }
+
     img.headerImage {
         float: unset;
         max-width: 100%;
     }
-
-
 </style>
-<header>
-    <div class="header-content">
-        <div class="row container">
-            <div class="col-sm-6">
-                <h1>KOI is a Network Dedicated to Truth</h1>
-                <p>Install our node software to join the network and begin helping us keep the internet accountable.</p>
-                <a href="/downloads/" class="btn btn-primary btn-xl page-scroll red">Join Now</a>
-                <a href="#howItWorks" class="btn btn-primary btn-xl page-scroll blue">How it works</a>
-            </div>
-            <div class="col-sm-6">
-                <img class="headerImage" src="/img/koinet.png">
-            </div>
-        </div>
-    </div>
-</header>
-{% include howItWorks.html %}
+
+{% include koi/header-koi.html %}
+{% include koi/how-it-works-koi.html %}
