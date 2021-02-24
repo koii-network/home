@@ -4,7 +4,8 @@
     background: $blueLight;
     color: $blueDark;
     padding-top: 75px;
-    min-height: 555px;
+    min-height: calc(75vh);
+    // min-height: 555px;
     display: flex;
     align-items: center;
     .container {

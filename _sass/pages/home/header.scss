@@ -6,6 +6,7 @@
     color: $white;
     // min-height: 535px;
     min-height: calc(75vh);
+    padding-top: 75px;
     display: flex;
     align-items: center;
     &::before {
@@ -17,6 +18,7 @@
         display: block;
         height: 100%;
         position: absolute;
+        top: 0;
         width: 100%;
     }
     .container {
