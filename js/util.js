@@ -26,7 +26,7 @@
   $(document).ready(function () {
     var pathname = window.location.pathname;
     if (pathname === "/") {
-      $("#topbar").css({ background: "transparent" });
+      $("#topbar").css({ background: "transparent", boxShadow: 'unset' });
     }
 
     $(document).click(function (event) {
