@@ -17,6 +17,10 @@
             h3 {
                 margin-bottom: 15px;
                 font-weight: normal;
+                line-height: 32px;
+                &.koi-protocol {
+                    font-size: 20px !important;
+                }
             }
             .btn-wrapper {
                 margin-top: 45px;
@@ -101,6 +105,9 @@
                     font-size: 20px !important;
                     margin-bottom: 20px;
                     line-height: 32px;
+                    &.koi-protocol {
+                        font-size: 16px !important;
+                    }
                 }
             }
             .learn-right {
