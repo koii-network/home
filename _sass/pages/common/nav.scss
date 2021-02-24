@@ -70,7 +70,8 @@
                 .navbar-nav {
                     padding-bottom: 12px;
                     .nav-item {
-                        justify-content: left;
+                        justify-content: flex-end;
+                        padding-right: 0.75em;
                         margin-left: 0;
                         a.nav-link {
                             color: $white;

@@ -4,13 +4,15 @@
     position: relative;
     background: $blueDarkBg;
     color: $white;
-    min-height: 535px;
+    // min-height: 535px;
+    min-height: calc(75vh);
     display: flex;
     align-items: center;
     &::before {
         background-image: url("/img/homepage/vector.png");
         background-repeat: no-repeat;
-        background-size: 839px auto;
+        // background-size: 839px auto;
+        background-size: auto 100%;
         content: "";
         display: block;
         height: 100%;
@@ -87,6 +89,18 @@
                             // margin-top: 10px;
                         }
                     }
+                }
+            }
+        }
+    }
+    @media (min-width: $xxl) {
+        .container {
+            .row {
+                h1 {
+                    font-size: 42px !important;
+                }
+                h3 {
+                    font-size: 32px !important;
                 }
             }
         }
