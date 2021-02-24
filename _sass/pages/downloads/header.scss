@@ -1,0 +1,38 @@
+@import "variables";
+
+#download-header {
+    background: $blueLight;
+    color: $blueDark;
+    padding-top: 75px;
+    min-height: 555px;
+    display: flex;
+    align-items: center;
+    .container {
+        h1 {
+            margin-bottom: 15px;
+        }
+        .header-description {
+            line-height: 32px;
+            margin-bottom: 48px;
+        }
+    }
+    @media (max-width: $sm) {
+        min-height: unset;
+        .container {
+            h1 {
+                font-size: 35px !important;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+            .header-description {
+                font-size: 20px !important;
+                font-weight: normal;
+                line-height: 42px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    @media (max-width: $xl) {
+        // padding: 0;
+    }
+}

@@ -1,0 +1,101 @@
+@import "variables";
+
+#topbar {
+    position: fixed;
+    min-height: 75px;
+    padding: 0;
+    background: $blueDarkBg;
+    box-shadow: 0px 10px 10px -7px rgba(0, 0, 0, 0.3);
+    transition: all 0.8s;
+    z-index: 10;
+    .container-fluid {
+        padding: 0 50px;
+        .toggler-wrapper {
+            height: 100%;
+            min-height: 54px;
+            display: flex;
+            align-items: center;
+            .navbar-toggler {
+                // margin-left: 32px;
+                .nav-menu-icon {
+                    color: $white;
+                }
+            }
+        }
+        .download-wrapper {
+            .download {
+                background: transparent;
+                color: $white;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+                border-radius: 4px;
+                padding: 2px 20px;
+                line-height: initial;
+            }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    margin-left: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a.nav-link {
+                        font-size: 18px;
+                        color: $white;
+                        &.download {
+                            background: transparent;
+                            color: $white;
+                            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+                            border-radius: 4px;
+                            padding: 2px 20px;
+                            border: solid 1px white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $sm) {
+        .container-fluid {
+            padding: 0 15px;
+            .toggler-wrapper {
+                height: 75px;
+            }
+            .download-wrapper {
+                .download {
+                    border: solid 1px white;
+                }
+            }
+            .navbar-collapse {
+                .navbar-nav {
+                    padding-bottom: 12px;
+                    .nav-item {
+                        justify-content: left;
+                        margin-left: 0;
+                        a.nav-link {
+                            color: $white;
+                            &.download {
+                                color: $white;
+                                box-shadow: unset;
+                                border-radius: 0px;
+                                padding: 0.5rem 0;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $xl) {
+        .container-fluid {
+            .container-fluid {
+                .navbar-brand {
+                    img {
+                        width: 44px;
+                    }
+                }
+            }
+        }
+    }
+}

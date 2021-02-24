@@ -1,0 +1,94 @@
+- header: COMPANY
+  class: col-sm-5 company
+  children:
+  - name: Home
+    link: /
+    class: normal       
+
+  - name: Blog
+    link: https://blog.openkoi.com/
+    class: normal
+
+  - name: Help Us
+    link: /koi/
+    class: normal       
+
+  - name: Services
+    link: /services/
+    class: normal
+
+# - header: ''
+#   children:
+  - name: Developers
+    link: https://docs.openkoi.com/
+    class: normal   
+
+  - name: Desktop App
+    link: /downloads/
+    class: normal
+
+  - name: Support
+    link: "mailto:support@openkoi.com"
+    class: normal
+
+  - name: Careers
+    link: "mailto:jobs@openkoi.com"
+    class: normal
+
+  # - name: Brand Guidelines
+  #   link: /koi/
+  #   class: normal    
+
+  # - name: Blog
+  #   link: https://blog.openkoi.com/
+  #   class: normal
+
+  # - name: WhitePaper
+  #   link: /
+  #   class: child    
+
+- header: GET INVOLVED
+  class: col-sm-4 get-involved
+  children:
+  - name: Run a node
+    link: /downloads/
+    class: normal
+
+  - name: Purchase
+    link: "mailto:sales@openkoi.com"
+    class: normal        
+
+  - name: Earn for Code
+    link: https://discord.gg/dRsAJ6kAcP
+    class: normal     
+
+  - name: Join the Discord
+    link: https://discord.gg/dRsAJ6kAcP
+    class: normal 
+    
+  - name: Whitepaper
+    link: /whitepaper.pdf
+    class: normal  
+
+- header: GET IN TOUCH
+  class: col-sm-3 get-in-touch
+  children:
+  - name: hello@openkoi.com
+    link: "mailto:hello@openkoi.com"
+    class: normal
+
+  - name: sales@openkoi.com
+    link: "mailto:sales@openkoi.com"
+    class: normal
+
+  - name: developer@openkoi.com
+    link: "mailto:developers@openkoi.com"
+    class: normal
+
+  - name: jobs@openkoi.com
+    link: "mailto:jobs@openkoi.com"
+    class: normal
+
+  - name: press@openkoi.com
+    link: "mailto:press@openkoi.com"
+    class: normal            

@@ -1,0 +1,87 @@
+@import "variables";
+
+#services-header {
+    color: $blueDark;
+    padding: 75px 0 0px;
+    min-height: 456px;
+    background: $white;
+    .container {
+        h1 {
+            margin-bottom: 25px;
+        }
+        .header-description-wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            .services-header-description {
+                margin-left: 30px;
+            }
+        }
+        .services-card-wrapper {
+            margin-bottom: 30px;
+            .services-card {
+                background: $blueDarkBg;
+                color: $white;
+                padding: 30px 20px;
+                border-radius: 12px;
+                min-height: 200px;
+                display: flex;
+                flex-direction: column;
+                .btn-try-demo-wrapper {
+                    display: flex;
+                    justify-content: center;
+                    .btn-try-demo {
+                        color: $white;
+                        border: solid 2px white;
+                        padding: 4px 10px;
+                    }
+                }
+            }
+        }
+        .btn-talk-expert {
+            display: flex;
+            justify-content: center;
+            .btn {
+                width: 230px;
+                border: solid 1px red;
+                color: red;
+            }
+        }
+    }
+    .share-part {
+        background: $blueLight;
+        margin-top: 50px;
+    }
+    @media (max-width: $sm) {
+        .container {
+            h1 {
+                margin-bottom: 25px;
+            }
+            .header-description-wrapper {
+                flex-direction: column;
+                margin-bottom: 20px;
+                .services-header-description {
+                    margin-left: 0px;
+                }
+            }
+            .services-card-wrapper {
+                .services-card {
+                    margin-bottom: 15px;
+                }
+            }
+            .btn-talk-expert {
+                display: flex;
+                justify-content: center;
+                .btn {
+                    width: 230px;
+                    border: solid 1px red;
+                    color: red;
+                }
+            }
+        }
+        .share-part {
+            background: $blueLight;
+            margin-top: 50px;
+        }
+    }
+}
