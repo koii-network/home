@@ -7,40 +7,6 @@
         <h4 class="header-description d-md-none text-center"><b>Download and run a node to:</b><br />Complete Koi
             Tasks<br />Partake in the consensus algorithm<br />Earn KOI.
         </h4>
-        <div class="row system-card-wrapper">
-            <div class="col-sm-4 d-flex justify-content-center">
-                <a class="system-card fade-1 hover-card"
-                    onclick="alert('The beta cap has been reached. Be sure to subscribe to our mailing list to get into the next round. If you already participated in round 1, please be sure to subscribe to receive a notice when you can claim your 100 KOI bonus.')"
-                    hrefn="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.1_Win.zip" download>
-                    <div class="img-wrapper">
-                        <img src="/img/icons/icon-windows.png">
-                    </div>
-                    <h4>Windows</h4>
-                    <p class="d-none d-md-block">Download</p>
-                </a>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-                <a class="system-card fade-2 hover-card"
-                    onclick="alert('The beta cap has been reached. Be sure to subscribe to our mailing list to get into the next round. If you already participated in round 1, please be sure to subscribe to receive a notice when you can claim your 100 KOI bonus.')"
-                    hrefn="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.1_Win.zip" download>
-                    <div class="img-wrapper">
-                        <img src="/img/icons/icon-mac.png">
-                    </div>
-                    <h4>Mac</h4>
-                    <p class="d-none d-md-block">Download</p>
-                </a>
-            </div>
-            <div class="col-sm-4 d-flex justify-content-center">
-                <a class="system-card fade-3 hover-card"
-                    onclick="alert('The beta cap has been reached. Be sure to subscribe to our mailing list to get into the next round. If you already participated in round 1, please be sure to subscribe to receive a notice when you can claim your 100 KOI bonus.')"
-                    hrefn="https://koi-node-releases.s3.us-east-2.amazonaws.com/KOI_DESKTOP_1.3.1_Win.zip" download>
-                    <div class="img-wrapper">
-                        <img src="/img/icons/icon-ubuntu.png">
-                    </div>
-                    <h4>Ubuntu</h4>
-                    <p class="d-none d-md-block">Download</p>
-                </a>
-            </div>
-        </div>
+        {% include components/system-cards.html %}
     </div>
 </header>
