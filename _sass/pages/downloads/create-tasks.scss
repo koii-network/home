@@ -22,7 +22,17 @@
         }
     }
     @media (max-width: $sm) {
+        padding: 47px 0;
         .container {
+            .create-tasks-left {
+                h3 {
+                    line-height: 32px;
+                }
+                p {
+                    font-size: 17px !important;
+                    line-height: 28px;
+                }
+            }
             .create-tasks-right {
                 img {
                     width: 100%;
