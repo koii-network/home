@@ -70,6 +70,10 @@
     link: /whitepaper.pdf
     class: normal  
 
+  - name: Koi Protocol
+    link: /koi-protocol.pdf
+    class: normal  
+
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
