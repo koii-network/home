@@ -10,13 +10,19 @@
         display: flex;
         flex-direction: column;
         flex: 1;
+        .icon-wrapper {
+            margin-bottom: 10px;
+        }
         h3 {
             margin-bottom: 80px;
             font-weight: normal;
+            line-height: 40px;
+            letter-spacing: 3%;
         }
         .btn {
             padding: 0 55px;
             height: 48px;
+            font-size: 18px;
         }
         .share-options {
             display: flex;
