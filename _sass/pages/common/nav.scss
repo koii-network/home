@@ -90,11 +90,12 @@
     }
     @media (max-width: $xl) {
         .container-fluid {
-            .container-fluid {
-                .navbar-brand {
-                    img {
-                        width: 44px;
-                    }
+            .toggler-wrapper {
+                width: 100%;
+            }
+            .navbar-brand {
+                img {
+                    width: 44px;
                 }
             }
         }
