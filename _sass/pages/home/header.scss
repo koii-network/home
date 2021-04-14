@@ -88,6 +88,9 @@
             max-width: 136px;
             height: 44px;
             font-size: 18px;
+            &.btn-learn {
+              font-size: 12px;
+            }
             &.btn-join {
               margin-left: 40px;
               // margin-top: 10px;
