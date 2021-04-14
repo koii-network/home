@@ -1,7 +1,7 @@
 @import "variables";
 
-#step1 {
-    background: linear-gradient(to bottom, white 0%, $grayLight 30%, $grayLight 80%, white 100%);
+#step2 {
+    background: $white;
     color: $blueDark;
     padding: 75px 0;
     min-height: 456px;
@@ -11,7 +11,7 @@
             justify-content: center;
             img {
                 width: 100%;
-                max-width: 474px;
+                max-width: 296px;
             }
         }
         .running-node-right {
