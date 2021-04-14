@@ -112,6 +112,9 @@ a {
         transform: scale(1.05);
     }
 }
+.text-bold {
+    font-weight: bold;
+}
 @media (min-width: $xl) {
     body::-webkit-scrollbar {
         width: 6px;
