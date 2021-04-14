@@ -19,12 +19,18 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                b {
+                    text-align: center;
+                    margin-top: 5px;
+                }
             }
         }
         .join-btn-wrapper {
             position: relative;
             .btn {
-                width: 200px;
+                padding: 0 30px;
+                font-size: 18px;
+                height: 48px;
             }
             .fish-group {
                 position: absolute;
