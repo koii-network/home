@@ -1,0 +1,44 @@
+@import "variables";
+
+#steps {
+    background: $white;
+    color: $blueDark;
+    padding: 75px 0;
+    min-height: 456px;
+    .container {
+        .running-node-left {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;
+                max-width: 342px;
+            }
+        }
+        .running-node-right {
+            h2 {
+                margin-bottom: 41px;
+            }
+            p {
+                font-size: 22px !important;
+                margin-bottom: 40px;
+                &.o-2 {
+                    margin-left: 80px;
+                }
+                &.o-3 {
+                    margin-left: 160px;
+                }
+                &.o-4 {
+                    margin-left: 240px;
+                }
+            }
+        }
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            .running-node-right {
+                margin-bottom: 80px;
+            }
+        }
+    }
+}
