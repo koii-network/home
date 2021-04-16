@@ -55,6 +55,21 @@
             }
         }
     }
+    @media (max-width: 1200px) {
+        .container-fluid {
+            .navbar-collapse {
+                .navbar-nav {
+                    padding-bottom: 12px;
+                    .nav-item {
+                        margin-left: 0;
+                        a.nav-link:first-child {
+                            width: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     @media (max-width: $sm) {
         .container-fluid {
             padding: 0 15px;
@@ -90,11 +105,12 @@
     }
     @media (max-width: $xl) {
         .container-fluid {
-            .container-fluid {
-                .navbar-brand {
-                    img {
-                        width: 44px;
-                    }
+            .toggler-wrapper {
+                width: 100%;
+            }
+            .navbar-brand {
+                img {
+                    width: 44px;
                 }
             }
         }

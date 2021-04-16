@@ -1,0 +1,36 @@
+@import "variables";
+
+#dapp-cli {
+    background: linear-gradient(to bottom, white 0%, $grayLight 30%, $grayLight 80%, white 100%);
+    color: $blueDark;
+    padding: 75px 0;
+    min-height: 456px;
+    .container {
+        .row {
+            &.create-dapp {
+                margin-bottom: 78px;
+            }
+            h4 {
+                margin-bottom: 40px;
+            }
+            .img-wrapper {
+                width: 100%;
+                text-align: center;
+                img.developers {
+                    width: 903px;
+                }
+                img.users-interact {
+                    width: 871px;
+                }
+            }
+        }
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            .running-node-right {
+                margin-bottom: 80px;
+            }
+        }
+    }
+}
