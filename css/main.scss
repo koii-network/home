@@ -86,6 +86,11 @@ a {
         color: $white;
     }
 }
+.btn-white {
+    background: $white;
+    color: $blueDark;
+    border: solid 1.5px $blueDark;
+}
 .btn-orange {
     background: $orange;
     color: $blueDark;
