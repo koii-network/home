@@ -1,0 +1,41 @@
+@import "variables";
+
+#developer-docs {
+    background: $white;
+    color: $blueDark;
+    padding: 75px 0;
+    min-height: 456px;
+    .container {
+        .running-node-left {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;
+                max-width: 364px;
+            }
+        }
+        .running-node-right {
+            h3 {
+                margin-bottom: 24px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            .btn-wrapper {
+                .btn {
+                    width: fit-content;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            .running-node-right {
+                margin-bottom: 80px;
+            }
+        }
+    }
+}
