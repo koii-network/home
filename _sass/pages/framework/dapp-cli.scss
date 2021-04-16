@@ -7,7 +7,15 @@
     min-height: 456px;
     .container {
         .row {
+            &.create-dapp {
+                margin-bottom: 78px;
+            }
+            h4 {
+                margin-bottom: 40px;
+            }
             .img-wrapper {
+                width: 100%;
+                text-align: center;
                 img.developers {
                     width: 903px;
                 }
