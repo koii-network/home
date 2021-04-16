@@ -30,6 +30,7 @@
         margin-bottom: 56px;
         font-weight: normal;
         letter-spacing: 3%;
+        font-size: 18px !important;
       }
       .header-btn-wrapper {
         display: flex;
@@ -100,14 +101,29 @@
       }
     }
   }
-  @media (min-width: $xxl) {
+  @media (min-width: 1180px) {
     .container {
       .row {
         h1 {
           font-size: 42px !important;
         }
         h3 {
-          font-size: 32px !important;
+          font-size: 30px !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $sm) {
+    .container {
+      .row {
+        h1 {
+          font-size: 28px !important;
+        }
+        h3 {
+          font-size: 15px !important;
+          line-height: 24px;
+          letter-spacing: 0;
         }
       }
     }
