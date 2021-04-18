@@ -82,6 +82,7 @@ a {
 .btn-blueDark {
     background: $blueDark;
     color: $white;
+    min-width: 192px;
     &:hover {
         color: $white;
     }

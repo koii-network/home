@@ -12,7 +12,16 @@
         background-color: $greenLight;
         border-radius: 6px;
         cursor: pointer;
+        p{
+            &:first-child{
+                margin-bottom: 0px;
+            }
+        }
     }
 
-    @media (max-width: 1024px) {}
+    @media (max-width: $sm) {
+        .pre-register-area{
+            margin: 30px 25px;
+        }
+    }
 }
