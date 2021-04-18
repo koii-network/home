@@ -35,6 +35,11 @@
       if (_opened === true && !clickover.hasClass("in-nav")) {
           $("button.navbar-toggler").click();
       }
-  });
+    });
+    $(".pre-register-area").click(function() {
+      alert("here")
+      var url = 'https://forms.gle/XCGys2sqFcdpekP7A'
+      location.href = url
+    });
   });
 })(jQuery); // End of use strict
