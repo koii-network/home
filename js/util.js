@@ -37,7 +37,6 @@
       }
     });
     $(".pre-register-area").click(function() {
-      alert("here")
       var url = 'https://forms.gle/XCGys2sqFcdpekP7A'
       location.href = url
     });

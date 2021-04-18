@@ -5,23 +5,13 @@
     color: $blueDark;
     padding: 75px 0;
     min-height: 456px;
-
-    .pre-register-area {
-        margin: 70px 25px;
-        padding: 25px;
+    .pre-register-area{
         background-color: $greenLight;
-        border-radius: 6px;
-        cursor: pointer;
-        p{
-            &:first-child{
-                margin-bottom: 0px;
-            }
-        }
     }
-
-    @media (max-width: $sm) {
-        .pre-register-area{
-            margin: 30px 25px;
+    .help-bottom-description {
+          a {
+            color: $green;
+            text-decoration: underline;
         }
     }
 }
