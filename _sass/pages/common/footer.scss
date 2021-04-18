@@ -60,6 +60,14 @@
             }
         }
     }
+    @media (max-width: 1200px) and (min-width: 576px) {
+        .container {
+            .footer-options-wrapper .footer-option{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+    }
     @media (max-width: $xl) {
         .container {
             h2 {

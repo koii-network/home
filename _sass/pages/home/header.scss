@@ -30,7 +30,7 @@
         margin-bottom: 56px;
         font-weight: normal;
         letter-spacing: 3%;
-        font-size: 18px !important;
+        font-size: 30px !important;
       }
       .header-btn-wrapper {
         display: flex;
@@ -53,9 +53,30 @@
       }
     }
   }
+  @media (max-width: 1200px) {
+    .container {
+      .row {
+        h1 {
+          font-size: 36px !important;
+        }
+        h3 {
+          font-size: 26px !important;
+          line-height: 32px;
+          letter-spacing: 0.03em;
+        }
+      }
+    }
+  }
   @media (max-width: 1000px) {
     .container{
       .row{
+        h1 {
+          font-size: 30px !important;
+        }
+        h3 {
+          font-size: 19px !important;
+          letter-spacing: 0.03em;
+        }
         .header-btn-wrapper{
           flex-direction: column;
           align-items: flex-start;
@@ -83,12 +104,13 @@
       .row {
         h1 {
           font-size: 32px !important;
-          text-align: left;
+          text-align: center;
           line-height: 48px;
           margin-bottom: 25px;
         }
         h3 {
           font-size: 20px !important;
+          text-align: center !important;
           margin-bottom: 65px;
           line-height: 32px;
         }
@@ -104,6 +126,7 @@
           // flex-direction: column;
           justify-content: center;
           width: 100%;
+          align-items: center;
           // .btn {
           //   min-width: 140px;
           //   max-width: 136px;
@@ -116,18 +139,6 @@
           //     margin-left: 40px;
           //   }
           // }
-        }
-      }
-    }
-  }
-  @media (min-width: 1180px) {
-    .container {
-      .row {
-        h1 {
-          font-size: 42px !important;
-        }
-        h3 {
-          font-size: 30px !important;
         }
       }
     }
@@ -150,6 +161,12 @@
   @media (max-width: 572px) {
     .container{
       .row{
+        h1 {
+          font-size: 30px !important;
+        }
+        h3 {
+          font-size: 22px !important;
+        }
         .header-btn-wrapper{
           flex-direction: column;
           align-items: center;
@@ -157,11 +174,12 @@
       }
     }
   }
-  @media (max-width: 480px) {
+  @media (max-width: 450px) {
     .container {
       .row {
         h1 {
           font-size: 32px !important;
+          line-height: 40px;
         }
         h3 {
           font-size: 16px !important;

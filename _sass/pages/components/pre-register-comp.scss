@@ -1,0 +1,15 @@
+.pre-register-area {
+  margin: 70px 25px;
+  padding: 25px;
+  background-color: $white; 
+  border-radius: 6px;
+  cursor: pointer;
+  p{
+      &:first-child{
+          margin-bottom: 0px;
+      }
+  }
+  @media (max-width: $sm) {
+      margin: 30px 25px;
+  }
+}
