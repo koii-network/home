@@ -62,11 +62,11 @@
     link: https://discord.gg/SDwgnjxNEn
     class: normal 
     
-  - name: Whitepaper
+  - name: Lightpaper
     link: /Lightpaper.pdf
     class: normal  
 
-  - name: Koi Protocol
+  - name: Technical Paper
     link: /koi-protocol.pdf
     class: normal  
 
