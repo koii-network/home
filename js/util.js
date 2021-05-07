@@ -30,6 +30,13 @@
     if (pathname === "/") {
       $("#topbar").css({ background: "transparent", boxShadow: 'unset' });
     }
+    $("#topbar").click(function() {
+      if($(this).hasClass('isOpened')) {
+        $(this).removeClass('isOpened')
+      }else{
+        $(this).addClass('isOpened')
+      }
+    });
 
     $(document).click(function (event) {
       var clickover = $(event.target);

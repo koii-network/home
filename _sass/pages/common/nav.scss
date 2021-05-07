@@ -86,10 +86,12 @@
                     padding-bottom: 12px;
                     .nav-item {
                         justify-content: flex-end;
-                        padding-right: 0.75em;
                         margin-left: 0;
+                        padding-right: 0;
                         a.nav-link {
+                            width: 100% !important;
                             color: $white;
+                            text-align: center;
                             &.download {
                                 color: $white;
                                 box-shadow: unset;
