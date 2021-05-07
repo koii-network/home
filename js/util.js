@@ -19,7 +19,9 @@
           boxShadow: "0px 10px 10px -7px rgb(0 0 0 / 30%)",
         });
       } else {
+        console.log("here1")
         $("#topbar").css({ background: "transparent", boxShadow: "unset" });
+        $("#topbar").addClass('scroll');
       }
     }
   });
