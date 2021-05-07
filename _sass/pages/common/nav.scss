@@ -86,10 +86,11 @@
                     padding-bottom: 12px;
                     .nav-item {
                         justify-content: flex-end;
-                        padding-right: 0.75em;
                         margin-left: 0;
+                        padding-right: 0;
                         a.nav-link {
                             color: $white;
+                            text-align: center;
                             &.download {
                                 color: $white;
                                 box-shadow: unset;
@@ -103,7 +104,14 @@
             }
         }
     }
-    @media (max-width: $xl) {
+    @media (max-width: 575px) {
+        // width: 170px !important;
+        // right: 0;
+        // background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
+        &.isOpened {
+            background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16) !important;
+        }
         .container-fluid {
             .toggler-wrapper {
                 width: 100%;
@@ -111,6 +119,24 @@
             .navbar-brand {
                 img {
                     width: 44px;
+                }
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    width: 135px;
+                    margin: 0 auto !important;
+                    border-bottom: 0.75px solid white;
+                    a.nav-link{
+                        font-size: 17px;
+                        line-height: 32px;
+                        width: 100% !important;
+                        text-align: center;
+                    }
+                    &:last-child {
+                        border-bottom: 0px solid white;
+                    }
                 }
             }
         }
