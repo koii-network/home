@@ -104,13 +104,13 @@
             }
         }
     }
-    @media (max-width: $xs) {
+    @media (max-width: 575px) {
         // width: 170px !important;
         // right: 0;
         // background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
         &.isOpened {
-            background: linear-gradient(90deg, #030332 0%, #171753 100%);
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+            background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16) !important;
         }
         .container-fluid {
             .toggler-wrapper {
