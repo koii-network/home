@@ -103,9 +103,11 @@
             }
         }
     }
-    @media (max-width: $xl) {
+    @media (max-width: $xs) {
+        width: 170px !important;
+        right: 0;
+        background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
         .container-fluid {
-            background-color: red;
             .toggler-wrapper {
                 width: 100%;
                 .logo-icon{ display: none; }  
