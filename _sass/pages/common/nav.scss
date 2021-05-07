@@ -55,10 +55,6 @@
             }
         }
     }
-    .isOpened {
-        background: linear-gradient( 90.16deg, #030332 0.14%, #171753 99.87%) !important;
-        box-shadow: 0px 10px 10px -7px rgb(0 0 0 / 30%) !important;
-    }
     @media (max-width: 1200px) {
         .container-fluid {
             .navbar-collapse {
@@ -93,7 +89,6 @@
                         margin-left: 0;
                         padding-right: 0;
                         a.nav-link {
-                            width: 100% !important;
                             color: $white;
                             text-align: center;
                             &.download {
@@ -113,22 +108,35 @@
         // width: 170px !important;
         // right: 0;
         // background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
+        &.isOpened {
+            background: linear-gradient(90deg, #030332 0%, #171753 100%);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+        }
         .container-fluid {
             .toggler-wrapper {
                 width: 100%;
-                .nav-item{
-                    width: 135px;
-                    margin: 0 auto;
-                    border-bottom: 0.75px solid white;
-                    a.nav-link{
-                        font-size: 17px;
-                        line-height: 32px;
-                    }
-                }
             }
             .navbar-brand {
                 img {
                     width: 44px;
+                }
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    width: 135px;
+                    margin: 0 auto !important;
+                    border-bottom: 0.75px solid white;
+                    a.nav-link{
+                        font-size: 17px;
+                        line-height: 32px;
+                        width: 100% !important;
+                        text-align: center;
+                    }
+                    &:last-child {
+                        border-bottom: 0px solid white;
+                    }
                 }
             }
         }

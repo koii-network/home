@@ -21,7 +21,6 @@
       } else {
         console.log("here1")
         $("#topbar").css({ background: "transparent", boxShadow: "unset" });
-        $("#topbar").addClass('scroll');
       }
     }
   });
@@ -33,8 +32,14 @@
     $("#topbar").click(function() {
       if($(this).hasClass('isOpened')) {
         $(this).removeClass('isOpened')
+        // $("#topbar").css({ background: "transparent", boxShadow: "unset" });
       }else{
         $(this).addClass('isOpened')
+        // $("#topbar").css({
+        //   background:
+        //     "linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%)",
+        //   boxShadow: "0px 10px 10px -7px rgb(0 0 0 / 30%)",
+        // });
       }
     });
 
