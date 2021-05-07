@@ -105,8 +105,10 @@
     }
     @media (max-width: $xl) {
         .container-fluid {
+            background-color: red;
             .toggler-wrapper {
                 width: 100%;
+                .logo-icon{ display: none; }  
             }
             .navbar-brand {
                 img {
