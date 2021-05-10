@@ -1,50 +1,119 @@
 @import "variables";
 
 #news-header {
-   padding-top: 75px;
-   
+    position: relative;
+    background: linear-gradient(to bottom, #bcf3ef 11%, white 50%);
+    color: $blueDark;
+    min-height: calc(75vh);
+    padding-top: 75px;
+    display: flex;
+    align-items: flex-end;
+    &::before {
+      background-image: url("/img/run/run-vector.svg");
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
    
     
-    .news-top {
-        
-        height: 160px;
-        &::before {
-            background-image: url("/img/homepage/vector.svg");            
-            background-repeat: no-repeat;            
-            background-size: auto 70%;
-            content: "";
-            display:block ;
-            height: 80%;
-            position: absolute;
-            width: 100%;
-          }
-        background: linear-gradient(180deg, #BCF3EF 0%, #FFFFFF 100%);
-    }
     .container {
-    
-        h1 {
-            margin-bottom: 30px;
-            font-size: 40px !important;
-            text-align: left;
-            letter-spacing: 0.03em;
-            width: auto;
-            height: 56px;
-            padding-left: 372px;
-            
-        }
-        h2 {
-            margin-bottom: 30px;
-            font-size: 22px !important;
-            line-height: 32px;
-            letter-spacing: 0.03em;
-            height: 32px;
-            padding-left: 372px;
-        }      
-    }
+        .row {
+          margin-bottom: 75px;
+          h1 {
+            margin-bottom: 15px;
+            font-size: 40px;
 
-    @media (max-width: $sm) {
-        min-height: unset;
-        
-        
+          }
+          h2 {
+            margin-bottom: 56px;
+            font-weight: normal;
+            letter-spacing: 3%;
+            line-height: 32px;
+            font-size: 22px;
+          }
+          .header-btn-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .btn {
+              width: 200px;
+              height: 28px;
+              font-size: 18px;
+              background: $white;
+              border: 1.5px solid $white;
+              border-radius: 8px;
+              color: $blueDark;
+              &.btn-join {
+                margin-left: 48px;
+                background: $blueDark;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: $sm) {
+        padding: 30px 0;
+        background-image: url("/img/homepage/vector-mobile.png"), linear-gradient(to bottom, #bcf3ef 11%, white 50%);
+        background-repeat: no-repeat;
+        &::before {
+          display: none;
+        }
+        .container {
+          justify-content: space-around !important;
+          .row {
+            h1 {
+              font-size: 32px !important;
+              text-align: left;
+              line-height: 48px;
+              margin-bottom: 25px;
+            }
+            h2 {
+              font-size: 22px !important;
+              margin-bottom: 65px;
+              line-height: 32px;
+            }
+            &.header-description {
+              margin-top: 118px;
+            }
+            .header-btn-wrapper {
+              // flex-direction: column;
+              justify-content: center;
+              width: 100%;
+              .btn {
+                // width: 100%;
+                min-width: 140px;
+                max-width: 136px;
+                height: 44px;
+                font-size: 18px;
+                &.btn-learn {
+                  font-size: 22px;
+                }
+                &.btn-join {
+                  margin-left: 40px;
+                  // margin-top: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      @media (min-width: $xxl) {
+        .container {
+          .row {
+            h1 {
+              font-size: 40px !important;
+            }
+            h2 {
+              font-size: 22px !important;
+            }
+          }
+        }
+      }
     }
-}
+    
