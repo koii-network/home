@@ -5,30 +5,96 @@
     color: $blueDark;
     padding: 75px 0;
     min-height: 456px;
+
+    .row{
+        width: 1500px;
+    }
     .container {
-        .running-node-left {
-            display: flex;
+        // .col-md-7 {
+        //     height: 600px;
+        //     width: 300px;
+        // }
+        margin-left: 60px;
+        margin-right: 60px;
+        
+        .left {
+            
+            width: 400px;
+        }
+        .right {
+            width: 400px;
+        }   
+        
+        .newsleft {
+            display: block ;
             justify-content: center;
-            img {
-                width: 100%;
-                max-width: 248px;
+            height: 600px;
+            .newsleftpic {
+                margin-left: 20px;
+                width: 386px;
+                height: 242px;                              
+
+                background: #F5F5F5;
+                box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+                border-radius: 4px;
+                text-align: center;
+
+                padding-bottom: 20px;
+            }
+            .newslefttopic{
+                display: block ;
+                justify-content: center;               
+            }
+            h6{
+                font-weight: 600;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .h7{
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 0.03em;
+                color: #171753;
+                font-weight: normal;
             }
         }
-        .running-node-right {
-            h3 {
-                margin-bottom: 24px;
+
+        .newsright{
+            display: block ;
+            justify-content: center;
+            height: 600px;
+            .newsrightpic {
+                margin-left: 20px;
+                width: 386px;
+                height: 242px;                              
+
+                background: #F5F5F5;
+                box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+                border-radius: 4px;
+                text-align: center;
+
+                padding-bottom: 20px;
             }
-            p {
-                margin-bottom: 20px;
+            .newsrighttopic{
+                display: block ;
+                justify-content: center;               
             }
-            .btn-wrapper {
-                .btn {
-                    width: fit-content;
-                    padding-left: 25px;
-                    padding-right: 25px;
-                }
+            h6{
+                font-weight: 600;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .h7{
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 0.03em;
+                color: #171753;
+                font-weight: normal;
             }
         }
+        
+        
+            
     }
     @media (max-width: $sm) {
         padding: 56px 0;
