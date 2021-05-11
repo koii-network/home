@@ -10,15 +10,10 @@
         width: 1500px;
     }
     .container {
-        // .col-md-7 {
-        //     height: 600px;
-        //     width: 300px;
-        // }
         margin-left: 60px;
         margin-right: 60px;
         
         .left {
-            
             width: 400px;
         }
         .right {
@@ -28,7 +23,7 @@
         .newsleft {
             display: block ;
             justify-content: center;
-            height: 600px;
+            height: 400px;
             .newsleftpic {
                 margin-left: 20px;
                 width: 386px;
@@ -62,7 +57,7 @@
         .newsright{
             display: block ;
             justify-content: center;
-            height: 600px;
+            height: 400px;
             .newsrightpic {
                 margin-left: 20px;
                 width: 386px;
