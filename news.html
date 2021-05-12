@@ -6,13 +6,21 @@ stylesheet: koi.css
 
 {% include news/header.html %}
 
-{% for news in site.news %}
+{%- assign sorted = site.news | sort: 'tag' -%}
+{% for news in sorted %}
+
+{%- if news.tag contains "top" -%}
+    
+
 {% include news/topnews.html 
                 title=news.title
                 subtitle=news.describe
                 image=news.image
                 link=news.permalink 
             %}
+
+{%- endif -%}
+
 {% endfor %}
 
 {% include news/allnews.html %}

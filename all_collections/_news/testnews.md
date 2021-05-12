@@ -7,7 +7,8 @@ date: 2021-04-30
 newsdate: Thursday, April 30, 2021
 permalink: /events/Maythefourth
 rsvpUrl: https://www.eventbrite.com/e/150837064721
-newsType: Classroom
+newsType: news
+tag: top
 ---
 
 This is a test news!
