@@ -21,6 +21,7 @@
             display: block ;
             justify-content: center;
             height: 400px;
+
             .newsleftpic {
                 margin-left: 20px;
                 width: 386px;
@@ -32,6 +33,11 @@
                 text-align: center;
 
                 padding-bottom: 20px;
+
+                img{
+                    width: 386px;
+                    height: 242px;
+                }
             }
             .newslefttopic{
                 display: block ;
