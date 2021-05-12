@@ -7,21 +7,24 @@ stylesheet: koi.css
 {% include news/header.html %}
 
 {%- assign sorted = site.news | sort: 'tag' -%}
-{% for news in sorted %}
 
-{%- if news.tag contains "top" -%}
-    
+<section id="topnews">
+    <div class="row">
+        
+        {% for news in sorted %}
 
-{% include news/topnews.html 
-                title=news.title
-                subtitle=news.describe
-                image=news.image
-                link=news.permalink 
-            %}
+        {%- if news.tag contains "top" -%}    
+        {% include news/topnews.html 
+                        title=news.title
+                        subtitle=news.describe
+                        image=news.image
+                        link=news.permalink 
+                    %}
+        {%- endif -%}
 
-{%- endif -%}
-
-{% endfor %}
-
+        {% endfor %}
+        
+    </div>
+</section>
 {% include news/allnews.html %}
 {% include news/nodenews.html %}
