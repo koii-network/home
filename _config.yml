@@ -1,18 +1,18 @@
 
 collections_dir: all_collections
 
-future : ture
+future: true
 
 keep_files: ['node_modules/']
 unpublished: true
 
 collections:
   authors:
-    layout: author
+    layout: front
     output: true
 
   news: 
-    layout: new 
+    layout: front 
     output: true
 
 defaults:

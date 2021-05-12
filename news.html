@@ -5,6 +5,15 @@ stylesheet: koi.css
 ---
 
 {% include news/header.html %}
-{% include news/topnews.html %}
+
+{% for news in site.news %}
+{% include news/topnews.html 
+                title=news.title
+                subtitle=news.describe
+                image=news.image
+                link=news.permalink 
+            %}
+{% endfor %}
+
 {% include news/allnews.html %}
 {% include news/nodenews.html %}
