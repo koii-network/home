@@ -1,6 +1,6 @@
 ---
 title: May the Fourth be with you
-layout: news
+layout: new
 image: koinet.png
 date: 2021-04-30
 newsdate: Thursday, April 30, 2021
