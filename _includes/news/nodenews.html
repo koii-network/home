@@ -1,29 +1,8 @@
-<section id="nodenews">
-    <div class="container">
-        <h1>Koi's <i>In the Node</i>
-            <!-- <a href="link" class="smallbtn">See all</a> -->
-        </h1>
-        <p>
-            Catch up on previous newsletters to make sure you haven’t missed anything.
-        </p>
-        <div class="row">
-            <div class="news1">
-                <img src="/img/framework/dapps.png">
-                <h6>Newsletter Title</h6>
-                <p>Date and feature.</p>
-            </div>
 
-            <div class="news2">
-                <img src="/img/framework/dapps.png">
-                <h6>Newsletter Title</h6>
-                <p>Date and feature.</p>
-            </div>
-
-            <div class="news3">
-                <img src="/img/framework/dapps.png">
-                <h6>Newsletter Title</h6>
-                <p>Date and feature.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="news1">
+    <a target="_blank" href="{{ include.link }}">
+    <img src="/img/{{ include.image }}">
+    <h6>{{ include.title }}</h6>
+    <p>{{ include.subtitle }}</p>
+    </a>
+</div>
