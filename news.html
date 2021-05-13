@@ -10,7 +10,6 @@ stylesheet: koi.css
 
 <section id="topnews">
     <div class="row">
-        
         {% for news in sorted %}
 
         {%- if news.tag contains "top" -%}    
@@ -22,9 +21,22 @@ stylesheet: koi.css
                     %}
         {%- endif -%}
 
-        {% endfor %}
-        
+        {% endfor %}        
     </div>
 </section>
-{% include news/allnews.html %}
+
+<section id="allnews">
+    <div class="container>">
+        <h1>Koi in the News 
+            <!-- <a href="link" class="smallbtn">See all</a> -->
+        </h1>
+        <p>
+            See what everyone else is saying about Koi.
+        </p>
+        <div class="row">
+            {% include news/allnews.html %}
+        </div>
+    </div>
+</section>
+
 {% include news/nodenews.html %}
