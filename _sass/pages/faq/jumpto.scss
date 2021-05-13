@@ -1,0 +1,38 @@
+@import "variables";
+
+#jumpto {
+    background: white;
+    color: $blueDark;
+    padding: 75px 0;
+    min-height: 456px;
+    .container {
+            .row-left {
+                h1 {
+                    margin-bottom: 24px;
+                }
+                .list {
+                    list-style-type: none;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 45px;                    
+                }
+            }
+            .row-right {
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 1200px;
+                    height: 400px;
+                    padding-left: 200px;
+                }
+            }
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            .running-node-right {
+                margin-bottom: 80px;
+            }
+        }
+    }
+}
