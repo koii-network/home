@@ -1,0 +1,42 @@
+@import "variables";
+
+#general {
+    background: rgb(255, 255, 255);
+    color: $blueDark;
+    padding: 75px 0;
+    min-height: 456px;
+    .container {
+        .row {
+            margin-bottom: 75px;
+            h1 {
+                margin-bottom: 24px;
+            }
+        
+        }
+        
+    }
+    .part {
+        background: #F5F5F5;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+        border-radius: 4px;
+
+        margin-bottom: 50px;
+    }
+    .question {
+        width: 1150px;
+        display: flex;
+        padding-left: 30px;
+        padding-top: 20px;
+        .title {
+            width: 1500px;
+        }
+        h2 {
+            font-size: 26px !important;
+        }
+        h3 {
+            width: 1500px;
+            font-size: 20px !important;
+        }
+    }
+
+}

@@ -7,3 +7,22 @@ stylesheet: koi.css
 
 {%- include faq/header.html -%}
 {%- include faq/jumpto.html -%}
+
+{%- assign sorttype = site.faq | sort: 'type' -%}
+<section id="general">
+    <div class="container">
+        <div class="row">
+            <h1>General information</h1>
+            {%- for faq in sorttype -%}
+                {%- if faq.type contains "general" -%}
+                {%- include faq/general.html 
+                                title=faq.title
+                                describe=faq.describe                    
+                    -%}
+                {%- endif -%}
+            {%- endfor -%}
+            
+        </div>
+        
+    </div>
+</section>
