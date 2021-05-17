@@ -8,6 +8,7 @@ stylesheet: koi.css
 
 {%- assign sorted = site.news | sort: 'newsType' -%}
 <section id="topnews">
+    <div class="container">
     <div class="row">
         {% for news in sorted %}
 
@@ -20,7 +21,8 @@ stylesheet: koi.css
                     %}
         {%- endif -%}
 
-        {% endfor %}        
+        {% endfor %}     
+    </div>   
     </div>
 </section>
 
