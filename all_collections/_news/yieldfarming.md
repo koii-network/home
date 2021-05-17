@@ -6,6 +6,6 @@ image: yielf-farming-nfts.jpg
 date: 2021-03-01
 newsdate: March 01, 2021
 rsvpUrl: https://blog.openkoi.com/Yield-Farming-for-NFTs/
-newsType: node
-tag: node
+newsType: news
+tag: news
 ---

@@ -5,7 +5,6 @@ stylesheet: koi.css
 ---
 
 {% include news/header.html %}
-
 {%- assign sorted = site.news | sort: 'newsType' -%}
 <section id="topnews">
     <div class="container">
@@ -28,7 +27,7 @@ stylesheet: koi.css
 
 {%- assign sorttime = site.news | sort: 'date' | reverse -%}
 <section id="allnews">
-    <div class="container>">
+    <div class="container">
         <h1>Koi in the News 
             <a href="https://blog.openkoi.com/" class="smallbtn" 
             style="font-size:15px;
@@ -48,14 +47,13 @@ stylesheet: koi.css
                                 link=news.rsvpUrl
                     %}
                 {%- endif -%}
-            {%- endfor -%}
-            
+            {%- endfor -%}   
         </div>
     </div>
 </section>
 
 <section id="nodenews">
-    <div class="container>">
+    <div class="container">
         <h1>Koi's <i>In the Node</i>
             <a href="https://blog.openkoi.com/" class="smallbtn" 
             style="font-size:15px;
@@ -80,3 +78,4 @@ stylesheet: koi.css
         </div>
     </div>
 </section>
+

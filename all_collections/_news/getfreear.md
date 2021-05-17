@@ -6,6 +6,6 @@ image: BlogPost-ARfaucet.jpg
 date: 2021-05-03
 newsdate: May 03, 2021
 rsvpUrl: https://blog.openkoi.com/An-Arweave-faucet-tutorial/
-newsType: top
+newsType: news
 tag: news
 ---

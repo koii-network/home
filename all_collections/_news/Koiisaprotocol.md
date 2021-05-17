@@ -6,6 +6,6 @@ image: koiprotocol.png
 date: 2021-01-16
 newsdate: Jan 16, 2021
 rsvpUrl: https://blog.openkoi.com/koi-is-a-protocol/
-newsType: node
-tag: node
+newsType: news
+tag: news
 ---

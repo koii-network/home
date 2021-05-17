@@ -6,6 +6,6 @@ image: principled-protocol.jpg
 date: 2021-03-11
 newsdate: March 11, 2021
 rsvpUrl: https://blog.openkoi.com/Koi-a-Principled-Project/
-newsType: node
-tag: node
+newsType: news
+tag: news
 ---
