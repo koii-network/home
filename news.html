@@ -8,61 +8,71 @@ stylesheet: koi.css
 {%- assign sorted = site.news | sort: 'newsType' -%}
 <section id="topnews">
     <div class="container">
-    <div class="row">
-        {% for news in sorted %}
+        <div class="row">
+            {% for news in sorted %}
 
-        {%- if news.newsType contains "top" -%}    
-        {% include news/topnews.html 
-                        title=news.title
-                        subtitle=news.describe
-                        image=news.image
-                        link=news.rsvpUrl 
-                    %}
-        {%- endif -%}
+            {%- if news.newsType contains "top" -%}    
+            {% include news/topnews.html 
+                            title=news.title
+                            subtitle=news.describe
+                            image=news.image
+                            link=news.rsvpUrl 
+                        %}
+            {%- endif -%}
 
-        {% endfor %}     
-    </div>   
+            {% endfor %}     
+        </div>   
     </div>
 </section>
 
 {%- assign sorttime = site.news | sort: 'date' | reverse -%}
 <section id="allnews">
     <div class="container">
-        <h1>Koi in the News 
-            <a href="https://blog.openkoi.com/" class="smallbtn" 
-            style="font-size:15px;
-            color: #237B75;
-            text-decoration-line: underline;">See all</a>
-        </h1>
-        <p>
-            See what everyone else is saying about Koi.
-        </p>
         <div class="row">
-            {%- for news in sorttime -%}
-                {%- if news.tag contains "news" -%}
-                {% include news/allnews.html 
-                                title=news.title
-                                subtitle=news.describe
-                                image=news.image
-                                link=news.rsvpUrl
-                    %}
-                {%- endif -%}
-            {%- endfor -%}   
+            <div class="col-md-12 column">
+                <h1>Koi in the News 
+                    <a href="https://blog.openkoi.com/" class="smallbtn" 
+                    style="font-size:15px;
+                    color: #237B75;
+                    text-decoration-line: underline;">See all</a>
+                </h1>
+                <p>
+                    See what everyone else is saying about Koi.
+                </p>
+            </div>
+        </div>    
+            <div class="row">
+                
+                    {%- for news in sorttime -%}
+                        {%- if news.tag contains "news" -%}
+                        {% include news/allnews.html 
+                                        title=news.title
+                                        subtitle=news.describe
+                                        image=news.image
+                                        link=news.rsvpUrl
+                            %}
+                        {%- endif -%}
+                    {%- endfor -%}   
+            
         </div>
     </div>
 </section>
 
 <section id="nodenews">
     <div class="container">
-        <h1>Koi's <i>In the Node</i>
-            <a href="https://blog.openkoi.com/" class="smallbtn" 
-            style="font-size:15px;
-            color: #237B75;
-            text-decoration-line: underline;">See all</a>
-        </h1>
-        <p>
-            Catch up on previous newsletters to make sure you haven’t missed anything.
-        </p>
+        <div class="row">
+            <div class="col-md-12 column">
+            <h1>Koi's <i>In the Node</i>
+                <a href="https://blog.openkoi.com/" class="smallbtn" 
+                style="font-size:15px;
+                color: #237B75;
+                text-decoration-line: underline;">See all</a>
+            </h1>
+            <p>
+                Catch up on previous newsletters to make sure you haven’t missed anything.
+            </p>
+            </div>
+        </div>
         <div class="row">
             {%- for news in sorttime -%}
                 {%- if news.tag contains "node" -%}
