@@ -50,8 +50,12 @@
 - header: GET INVOLVED
   class: col-sm-4 get-involved
   children:
-  - name: Run a node
+  - name: Run a Node
     link: /downloads/
+    class: normal
+
+  - name: Get the Extension
+    link:  https://docs.google.com/forms/d/e/1FAIpQLScRQUBaLQBugGi-dFvu1F2q4j-cOji2fOHQczLeyWTq_LIobw/viewform?usp=sf_link
     class: normal
 
   - name: Earn for Code
