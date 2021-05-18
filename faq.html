@@ -12,17 +12,19 @@ stylesheet: koi.css
 <section id="general">
     <div class="container">
         <div class="row">
-            <h1>General information</h1>
-            {%- for faq in sorttype -%}
-                {%- if faq.type contains "general" -%}
+            <div class="col-md-12 column">
+                <h2>General Information</h2>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-md-12 column">
+            {%- for faq in site.faq -%}
                 {%- include faq/general.html 
-                                title=faq.title
-                                describe=faq.describe                    
-                    -%}
-                {%- endif -%}
+                    title=faq.title
+                    answer=faq.describe    
+                -%}
             {%- endfor -%}
-            
+            </div>
         </div>
-        
     </div>
 </section>

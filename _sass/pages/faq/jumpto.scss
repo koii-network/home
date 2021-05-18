@@ -23,14 +23,14 @@
                 img {
                     width: 1200px;
                     height: 400px;
-                    padding-left: 200px;
+                    padding-left: 300px;
                 }
             }
     }
     @media (max-width: $sm) {
         padding: 56px 0;
         .container {
-            .running-node-right {
+            .row-right {
                 margin-bottom: 80px;
             }
         }
