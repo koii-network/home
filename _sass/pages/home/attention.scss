@@ -12,17 +12,21 @@
     margin-bottom: 20px;
     span{font-family: monospace;}
   }
-  h4{
+  h2{
     font-weight: 600;
     font-size: 32px;
     line-height: 56px;
     /* identical to box height, or 175% */
     letter-spacing: 0.03em;
-    span{font-weight: normal;}
+    span { 
+      font-weight: normal;
+      font-size: 26px;
+    }
   }
   .font24{font-size: 24px !important;}
   label{
     font-size: 18px;
+    font-weight: 500;
     span{
       font-weight: 600;
       font-size: 32px !important;
