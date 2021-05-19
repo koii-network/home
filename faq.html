@@ -17,11 +17,32 @@ stylesheet: koi.css
             </div>
         </div>    
         <div class="row">
+            <script>
+                cc=0
+                function changeimage()
+                {
+                if (cc==0) 
+                {
+                cc=1
+                document.getElementById('icon2').src="/img/icons/minus button.svg"
+                }
+                else
+                {
+                cc=0
+                document.getElementById('icon2').src="/img/icons/plus button.svg"
+                }
+                }
+            </script>
+ 
+
             <div class="col-md-12 column">
             {%- for faq in site.faq -%}
                 {%- include faq/general.html 
                     title=faq.title
-                    answer=faq.describe    
+                    answer=faq.describe
+                    parent=faq.parent
+                    child = faq.child
+                    icon = faq.icon    
                 -%}
             {%- endfor -%}
             </div>
