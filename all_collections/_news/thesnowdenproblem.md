@@ -6,6 +6,6 @@ image: snowdenblogpostcover.jpg
 date: 2021-05-11
 newsdate: May 11, 2021
 rsvpUrl: https://blog.openkoi.com/The-Snowden-Problem/
-newsType: top
+newsType: news
 tag: news
 ---
