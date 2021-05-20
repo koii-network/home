@@ -2,8 +2,25 @@
 
 #allnews {
     background: $white;
-    padding: 75px 0;
+    padding: 0px 0;
     min-height: 456px;
+
+    .backfront {
+        display: flex;
+        position: relative;
+        height: 75px;
+        top: 100px;
+        background: linear-gradient(180deg, #c4f1ee 0%, #FFFFFF 100%);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+
+    .backend {
+        display: flex;
+        position: relative;
+        height: 256px;
+        top: 100px;
+        background: linear-gradient(180deg, #c4f1ee 0%, #FFFFFF 100%);
+    }
 
     
     
