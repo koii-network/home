@@ -8,21 +8,41 @@ stylesheet: koi.css
 {%- include jobs/header.html -%}
 {%- include jobs/describe.html -%}
 
-<!--{%- assign sorttype = site.faq | sort: 'type' -%}
-<section id="general">
+<section id="available">
     <div class="container">
         <div class="row">
-            <h1>General information</h1>
-            {%- for faq in sorttype -%}
-                {%- if faq.type contains "general" -%}
-                {%- include faq/general.html 
-                                title=faq.title
-                                describe=faq.describe                    
-                    -%}
-                {%- endif -%}
-            {%- endfor -%}
-            
+            <div class="col-md-12 column">
+                <h2 style="
+                color: #171753;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                ">Available jobs</h2>
+            </div>
         </div>
-        
     </div>
-</section> -->
+</section>
+
+<section id="technical">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 column">
+                <h3>Technical</h3>
+            </div>
+        </div>    
+        <div class="row">
+            
+            <div class="col-md-12 column">
+            {%- for jobs in site.jobs -%}
+                {%- include jobs/technical.html 
+                    title=jobs.title
+                    describe=jobs.describe
+                    parent=jobs.parent
+                    child = jobs.child
+                    icon = jobs.icon    
+                -%}
+            {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>

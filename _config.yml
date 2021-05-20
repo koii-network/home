@@ -17,7 +17,11 @@ collections:
 
   faq:
     layout: front
-    output: true  
+    output: true 
+
+  jobs:
+    layout: front
+    output: true 
 
 defaults:
   - scope:

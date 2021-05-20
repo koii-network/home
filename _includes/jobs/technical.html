@@ -1,0 +1,41 @@
+<script>
+    cc=0
+    function {{ include.icon }}()
+    {
+    if (cc==0) 
+    {
+    cc=1
+    document.getElementById('{{ include.icon }}').src="/img/icons/minus button.svg"
+    }
+    else
+    {
+    cc=0
+    document.getElementById('{{ include.icon }}').src="/img/icons/plus button.svg"
+    }
+    }
+</script>
+
+
+    <div class="panel-group" id="panel{{ include.parent }}">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                 <h6 class="panel-title" 
+                 data-toggle="collapse" 
+                 data-parent="#panel{{ include.parent }}" 
+                 href="#panel-element-{{ include.child }} ">
+                 {{ include.title }}
+                 <img class ="icon"
+                 id="{{ include.icon }}"
+                 onclick="{{ include.icon }}()"
+                 src="/img/icons/plus button.svg" >
+                </h6>
+            </div>
+            <div id="panel-element-{{ include.child }}" 
+            class="panel-collapse collapse in" 
+            >
+                <div class="panel-body">
+                    {{ include.describe }}
+                </div>
+            </div>
+        </div>
+    </div>
