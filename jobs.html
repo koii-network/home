@@ -23,26 +23,75 @@ stylesheet: koi.css
     </div>
 </section>
 
-<section id="technical">
+{% assign sorttype = site.jobs | sort: 'type' %}
+<section id="jobdetail">
     <div class="container">
+
         <div class="row">
             <div class="col-md-12 column">
-                <h3>Technical</h3>
+                <h3>Technical</h3>  
             </div>
         </div>    
-        <div class="row">
-            
-            <div class="col-md-12 column">
+        <div class="row">           
+            <div class="detail col-md-12 column">
             {%- for jobs in site.jobs -%}
-                {%- include jobs/technical.html 
+                {% if jobs.type contains 'Technical'  %}
+                {%- include jobs/jobdetail.html 
                     title=jobs.title
                     describe=jobs.describe
                     parent=jobs.parent
                     child = jobs.child
                     icon = jobs.icon    
                 -%}
+                {% endif %}
             {%- endfor -%}
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12 column">
+                <h3>Marketing</h3>  
+            </div>
+        </div>    
+        <div class="row">           
+            <div class="detail col-md-12 column">
+            {%- for jobs in site.jobs -%}
+                {% if jobs.type contains 'Marketing'  %}
+                {%- include jobs/jobdetail.html 
+                    title=jobs.title
+                    describe=jobs.describe
+                    parent=jobs.parent
+                    child = jobs.child
+                    icon = jobs.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 column">
+                <h3>Design</h3>  
+            </div>
+        </div>    
+        <div class="row">           
+            <div class="detail col-md-12 column">
+            {%- for jobs in site.jobs -%}
+                {% if jobs.type contains 'Design'  %}
+                {%- include jobs/jobdetail.html 
+                    title=jobs.title
+                    describe=jobs.describe
+                    parent=jobs.parent
+                    child = jobs.child
+                    icon = jobs.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
     </div>
 </section>
+
+
+

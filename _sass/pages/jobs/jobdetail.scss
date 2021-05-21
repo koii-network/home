@@ -1,10 +1,17 @@
 @import "variables";
 
-#technical {
+#jobdetail {
     .container {
         h3 {
             margin-top: 35px;
+            color: #171753;
         }
+
+
+        .detail {
+            margin-bottom: 50px;
+        }
+
         .panel-group {
             margin-top: 20px;
             background: #F5F5F5;
