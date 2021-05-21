@@ -9,26 +9,71 @@ stylesheet: koi.css
 {%- include faq/jumpto.html -%}
 
 {%- assign sorttype = site.faq | sort: 'type' -%}
-<section id="general">
+<section id="faqdetails">
     <div class="container">
-        <div class="row">
+
+        <div class="row" id="general">
             <div class="col-md-12 column">
                 <h2>General Information</h2>
             </div>
         </div>    
-        <div class="row">
-            
-            <div class="col-md-12 column">
+        <div class="row">            
+            <div class="detail col-md-12 column">
             {%- for faq in site.faq -%}
-                {%- include faq/general.html 
+            {% if faq.type contains 'general' %}
+                {%- include faq/faqdetails.html 
                     title=faq.title
                     answer=faq.describe
                     parent=faq.parent
                     child = faq.child
                     icon = faq.icon    
                 -%}
+                {% endif %}
             {%- endfor -%}
             </div>
         </div>
+
+        <div class="row" id="creators">
+            <div class="col-md-12 column">
+                <h2>Creators</h2>
+            </div>
+        </div>    
+        <div class="row">            
+            <div class="detail col-md-12 column">
+            {%- for faq in site.faq -%}
+            {% if faq.type contains 'creators' %}
+                {%- include faq/faqdetails.html 
+                    title=faq.title
+                    answer=faq.describe
+                    parent=faq.parent
+                    child = faq.child
+                    icon = faq.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
+        <div class="row" id="developers">
+            <div class="col-md-12 column">
+                <h2>Developers</h2>
+            </div>
+        </div>    
+        <div class="row">            
+            <div class="detail col-md-12 column">
+            {%- for faq in site.faq -%}
+            {% if faq.type contains 'developers' %}
+                {%- include faq/faqdetails.html 
+                    title=faq.title
+                    answer=faq.describe
+                    parent=faq.parent
+                    child = faq.child
+                    icon = faq.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
     </div>
 </section>
