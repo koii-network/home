@@ -39,4 +39,38 @@
         }
     
     }
+    @media (max-width: $xs) {
+
+        .news1 {
+            max-width: 145px;
+            a {
+                color: #171753;
+            }
+            img {
+                margin-top: 20px;
+                width: 145px;
+                height: 115px;                              
+    
+                background: #F5F5F5;
+                box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+                border-radius: 4px;
+                text-align: center;
+            }
+            h6 {
+                width: 145px;
+                font-weight: 600;
+                font-size: 15px !important;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            p {
+                font-size: 15px !important; 
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
 }
