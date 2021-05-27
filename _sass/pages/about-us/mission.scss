@@ -1,0 +1,95 @@
+@import "variables";
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+
+#mission {
+    margin-top: 80px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EEEEEE 100%);
+    .container {
+        .top1 {
+            text-align: center;
+            font-size: 16px !important;
+        }
+        .top2 {
+            text-align: center;
+            font-weight: 600;
+            padding-top:20px;
+        }
+
+        h2 {
+            padding:130px 0 30px ;
+        }
+        .circle1 {
+            display: table;
+            margin: 25px auto 25px; 
+            width: 82px;
+            height: 82px;
+            border-radius: 50%;
+            background: #C4C4C4;;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);         
+        }
+        .circle2 {
+            display: table;
+            margin: 25px auto 25px; 
+            width: 82px;
+            height: 82px;
+            border-radius: 50%;
+            background: #C4C4C4;;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);         
+        }
+        h3{
+            font-weight: 600;
+            font-size: 20px !important;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #171753;
+        }
+        .info1 {
+            padding:75px 10px 80px 0;
+            font-size: 16px !important;
+            line-height: 28px;
+            letter-spacing: 0.03em;
+            color: #171753;
+        }
+        .sign {
+            font-family:'EB Garamond';
+            font-style: italic;
+            font-weight: 550;
+            font-size: 24px !important;
+            line-height: 36px;
+            letter-spacing: 0.03em;
+            color: #171753;
+            padding-right: 75px;
+        }
+        .info2 {
+            font-size: 16px;
+            line-height: 28px !important;
+            letter-spacing: 0.03em;
+            color: #171753;
+        }
+        .bottom1 {
+            padding: 170px 0 15px 0;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #171753;
+        }
+        .bottom2 {
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #171753;
+        }
+
+    }
+    .backgroundbottom {
+        background: linear-gradient(180deg, #FFFFFF 0%, #EEEEEE 100%);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        height: 143.63px;
+    }
+}
