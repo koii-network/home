@@ -6,6 +6,6 @@ image: Openseablogcover.jpg
 date: 2021-05-18
 newsdate: May 18, 2021
 rsvpUrl: https://blog.openkoi.com/OpenSea-Tutorial/
-newsType: top
+newsType: news
 tag: news
 ---
