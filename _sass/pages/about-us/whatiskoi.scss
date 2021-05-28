@@ -8,6 +8,7 @@
             line-height: 32px;
             letter-spacing: 0.03em;
             color: #171753;
+            padding-bottom: 30px;
         }
 
         h7 {
@@ -32,7 +33,7 @@
             width: 135px;
             height: 135px;
             border-radius: 50%;
-            background: #a7cac8;
+            background: #9BE7C4;
             box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
             display: table;
         }
@@ -41,7 +42,7 @@
             width: 135px;
             height: 135px;
             border-radius: 50%;
-            background: #b6ebd1;
+            background: #FFC78F;
             box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
             display: table;
         }
@@ -56,6 +57,58 @@
             color: #171753;
         }
         
+        .NFT-btn-wrapper {
+            position: relative;
+            padding: 10px 0px 30px 100px;
+            img {
+                padding:0 0 9px 20px;
+            }
+            .btn {
+                padding: 10px 0 ;
+                width: 145px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #171753;
+            }
+        }
+
+        .SDK-btn-wrapper {
+            position: relative;
+            padding: 110px 0 0 0;
+            img {
+                padding:0 0 9px 20px;
+            }
+            .btn {
+                padding:10px 0;
+                width:145px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #171753;
+            }
+        }
+
+        .node-btn-wrapper {
+            position: relative;
+            img {
+                padding: 40px 0 9px 20px;
+            }
+            .btn {
+                padding:10px 0;
+                width:145px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #171753;
+            }
+        }
         
     }
 }
