@@ -8,6 +8,7 @@
   "use strict"; // Start of use strict
 
   $(document.body).scroll(function () {
+    /*
     var aTop = $("#topbar").height();
     var pathname = window.location.pathname;
     if (pathname === "/") {
@@ -23,12 +24,13 @@
         $("#topbar").css({ background: "transparent", boxShadow: "unset" });
       }
     }
+    */
   });
   $(document).ready(function () {
     var pathname = window.location.pathname;
-    if (pathname === "/") {
-      $("#topbar").css({ background: "transparent", boxShadow: 'unset' });
-    }
+    // if (pathname === "/") {
+    //   $("#topbar").css({ background: "transparent", boxShadow: 'unset' });
+    // }
     $("#topbar").click(function() {
       if($(this).hasClass('isOpened')) {
         $(this).removeClass('isOpened')
