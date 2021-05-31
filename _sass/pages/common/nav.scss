@@ -27,6 +27,9 @@
             @media (max-width: $sm) {
                 display: none;
             }
+            .toggler-wrapper{
+                justify-content: space-between;
+            }
         }
         .mobile-header{
             display: none;
