@@ -28,14 +28,9 @@
                 align-items: center;
                 padding: 0;
                 margin: 0;
-                .nav-item{
-                    .nav-link{
-                        font-size: 16px;
-                        line-height: 26px;
-                        text-align: center;
-                        letter-spacing: 0.03em;
-                        color: #FFFFFF;
-                    }
+                list-style-type: none;
+                li{
+                    padding-left: 40px;
                 }
             }
             .menu-container{
@@ -59,15 +54,24 @@
                 flex: 1;
             }
         }
-        .download-wrapper {
-            .download {
-                background: transparent;
-                color: $white;
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
-                border-radius: 4px;
-                padding: 2px 20px;
-                line-height: initial;
-            }
+        .nav-link{
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            padding: 0;
+            font-weight: bold;
+            span.active{ border-bottom: 2px solid #FFA54B;}
+            img{ margin-left: 5px; }
+        }
+        .download {
+            background: transparent;
+            color: $white;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+            border-radius: 4px;
+            padding: 0px 15px;
+            border: solid 1.5px white;
         }
         .navbar-collapse {
             .navbar-nav {
