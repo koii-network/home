@@ -1,6 +1,8 @@
 var Categories = ['learn', 'earn', 'connect', 'explore']
 function showSubMenu() {
-  $("#sub_menu").css('height', '40px')
+  const subMenu = $("#sub_menu")
+  if(subMenu.hasClass('active')) $("#sub_menu").removeClass('active')
+  else $("#sub_menu").addClass('active')
 }
 function openSubMenu (category, subMenu) {
   console.log(category)
