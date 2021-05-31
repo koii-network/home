@@ -193,6 +193,10 @@
         display: none;
         justify-content: center;
         align-items: center;
+        &.active{
+            display: flex;
+            height: 40px;
+        }
 
         .sub-menu-container{
             // margin: 0 auto;
@@ -213,7 +217,7 @@
                     cursor: pointer;
                 }
                 .item-line{
-                    border: 1px solid $blueDark;
+                    border: 1px solid $orange;
                     width: 80px;
                 }
                 &:first-child .item-line{
@@ -221,7 +225,7 @@
                 }
                 &.active{
                     .item-title{ border-bottom: 2px solid $orange;}
-                    .item-line{border: 1px solid $orange;}
+                    // .item-line{border: 1px solid $orange;}
                     & ~ * {
                         .item-line{border: 1px solid $blueDark;}
                     }
