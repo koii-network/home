@@ -6,11 +6,6 @@
 
 (function ($) {
   "use strict"; // Start of use strict
-  var Categories = ['learn', 'earn', 'connect', 'explore']
-  function openSubMenu (category, subMenu) {
-    console.log(category)
-    console.log(subMenu)
-  }
   $(document.body).scroll(function () {
     var aTop = $("#topbar").height();
     var pathname = window.location.pathname;
@@ -58,9 +53,5 @@
       var url = 'https://forms.gle/XCGys2sqFcdpekP7A'
       location.href = url
     });
-    function openSubMenu (category, subMenu) {
-      console.log(category)
-      console.log(subMenu)
-    }
   });
 })(jQuery); // End of use strict

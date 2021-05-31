@@ -188,5 +188,7 @@
     #sub_menu{
         background: white;
         width: 100%;
+        height: 0px;
+        transition: height 1s;
     }
 }
