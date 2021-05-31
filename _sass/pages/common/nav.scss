@@ -196,6 +196,7 @@
 
         .sub-menu-container{
             // margin: 0 auto;
+            display: flex;
             .sub-menu-item{
                 display: flex;
                 align-items: center;
@@ -209,10 +210,14 @@
                     letter-spacing: 0.03em;
                     color: $blueDark;
                     margin: 0 5px;
+                    cursor: pointer;
                 }
                 .item-line{
                     border: 1px solid $blueDark;
                     width: 80px;
+                }
+                &:last-child .item-line{
+                    display: none;
                 }
             }
         }
