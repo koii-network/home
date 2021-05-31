@@ -22,9 +22,18 @@
                 }
             }
         }
-        #navbarTogglerDemo03{
+        .web-header{
+            flex: 1;
+            @media (max-width: $sm) {
+                display: none;
+            }
+        }
+        .mobile-header{
             display: none;
-            @media (max-width: $sm) { display: block; }
+            @media (max-width: $sm) {
+                display: block;
+                flex: 1;
+            }
         }
         .download-wrapper {
             .download {
