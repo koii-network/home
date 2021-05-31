@@ -189,16 +189,31 @@
         background: white;
         width: 100%;
         height: 0px;
-        transition: height 1s;
+        transition: height 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         .sub-menu-container{
-            margin: 0 auto;
-            display: flex;
+            // margin: 0 auto;
             .sub-menu-item{
                 display: flex;
-                flex-direction: column;
                 align-items: center;
                 position: relative;
                 transition: .2s;
+                .item-title{
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 23px;
+                    text-align: center;
+                    letter-spacing: 0.03em;
+                    color: $blueDark;
+                    margin: 0 5px;
+                }
+                .item-line{
+                    border: 1px solid $blueDark;
+                    width: 80px;
+                }
             }
         }
     }
