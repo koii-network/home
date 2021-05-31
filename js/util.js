@@ -8,7 +8,6 @@
   "use strict"; // Start of use strict
 
   $(document.body).scroll(function () {
-    /*
     var aTop = $("#topbar").height();
     var pathname = window.location.pathname;
     if (pathname === "/") {
@@ -21,16 +20,15 @@
         });
       } else {
         // console.log("here1")
-        $("#topbar").css({ background: "transparent", boxShadow: "unset" });
+        $("#topbar").css({ boxShadow: "unset" }); // background: "transparent", 
       }
     }
-    */
   });
   $(document).ready(function () {
     var pathname = window.location.pathname;
-    // if (pathname === "/") {
-    //   $("#topbar").css({ background: "transparent", boxShadow: 'unset' });
-    // }
+    if (pathname === "/") {
+      $("#topbar").css({ boxShadow: 'unset' }); // background: "transparent", 
+    }
     $("#topbar").click(function() {
       if($(this).hasClass('isOpened')) {
         $(this).removeClass('isOpened')
