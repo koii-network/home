@@ -9,6 +9,19 @@ stylesheet: koi.css
 <section id="topnews">
     <div class="container">
         <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 column">
+            <div class="top">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=QQKAhkqr8CI">
+                        <div class="imgbackground">    
+                            <iframe class="ytblink" src="https://www.youtube.com/embed/QQKAhkqr8CI" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+                            <div class="newstopic">
+                                <h6>What is Koi? Diffusion Digital April 2021</h6>
+                                <h7>Rumi Morales talks to Al Morris about KOI, a decentralised protocol bringing personal ownership to the internet</h7>
+                            </div>    
+                        </div>
+                    </a>
+                </div>
+            </div> 
             {% for news in sorted %}
 
             {%- if news.newsType contains "top" -%}    
