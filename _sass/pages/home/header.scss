@@ -4,7 +4,7 @@
   position: relative;
   background: $blueDarkBg;
   color: $white;
-  height: 450px;
+  padding: 80px 0;
   display: flex;
   align-items: center;
   margin-top: 48px;
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    
+    .social-item{ padding: 0; }
   }
   @media (max-width: 1200px) {
     
