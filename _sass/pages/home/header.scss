@@ -45,8 +45,8 @@
       font-size: 16px;
       line-height: 16px;
       letter-spacing: 0.03em;
-      color: #FFFFFF;
-      background: #171753;
+      color: $white;
+      background: $blueDark;
       border: 1px solid white;
       cursor: pointer;
       &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -59,8 +59,8 @@
       font-size: 15px;
       border-radius: 0 4px 4px 0;
       transform: unset;
-      background: #FFF;
-      color: #171753;
+      background: $white;
+      color: $blueDark;
       border: 1px solid white;
     }
   }
