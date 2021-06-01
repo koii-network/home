@@ -4,11 +4,11 @@
   position: relative;
   background: $blueDarkBg;
   color: $white;
-  // min-height: 535px;
-  min-height: calc(75vh);
-  // padding-top: 75px;
+  height: 450px;
   display: flex;
   align-items: center;
+  margin-top: 48px;
+
   &::before {
     background-image: url("/img/homepage/vector.svg");
     // background-image: url("/img/homepage/vector.png");
@@ -35,6 +35,7 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
+  .join-area{ padding-top: 40px; width:300px; }
   .input-group{
     width: 300px;
     .form-control{
@@ -62,6 +63,12 @@
       color: #171753;
       border: 1px solid white;
     }
+  }
+  .social-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
   }
   @media (max-width: 1200px) {
     
