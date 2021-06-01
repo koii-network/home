@@ -2,9 +2,9 @@
 
 #learn {
     position: relative;
-    background: $blueLight;
+    background: linear-gradient(0deg, #EEEEEE 0%, #FFFFFF 100%);;
     color: $blueDark;
-    padding: 58px 0 180px 0;
+    padding: 58px 0 50px 0;
     .container {
         // display: flex;
         // align-items: flex-start;
@@ -19,13 +19,15 @@
                 font-weight: normal;
                 line-height: 32px;
                 &.koi-protocol {
-                    font-size: 20px !important;
+                    font-size: 26px !important;
+                    font-weight: 450;
+                    color: #171753;
                 }
             }
             .btn-wrapper {
                 margin-top: 45px;
                 .btn {
-                    width: 200px;
+                    width: 230px;
                     height: 48px;
                 }
             }
@@ -49,20 +51,20 @@
                 }
                 p {
                     margin-bottom: 0;
-                    width: 80%;
+                    width: 95%;
                     margin: 0 auto;
                 }
             }
         }
     }
-    .clip-path {
-        position: absolute;
-        bottom: -2px;
-        width: 100%;
-        height: 300px;
-        background: $blueDarkBg;
-        clip-path: polygon(0% 13%, 0 100%, 101% 100%);
-    }
+    // .clip-path {
+    //     position: absolute;
+    //     bottom: -2px;
+    //     width: 100%;
+    //     height: 300px;
+    //     background: $blueDarkBg;
+    //     clip-path: polygon(0% 13%, 0 100%, 101% 100%);
+    // }
     @media (max-width: $md) {
         padding: 80px 0;
         .clip-path {
