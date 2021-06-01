@@ -35,6 +35,34 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
+  .input-group{
+    width: 300px;
+    .form-control{
+      height: 32px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      background: #171753;
+      border: 1px solid white;
+      cursor: pointer;
+      &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+    }
+    .btn{
+      height: 32px;
+      font-size: 15px;
+      border-radius: 0 4px 4px 0;
+      transform: unset;
+      background: #FFF;
+      color: #171753;
+      border: 1px solid white;
+    }
+  }
   @media (max-width: 1200px) {
     
   }
