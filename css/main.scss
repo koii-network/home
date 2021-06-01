@@ -121,6 +121,15 @@ a {
 .text-bold {
     font-weight: bold;
 }
+.font-blue{
+    letter-spacing: 0.03em;
+    color: $blueDark;
+}
+.font-orange{
+    letter-spacing: 0.03em;
+    color: $orange;
+}
+
 @media (min-width: $xl) {
     body::-webkit-scrollbar {
         width: 6px;

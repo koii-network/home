@@ -1,18 +1,22 @@
 @import "variables";
 
 #sdk {
-    background: $blueDarkBg;
-    color: $white;
-    padding: 68px 0 88px 0;
+    background: $white;
+    padding: 60px 0 88px 0;
     .container {
+        .secion-title{ margin-bottom: 20px; }
+        .section-description{
+            max-width: 810px;
+        }
         .font-cap1{
-            font-style: normal;
             font-weight: 600;
             font-size: 40px;
             line-height: 56px;
-            /* identical to box height, or 140% */
-            letter-spacing: 0.03em;
-            color: $blueDark;
+        }
+        .font-cap2{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
         }
         .row {
             padding: 0 100px;
