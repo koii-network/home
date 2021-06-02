@@ -3,17 +3,17 @@
 #save-web {
     .save-web-head{
         height: 120px;
-        background: linear-gradient(360deg, $blueLight 0%, #FFFFFF 100%);
+        background: #EEEEEE;
     }
-    .save-web-footer{
-        height: 120px;
-        background: linear-gradient(-180deg, $blueLight 0%, #FFFFFF 100%);
-    }
+    // .save-web-footer{
+    //     height: 120px;
+    //     background: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 100%);
+    // }
     .save-web-body{
         display: flex;
-        background: $blueLight;
+        background: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 100%);;
         color: $blueDark;
-        padding: 70px 0 20px;
+        padding: 0px 0 190px 0;
         min-height: 400px;
     }
     .container {
@@ -49,7 +49,7 @@
         }
     }
     @media (max-width: $sm) {
-        padding: 50px 0 20px;
+        padding: 0px 0 20px;
         .container {
             .icon-wrapper {
                 display: flex;

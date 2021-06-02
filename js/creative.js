@@ -36,11 +36,12 @@
     );
 
     // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+    // $('#mainNav').affix({
+    //     offset: {
+    //         top: 100
+    //     }
+    // })
+    // Affix is removed from bootstrap version 4. Used postion:sticky in css.
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
