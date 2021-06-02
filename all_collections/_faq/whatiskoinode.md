@@ -1,8 +1,8 @@
 ---
 title: What is a Koi node?
-describe: Koi refers to the organization and its artifacts, which includes topics like the Koi Protocol, the Koi Network, and Koi Tasks.KOI refers to the token that Koi uses to run the network. When you earn rewards, you earn KOI tokens from registering content or running a Koi node. 
+describe: A Koi node is a small amount of software that runs on your computer, connecting you with other computers to create the Koi Network. Anyone can create a Task and use the Koi Network to accomplish those Tasks. You earn KOI tokens based on how many Tasks you participate in. 
 layout: front
-type: creators
+type: node
 parent: four
 child: 4
 icon: icon4

@@ -33,15 +33,16 @@ stylesheet: koi.css
             </div>
         </div>
 
-        <div class="row" id="creators">
+
+        <div class="row" id="runningnode">
             <div class="col-md-12 column">
-                <h2>Creators</h2>
+                <h2>Running a node</h2>
             </div>
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
             {%- for faq in site.faq -%}
-            {% if faq.type contains 'creators' %}
+            {% if faq.type contains 'node' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
                     answer=faq.describe
@@ -54,15 +55,16 @@ stylesheet: koi.css
             </div>
         </div>
 
-        <div class="row" id="developers">
+
+        <div class="row" id="koitokens">
             <div class="col-md-12 column">
-                <h2>Developers</h2>
+                <h2>KOI Tokens</h2>
             </div>
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
             {%- for faq in site.faq -%}
-            {% if faq.type contains 'developers' %}
+            {% if faq.type contains 'token' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
                     answer=faq.describe
@@ -74,6 +76,70 @@ stylesheet: koi.css
             {%- endfor -%}
             </div>
         </div>
+
+        <div class="row" id="partnerships">
+            <div class="col-md-12 column">
+                <h2>Partnerships</h2>
+            </div>
+        </div>    
+        <div class="row">            
+            <div class="detail col-md-12 column">
+            {%- for faq in site.faq -%}
+            {% if faq.type contains 'partner' %}
+                {%- include faq/faqdetails.html 
+                    title=faq.title
+                    answer=faq.describe
+                    parent=faq.parent
+                    child = faq.child
+                    icon = faq.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
+        <div class="row" id="nfts">
+            <div class="col-md-12 column">
+                <h2>NFTs</h2>
+            </div>
+        </div>    
+        <div class="row">            
+            <div class="detail col-md-12 column">
+            {%- for faq in site.faq -%}
+            {% if faq.type contains 'nft' %}
+                {%- include faq/faqdetails.html 
+                    title=faq.title
+                    answer=faq.describe
+                    parent=faq.parent
+                    child = faq.child
+                    icon = faq.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
+        <div class="row" id="connect">
+            <div class="col-md-12 column">
+                <h2>Get Connected</h2>
+            </div>
+        </div>    
+        <div class="row">            
+            <div class="detail col-md-12 column">
+            {%- for faq in site.faq -%}
+            {% if faq.type contains 'connect' %}
+                {%- include faq/faqdetails.html 
+                    title=faq.title
+                    answer=faq.describe
+                    parent=faq.parent
+                    child = faq.child
+                    icon = faq.icon    
+                -%}
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        </div>
+
 
     </div>
 </section>

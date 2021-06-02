@@ -1,9 +1,9 @@
 ---
 title: What is Koi?
-describe: testtesttesttest testtesttesttest 
+describe: Koi is a framework for building decentralized applications (often called “dApps”) quickly and efficiently.
 layout: front
 type: general
-parent: three
-child: 3
-icon: icon3
+parent: one
+child: 1
+icon: icon1
 ---
