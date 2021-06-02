@@ -57,9 +57,6 @@
             padding: 0 30px;
         }
     }
-    @media (max-width: $md) {
-        
-    }
     @media (max-width: $sm) {
         padding: 0px 0 20px;
         .font-cap1{
@@ -92,6 +89,7 @@
             }
             .step-wrapper-mobile{
                 display: block;
+                img{max-width: 100%;}
             }
         }
     }
