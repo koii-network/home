@@ -23,6 +23,9 @@
     width: 100%;
     opacity: 35%;
   }
+  .container{
+    padding: 75px 0;
+  }
   .font-cap1{
     font-size: 40px;
     line-height: 52px;
@@ -35,9 +38,9 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
-  .join-area{ padding-top: 40px; width:300px; }
+  .join-area{ padding-top: 40px; max-width:300px; }
   .input-group{
-    width: 300px;
+    max-width: 300px;
     .form-control{
       height: 32px;
       font-style: normal;
@@ -85,10 +88,18 @@
     &::before {
       display: none;
     }
-  }
-
-  @media (max-width: $sm) {
-    
+    .font-cap1{
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+    }
+    .font-cap2{
+      font-size: 22px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+    }
   }
   @media (max-width: 572px) {
     
