@@ -1,6 +1,7 @@
 ---
 title: Community Manager
-describe: Here's the Community Manager Lead describtion.
+describe: <b>Community Manager</b> (full-time)<br>The Koi mission has attracted a dedicated community that inspires us to keep building a web that puts creators first. You are a leader with experience managing brand identity and growing digital communities to be the touchpoint for our growing network. If keeping a diverse “koi-mmunity” healthy and happy is for you, reach out!<br><br><a href= "mailto:jobs@openkoi.com">Learn more and apply.</a>
+
 layout: front
 type: Marketing
 parent: four
