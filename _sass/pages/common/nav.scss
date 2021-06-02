@@ -47,6 +47,15 @@
                 .nav-item.active{
                     .nav-link span{ border-bottom: 2px solid $orange;}
                 }
+                @media (max-width: $sm) {
+                    li{
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .nav-item:not(.active){
+                        display: none;
+                    }
+                }
             }
             .menu-container{
                 flex: 1;
@@ -56,18 +65,26 @@
         .web-header{
             flex: 1;
             @media (max-width: $sm) {
-                .mobile-hidden{
-                    display: none;
-                }
+                display: none;
             }
             .toggler-wrapper{
                 justify-content: space-between;
             }
         }
-        // .mobile-header{
+        .mobile-header{
+            flex: 1;
+            display: none;
+            @media (max-width: $sm) {
+                display: block;
+            }
+            .toggler-wrapper{
+                justify-content: space-between;
+            }
+        }
+        // #navbarTogglerDemo03{
         //     display: none;
         //     @media (max-width: $sm) {
-        //         display: block;
+        //         display: flex !important;
         //         flex: 1;
         //     }
         // }
@@ -122,7 +139,7 @@
         .container-fluid {
             padding: 0 15px;
             .toggler-wrapper {
-                height: 75px;
+                height: 48px;
             }
             .download-wrapper {
                 .download {
