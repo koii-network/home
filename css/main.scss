@@ -129,6 +129,10 @@ a {
     letter-spacing: 0.03em;
     color: $orange;
 }
+.font-green{
+    letter-spacing: 0.03em;
+    color: $green;
+}
 
 @media (min-width: $xl) {
     body::-webkit-scrollbar {

@@ -3,46 +3,49 @@
 #sdk {
     background: $white;
     padding: 60px 0 88px 0;
-    .container {
-        .secion-title{ margin-bottom: 20px; }
-        .section-description{
-            max-width: 810px;
-        }
-        .font-cap1{
-            font-weight: 600;
-            font-size: 40px;
-            line-height: 56px;
-        }
-        .font-cap2{
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 40px;
-        }
-        .row {
-            padding: 0 100px;
-            margin-bottom: 77px;
-            .join-option {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                b {
-                    text-align: center;
-                    margin-top: 5px;
-                }
+    color: $blueDark;
+
+    .secion-title{ margin-bottom: 20px; }
+    .section-description{
+        max-width: 810px;
+    }
+    .font-cap1{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .font-cap2{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .image-area{
+        margin-top: 50px;
+        padding: 0 100px;
+        margin-bottom: 77px;
+        .join-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            b {
+                text-align: center;
+                margin-top: 5px;
             }
         }
-        .join-btn-wrapper {
-            position: relative;
-            .btn {
-                padding: 0 30px;
-                font-size: 18px;
-                height: 48px;
-            }
-            .fish-group {
-                position: absolute;
-                top: 0;
-                left: 100%;
-            }
+    }
+    .join-btn-wrapper {
+        position: relative;
+        .btn {
+            padding: 0 30px;
+            font-size: 18px;
+            height: 40px;
+            color: $white;
+            background: $blueDark;
+        }
+        .fish-group {
+            position: absolute;
+            top: 0;
+            left: 100%;
         }
     }
     @media (max-width: $md) {
@@ -50,47 +53,43 @@
     }
     @media (max-width: $sm) {
         padding: 50px 0px;
-        .container {
-            h1 {
-                font-size: 32px !important;
-                text-align: center;
-            }
-            padding: 0 45px;
-            h3 {
-                font-size: 20px !important;
-                margin-bottom: 65px;
-                line-height: 32px;
-            }
-            .row {
-                padding: 0;
-                margin-bottom: 30px;
-                .join-option {
-                    margin-bottom: 50px;
-                    img {
-                        margin-bottom: 10px;
-                    }
-                    b {
-                        font-size: 24px !important;
-                        line-height: 32px;
-                        font-weight: 600;
-                    }
+        .font-cap1{
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .font-cap2{
+            font-size: 18px;
+            line-height: 32px;
+        }
+        .image-area {
+            padding: 0;
+            margin-bottom: 30px;
+            .join-option {
+                margin-bottom: 50px;
+                img {
+                    margin-bottom: 10px;
+                }
+                b {
+                    font-size: 24px !important;
+                    line-height: 32px;
+                    font-weight: 600;
                 }
             }
-            .join-btn-wrapper {
-                position: relative;
-                margin-bottom: 60px;
-                z-index: 1;
-                .btn {
-                    min-width: 228px;
-                    height: 44px;
-                    font-size: 14px;
-                }
-                .fish-group {
-                    width: 80px;
-                    top: 9px;
-                    left: 88%;
-                    z-index: -1;
-                }
+        }
+        .join-btn-wrapper {
+            position: relative;
+            margin-bottom: 60px;
+            z-index: 1;
+            .btn {
+                min-width: 228px;
+                height: 44px;
+                font-size: 14px;
+            }
+            .fish-group {
+                width: 80px;
+                top: 9px;
+                left: 88%;
+                z-index: -1;
             }
         }
     }
