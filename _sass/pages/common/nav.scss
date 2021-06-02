@@ -56,19 +56,21 @@
         .web-header{
             flex: 1;
             @media (max-width: $sm) {
-                display: none;
+                .mobile-hidden{
+                    display: none;
+                }
             }
             .toggler-wrapper{
                 justify-content: space-between;
             }
         }
-        .mobile-header{
-            display: none;
-            @media (max-width: $sm) {
-                display: block;
-                flex: 1;
-            }
-        }
+        // .mobile-header{
+        //     display: none;
+        //     @media (max-width: $sm) {
+        //         display: block;
+        //         flex: 1;
+        //     }
+        // }
         .download {
             background: transparent;
             color: $white;
@@ -150,7 +152,7 @@
             }
         }
     }
-    @media (max-width: 575px) {
+    @media (max-width: $sm) {
         // width: 170px !important;
         // right: 0;
         // background: linear-gradient(90deg, #030332 0%, #171753 100%) !important;
