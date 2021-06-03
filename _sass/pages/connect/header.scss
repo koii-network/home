@@ -1,0 +1,81 @@
+@import "variables";
+
+#connect-header {
+  position: relative;
+  color: $blueDark;
+  // min-height: 535px;
+  padding-top: 75px;
+  display: flex;
+  align-items: flex-end;
+  &::before {
+    background-image: url("/img/learn/run-vector.svg");
+    background-repeat: no-repeat;
+    // background-size: 839px auto;
+    background-size: auto 100%;
+    content: "";
+    display: block;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .s-title{margin-top: 70px;}
+  .font-cap1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .font-cap2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .font-cap3{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .font-cap4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tw-container{
+    display: flex;
+    align-items: center;
+    .image-area{
+      width: 300px;
+    }
+    .flex1{
+      margin: 50px 0;
+    }
+  }
+  
+  @media (max-width: $sm) {
+    padding: 30px 0;
+    background-image: url("/img/homepage/vector-mobile.svg");
+    background-repeat: no-repeat;
+    &::before {
+      display: none;
+    }
+    .font-cap1{
+      font-size: 32px;
+      line-height: 56px;
+    }
+    .font-cap2{
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .font-cap3{
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .font-cap4{
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .tw-container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
