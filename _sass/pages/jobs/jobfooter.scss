@@ -1,6 +1,7 @@
 @import "variables";
 
 #jobfooter {
+    padding-top:50px;
     .footer-body {
         height: 232px;
         background: #FFC78F;
@@ -23,6 +24,9 @@
             line-height: 32px;
             text-align: center;
             letter-spacing: 0.03em;
+            color: #171753;
+        }
+        a {
             color: #171753;
         }
     }
