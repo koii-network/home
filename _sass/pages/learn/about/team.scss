@@ -7,22 +7,41 @@
     font-size: 40px;
     line-height: 52px;
   }
-  .font-cap4{
+  .font-cap2{
+    font-weight: bold;
     font-size: 20px;
     line-height: 24px;
   }
-  .font-cap5{
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .btn {
-    padding: 0 30px;
+  .font-cap3{
+    font-weight: 400;
     font-size: 18px;
-    height: 40px;
-    color: $white;
-    background: $blueDark;
-    width: fit-content;
-    margin: 0 auto;
+    line-height: 24px;
+  }
+  .users-area{
+    // display: flex;
+    // flex-wrap: wrap;
+    .user{
+      min-width: 150px;
+      display: flex;
+      flex-direction: column;
+      padding: 0 20px;
+      float: left;
+      width: 20%;
+      margin-bottom: 40px;
+      img{margin-bottom: 12px;}
+      @media (max-width: 1300px) {
+        width: 25%;  
+      }
+      @media (max-width: 1024px) {
+        width: 33.33%;  
+      }
+      @media (max-width: 575px) {
+        width: 50%;  
+      }
+      @media (max-width: 400px) {
+        width: 100%;  
+      }
+    }
   }
   
   @media (max-width: $sm) {
@@ -30,13 +49,13 @@
       font-size: 24px;
       line-height: 32px;
     }
-    .font-cap4{
-      font-size: 15px;
-      line-height: 24px;
+    .font-cap2{
+      font-size: 16px;
+      line-height: 18px;
     }
-    .font-cap5{
-      font-size: 18px;
-      line-height: 24px;
+    .font-cap3{
+      font-size: 15px;
+      line-height: 20px;
     }
   }
 }
