@@ -8,7 +8,8 @@ stylesheet: koi.css
 {%- include faq/header.html -%}
 {%- include faq/jumpto.html -%}
 
-{%- assign sorttype = site.faq | sort: 'type' -%}
+{%- assign sortchild = site.faq | sort: 'child' -%}
+
 <section id="faqdetails">
     <div class="container">
 
@@ -19,7 +20,7 @@ stylesheet: koi.css
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
-            {%- for faq in site.faq -%}
+            {%- for faq in sortchild -%}
             {% if faq.type contains 'general' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
@@ -41,7 +42,7 @@ stylesheet: koi.css
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
-            {%- for faq in site.faq -%}
+            {%- for faq in sortchild -%}
             {% if faq.type contains 'node' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
@@ -63,7 +64,7 @@ stylesheet: koi.css
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
-            {%- for faq in site.faq -%}
+            {%- for faq in sortchild -%}
             {% if faq.type contains 'token' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
@@ -84,7 +85,7 @@ stylesheet: koi.css
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
-            {%- for faq in site.faq -%}
+            {%- for faq in sortchild -%}
             {% if faq.type contains 'partner' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
@@ -105,7 +106,7 @@ stylesheet: koi.css
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
-            {%- for faq in site.faq -%}
+            {%- for faq in sortchild -%}
             {% if faq.type contains 'nft' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
@@ -126,7 +127,7 @@ stylesheet: koi.css
         </div>    
         <div class="row">            
             <div class="detail col-md-12 column">
-            {%- for faq in site.faq -%}
+            {%- for faq in sortchild -%}
             {% if faq.type contains 'connect' %}
                 {%- include faq/faqdetails.html 
                     title=faq.title
@@ -142,4 +143,5 @@ stylesheet: koi.css
 
 
     </div>
+    <div class="footblank"></div>
 </section>

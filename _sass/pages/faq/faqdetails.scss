@@ -4,7 +4,7 @@
     .container {
         padding: 30px 0 30px 0;  
 
-        h3 {
+        h2 {
             margin-top: 35px;
             color: #171753;
         }
@@ -20,9 +20,14 @@
             border-radius: 4px;
             h4 {
                 padding: 10px 10px 10px 10px;
+                color: #171753;
             }
             .panel-body {
                 padding: 0px 10px 10px 10px;
+
+                h7 {
+                    color: #171753;
+                }
             }
             .icon {
                 display: block;
@@ -31,4 +36,14 @@
         }
         
     }
+    .footblank {
+        padding-top:100px;
+    }
+
+    @media (max-width: $xs) {
+        .container {
+            padding: 20px 20px 20px 20px
+        }
+    }
+
 }
