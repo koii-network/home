@@ -37,11 +37,17 @@
   }
   .font-cap4{
     font-size: 20px;
-    line-height: 24px;
+    line-height: 30px;
   }
-  .font-cap5{
+  .font-cap-mb{
+    margin: 50px 20px;
+    font-family: $garamond;
+    font-style: italic;
+    font-weight: normal;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    color: #171753;
   }
   .btn {
     padding: 0 30px;
@@ -73,12 +79,8 @@
       line-height: 32px;
     }
     .font-cap4{
-      font-size: 15px;
-      line-height: 24px;
-    }
-    .font-cap5{
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 16px;
+      line-height: 28px;
     }
   }
 }
