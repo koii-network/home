@@ -1,8 +1,7 @@
 @import "variables";
 
-#about-header {
+#mission-header {
   position: relative;
-  background: linear-gradient(to bottom, #bcf3ef 11%, white 50%);
   color: $blueDark;
   // min-height: 535px;
   padding-top: 75px;
@@ -27,6 +26,7 @@
     line-height: 60px;
   }
   .font-cap2{
+    font-weight: bold;
     font-size: 32px;
     line-height: 40px;
   }
@@ -37,11 +37,17 @@
   }
   .font-cap4{
     font-size: 20px;
-    line-height: 24px;
+    line-height: 30px;
   }
-  .font-cap5{
+  .font-cap-mb{
+    margin: 50px 20px;
+    font-family: $garamond;
+    font-style: italic;
+    font-weight: normal;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    color: #171753;
   }
   .btn {
     padding: 0 30px;
@@ -55,7 +61,7 @@
   
   @media (max-width: $sm) {
     padding: 30px 0;
-    background-image: url("/img/homepage/vector-mobile.svg"), linear-gradient(to bottom, #bcf3ef 11%, white 50%);
+    background-image: url("/img/homepage/vector-mobile.svg");
     background-repeat: no-repeat;
     &::before {
       display: none;
@@ -73,12 +79,8 @@
       line-height: 32px;
     }
     .font-cap4{
-      font-size: 15px;
-      line-height: 24px;
-    }
-    .font-cap5{
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 16px;
+      line-height: 28px;
     }
   }
 }
