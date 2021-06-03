@@ -217,6 +217,12 @@
                         width: 30px;
                     }
                 }
+                .no-line{ 
+                    margin: 0 25px ;
+                    @media (max-width: $sm) {
+                        margin: 0;
+                    }
+                }
                 &:first-child .item-line{
                     display: none;
                 }
