@@ -18,6 +18,10 @@
         font-weight: 400;
         font-size: 24px;
         line-height: 40px;
+        a{
+            text-decoration: underline;
+            color: $green;
+        }
     }
     .image-area{
         margin-top: 50px;
