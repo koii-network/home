@@ -1,0 +1,42 @@
+@import "variables";
+
+#about-team {
+  color: $blueDark;
+  .font-cap1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .font-cap4{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .font-cap5{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .btn {
+    padding: 0 30px;
+    font-size: 18px;
+    height: 40px;
+    color: $white;
+    background: $blueDark;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: $sm) {
+    .font-cap1{
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .font-cap4{
+      font-size: 15px;
+      line-height: 24px;
+    }
+    .font-cap5{
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
