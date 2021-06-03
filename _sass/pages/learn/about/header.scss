@@ -22,6 +22,25 @@
     width: 100%;
   }
   .s-title{margin-top: 70px;}
+  .font-cap1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .font-cap2{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .font-cap3{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .font-cap4{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
   
   @media (max-width: $sm) {
     padding: 30px 0;
