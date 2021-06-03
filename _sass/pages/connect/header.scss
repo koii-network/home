@@ -1,6 +1,6 @@
 @import "variables";
 
-#mission-header {
+#connect-header {
   position: relative;
   color: $blueDark;
   // min-height: 535px;
@@ -26,38 +26,18 @@
     line-height: 56px;
   }
   .font-cap2{
-    font-weight: bold;
     font-size: 20px;
     line-height: 32px;
   }
-  .font-cap3{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .font-cap4{
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 28px;
-  }
-  .font-cap-mb{
-    margin: 50px 20px;
-    font-family: $garamond;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.03em;
-    color: #171753;
-  }
-  .btn {
-    padding: 0 30px;
-    font-size: 18px;
-    height: 40px;
-    color: $white;
-    background: $blueDark;
-    width: fit-content;
-    margin: 0 auto;
+  .tw-container{
+    display: flex;
+    .image-area{
+      width: 300px;
+    }
+    .flex1{
+      padding-left: 100px;
+      margin: 50px 0;
+    }
   }
   
   @media (max-width: $sm) {
@@ -75,13 +55,17 @@
       font-size: 20px;
       line-height: 32px;
     }
-    .font-cap3{
-      font-size: 24px;
-      line-height: 32px;
-    }
-    .font-cap4{
-      font-size: 16px;
-      line-height: 28px;
+    .tw-container{
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      .image-area{
+        width: auto;
+      }
+      .flex1{
+        padding-left: 0px;
+        margin: 40px 0;
+      }
     }
   }
 }
