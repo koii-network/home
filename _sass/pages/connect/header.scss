@@ -22,30 +22,20 @@
   .s-title{margin-top: 70px;}
   .font-cap1{
     font-weight: bold;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 32px;
+    line-height: 56px;
   }
   .font-cap2{
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
-  }
-  .font-cap3{
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-  }
-  .font-cap4{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 32px;
   }
   .tw-container{
     display: flex;
-    align-items: center;
     .image-area{
       width: 300px;
     }
     .flex1{
+      padding-left: 100px;
       margin: 50px 0;
     }
   }
@@ -65,17 +55,17 @@
       font-size: 20px;
       line-height: 32px;
     }
-    .font-cap3{
-      font-size: 24px;
-      line-height: 32px;
-    }
-    .font-cap4{
-      font-size: 16px;
-      line-height: 28px;
-    }
     .tw-container{
       display: flex;
       flex-direction: column-reverse;
+      text-align: center;
+      .image-area{
+        width: auto;
+      }
+      .flex1{
+        padding-left: 0px;
+        margin: 40px 0;
+      }
     }
   }
 }
