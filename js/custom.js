@@ -7,11 +7,11 @@ function showSubMenu(category, sm) {
   else $("#sub_menu").addClass('active')
 }
 function openSubMenu (category, subMenu) {
-  console.log(category)
-  console.log(subMenu)
+  // console.log(category)
+  // console.log(subMenu)
   var pathname = window.location.pathname;
   if(pathname.includes('/' + category) || category === 'learn' || category === 'earn'){
-    console.log({pathname})
+    // console.log({pathname})
     showSubMenu(category, subMenu)
   }else{
     location.href = '/' + category + '/' + subMenu
