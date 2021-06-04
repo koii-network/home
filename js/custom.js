@@ -55,6 +55,14 @@ function setActiveMenu(category, subCategory) {
       break;
   }
 }
+function isEmail(email) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
+function goToMailchimp(email) {
+  $('.input-subscription').val('')
+  window.location.href = 'http://eepurl.com/hv7r5D'
+}
 $(document).ready(function() {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
@@ -90,5 +98,26 @@ $(document).ready(function() {
     $(".content-detail").each(function(){
       $(this).hide()
     })
+  })
+  $('.input-subscription').keypress(function(event){
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+      var email = $(this).val()
+      if(isEmail(email)){
+        goToMailchimp(email)
+      }else{
+        alert('You should input an email');  
+        return ;
+      }
+    }
+  });
+  $(".btn-subscription").click(function(){
+    var email = $('.input-subscription').val()
+    if(isEmail(email)){
+      goToMailchimp(email)
+    }else{
+      alert('You should input an email');  
+      return ;
+    }
   })
 })

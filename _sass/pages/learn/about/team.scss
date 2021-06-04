@@ -28,7 +28,20 @@
       float: left;
       width: 20%;
       margin-bottom: 40px;
-      img{margin-bottom: 12px;}
+      // .avatar-area{
+      //   max-width: 100px;
+      //   border-radius: 50%;
+      // }
+      .info-area{
+        min-height: 100px;
+      }
+      img{
+        width: 100px;
+        border-radius: 50%;
+        height: 100px;
+        margin-bottom: 12px;
+        object-fit: cover;
+      }
       @media (max-width: 1300px) {
         width: 25%;  
       }
