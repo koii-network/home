@@ -67,4 +67,27 @@ $(document).ready(function() {
     subCat = paths[2]
   }
   setActiveMenu(category, subCat)
+  $("#tap1").click(function(){
+    $(".content-detail").each(function(){
+      $(this).hide()
+    })
+    $(".tap1-content").show()
+  })
+  $("#tap3").click(function(){
+    $(".content-detail").each(function(){
+      $(this).hide()
+    })
+    $(".tap3-content").show()
+  })
+  $("#tap2").click(function(){
+    $(".content-detail").each(function(){
+      $(this).hide()
+    })
+    $(".tap2-content").show()
+  })
+  $(".content-detail .icon-close").click(function(){
+    $(".content-detail").each(function(){
+      $(this).hide()
+    })
+  })
 })
