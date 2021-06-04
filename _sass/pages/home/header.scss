@@ -38,10 +38,18 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
   }
+  .font-cap3{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-weight: 600;
+  }
+
   .join-area{ padding-top: 40px; max-width:300px; }
-  .input-group{
+  .validate{
     max-width: 300px;
-    .form-control{
+    .email {
       height: 32px;
       font-style: normal;
       font-weight: 500;
