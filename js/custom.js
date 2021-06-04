@@ -14,7 +14,11 @@ function openSubMenu (category, subMenu) {
     // console.log({pathname})
     showSubMenu(category, subMenu)
   }else{
-    location.href = '/' + category + '/' + subMenu
+    if(subMenu){
+      location.href = '/' + category + '/' + subMenu
+    }else{
+      location.href = '/' + category
+    }
   }
 }
 function setActiveMenu(category, subCategory) {
