@@ -20,7 +20,7 @@
   .font-cap3{
     font-size: 20px;
     line-height: 28px;
-    img{ display: none;}
+    img{ padding-left: 20px;}
   }
   .font-cap4{
     font-size: 16px;
@@ -60,8 +60,10 @@
       display: flex;
     }
   }
-  .mySlides {display: none}
-  img {vertical-align: middle;}
+  .mySlides {
+    display: none;
+    img {vertical-align: middle;}
+  }
 
   /* Slideshow container */
   .slideshow-container {
