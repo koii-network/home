@@ -5,26 +5,26 @@
     link: /
     class: normal       
 
+  - name: About
+    link: /learn/about/
+    class: normal       
+
   - name: Blog
     link: https://blog.openkoi.com/
     class: normal
 
-  - name: Help Us
-    link: /koi/
-    class: normal       
-
-  - name: Services
-    link: /services/
+  - name: Node
+    link: /run-a-node/
     class: normal
 
 # - header: ''
 #   children:
   - name: Developers
-    link: https://docs.openkoi.com/
+    link: /framework/
     class: normal   
 
-  - name: Desktop App
-    link: /downloads/
+  - name: Register NFTs
+    link: https://koi.rocks
     class: normal
 
   - name: Support
@@ -51,20 +51,20 @@
   class: col-sm-4 get-involved
   children:
   - name: Run a Node
-    link: /downloads/
+    link: https://docs.google.com/forms/d/e/1FAIpQLSduDTdxD3dDOvcbIcKlG7JWOsnDFVZFdLy0J38q_OOzUC3okA/viewform
     class: normal
 
   - name: Get the Extension
-    link:  https://docs.google.com/forms/d/e/1FAIpQLScRQUBaLQBugGi-dFvu1F2q4j-cOji2fOHQczLeyWTq_LIobw/viewform?usp=sf_link
+    link:  https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
     class: normal
 
   - name: Earn for Code
-    link: https://discord.gg/SDwgnjxNEn
+    link: https://docs.openkoi.com/#tools-for-easy-protocolization
     class: normal     
 
-  - name: Join the Discord
-    link: https://discord.gg/SDwgnjxNEn
-    class: normal 
+  # - name: Join the Discord
+  #   link: https://discord.gg/SDwgnjxNEn
+  #   class: normal 
     
   - name: Lightpaper
     link: /Lightpaper.pdf

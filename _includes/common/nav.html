@@ -1,31 +1,190 @@
-<nav id="topbar" class="navbar navbar-expand-sm navbar-light in-nav">
+<nav id="topbar" class="navbar navbar-expand-md navbar-light in-nav">
     <div class="container-fluid h-100">
-        <div class="toggler-wrapper in-nav">
-            <a class="navbar-brand logo-icon" href="/"><img src="/img/logo.svg" width="56"></a>
-            <!-- <div class="download-wrapper d-sm-none ml-auto">
-            <a class="nav-link download" href="/downloads/">Download</a>
-        </div> -->
-            <button class="navbar-toggler ml-auto in-nav" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fa fa-bars nav-menu-icon" data-wow-delay=".1s"></i>
-            </button>
+        <div class="web-header">
+            <div class="toggler-wrapper in-nav">
+                <a class="logo-icon" href="/"><img src="/img/logo.svg" width="45"></a>
+                <ul class="navigation-center-web">
+                    <li class="nav-item nav-learn">
+                        <a class="nav-link" href="javascript:openSubMenu('learn','about')"><span>Learn</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-earn">
+                        <a class="nav-link" href="javascript:openSubMenu('earn', 'creators')"><span>Earn</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-connect">
+                        <a class="nav-link" href="javascript:openSubMenu('connect', '')"><span>Connect</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-explore">
+                        <a class="nav-link" href="javascript:openSubMenu('explore', '')"><span>Explore</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                </ul>
+                <!-- <div class="menu-container">
+                </div> -->
+                <a class="nav-link download mobile-hidden" href="/investors/">Investors</a>
+                <button class="navbar-toggler ml-auto in-nav" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars nav-menu-icon" data-wow-delay=".1s"></i>
+                </button>
+            </div>
         </div>
-        <div class="collapse navbar-collapse in-nav" id="navbarTogglerDemo03">
-            <ul class="navbar-nav ml-auto mt-lg-0 in-nav">
-                <li class="nav-item in-nav">
-                    <a class="nav-link" href="/run-a-node">Run a Node</a>
-                </li>
-                <li class="nav-item active in-nav">
-                    <a class="nav-link" href="/framework/">Framework</a>
-                </li>
-                <li class="nav-item in-nav">
-                    <a class="nav-link" target="_blank" href="https://koi.rocks/">NFTs</a>
-                </li>
-                <li class="nav-item in-nav">
-                    <a class="nav-link download" href="/downloads/">Download</a>
-                </li>
-            </ul>
+        <div class="mobile-header">
+            <div class="toggler-wrapper in-nav">
+                <a class="logo-icon" href="/"><img src="/img/logo.svg" width="45"></a>
+                <ul class="navigation-center-web">
+                    <li class="nav-item nav-learn">
+                        <a class="nav-link" href="javascript:openSubMenu('learn','about')"><span>Learn</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-earn">
+                        <a class="nav-link" href="javascript:openSubMenu('earn','creators')"><span>Earn</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-connect">
+                        <a class="nav-link" href="javascript:openSubMenu('connect','')"><span>Connect</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-explore">
+                        <a class="nav-link" href="javascript:openSubMenu('explore','')"><span>Explore</span> <img src="/img/icons/narrow-dropdown.svg" width="14"></a>
+                    </li>
+                    <li class="nav-item nav-investors">
+                        <a class="nav-link" href="javascript:openSubMenu('investors','')"><span>Investors</span></a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler in-nav" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars nav-menu-icon" data-wow-delay=".1s"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse in-nav" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto mt-lg-0 in-nav">
+                    <li class="nav-item in-nav">
+                        <a class="nav-link" href="/learn/about">Learn</a>
+                    </li>
+                    <li class="nav-item active in-nav">
+                        <a class="nav-link" href="/earn/developers">Earn</a>
+                    </li>
+                    <li class="nav-item in-nav">
+                        <a class="nav-link" href="/connect/">Connect</a>
+                    </li>
+                    <li class="nav-item in-nav">
+                        <a class="nav-link" href="/explore/">Explore</a>
+                    </li>
+                    <li class="nav-item in-nav">
+                        <a class="nav-link download" href="/investors/">Investors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="sub_menu">
+        <div class="sub-menu-container sub-learn">
+            <div class="sub-menu-item sub-menu-about">
+                <div class="item-line"></div>
+                <a href="/learn/about" class="item-title">
+                    <div class="desktop">About</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-mission">
+                <div class="item-line"></div>
+                <a href="/learn/mission" class="item-title">
+                    <div class="desktop">Mission</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-news">
+                <div class="item-line"></div>
+                <a href="/learn/news" class="item-title">
+                    <div class="desktop">News</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-faq">
+                <div class="item-line"></div>
+                <a href="/learn/faq" class="item-title">
+                    <div class="desktop">FAQ</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-blog">
+                <div class="item-line"></div>
+                <a href="https://blog.openkoi.com/" class="item-title">
+                    <div class="desktop">Blog</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+        </div>
+        <div class="sub-menu-container sub-earn">
+            <div class="sub-menu-item sub-menu-creators">
+                <div class="item-line"></div>
+                <a href="#" class="item-title">
+                    <div class="desktop">Creators</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-developers">
+                <div class="item-line"></div>
+                <a href="/earn/developers" class="item-title">
+                    <div class="desktop">Developers</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-everyone">
+                <div class="item-line"></div>
+                <a href="/earn/everyone" class="item-title">
+                    <div class="desktop">Everyone</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+            <div class="sub-menu-item sub-menu-careers">
+                <div class="item-line"></div>
+                <a href="/earn/careers" class="item-title">
+                    <div class="desktop">Careers</div>
+                    <div class="icon-dot"><img src="/img/icons/dot.svg"></div>
+                </a>
+            </div>
+        </div>
+        <div class="sub-menu-container sub-connect">
+            <div class="sub-menu-item">
+                <a href="https://twitter.com/open_koi" class="item-title">
+                    <div class="no-line">Twitter</div>
+                </a>
+            </div>
+            <div class="sub-menu-item">
+                <a href="https://discord.com/invite/SDwgnjxNEn " class="item-title">
+                    <div class="no-line">Discord</div>
+                </a>
+            </div>
+            <div class="sub-menu-item">
+                <a href="https://t.me/joinchat/OEHs_8T9-8ZhZmU5" class="item-title">
+                    <div class="no-line">Telegram</div>
+                </a>
+            </div>
+            <div class="sub-menu-item">
+                <a href="https://github.com/open-koi" class="item-title">
+                    <div class="no-line">Github</div>
+                </a>
+            </div>
+            <div class="sub-menu-item">
+                <a href="https://www.youtube.com/watch?v=g0sT-0NqWUY" class="item-title">
+                    <div class="no-line">Youtube</div>
+                </a>
+            </div>
+        </div>
+        <div class="sub-menu-container sub-explore">
+            <div class="sub-menu-item">
+                <a href="https://koi.rocks" class="item-title">
+                    <div class="no-line">koi.rocks NFT Leaderboard</div>
+                </a>
+            </div>
+            <div class="sub-menu-item">
+                <a href="https://koi.rocks" class="item-title">
+                    <div class="no-line">1111 Collection</div>
+                </a>
+            </div>
+            <div class="sub-menu-item">
+                <a href="https://getstorecat.com/" class="item-title">
+                    <div class="no-line">StoreCat</div>
+                </a>
+            </div>
         </div>
     </div>
 </nav>

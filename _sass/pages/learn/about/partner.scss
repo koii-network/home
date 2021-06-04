@@ -1,0 +1,36 @@
+@import "variables";
+
+#learn-partners { 
+    .partner-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .partner {
+        margin: 0 10px;
+        img {
+            width: 130px;
+            margin: 0 30px 30px 30px;
+        }
+    }
+    .font-cap1{
+        text-align: center;
+        font-size: 40px;
+        line-height: 56px;
+    }
+    @media (max-width: $sm) {
+        .partner {
+            margin: 0 10px;
+            img {
+                width: 100px;
+            }
+        }
+        .font-cap1{
+            font-size: 32px;
+            line-height: 40px;
+          }
+    }
+}

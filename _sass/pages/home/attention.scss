@@ -1,39 +1,63 @@
 @import "variables";
 
 #attention {
-  background: $white;
+  background: $grayLight;
   color: $blueDark;
   padding: 80px 0;
-  .att-font1{
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 56px;
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    span{font-family: monospace;}
-  }
-  h2{
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 56px;
-    /* identical to box height, or 175% */
-    letter-spacing: 0.03em;
-    span { 
+
+  .attention-container{
+    display: flex;
+    align-items: center;
+    .descr-area{ flex: 1; }
+    .img-area{ 
+      flex: 1;
+      text-align: right;
+      img{
+        max-width: 100%;
+        padding-left: 10px;
+      }
+    }
+    .img-area-mobile{ display: none; }
+    .btn-blue{
+      color: $white;
+      background: $blueDark;
+    }
+    .btn{
+      width: fit-content;
+      padding: 8px 70px;
+      line-height: 24px;
+      border: 0px solid transparent;
+      border-radius: 4px;
+    }
+    .font-cap1{
       font-weight: normal;
-      font-size: 26px;
-    }
-  }
-  .font24{font-size: 24px !important;}
-  label{
-    font-size: 18px;
-    font-weight: 500;
-    span{
-      font-weight: 600;
-      font-size: 32px !important;
-      line-height: 56px;
-      /* identical to box height, or 175% */
-      text-align: center;
+      font-size: 24px;
+      line-height: 40px;
       letter-spacing: 0.03em;
+      color: $blueDark;
+    }
+    .mt30{ margin-top: 30px; }
+    .mt25{ margin-top: 25px; }
+    @media (max-width: $sm){
+      flex-direction: column-reverse;
+      .img-area{ display: none; }
+      .img-area-mobile{ 
+        display: flex; 
+        flex: 1; 
+        img{
+          max-width: 100%;
+        }
+      }
+      .descr-area{ margin-top: 50px; }
+      .font-cap1{
+        font-size: 18px;
+        line-height: 32px;
+      }
+      .btn{
+        font-size: 16px;
+        margin: 0 auto;
+      }
     }
   }
+  
 }

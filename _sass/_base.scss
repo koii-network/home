@@ -6,10 +6,49 @@
 @import './pages/components/pre-register-comp.scss';
 
 @import './pages/home/header.scss';
-@import './pages/home/about.scss';
 @import './pages/home/attention.scss';
-@import './pages/home/join.scss';
+@import './pages/home/sdk.scss';
 @import './pages/home/save-the-web.scss';
+
+// - learn
+// about 
+@import './pages/learn/about/header.scss';
+@import './pages/learn/about/team.scss';
+@import './pages/learn/about/partner.scss';
+
+// mission
+@import './pages/learn/mission/header.scss';
+@import './pages/learn/mission/section2.scss';
+@import './pages/learn/mission/touch.scss';
+@import './pages/learn/mission/section4.scss';
+// news
+@import './pages/learn/news/header.scss';
+@import './pages/learn/news/topnews.scss';
+@import './pages/learn/news/allnews.scss';
+@import './pages/learn/news/nodenews.scss';
+// faq
+@import './pages/learn/faq/header.scss';
+@import './pages/learn/faq/jumpto.scss';
+@import './pages/learn/faq/faqdetails.scss';
+
+// - earn
+// careers 
+@import './pages/earn/careers/header.scss';
+@import './pages/earn/careers/describe.scss';
+@import './pages/earn/careers/jobdetail.scss';
+@import './pages/earn/careers/jobfooter.scss';
+
+// - connect
+@import './pages/connect/header.scss';
+@import './pages/connect/section.scss';
+@import './pages/connect/developer-docs.scss';
+
+// - explore
+@import './pages/explore/index.scss';
+
+// - investors
+@import './pages/investors/index.scss';
+
 
 @import './pages/downloads/header.scss';
 @import './pages/downloads/how-it-works.scss';

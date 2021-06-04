@@ -38,6 +38,18 @@
             .running-node-right {
                 margin-bottom: 80px;
             }
+            .btn-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                a{
+                    width: 260px !important;
+                    margin-top: 20px;
+                }
+                a.ml-4{
+                    margin-left: 0 !important;
+                }
+            }
         }
     }
 }

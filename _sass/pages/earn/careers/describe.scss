@@ -1,0 +1,25 @@
+@import "variables";
+
+#describe {
+    background: white;
+    color: $blueDark;
+    padding: 75px 0;
+    min-height: 456px;
+    .container {
+        .text {
+        
+            h6 {
+                color: #171753;
+                line-height: 32px;
+                letter-spacing: 0.03em;
+            }
+        }    
+        .pic {
+            display: flex;
+            justify-content: center;
+            padding-top: 400px;
+            padding-left: 200px;
+        }
+        
+    }
+}

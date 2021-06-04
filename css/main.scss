@@ -67,7 +67,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
     font-weight: 600 !important;
     transition: opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1), transform 0.45s cubic-bezier(0.25, 1, 0.33, 1),
@@ -82,10 +82,14 @@ a {
 .btn-blueDark {
     background: $blueDark;
     color: $white;
-    min-width: 192px;
+    padding: 8px 30px;
     &:hover {
         color: $white;
     }
+}
+.btn-blue{
+    color: #fff;
+    background: #171753;
 }
 .btn-white {
     background: $white;
@@ -118,9 +122,35 @@ a {
         transform: scale(1.05);
     }
 }
+.full-img{ max-width: 100%;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt60{margin-top: 60px;}
+.mt70{margin-top: 70px;}
+.mt75{margin-top: 75px;}
+.mt150{margin-top: 150px;}
+.underline{ text-decoration: underline;}
 .text-bold {
     font-weight: bold;
 }
+.font-blue{
+    letter-spacing: 0.03em;
+    color: $blueDark;
+}
+.font-orange{
+    letter-spacing: 0.03em;
+    color: $orange;
+}
+.font-green{
+    letter-spacing: 0.03em;
+    color: $green;
+}
+
 @media (min-width: $xl) {
     body::-webkit-scrollbar {
         width: 6px;
@@ -140,7 +170,7 @@ a {
     // }
 }
 @media (max-width: $sm) {
-    header {
-        min-height: calc(100vh) !important;
-    }
+    // header {
+    //     min-height: calc(100vh) !important;
+    // }
 }

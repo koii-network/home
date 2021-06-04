@@ -1,0 +1,50 @@
+@import "variables";
+
+.docs-section {
+    background: $white;
+    color: $blueDark;
+    padding: 75px 0;
+    box-shadow: 0px 2px 24px 2px rgba(0, 0, 0, 0.16);
+    .font-cap1{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 56px;
+    }
+    .font-cap2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .docs-area{
+        display: flex;
+    }
+    .running-node-left{
+        max-width: 450px;
+        img{
+            margin-right: 60px;
+        }
+    }
+    .running-node-right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .docs-area{
+            flex-direction: column-reverse;
+        }
+        .running-node-right {
+            margin-bottom: 80px;
+        }
+        .running-node-left{
+            max-width: 450px;
+            margin: 0 auto;
+            img{
+                margin-right: 0px;
+            }
+        }
+    }
+}
