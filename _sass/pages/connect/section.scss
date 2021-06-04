@@ -25,6 +25,9 @@
   .font-cap4{
     font-size: 16px;
     line-height: 24px;
+    a{
+      color: $blueDark;
+    }
   }
   .social-share-btn{
     display: none;
