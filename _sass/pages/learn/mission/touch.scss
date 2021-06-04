@@ -1,0 +1,25 @@
+@import "variables";
+
+#mission_touch {
+    position: relative;
+    color: $blueDark;
+    background: #9BE7C4;
+    // min-height: 535px;
+    margin: 75px 0;
+    padding: 25px 15px;
+
+    .font-cap1 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .btn{
+        margin: 0 auto;
+        width: fit-content;
+        padding: 8px 50px;
+        line-height: 24px;
+        border: 0px solid transparent;
+        border-radius: 4px;
+    }
+
+    @media (max-width: $sm) {}
+}
