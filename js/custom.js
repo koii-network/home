@@ -96,7 +96,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 $(document).ready(function() {
-  show_slide()
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
   console.log({paths})
@@ -107,6 +106,9 @@ $(document).ready(function() {
   }else if(paths.length >= 3){
     category = paths[1]
     subCat = paths[2]
+  }
+  if(category === 'connect'){
+    show_slide()
   }
   setActiveMenu(category, subCat)
   $("#tap1").click(function(){
