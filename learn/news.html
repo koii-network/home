@@ -1,0 +1,106 @@
+---
+layout: front
+permalink: /learn/news/
+stylesheet: koi.css
+---
+
+{% include learn/news/header.html %}
+{%- assign sorted = site.news | sort: 'newsType' -%}
+<section id="topnews">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 column">
+            <div class="top">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=QQKAhkqr8CI">
+                        <div class="imgbackground">    
+                            <iframe class="ytblink" src="https://www.youtube.com/embed/QQKAhkqr8CI" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+                            <div class="newstopic">
+                                <h6>What is Koi? Diffusion Digital April 2021</h6>
+                                <h7>Rumi Morales talks to Al Morris about KOI, a decentralised protocol bringing personal ownership to the internet</h7>
+                            </div>    
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            {% for news in sorted %}
+
+            {%- if news.newsType contains "top" -%}    
+            {% include learn/news/topnews.html 
+                            title=news.title
+                            subtitle=news.describe
+                            image=news.image
+                            link=news.rsvpUrl 
+                        %}
+            {%- endif -%}
+
+            {% endfor %}     
+        </div>   
+    </div>
+</section>
+
+{%- assign sorttime = site.news | sort: 'date' | reverse -%}
+<section id="allnews">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 column">
+                <h1>Koi in the News 
+                    <a href="https://blog.openkoi.com/" class="smallbtn" 
+                    style="font-size:15px;
+                    color: #237B75;
+                    text-decoration-line: underline;">See all</a>
+                </h1>
+                <p>
+                    See what everyone else is saying about Koi.
+                </p>
+            </div>
+        </div>    
+            <div class="row">
+                
+                    {%- for news in sorttime -%}
+                        {%- if news.tag contains "news" -%}
+                        {% include learn/news/allnews.html 
+                                        title=news.title
+                                        subtitle=news.describe
+                                        image=news.image
+                                        link=news.rsvpUrl
+                            %}
+                        {%- endif -%}
+                    {%- endfor -%}   
+            
+        </div>
+    </div>
+    <div class="backfront"></div>
+    <div class="backend"></div>
+</section>
+
+<section id="nodenews">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 column">
+            <h1>Koi's <i>In the Node</i>
+                <a href="https://blog.openkoi.com/" class="smallbtn" 
+                style="font-size:15px;
+                color: #237B75;
+                text-decoration-line: underline;">See all</a>
+            </h1>
+            <p>
+                Catch up on previous newsletters to make sure you haven’t missed anything.
+            </p>
+            </div>
+        </div>
+        <div class="row">
+            {%- for news in sorttime -%}
+                {%- if news.tag contains "node" -%}
+                {% include learn/news/nodenews.html 
+                                title=news.title
+                                subtitle=news.describe
+                                image=news.image
+                                link=news.rsvpUrl
+                    %}
+                {%- endif -%}
+            {%- endfor -%}
+            
+        </div>
+    </div>
+</section>
+
