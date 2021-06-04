@@ -5,6 +5,8 @@
     color: $blueDark;
     padding: 75px 0;
     min-height: 456px;
+    .mobile-developers{display: none;}
+    .mobile-users{display: none;}
     .container {
         .row {
             &.create-dapp {
@@ -17,10 +19,12 @@
                 width: 100%;
                 text-align: center;
                 img.developers {
-                    width: 903px;
+                    max-width: 903px;
+                    width: 100%;
                 }
                 img.users-interact {
-                    width: 871px;
+                    max-width: 871px;
+                    width: 100%;
                 }
             }
         }
@@ -32,5 +36,8 @@
                 margin-bottom: 80px;
             }
         }
+        .mobile-developers, .mobile-users{display: block;margin: 0 auto;}
+        img.developers{display: none !important;}
+        img.users-interact{display: none !important;}
     }
 }
