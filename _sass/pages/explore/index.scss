@@ -1,0 +1,38 @@
+@import "variables";
+
+#explore{
+  color: $blueDark;
+  .font-cap1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .font-cap2{
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .font-cap3{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .section-header{
+    margin: 75px 0;
+  }
+  .section-ct{
+    margin: 75px 0;
+    a{
+      text-decoration: none;
+      color: $blueDark;
+    }
+    img{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  }
+  @media (max-width: $sm) {
+    .section-ct{
+      margin: 40px 0;
+    }
+  }
+}
