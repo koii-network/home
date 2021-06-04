@@ -15,6 +15,14 @@ collections:
     layout: front 
     output: true
 
+  faq:
+    layout: front
+    output: true  
+  
+  jobs:
+    layout: front
+    output: true 
+
 defaults:
   - scope:
       path: ""
