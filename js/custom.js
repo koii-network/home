@@ -85,7 +85,7 @@ $(document).ready(function() {
     })
     $(".tap2-content").show()
   })
-  $(".tap-descrs .content-detail .icon-close").click(function(){
+  $(".content-detail .icon-close").click(function(){
     $(".content-detail").each(function(){
       $(this).hide()
     })
