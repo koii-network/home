@@ -1,6 +1,6 @@
 ---
 title: CGC|NFT 2.0 - The Ultimate Non-Fungible Token Show
-describe: CGC|NFT 2.0 online conference is a one-stop destination and a definitive source of knowledge and insights about disruptive NFTs and blockchain games.
+describe: 'Join Koi founder Al Morris at #CGCNFT2 Saturday, June 12th, to learn more about Koi and the future of the attention economy! Get your free ticket here:'
 layout: front
 image: tokenshow.jpg
 date: 2021-06-07
