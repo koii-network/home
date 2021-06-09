@@ -22,7 +22,7 @@
         padding: 20px 10px 10px 10px;
         color: #171753;
       }
-      .panel-title {
+      .img {
         align-content: center;
         vertical-align: middle;
         padding: 20px 0 0 10px;
@@ -50,6 +50,24 @@
   }
 
   @media (max-width: $xs) {
+    .container {
+      padding: 20px 20px 20px 20px;
+      .col-1.column {
+        margin-left: -40px;
+      }
+    }
+  }
+
+  @media (max-width: $sm) {
+    .container {
+      padding: 20px 20px 20px 20px;
+      .col-1.column {
+        margin-left: -40px;
+      }
+    }
+  }
+
+  @media (max-width: $md) {
     .container {
       padding: 20px 20px 20px 20px;
       .col-1.column {
