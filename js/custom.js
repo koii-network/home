@@ -139,7 +139,8 @@ $(document).ready(function() {
     if(keycode == '13'){
       var email = $(this).val()
       if(isEmail(email)){
-        goToMailchimp(email)
+        alert('Thanks for joining Koi’s community!') 
+      return ;
       }else{
         alert('You should input an email');  
         return ;
@@ -149,7 +150,8 @@ $(document).ready(function() {
   $(".btn-subscription").click(function(){
     var email = $('.input-subscription').val()
     if(isEmail(email)){
-      goToMailchimp(email)
+      alert('Thanks for joining Koi’s community!')  
+      return ;
     }else{
       alert('You should input an email');  
       return ;
