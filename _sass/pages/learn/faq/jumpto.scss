@@ -22,20 +22,32 @@
                 }
             }
             .row-right {
+                background-size: auto 100%;
+                content: "";
                 display: flex;
-                justify-content: center;
+                height: 100px;
+                position: relative;
+                top: 0;
+                width: 100%;
                 img {
-                    width: 1200px;
+                    width: 850px;
                     height: 400px;
-                    padding-left: 300px;
                 }
             }
     }
     @media (max-width: $sm) {
         padding: 56px 0;
         .container {
+            h1 {
+                font-size:35px !important;
+            }
+
             .row-right {
                 margin-bottom: 80px;
+                img {
+                    width: auto;
+                    height: auto;
+                }
             }
         }
     }
