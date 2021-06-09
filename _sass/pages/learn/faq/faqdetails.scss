@@ -1,49 +1,78 @@
 @import "variables";
 
 #faqdetails {
+  .container {
+    padding: 30px 0 30px 0;
+
+    h2 {
+      margin-top: 35px;
+      color: #171753;
+    }
+
+    .detail {
+      margin-bottom: 50px;
+    }
+
+    .panel-group {
+      margin-top: 20px;
+      background: #f5f5f5;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+      border-radius: 4px;
+      h4 {
+        padding: 20px 10px 10px 10px;
+        color: #171753;
+      }
+      .img {
+        align-content: center;
+        vertical-align: middle;
+        padding: 20px 0 0 10px;
+      }
+      .panel-body {
+        padding: 0px 10px 10px 10px;
+
+        h7 {
+          color: #171753;
+        }
+        a {
+          color: #171753;
+          text-decoration: underline;
+          font-weight: 600;
+        }
+      }
+      .icon {
+        display: block;
+        float: right;
+      }
+    }
+  }
+  .footblank {
+    padding-top: 100px;
+  }
+
+  @media (max-width: $xs) {
     .container {
-        padding: 30px 0 30px 0;  
-
-        h2 {
-            margin-top: 35px;
-            color: #171753;
-        }
-
-        .detail {
-            margin-bottom: 50px;
-        }
-
-        .panel-group {
-            margin-top: 20px;
-            background: #F5F5F5;
-            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
-            border-radius: 4px;
-            h4 {
-                padding: 10px 10px 10px 10px;
-                color: #171753;
-            }
-            .panel-body {
-                padding: 0px 10px 10px 10px;
-
-                h7 {
-                    color: #171753;
-                }
-            }
-            .icon {
-                display: block;
-                float: right;
-            }
-        }
-        
+      padding: 20px 20px 20px 20px;
+      .col-1.column {
+        margin-left: -40px;
+      }
     }
-    .footblank {
-        padding-top:100px;
-    }
+  }
 
-    @media (max-width: $xs) {
-        .container {
-            padding: 20px 20px 20px 20px
-        }
+  @media (max-width: $sm) {
+    .container {
+      padding: 20px 20px 20px 20px;
+      .col-1.column {
+        margin-left: -40px;
+      }
     }
+  }
 
+  @media (max-width: $md) {
+    .container {
+      padding: 20px 20px 20px 20px;
+      .col-1.column {
+        margin-left: -40px;
+      }
+    }
+  }
 }

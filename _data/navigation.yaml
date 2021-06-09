@@ -32,12 +32,12 @@
     class: normal
 
   - name: Careers
-    link: "mailto:jobs@openkoi.com"
+    link: /earn/careers/
     class: normal
 
-  # - name: Brand Guidelines
-  #   link: /koi/
-  #   class: normal    
+  - name: Contest Terms and Conditions
+    link: /Contest_Terms_and_Conditions_Updated_.pdf
+    class: normal    
 
   # - name: Blog
   #   link: https://blog.openkoi.com/

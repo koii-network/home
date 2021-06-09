@@ -1,0 +1,41 @@
+@import "variables";
+
+#error-header {
+        position: relative;
+        background: $blueDarkBg;
+        color: $white;
+        padding: 80px 0;
+        display: flex;
+        align-items: center;
+        margin-top: 48px;
+      
+        &::before {
+          background-image: url("/img/homepage/vector.svg");
+          // background-image: url("/img/homepage/vector.png");
+          background-repeat: no-repeat;
+          // background-size: 839px auto;
+          background-size: auto 100%;
+          content: "";
+          display: block;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          opacity: 35%;
+        }
+        .container{
+          padding: 75px 0;
+        }
+        .font-cap1{
+          font-size: 40px;
+          line-height: 52px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+        }
+        .font-cap2{
+          font-size: 24px;
+          line-height: 36px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+        }
+}

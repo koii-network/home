@@ -3,7 +3,7 @@
 #describe {
     background: white;
     color: $blueDark;
-    padding: 75px 0;
+    padding: 25px 0;
     min-height: 456px;
     .container {
         .text {
@@ -16,10 +16,32 @@
         }    
         .pic {
             display: flex;
-            justify-content: center;
-            padding-top: 400px;
-            padding-left: 200px;
+            justify-content: flex-end;
+            padding-top: 350px;
+            padding-left: 400px;
+            position: relative;
+            img {
+                width: 850px;
+                height: 400px;
+            }
         }
         
+    }
+    @media (max-width: $sm) {
+        padding: 56px 0;
+        .container {
+            .pic {
+                justify-content: left;
+                margin-bottom: 80px;
+                display: flex;
+                padding-top: 0;
+                padding-left: 0;
+
+                img {
+                    width: 400px;
+                    height: auto;
+                }
+            }
+        }
     }
 }
