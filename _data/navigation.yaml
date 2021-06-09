@@ -1,43 +1,43 @@
 - header: COMPANY
   class: col-sm-5 company
   children:
-  - name: Home
-    link: /
-    class: normal       
+    - name: Home
+      link: /
+      class: normal
 
-  - name: About
-    link: /learn/about/
-    class: normal       
+    - name: About
+      link: /learn/about
+      class: normal
 
-  - name: Blog
-    link: https://blog.openkoi.com/
-    class: normal
+    - name: Blog
+      link: https://blog.openkoi.com/
+      class: normal
 
-  - name: Node
-    link: /run-a-node/
-    class: normal
+    - name: Node
+      link: /run-a-node/
+      class: normal
 
-# - header: ''
-#   children:
-  - name: Developers
-    link: /framework/
-    class: normal   
+    # - header: ''
+    #   children:
+    - name: Developers
+      link: /framework/
+      class: normal
 
-  - name: Register NFTs
-    link: https://koi.rocks
-    class: normal
+    - name: Register NFTs
+      link: https://koi.rocks
+      class: normal
 
-  - name: Support
-    link: "mailto:support@openkoi.com"
-    class: normal
+    - name: Support
+      link: "mailto:support@openkoi.com"
+      class: normal
 
-  - name: Careers
-    link: /earn/careers/
-    class: normal
+    - name: Careers
+      link: /earn/careers/
+      class: normal
 
-  - name: Contest Terms and Conditions
-    link: /Contest_Terms_and_Conditions_Updated_.pdf
-    class: normal    
+    - name: Contest Terms and Conditions
+      link: /Contest_Terms_and_Conditions_Updated_.pdf
+      class: normal
 
   # - name: Blog
   #   link: https://blog.openkoi.com/
@@ -45,54 +45,54 @@
 
   # - name: WhitePaper
   #   link: /
-  #   class: child    
+  #   class: child
 
 - header: GET INVOLVED
   class: col-sm-4 get-involved
   children:
-  - name: Run a Node
-    link: https://docs.google.com/forms/d/e/1FAIpQLSduDTdxD3dDOvcbIcKlG7JWOsnDFVZFdLy0J38q_OOzUC3okA/viewform
-    class: normal
+    - name: Run a Node
+      link: https://docs.google.com/forms/d/e/1FAIpQLSduDTdxD3dDOvcbIcKlG7JWOsnDFVZFdLy0J38q_OOzUC3okA/viewform
+      class: normal
 
-  - name: Get the Extension
-    link:  https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
-    class: normal
+    - name: Get the Extension
+      link: https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
+      class: normal
 
-  - name: Earn for Code
-    link: https://docs.openkoi.com/#tools-for-easy-protocolization
-    class: normal     
+    - name: Earn for Code
+      link: https://docs.openkoi.com/#tools-for-easy-protocolization
+      class: normal
 
-  # - name: Join the Discord
-  #   link: https://discord.gg/SDwgnjxNEn
-  #   class: normal 
-    
-  - name: Lightpaper
-    link: /Lightpaper.pdf
-    class: normal  
+    # - name: Join the Discord
+    #   link: https://discord.gg/SDwgnjxNEn
+    #   class: normal
 
-  - name: Technical Paper
-    link: /koi-protocol.pdf
-    class: normal  
+    - name: Lightpaper
+      link: /Lightpaper.pdf
+      class: normal
+
+    - name: Technical Paper
+      link: /koi-protocol.pdf
+      class: normal
 
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
-  - name: hello@openkoi.com
-    link: "mailto:hello@openkoi.com"
-    class: normal
+    - name: hello@openkoi.com
+      link: "mailto:hello@openkoi.com"
+      class: normal
 
-  - name: sales@openkoi.com
-    link: "mailto:sales@openkoi.com"
-    class: normal
+    - name: sales@openkoi.com
+      link: "mailto:sales@openkoi.com"
+      class: normal
 
-  - name: developer@openkoi.com
-    link: "mailto:developers@openkoi.com"
-    class: normal
+    - name: developer@openkoi.com
+      link: "mailto:developers@openkoi.com"
+      class: normal
 
-  - name: jobs@openkoi.com
-    link: "mailto:jobs@openkoi.com"
-    class: normal
+    - name: jobs@openkoi.com
+      link: "mailto:jobs@openkoi.com"
+      class: normal
 
-  - name: press@openkoi.com
-    link: "mailto:press@openkoi.com"
-    class: normal            
+    - name: press@openkoi.com
+      link: "mailto:press@openkoi.com"
+      class: normal
