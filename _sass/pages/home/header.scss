@@ -23,33 +23,37 @@
     width: 100%;
     opacity: 35%;
   }
-  .container{
+  .container {
     padding: 75px 0;
   }
-  .font-cap1{
+  .font-cap1 {
     font-size: 40px;
     line-height: 52px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  .font-cap2{
+  .font-cap2 {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  .font-cap3{
+  .font-cap3 {
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 600;
   }
 
-  .join-area{ padding-top: 40px; max-width:300px; }
-  .validate{
+  .join-area {
+    padding-top: 40px;
+    max-width: 300px;
+  }
+  .validate {
     max-width: 300px;
     .email {
+      border-radius: 4px 4px 4px 4px;
       height: 32px;
       font-style: normal;
       font-weight: 500;
@@ -59,59 +63,58 @@
       color: $white;
       background: $blueDark;
       border: 1px solid white;
-      &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: white;
         opacity: 1; /* Firefox */
       }
     }
-    .btn{
-      height: 32px;
-      font-size: 15px;
-      border-radius: 0 4px 4px 0;
+    input#mc-embedded-subscribe {
+      border-radius: 4px 4px 4px 4px;
       transform: unset;
-      background: $white;
-      color: $blueDark;
+      background: white;
+      color: #171753;
+      font-weight: 600;
       border: 1px solid white;
     }
   }
-  .social-area{
+  .social-area {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    .social-item{ padding: 0; }
+    .social-item {
+      padding: 0;
+    }
   }
   @media (max-width: 1200px) {
-    
   }
   @media (max-width: 1000px) {
-    
   }
   @media (max-width: $sm) {
     padding: 30px 0;
-    background-image: url("/img/homepage/vector-mobile.svg"), linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%);
+    background-image: url("/img/homepage/vector-mobile.svg"),
+      linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%);
     background-repeat: no-repeat;
     // min-height: unset;
     // min-height: calc(100vh - 75px) !important;
     &::before {
       display: none;
     }
-    .font-cap1{
+    .font-cap1 {
       font-size: 32px;
       line-height: 40px;
       letter-spacing: 0.03em;
-      color: #FFFFFF;
+      color: #ffffff;
     }
-    .font-cap2{
+    .font-cap2 {
       font-size: 22px;
       line-height: 28px;
       letter-spacing: 0.03em;
-      color: #FFFFFF;
+      color: #ffffff;
     }
   }
   @media (max-width: 572px) {
-    
   }
   @media (max-width: 450px) {
-    
   }
 }
