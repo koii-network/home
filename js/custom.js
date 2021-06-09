@@ -134,22 +134,12 @@ $(document).ready(function() {
       $(this).hide()
     })
   })
-  $('.input-subscription').keypress(function(event){
-    var keycode = (event.keyCode ? event.keyCode : event.which);
-    if(keycode == '13'){
-      var email = $(this).val()
-      if(isEmail(email)){
-        goToMailchimp(email)
-      }else{
-        alert('You should input an email');  
-        return ;
-      }
-    }
-  });
+  
   $(".btn-subscription").click(function(){
+    console.log('wrong one ran')
     var email = $('.input-subscription').val()
     if(isEmail(email)){
-      goToMailchimp(email)
+      alert('Thanks for joining Koi’s community!')  
     }else{
       alert('You should input an email');  
       return ;
