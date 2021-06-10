@@ -136,7 +136,6 @@ $(document).ready(function() {
   })
   
   $(".btn-subscription").click(function(){
-    console.log('wrong one ran')
     var email = $('.input-subscription').val()
     if(isEmail(email)){
       alert('Thanks for joining Koi’s community!')  
