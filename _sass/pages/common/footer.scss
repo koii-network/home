@@ -55,7 +55,25 @@
         // margin-left: -4px;
       }
     }
-
+    div#showconfirm1 {
+      display: none;
+    }
+    div#showconfirm1 {
+      border-radius: 4px 4px 4px 4px;
+      background: #ffc78f;
+      color: #171753;
+      font-weight: 600;
+      border: 2px solid #ffc78f;
+      min-height: 2.5em;
+      max-width: 19em;
+      h6 {
+        font-weight: 600;
+        font-size: 16px !important;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        padding: 10px 0 0 12px;
+      }
+    }
     .footer-options-wrapper {
       margin-top: 32px;
       margin-bottom: 15px;
