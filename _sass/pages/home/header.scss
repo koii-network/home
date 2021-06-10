@@ -50,11 +50,8 @@
     padding-top: 40px;
     max-width: 300px;
   }
-  div#mc_embed_signup {
-    min-width: 500px;
-}
   .validate {
-    max-width: 300px;
+    min-width: 330px;
     .email {
       border-radius: 4px 0px 0px 4px;
       height: 32px;
@@ -80,9 +77,9 @@
       color: #171753;
       font-weight: 600;
       border: 2px solid white;
-      margin-left: -4px;
       line-height: 26px;
       vertical-align: bottom;
+      margin-left: -4px;
     }
   }
   .social-area {
