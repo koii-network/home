@@ -32,7 +32,7 @@
     .validate {
       min-width: 500px;
       .email {
-        border-radius: 4px 0px 0px 4px;
+        border-radius: 4px 4px 4px 4px;
         font-weight: 500;
         letter-spacing: 0.03em;
         background: white;
@@ -44,13 +44,12 @@
         }
       }
       button#mc-embedded-subscribe {
-        border-radius: 0px 4px 4px 0px;
+        border-radius: 4px 4px 4px 4px;
         background: #ffc78f;
         color: #171753;
         font-weight: 600;
         border: 2px solid #ffc78f;
-        margin-left: -4px;
-        vertical-align: bottom;
+        // margin-left: -4px;
       }
     }
 
