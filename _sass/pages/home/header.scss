@@ -53,7 +53,7 @@
 
   .validate {
     min-width: 25em;
-    min-height: 2em;
+    min-height: 3em;
     .email {
       border-radius: 4px 4px 4px 4px;
       font-weight: 500;
@@ -62,7 +62,7 @@
       background: $blueDark;
       border: 2px solid white;
       width: 233px;
-      min-height: 2em;
+      min-height: 3em;
       &::placeholder {
         color: white;
       }
@@ -73,7 +73,7 @@
       color: #171753;
       font-weight: 600;
       border: 2px solid white;
-      min-height: 2em;
+      min-height: 3em;
       // margin-left: -4px;
     }
   }
