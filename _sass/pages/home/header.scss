@@ -50,10 +50,13 @@
     padding-top: 40px;
     max-width: 300px;
   }
-
+  form#mc-embedded-subscribe-form {
+    display: flex;
+  }
   .validate {
     min-width: 25em;
-    min-height: 3em;
+    min-height: 2.5em;
+
     .email {
       border-radius: 4px 4px 4px 4px;
       font-weight: 500;
@@ -62,7 +65,7 @@
       background: $blueDark;
       border: 2px solid white;
       width: 233px;
-      min-height: 3em;
+      min-height: 2.5em;
       &::placeholder {
         color: white;
       }
@@ -73,8 +76,26 @@
       color: #171753;
       font-weight: 600;
       border: 2px solid white;
-      min-height: 3em;
+      min-height: 2.5em;
       // margin-left: -4px;
+    }
+  }
+  div#showconfirm {
+    display: none;
+  }
+  div#showconfirm {
+    border-radius: 4px 4px 4px 4px;
+    background: white;
+    color: #171753;
+    font-weight: 600;
+    border: 2px solid white;
+    min-height: 2.5em;
+    h6 {
+      font-weight: 600;
+      font-size: 16px !important;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      padding: 10px 0 0 12px;
     }
   }
   .social-area {

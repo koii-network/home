@@ -30,8 +30,8 @@
     }
 
     .validate {
-      min-width: 20em;
-      min-height: 2em;
+      min-width: 25em;
+      min-height: 2.5em;
       .email {
         border-radius: 4px 4px 4px 4px;
         font-weight: 500;
@@ -39,7 +39,7 @@
         background: white;
         border: 2px solid white;
         width: 233px;
-        min-height: 2em;
+        min-height: 2.5em;
         &::placeholder {
           color: #171753;
           opacity: 0.6;
@@ -51,7 +51,7 @@
         color: #171753;
         font-weight: 600;
         border: 2px solid #ffc78f;
-        min-height: 2em;
+        min-height: 2.5em;
         // margin-left: -4px;
       }
     }

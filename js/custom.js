@@ -138,7 +138,9 @@ $(document).ready(function() {
   $(".btn-subscription").click(function(){
     var email = $('.input-subscription').val()
     if(isEmail(email)){
-      alert('Thanks for joining Koi’s community!')  
+      // alert('Thanks for joining Koi’s community!')
+      document.getElementById('showconfirm').style.display = "flex";
+      document.getElementById('mc-embedded-subscribe-form').style.display = "none";
     }else{
       alert('You should input an email');  
       return ;
