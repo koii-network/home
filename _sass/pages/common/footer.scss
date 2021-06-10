@@ -33,22 +33,18 @@
       min-width: 500px;
       .email {
         border-radius: 4px 0px 0px 4px;
-        font-style: normal;
         font-weight: 500;
-        font-size: 16px;
         letter-spacing: 0.03em;
         background: white;
         border: 2px solid white;
         width: 233px;
         &::placeholder {
-          /* Chrome, Firefox, Opera, Safari 10.1+ */
           color: #171753;
-          opacity: 0.6; /* Firefox */
+          opacity: 0.6;
         }
       }
       button#mc-embedded-subscribe {
         border-radius: 0px 4px 4px 0px;
-        transform: unset;
         background: #ffc78f;
         color: #171753;
         font-weight: 600;
