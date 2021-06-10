@@ -55,28 +55,22 @@
     min-width: 330px;
     .email {
       border-radius: 4px 0px 0px 4px;
-      font-style: normal;
       font-weight: 500;
-      font-size: 16px;
       letter-spacing: 0.03em;
       color: $white;
       background: $blueDark;
       border: 2px solid white;
       width: 233px;
       &::placeholder {
-        /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: white;
-        opacity: 1; /* Firefox */
       }
     }
     .btn-subscription#mc-embedded-subscribe {
       border-radius: 0px 4px 4px 0px;
-      transform: unset;
       background: white;
       color: #171753;
       font-weight: 600;
       border: 2px solid white;
-      vertical-align: bottom;
       margin-left: -4px;
     }
   }
