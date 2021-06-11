@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://openkoi.com/</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/learn/about</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/learn/mission</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/learn/news/</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/learn/faq/</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/earn/developers</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/earn/everyone</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/earn/careers/</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/investors</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/connect</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/explore</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/Contest_Terms_and_Conditions_Updated_.pdf</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/Lightpaper.pdf</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+    <url>
+        <loc>https://openkoi.com/koi-protocol.pdf</loc>
+        <lastmod>2021-06-11</lastmod>
+        <!-- <changefreq>monthly</changefreq>
+        <priority>0.8</priority> -->
+    </url>
+
+
+</urlset> 
