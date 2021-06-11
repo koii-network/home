@@ -47,3 +47,7 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+url: "https://openkoi.com/" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
