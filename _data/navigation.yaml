@@ -14,13 +14,13 @@
       class: normal
 
     - name: Node
-      link: /run-a-node/
+      link: /earn/everyone
       class: normal
 
     # - header: ''
     #   children:
     - name: Developers
-      link: /framework/
+      link: /earn/developers
       class: normal
 
     - name: Register NFTs
@@ -32,7 +32,7 @@
       class: normal
 
     - name: Careers
-      link: /earn/careers/
+      link: /earn/careers
       class: normal
 
     - name: Contest Terms and Conditions
