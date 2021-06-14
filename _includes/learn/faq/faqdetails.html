@@ -1,16 +1,16 @@
 
 <script>
-    cc=0
+    {{include.icf}}=0
     function {{ include.icon }}()
     {
-    if (cc==0) 
+    if ({{include.icf}}==0) 
     {
-    cc=1
+    {{include.icf}}=1
     document.getElementById('{{ include.icon }}').src="/img/icons/minus button.svg"
     }
     else
     {
-    cc=0
+    {{include.icf}}=0
     document.getElementById('{{ include.icon }}').src="/img/icons/plus button.svg"
     }
     }

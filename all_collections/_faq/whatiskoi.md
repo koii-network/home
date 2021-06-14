@@ -6,4 +6,5 @@ type: general
 parent: one
 child: 1
 icon: icon1
+iconf: if1
 ---
