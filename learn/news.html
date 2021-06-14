@@ -10,6 +10,19 @@ stylesheet: koi.css
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-6 column">
+                <div class="top">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=zoxAW6R9NEM">
+                            <div class="imgbackground">    
+                                <iframe class="ytblink" src="https://www.youtube.com/embed/zoxAW6R9NEM" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+                                <div class="newstopic">
+                                    <h6>"The Future of the Attention Economy" – Al Morris, Koi</h6>
+                                    <h7>Bringing personal ownership to the internet, and rewarding creators for quality. Koi was founded on fairness, trust, and one immense objective:...</h7>
+                                </div>    
+                            </div>
+                        </a>
+                    </div>
+                </div> 
+            <div class="col-12 col-md-12 col-lg-6 column">
             <div class="top">
                     <a target="_blank" href="https://www.youtube.com/watch?v=QQKAhkqr8CI">
                         <div class="imgbackground">    
@@ -22,6 +35,7 @@ stylesheet: koi.css
                     </a>
                 </div>
             </div> 
+            
             {% for news in sorted %}
 
             {%- if news.newsType contains "top" -%}    
