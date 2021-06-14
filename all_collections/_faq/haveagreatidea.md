@@ -6,4 +6,5 @@ type: partner
 parent: ten
 child: 10
 icon: icon10
+iconf: if10
 ---

@@ -6,4 +6,5 @@ type: connect
 parent: twelve
 child: 12
 icon: icon12
+iconf: if12
 ---
