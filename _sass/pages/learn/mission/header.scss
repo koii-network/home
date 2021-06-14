@@ -1,5 +1,7 @@
 @import "variables";
 
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+
 #mission-header {
   position: relative;
   color: $blueDark;
@@ -19,28 +21,31 @@
     top: 0;
     width: 100%;
   }
-  .s-title{margin-top: 70px;}
-  .font-cap1{
+
+  .s-title {
+    margin-top: 70px;
+  }
+  .font-cap1 {
     font-weight: bold;
     font-size: 32px;
     line-height: 56px;
   }
-  .font-cap2{
+  .font-cap2 {
     font-size: 20px;
     line-height: 32px;
   }
-  .font-cap3{
+  .font-cap3 {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
   }
-  .font-cap4{
+  .font-cap4 {
     font-size: 16px;
     line-height: 28px;
   }
-  .font-cap-mb{
+  .font-cap-mb {
     margin: 50px 20px;
-    font-family: $garamond;
+    font-family: "EB Garamond", serif;
     font-style: italic;
     font-weight: normal;
     font-size: 24px;
@@ -57,7 +62,7 @@
     width: fit-content;
     margin: 0 auto;
   }
-  
+
   @media (max-width: $sm) {
     padding: 30px 0;
     background-image: url("/img/homepage/vector-mobile.svg");
@@ -65,21 +70,44 @@
     &::before {
       display: none;
     }
-    .font-cap1{
+    .font-cap1 {
       font-size: 32px;
       line-height: 56px;
     }
-    .font-cap2{
+    .font-cap2 {
       font-size: 20px;
       line-height: 32px;
     }
-    .font-cap3{
+    .font-cap3 {
       font-size: 24px;
       line-height: 32px;
     }
-    .font-cap4{
+    .font-cap4 {
       font-size: 16px;
       line-height: 28px;
+    }
+  }
+
+  @media (max-width: $md) {
+    div#sec3 {
+      margin-top: 50px;
+    }
+  }
+
+  @media (min-width: $md) {
+    .top {
+      margin-top: 50px;
+      #toptext {
+        max-width: 70%;
+        display: inline-flex;
+        font-weight: 600;
+      }
+    }
+    div#sec1 {
+      max-width: 60%;
+    }
+    div#sec3 {
+      margin-top: 50px;
     }
   }
 }

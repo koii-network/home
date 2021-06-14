@@ -1,28 +1,32 @@
 @import "variables";
 
 #mission_section4 {
-    position: relative;
-    color: $blueDark;
-    // min-height: 535px;
-    margin: 75px 0;
+  position: relative;
+  color: $blueDark;
+  // min-height: 535px;
+  margin: 75px 0;
 
-    .font-cap1 {
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 56px;
-    }
-    .font-cap2 {
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .btn{
-        margin: 0 auto;
-        width: fit-content;
-        padding: 8px 50px;
-        line-height: 24px;
-        border: 0px solid transparent;
-        border-radius: 4px;
-    }
+  .font-cap1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 56px;
+  }
+  .font-cap2 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .btn {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 8px 50px;
+    line-height: 24px;
+    border: 2px solid #171753;
+    border-radius: 4px;
+  }
+  .mt70 {
+    margin-top: 20px;
+  }
 
-    @media (max-width: $sm) {}
+  @media (max-width: $sm) {
+  }
 }
