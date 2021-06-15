@@ -29,6 +29,18 @@
       border: 0px solid transparent;
       border-radius: 4px;
     }
+    a.btn.btn-blue {
+      display: inline-block;
+      float: left;
+      margin-right: 1rem;
+    }
+    a.btn.btn-red {
+      display: inline-block;
+      float: left;
+      background: #237b75;
+      font-weight: 700 !important;
+      color: white;
+    }
     .font-cap1{
       font-weight: normal;
       font-size: 24px;
@@ -56,6 +68,10 @@
       .btn{
         font-size: 16px;
         margin: 0 auto;
+      }
+      #attention .attention-container a.btn.btn-red {
+        min-width: 13.85rem !important;
+        margin-top: 0.5rem;
       }
     }
   }
