@@ -5,53 +5,63 @@
   color: $blueDark;
   padding: 80px 0;
 
-  .attention-container{
+  .attention-container {
     display: flex;
     align-items: center;
-    .descr-area{ flex: 1; }
-    .img-area{ 
+    .descr-area {
+      flex: 1;
+    }
+    .img-area {
       flex: 1;
       text-align: right;
-      img{
+      img {
         max-width: 100%;
         padding-left: 10px;
       }
     }
-    .img-area-mobile{ display: none; }
-    .btn-blue{
+    .img-area-mobile {
+      display: none;
+    }
+    .btn-blue {
       color: $white;
       background: $blueDark;
     }
-    .btn{
+    .btn {
       width: fit-content;
-      padding: 8px 70px;
+      padding: 8px;
       line-height: 24px;
       border: 0px solid transparent;
       border-radius: 4px;
+      margin-top: 20px;
     }
     a.btn.btn-blue {
       display: inline-block;
-      float: left;
+      // float: left;
       margin-right: 1rem;
+      min-width: 250px;
     }
     a.btn.btn-red {
       display: inline-block;
-      float: left;
+      // float: left;
       background: #237b75;
       font-weight: 700 !important;
       color: white;
+      min-width: 250px;
     }
-    .font-cap1{
+    .font-cap1 {
       font-weight: normal;
       font-size: 24px;
       line-height: 40px;
       letter-spacing: 0.03em;
       color: $blueDark;
     }
-    .mt30{ margin-top: 30px; }
-    .mt25{ margin-top: 25px; }
-    @media (max-width: 400px){
-
+    .mt30 {
+      margin-top: 30px;
+    }
+    .mt25 {
+      margin-top: 25px;
+    }
+    @media (max-width: 400px) {
       #attention .attention-container a.btn.btn-blue {
         min-width: 16.6rem !important;
         margin-bottom: 0.5rem !important;
@@ -61,27 +71,32 @@
         margin-top: 0.5rem !important;
       }
     }
-    @media (max-width: $sm){
+    @media (max-width: $sm) {
       flex-direction: column-reverse;
-      .img-area{ display: none; }
-      .img-area-mobile{ 
-        display: flex; 
-        flex: 1; 
-        img{
+      .img-area {
+        display: none;
+      }
+      .img-area-mobile {
+        display: flex;
+        flex: 1;
+        img {
           max-width: 100%;
         }
       }
-      .descr-area{ margin-top: 50px; }
-      .font-cap1{
+      .descr-area {
+        margin-top: 50px;
+      }
+      .font-cap1 {
         font-size: 18px;
         line-height: 32px;
       }
-      .btn{
+      .btn {
         font-size: 16px;
-        margin: 0 auto;
+        margin-right: 0px !important;
       }
-
+      .learn-btn {
+        text-align: -webkit-center;
+      }
     }
   }
-  
 }
