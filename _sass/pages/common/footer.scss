@@ -4,28 +4,31 @@
   background: #171753;
   color: $white;
   padding: 40px 0 24px;
-  .logo-icon{
+  .logo-icon {
     font-family: $sora;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.04em;
-    color: #FFFFFF;
-    img{
+    color: #ffffff;
+    img {
       vertical-align: top;
     }
-    &:hover, &:active{
+    &:hover,
+    &:active {
       text-decoration: none;
     }
   }
   .container {
-    .link-area{
+    .link-area {
       display: flex;
       flex-direction: row;
     }
-    .join-area{
+    .join-area {
       flex: 1;
-      .social-area{display: none;}
-      .lbl-descr{
+      .social-area {
+        display: none;
+      }
+      .lbl-descr {
         font-family: $sora;
         font-style: normal;
         font-weight: normal;
@@ -33,10 +36,10 @@
         line-height: 24px;
         letter-spacing: 0.04em;
         text-transform: uppercase;
-        color: #BEF0ED;
+        color: #bef0ed;
         margin-left: 30px;
-        &.company-lbl{
-          color: #BCB8D0;
+        &.company-lbl {
+          color: #bcb8d0;
           margin-top: 30px;
           margin-bottom: 30px;
         }
@@ -57,7 +60,7 @@
           line-height: 24px;
           letter-spacing: 0.04em;
           text-transform: uppercase;
-          color: #BEF0ED;
+          color: #bef0ed;
         }
         &.company {
           .footer-option-list {
@@ -74,7 +77,7 @@
               font-weight: normal;
               font-size: 14px;
               line-height: 24px;
-              color: #FFFFFF;
+              color: #ffffff;
               padding: 0;
               width: fit-content;
               &:hover {
@@ -108,14 +111,14 @@
         }
       }
     }
-    .footer-end{
-      border-top: 1px solid #5ED9D1;
+    .footer-end {
+      border-top: 1px solid #5ed9d1;
       padding-top: 30px;
       display: flex;
       flex-direction: row;
-      .footer-link-area{
+      .footer-link-area {
         flex: 1;
-        a.footer-link{
+        a.footer-link {
           margin-right: 40px;
           font-family: Actor;
           font-style: normal;
@@ -123,55 +126,66 @@
           font-size: 16px;
           line-height: 32px;
           letter-spacing: -0.02em;
-          color: #8C87A6;
-          span{
+          color: #8c87a6;
+          span {
             word-break: unset;
             white-space: nowrap;
           }
-          &:last-child{
+          &:last-child {
             margin-right: 10px;
           }
         }
       }
       @media (max-width: 992px) {
         padding-top: 20px;
-        .social-area{
+        .social-area {
           display: none;
         }
       }
     }
-    .submit-area{
-      input{
+    .submit-area {
+      input {
         background: #fff;
         height: 56px;
         border-radius: 30px;
         padding: 5px 125px 5px 25px;
         outline: none;
-        
+
         font-family: $sora;
         font-weight: normal;
         font-size: 14px;
         line-height: 24px;
-        color: #8C87A6;
+        color: #8c87a6;
         width: 100%;
       }
-      .clear{position: relative;}
-      button{
+      div#showconfirm2 {
+        margin: 10px 0 0 30px;
+        display: none;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -1%;
+        color: #ffffff;
+      }
+      .clear {
+        position: relative;
+      }
+      button {
         position: absolute;
         right: 5px;
         top: -10px;
         width: 119px;
         height: 48px;
         border-radius: 24px;
-        background-color: #237B75;
+        background-color: #237b75;
         font-family: "Sora", sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.01em;
-        color: #FFFFFF;
-        border: 0px solid #237B75;
+        color: #ffffff;
+        border: 0px solid #237b75;
       }
     }
   }
@@ -231,20 +245,20 @@
   }
   @media (max-width: 992px) {
     .container {
-      .link-area{
+      .link-area {
         flex-direction: column;
       }
       .footer-options-wrapper {
         width: 100%;
       }
-      .join-area{
+      .join-area {
         flex: 1;
-        .social-area{
+        .social-area {
           display: flex;
           margin: 0 auto;
           margin-bottom: 30px;
         }
-        .lbl-descr.company-lbl{
+        .lbl-descr.company-lbl {
           text-align: center;
           margin-left: auto;
         }
