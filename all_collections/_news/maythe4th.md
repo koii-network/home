@@ -1,6 +1,6 @@
 ---
 title: "May the 4th be with you..."
-describe: "Tired of long transaction times and high gas fees? Koi nodes implement a flexible roll-up mechanism to batch millions of transactions into a single on-chain event!"
+describe: "Tired of long transaction times and high gas fees? Koii nodes implement a flexible roll-up mechanism to batch millions of transactions into a single on-chain event!"
 layout: front
 image: /news/maythe4.png
 date: 2021-05-04

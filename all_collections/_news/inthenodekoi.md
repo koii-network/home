@@ -1,5 +1,5 @@
 ---
-title: "In The Node With Koi"
+title: "In The Node With Koii"
 describe: Kevin Abosch's 1111 collection is now live
 layout: front
 image: /news/nodewithkoi.png
