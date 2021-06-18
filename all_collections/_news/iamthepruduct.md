@@ -5,7 +5,7 @@ layout: front
 image: /news/i-am-the-product-cover2.jpg
 date: 2021-05-17
 newsdate: May 017, 2021
-rsvpUrl: https://blog.openkoi.com/I-Am-The-Product/
+rsvpUrl: https://blog.koii.network/I-Am-The-Product/
 newsType: news
 tag: news
 ---

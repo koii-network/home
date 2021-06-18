@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Koi"
-describe: "The Koi Digest will be sent weekly and covers the latest updates from the Koi-mmunity in our mission to build a decentralized web."
+title: "Welcome to Koii"
+describe: "The Koii Digest will be sent weekly and covers the latest updates from the Koii-mmunity in our mission to build a decentralized web."
 layout: front
 image: /news/koiprotocol.png
 date: 2021-04-16

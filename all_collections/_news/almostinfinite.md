@@ -5,7 +5,7 @@ layout: front
 image: /news/almostinfiniteblog2.png
 date: 2021-05-21
 newsdate: May 21, 2021
-rsvpUrl: https://blog.openkoi.com/Almost-Infinite/
+rsvpUrl: https://blog.koii.network/Almost-Infinite/
 newsType: news
 tag: news
 ---

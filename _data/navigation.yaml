@@ -10,7 +10,7 @@
       class: normal
 
     - name: Blog
-      link: https://blog.openkoi.com/
+      link: https://blog.koii.network/
       class: normal
 
     - name: Node
@@ -45,7 +45,7 @@
       class: normal
 
     - name: Earn for Code
-      link: https://docs.openkoi.com/#tools-for-easy-protocolization
+      link: https://docs.koii.network/#tools-for-easy-protocolization
       class: normal
 
     - name: Lightpaper
