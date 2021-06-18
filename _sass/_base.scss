@@ -6,6 +6,7 @@
 @import './pages/components/pre-register-comp.scss';
 
 @import './pages/home/header.scss';
+@import './pages/home/build_better.scss';
 @import './pages/home/attention.scss';
 @import './pages/home/sdk.scss';
 @import './pages/home/save-the-web.scss';
@@ -76,3 +77,7 @@
 @import './pages/services/header.scss';
 
 @import './pages/404/404.scss';
+
+.text-green {
+    color: #237B75;
+}

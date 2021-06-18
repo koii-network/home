@@ -1,0 +1,22 @@
+<section id="build_better">
+  <div class="build_better-wrapper">
+    <div class="build_better-content">
+      <h1>Build Better.</h1>
+      <p>Koi makes decentralization easy, so that you <br /><b>can connect without giving up control.</b></p>
+      <a href="#" class="text-green text-bold">Learn How</a>
+    </div>
+    <div class="build_better-cards">
+      <div class="row">
+        {% for item in site.data.home_build_better %}
+        <div class="col-md-6">
+          <div class="build_better-card">
+            <p>{{item.title}}</p>
+            <p>{{item.subtitle}}</p>
+            <a>{{item.link_title}}</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
