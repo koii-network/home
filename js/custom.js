@@ -160,20 +160,6 @@ $(document).ready(function() {
       return ;
     }
   })
-  var win = $(this); //this = window
-    if (win.width() >= 572) { 
-      $(".btn-subscription :first-child").html("Join the movement")
-    }else{
-      $(".btn-subscription :first-child").html("Join us")
-    }
-  $(window).on('resize', function(){
-    var win = $(this); //this = window
-    if (win.width() >= 572) { 
-      $(".btn-subscription :first-child").html("Join the movement")
-    }else{
-      $(".btn-subscription :first-child").html("Join us")
-    }
-  });
 
   $(".btn-submit").click(function(){
     var email = $('.input-submit').val()
