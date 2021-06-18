@@ -12,14 +12,14 @@
     if (pathname === "/") {
       if ($(this).scrollTop() >= aTop) {
         // console.log("$(this).scrollTop()", $(this).scrollTop(), aTop);
-        $("#topbar").css({
-          background:
-            "linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%)",
-          boxShadow: "0px 10px 10px -7px rgb(0 0 0 / 30%)",
-        });
+        // $("#topbar").css({
+        //   background:
+        //     "linear-gradient(90.16deg, #030332 0.14%, #171753 99.87%)",
+        //   boxShadow: "0px 10px 10px -7px rgb(0 0 0 / 30%)",
+        // });
       } else {
         // console.log("here1")
-        $("#topbar").css({ boxShadow: "unset" }); // background: "transparent", 
+        // $("#topbar").css({ boxShadow: "unset" }); // background: "transparent", 
       }
     }
   });
