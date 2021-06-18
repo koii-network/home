@@ -26,7 +26,7 @@
       justify-content: space-between;
       padding-left: 0;
       max-width: 1070px;
-      padding-bottom: 50px;
+      padding-bottom: 66px;
       .content-part {
         h6 {
           font-size: 14px !important;
@@ -93,15 +93,43 @@
       .publish_content-content {
         max-height: 319px;
         padding-left: 18px;
+        flex-direction: column;
+        margin-bottom: 64px;
+        padding-bottom: 0;
+        .content-part {
+          h6 {
+            font-size: 14px !important;
+            margin-bottom: 13px;
+          }
+          h1 {
+            font-size: 32px !important;
+            font-weight: normal;
+          }
+          p {
+            font-size: 16px !important;
+            line-height: 32px;
+            margin-bottom: 32px;
+          }
+          .btn-get {
+            font-size: 16px !important;
+            width: 280px;
+          }
+        }
       }
       .publish_content-cards-wrapper {
+        margin-right: -100px;
+        height: unset;
+        padding-top: 30px;
         .publish_content-cards {
           position: relative;
-          right: unset;
+          right: 48px;
           margin: 15px 16px;
-          top: -45px;
+          top: unset;
           .publish_content-card {
+            background-color: white;
             height: unset;
+            min-height: unset;
+            width: 100%;
           }
         }
       }
