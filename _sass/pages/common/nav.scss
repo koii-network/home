@@ -3,6 +3,8 @@
 #topbar {
   position: fixed;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 74px;
   padding: 0;
   background: $blueDark;
@@ -35,12 +37,18 @@
     img {
       margin-left: 5px;
     }
+    &.signup{
+      background: #5ED9D1;
+      padding: 8px 24px;
+      border-radius: 24px;
+      color: #171753;
+    }
   }
   .container-fluid {
     padding: 0 50px;
     .toggler-wrapper {
       height: 100%;
-      min-height: 48px;
+      min-height: 74px;
       display: flex;
       align-items: center;
       .navbar-toggler {
@@ -50,6 +58,7 @@
         }
       }
       .navigation-center-web {
+        flex: 1;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -85,9 +94,9 @@
       @media (max-width: $sm) {
         display: none;
       }
-      .toggler-wrapper {
-        justify-content: space-between;
-      }
+      // .toggler-wrapper {
+      //   justify-content: space-between;
+      // }
     }
     .mobile-header {
       flex: 1;
@@ -107,13 +116,13 @@
     //     }
     // }
     .download {
-      background: transparent;
-      color: $white;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
-      border-radius: 4px;
-      padding: 0px 15px;
-      line-height: 25px;
-      color: #BCB8D0;
+      // background: transparent;
+      // color: $white;
+      // border-radius: 4px;
+      // padding: 0px 15px;
+      // line-height: 25px;
+      // color: #BCB8D0;
+      margin-right: 30px;
     }
     .navbar-collapse {
       .navbar-nav {
@@ -153,11 +162,22 @@
       }
     }
   }
+  @media (max-width: 900px) {
+    .logo-icon{
+      span{ display: none;}
+    }
+    .container-fluid .download{
+      margin-right: 10px;
+    }
+    .container-fluid .toggler-wrapper .navigation-center-web li{
+      padding-left: 20px;
+    }
+  }
   @media (max-width: $sm) {
     .container-fluid {
       padding: 0 15px;
       .toggler-wrapper {
-        height: 48px;
+        height: 74px;
       }
       .download-wrapper {
         .download {
