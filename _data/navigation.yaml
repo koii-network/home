@@ -22,9 +22,8 @@
       class: normal
 
     - name: Support
-      link: "mailto:support@openkoi.com"
+      link: "mailto:support@koii.network"
       class: normal
-
 
   # - name: Blog
   #   link: https://blog.openkoi.com/
@@ -60,22 +59,22 @@
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
-    - name: hello@openkoi.com
-      link: "mailto:hello@openkoi.com"
+    - name: hello@koii.network
+      link: "mailto:hello@koii.network"
       class: normal
 
-    - name: sales@openkoi.com
-      link: "mailto:sales@openkoi.com"
+    - name: investors@koii.network
+      link: "mailto:investors@koii.network"
       class: normal
 
-    - name: developer@openkoi.com
-      link: "mailto:developers@openkoi.com"
+    - name: developer@koii.network
+      link: "mailto:developers@koii.network"
       class: normal
 
-    - name: jobs@openkoi.com
-      link: "mailto:jobs@openkoi.com"
+    - name: jobs@koii.network
+      link: "mailto:jobs@koii.network"
       class: normal
 
-    - name: press@openkoi.com
-      link: "mailto:press@openkoi.com"
+    - name: press@koii.network
+      link: "mailto:press@koii.network"
       class: normal
