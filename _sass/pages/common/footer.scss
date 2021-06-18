@@ -93,7 +93,14 @@
       .footer-option {
         .footer-option-title {
           margin-bottom: 13px;
-          font-weight: bold;
+          font-family: $sora;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          color: #BEF0ED;
         }
         &.company {
           .footer-option-list {
@@ -106,8 +113,11 @@
           flex-wrap: wrap;
           .nav-item {
             .nav-link {
-              font-size: 18px;
-              color: $white;
+              font-family: $sora;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 24px;
+              color: #FFFFFF;
               padding: 0;
               width: fit-content;
               &:hover {
@@ -134,20 +144,45 @@
         }
       }
       img {
-        width: 30px;
+        width: 24px;
         transition: transform 250ms;
         &:hover {
           transform: translateY(-5px);
         }
       }
     }
+    .footer-end{
+      display: flex;
+      flex-direction: row;
+      .footer-link-area{
+        flex: 1;
+        a.footer-link{
+          margin-right: 40px;
+          font-family: Actor;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          color: #8C87A6;
+          &:last-child{
+            margin-right: 10px;
+          }
+        }
+      }
+      @media (max-width: 1024px) {
+        .social-area{
+          display: none;
+        }
+      }
+    }
   }
 
-  @media (max-width: 1200px) and (min-width: 576px) {
+  @media (max-width: 1200px) {
     .container {
       .footer-options-wrapper .footer-option {
-        flex: 0 0 50%;
-        max-width: 50%;
+        flex: 0 0 33.33%;
+        max-width: 35%;
       }
     }
   }
@@ -173,10 +208,9 @@
         margin-top: 32px;
         margin-bottom: 15px;
         .footer-option {
-          margin-bottom: 5px;
+          margin-bottom: 20px;
           .footer-option-title {
             margin-bottom: 13px;
-            text-align: center;
           }
           &.get-involved {
             .footer-option-list {
@@ -194,13 +228,8 @@
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            padding-left: 32px;
             .nav-item {
               .nav-link {
-                font-size: 18px !important;
-                color: $white;
-                padding: 0;
-                font-weight: 300;
                 &:hover {
                   text-decoration: underline;
                 }
@@ -212,6 +241,12 @@
     }
   }
   @media (max-width: 575px) {
+    .container {
+      .footer-options-wrapper .footer-option {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
     .container .social-area {
       width: 100%;
       display: flex;
