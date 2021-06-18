@@ -7,6 +7,9 @@
   color: white;
   display: flex;
   align-items: center;
+  a{
+    text-decoration: none;
+  }
   .node-net {
     position: absolute;
     left: 0;
