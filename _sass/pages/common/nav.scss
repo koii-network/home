@@ -2,21 +2,33 @@
 
 #topbar {
   position: fixed;
-  display: block;
+  display: flex;
   min-height: 74px;
   padding: 0;
-  background: $blueDarkBg;
+  background: $blueDark;
   transition: all 0.8s;
   z-index: 10;
+  .logo-icon{
+    font-family: $sora;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    img{
+      vertical-align: top;
+    }
+    &:hover, &:active{
+      text-decoration: none;
+    }
+  }
   .nav-link {
     font-family: $sora;
-    font-size: 16px;
-    line-height: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #BCB8D0;
     padding: 0;
-    font-weight: bold;
     span {
       border-bottom: 2px solid transparent;
     }
@@ -101,7 +113,7 @@
       border-radius: 4px;
       padding: 0px 15px;
       line-height: 25px;
-      border: solid 1.5px white;
+      color: #BCB8D0;
     }
     .navbar-collapse {
       .navbar-nav {
