@@ -168,6 +168,14 @@
     
   }
   @media (max-width: 572px) {
+    .submit-area{
+      input{
+        padding: 5px 100px 5px 25px;
+      }
+      button{
+        width: 100px;
+      }
+    }
   }
   @media (max-width: 450px) {
   }
