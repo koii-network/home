@@ -1,0 +1,101 @@
+@import "variables";
+
+#node {
+  position: relative;
+  background: $blueDark;
+  padding: 122px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  .node-net {
+    position: absolute;
+    left: 0;
+    opacity: 0.7;
+  }
+  .node-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    .node-content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 60px;
+      padding-bottom: 40px;
+      .node-left {
+        width: 50%;
+        padding-left: 40px;
+        h3 {
+          font-size: 32px !important;
+        }
+      }
+      .node-right {
+        width: 50%;
+        .node-card {
+          color: $blueDark;
+          background: #bef0ed;
+          box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.25);
+          width: 494px;
+          height: 168px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 20px 24px;
+          margin-left: auto;
+          p {
+            line-height: 32px;
+            margin-bottom: 0;
+          }
+          .node-card-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    padding: 53px 0;
+    .img-right {
+      top: 34%;
+    }
+    .node-wrapper {
+      .node-content {
+        max-height: 319px;
+        padding-left: 0;
+        flex-direction: column;
+        margin-bottom: 64px;
+        padding-bottom: 0;
+        flex-direction: column;
+        .node-left, .node-right {
+          width: 100%;
+          padding-left: 0;
+          &.node-left {
+            p {
+              margin-bottom: 35px;
+            }
+          }
+          .node-card {
+            margin-left: unset;
+            margin-right: auto;
+            width: 100%;
+            p {
+              line-height: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 400px) {
+  }
+  @media (max-width: $sm) {
+  }
+}

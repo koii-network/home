@@ -4,6 +4,9 @@
   background: $blueDark;
   padding: 122px 0;
   color: white;
+  a{
+    text-decoration: none;
+  }
   .publish_content-wrapper {
     position: relative;
     display: flex;

@@ -5,6 +5,9 @@
   background: $blueDark;
   padding: 122px 0;
   color: white;
+  a{
+    text-decoration: none;
+  }
   .img-left {
     position: absolute;
     left: 0;
@@ -63,15 +66,20 @@
             line-height: 24px;
             color: $blueDark;
             margin-right: 16px;
+            text-decoration: none;
           }
           .btn-get {
             background: #bef0ed;
+            text-decoration: none;
             border-radius: 24px;
             width: 212px;
             height: 40px;
             font-size: 16px !important;
             line-height: 24px;
             color: $blueDark;
+            &:focus{
+              text-decoration: none;
+            }
           }
         }
       }
@@ -207,6 +215,7 @@
       .stop-level-cards-wrapper {
         flex-direction: column;
         .stop-level-card {
+          margin: 0 auto;
           margin-bottom: 35px;
           .img-wrapper {
             min-width: 75px;
