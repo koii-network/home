@@ -10,6 +10,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .bg-left{
+      position: absolute;
+      height: 100%;
+      top: 75px;
+      left: 50px;
+      background: url(/img/homepage/Dots.svg);
+      width: 250px;
+      background-repeat: no-repeat;
+      opacity: 50%;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
     .bg-right{
       position: absolute;
       height: 100%;
