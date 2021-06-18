@@ -1,0 +1,31 @@
+<section id="publish_content">
+  <div class="publish_content-wrapper">
+    <div class="publish_content-content">
+      <div class="content-part">
+        <h6>Atomic NFTs</h6>
+        <h1>Publish content that lasts.</h1>
+        <p>The only way to mine KOI is by publishing content that gets people’s attention.</p>
+      </div>
+      <div class="content-part d-flex align-items-center">
+        <div class="btn btn-get">Get the Finnie Wallet</div>
+      </div>
+    </div>
+    <img src="/img/homepage/Dots.svg" class="publish_content-dots" />
+    <div class="publish_content-cards-wrapper">
+      <div class="publish_content-cards">
+        <div class="row">
+          {% for item in site.data.home_publish_content %}
+          <div class="col-md-4">
+            <div class="publish_content-card">
+              <img src="/img/homepage/{{item.img}}.svg" width="57" />
+              <h3>{{item.title}}</h3>
+              <p>{{item.subtitle}}</p>
+              <a href="#" class="text-green">{{item.link_title}}</a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
