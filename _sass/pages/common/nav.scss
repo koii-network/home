@@ -3,13 +3,13 @@
 #topbar {
   position: fixed;
   display: block;
-  min-height: 48px;
+  min-height: 74px;
   padding: 0;
   background: $blueDarkBg;
-  box-shadow: 0px 10px 10px -7px rgba(0, 0, 0, 0.3);
   transition: all 0.8s;
   z-index: 10;
   .nav-link {
+    font-family: $sora;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
