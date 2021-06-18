@@ -21,6 +21,9 @@
       box-shadow: 0px 124px 144px -56px rgba(43, 29, 103, 0.06);
       z-index: 9;
       img{width: 100%;}
+      &:focus{
+        text-decoration: none;
+      }
       @media (max-width: 1200px) {
         max-width: 280px;
       }
@@ -76,6 +79,10 @@
     color: #F5F5F5;
     max-width: 650px;
     z-index: 9;
+    a{
+      color: #ffc78f;
+      text-decoration: none;
+    }
   }
   .video-description{
     font-weight: 400;
@@ -83,6 +90,7 @@
     line-height: 24px;
     color: #BCB8D0;
     margin: 8px;
+    text-decoration: none;
   }
   .video-title{
     font-weight: 600;
@@ -91,6 +99,10 @@
     letter-spacing: 5%;
     color: #fff;
     margin: 8px;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
   }
   @media (max-width: 768px) {
     .font-cap2{
