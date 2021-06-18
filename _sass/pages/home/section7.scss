@@ -145,5 +145,14 @@
       width: calc(100% - 20px);
       margin: 0 auto;
     }
+    .submit-area {
+      input {
+        padding: 5px 150px 5px 25px;
+      }
+      button {
+        width: 145px;
+        font-size: 14px;
+      }
+    }
   }
 }
