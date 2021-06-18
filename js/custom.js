@@ -174,4 +174,18 @@ $(document).ready(function() {
       $(".btn-subscription :first-child").html("Join us")
     }
   });
+
+  $(".btn-submit").click(function(){
+    var email = $('.input-submit').val()
+    if(isEmail(email)){
+      // alert('Thanks for joining Koi’s community!')
+      document.getElementById('showconfirm2').style.display = "flex";
+      document.getElementById('mc-embedded-submit-form').style.display = "none";
+    }else{
+      console.log('ran')
+      alert('You should input an email');  
+      return ;
+    }
+  })
+  
 })
