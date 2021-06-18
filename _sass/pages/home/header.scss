@@ -69,7 +69,7 @@
   }
   .join-area{
     padding-top: 20px;
-    max-width: 500px;
+    width: 500px;
     flex: 1;
     .lbl-descr{
       font-family: $sora;
@@ -151,6 +151,7 @@
     }
     .join-area{
       margin-bottom: 20px;
+      width: 100%;
     }
     .social-area{
       padding-left: 0;
