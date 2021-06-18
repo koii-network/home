@@ -37,6 +37,11 @@
           color: $blueDark;
           text-align: left;
           padding: 24px;
+          .card-top {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
           h2 {
             font-size: 56px !important;
           }
@@ -65,6 +70,45 @@
     padding: 53px 0;
     .run_a_node-wrapper {
       .run_a_node-content {
+        padding: 0 16px;
+        h1 {
+          width: 100%;
+          text-align: left;
+          font-size: 32px !important;
+        }
+        p.description {
+          width: 100%;
+          text-align: left;
+          max-width: unset;
+          line-height: 32px;
+          font-size: 16px !important;
+        }
+        .run_a_node-cards {
+          max-width: 950px;
+          margin: 0 auto;
+          margin-bottom: 30px;
+          .run_a_node-card {
+            width: 100%;
+            margin-bottom: 30px;
+            height: unset;
+            .card-top {
+              flex-direction: row;
+              align-items: center;
+            }
+            h2 {
+              margin-bottom: 0;
+            }
+            h6 {
+              min-height: unset;
+              margin-left: 18px;
+              margin-bottom: 0;
+            }
+            p {
+              font-size: 14px !important;
+              line-height: 24px;
+            }
+          }
+        }
       }
     }
   }
