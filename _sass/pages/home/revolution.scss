@@ -1,0 +1,124 @@
+#revolution{
+  background-color: #171753;
+  padding: 75px 0;
+  font-family: $sora;
+  .revolution-area{
+    position: relative;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    .video-item{
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      max-width: 330px;
+      background: #141125;
+      box-shadow: 0px 124px 144px -56px rgba(43, 29, 103, 0.06);
+      z-index: 9;
+      img{width: 100%;}
+      &:focus{
+        text-decoration: none;
+      }
+      @media (max-width: 1200px) {
+        max-width: 280px;
+      }
+      @media (max-width: 992px) {
+        max-width: 200px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      .video-item{
+        max-width: 330px;
+        margin-bottom: 60px;
+      }
+    }
+    
+  }
+  .nav-bk{
+    display: none;
+    &.first{
+      position: absolute;
+      left: -20px;
+      top: 16%;
+    }
+    &.last{
+      position: absolute;
+      right: -20px;
+      bottom: 16%;
+    }
+  }
+  .font-cap1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #BEF0ED;
+    z-index: 9;
+  }
+  .font-cap2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -4%;
+    color: #fff;
+    z-index: 9;
+  }
+  .font-cap3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #F5F5F5;
+    max-width: 650px;
+    z-index: 9;
+    a{
+      color: #ffc78f;
+      text-decoration: none;
+    }
+  }
+  .video-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BCB8D0;
+    margin: 8px;
+    text-decoration: none;
+  }
+  .video-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 5%;
+    color: #fff;
+    margin: 8px;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .font-cap2{
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -2%;
+    }
+    .font-cap3{
+      font-size: 16px;
+      text-align: left;
+      z-index: 9;
+    } 
+  }
+  @media (max-width: 575px) {
+    .nav-bk{
+      display: block;
+    }
+  }
+}

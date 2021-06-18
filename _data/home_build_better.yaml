@@ -1,0 +1,16 @@
+- title: Transparent
+  subtitle: Koii is open-source, and all network data is public.
+  link_title: Say goodbye to data silos
+  img: icon_transparent
+- title: Accessible
+  subtitle: Users can be onboarded without purchasing tokens.
+  link_title: Earn KOII by building apps
+  img: icon_accessible
+- title: Open & Owned
+  subtitle: When all content is an NFT, anyone can be an owner.
+  link_title: Learn more about Atomic NFTs
+  img: icon_open
+- title: Eco-Friendly
+  subtitle: Gradual consensus is flexible, so nodes don’t waste energy.
+  link_title: See Proof-of-Stake Templates
+  img: icon_echo

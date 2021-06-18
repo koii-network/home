@@ -1,0 +1,158 @@
+#get_scoop {
+  background-color: #171753;
+  padding: 75px 0;
+  font-family: $sora;
+  text-align: center;
+  .get-scoop-area {
+    position: relative;
+    padding: 65px 15px 50px;
+    background: #ecfffe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bg-left {
+      position: absolute;
+      height: 100%;
+      top: 75px;
+      left: 50px;
+      background: url(/img/homepage/Dots.svg);
+      width: 250px;
+      background-repeat: no-repeat;
+      opacity: 50%;
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    .bg-right {
+      position: absolute;
+      height: 100%;
+      top: 10px;
+      right: -100px;
+      background: url(/img/homepage/bk_get_scoop.svg);
+      width: 250px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 50%;
+      @media (max-width: 768px) {
+        top: -50px;
+        right: -50px;
+        width: 134px;
+      }
+    }
+  }
+  .join-area {
+    padding-top: 20px;
+    width: 500px;
+    flex: 1;
+    .lbl-descr {
+      font-family: $sora;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #bef0ed;
+      margin-left: 30px;
+      &.company-lbl {
+        color: #bcb8d0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .submit-area {
+    input {
+      background: #fff;
+      height: 56px;
+      border-radius: 30px;
+      padding: 5px 210px 5px 25px;
+      outline: none;
+
+      font-family: $sora;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #8c87a6;
+      width: 100%;
+    }
+    .clear {
+      position: relative;
+    }
+    button {
+      position: absolute;
+      right: 5px;
+      top: -13px;
+      width: 205px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: #171753;
+      font-family: "Sora", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      border: 0px solid #171753;
+    }
+    div#showconfirm1 {
+      display: none;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: -1%;
+      color: #171753;
+    }
+  }
+  .font-cap1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #171753;
+    z-index: 9;
+  }
+  .font-cap2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -4%;
+    color: #171753;
+    z-index: 9;
+  }
+  .font-cap3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #171753;
+    max-width: 600px;
+    z-index: 9;
+  }
+  @media (max-width: 768px) {
+    .font-cap2 {
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -2%;
+    }
+    .font-cap3 {
+      font-size: 16px;
+      text-align: left;
+      z-index: 9;
+    } 
+    .join-area{
+      width: calc(100% - 20px);
+      margin: 0 auto;
+    }
+    .submit-area {
+      input {
+        padding: 5px 150px 5px 25px;
+      }
+      button {
+        width: 145px;
+        font-size: 14px;
+      }
+    }
+  }
+}

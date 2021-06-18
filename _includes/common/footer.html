@@ -1,28 +1,66 @@
 <section id="footer">
     <div class="container">
-        <h2>Run a node.</h2>
-        <h3 class="footer-description">Join the network, and help us preserve the best of human knowledge.</h3>
-        <div class="row">
-            <div class="col-sm-6">
-                <h6>Stay up to date</h6>
-                <p class="field-label">Email address</p>
-                <!-- Begin Mailchimp Signup Form -->
-                        
-                <div id="mc_embed_signup" style="padding-top: 10px">
-                    <form action="https://openkoi.us1.list-manage.com/subscribe/post?u=d90823177f316ca38afbc6c61&amp;id=b69c610637" method="POST" id="mc-embedded-signup-form" onclick="return avoidjump()"  name="mc-embedded-subscribe-form" class="validate" novalidate>
+        <div>
+            <a class="logo-icon" href="/"><img src="/img/logo.svg" width="54"><span>&nbsp;&nbsp;Koii</span></a>
+        </div>
+        <div class="link-area">
+            <div class="footer-options-wrapper">
+                {% for item in site.data.navigation %}
+                <div class="footer-option">
+                    <h6 class="footer-option-title">{{ item.header }}</h6>
+                    <div class="footer-option-list">
+                        {% for child in item.children %}
+                        <div class="nav-item mb-1">
+                            <a class="nav-link" href="{{ child.link }}">
+                                {{ child.name }}
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% if item.header == 'COMPANY' { %}
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            <div class="join-area">
+                <div class="social-area">
+                    <div class="sc-item">
+                        <a href="https://twitter.com/open_koi" target="_blank"><img src="/img/social/tw.svg"></a>
+                    </div>
+                    <div class="sc-item">
+                        <a href="https://discord.com/invite/SDwgnjxNEn" target="_blank"><img src="/img/social/discord.svg"></a>
+                    </div>
+                    <div class="sc-item">
+                        <a href="https://t.me/joinchat/OEHs_8T9-8ZhZmU5" target="_blank"><img src="/img/social/telegram.svg"></a>
+                    </div>
+                    <div class="sc-item">
+                        <a href="https://github.com/open-koi" target="_blank"><img src="/img/social/github.svg"></a>
+                    </div>
+                    <div class="sc-item">
+                        <a href="https://www.linkedin.com/company/open-koi/" target="_blank"><img src="/img/social/li.svg"></a>
+                    </div>
+                    <div class="sc-item">
+                        <a href="https://www.youtube.com/watch?v=g0sT-0NqWUY" target="_blank"><img src="/img/social/youtube.svg"></a>
+                    </div>
+                </div>
+                <div class="lbl-descr">STAY UP TO DATE</div>
+                <div class="submit-area">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup" style="padding-top: 10px">
+                    <form action="https://openkoi.us1.list-manage.com/subscribe/post?u=d90823177f316ca38afbc6c61&amp;id=b69c610637" method="POST" id="mc-embedded-submit-form" onclick="return avoidjump()"  name="mc-embedded-submit-form" class="validate" novalidate>
                         <div id="mc_embed_signup_scroll">
                         {% comment %} <label for="mce-EMAIL">ok</label> {% endcomment %}
                         <input 
-                        type="email" value="" name="EMAIL" class="email input-signup" id="mce-EMAIL" placeholder=" Email address" required>
+                        type="email" value="" name="EMAIL" class="email input-submit" id="mce-EMAIL" placeholder=" Email address" required>
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <span class="clear">
-                            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn-signup">Sign up</button>
+                            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn-submit">Submit</button>
                         </span>
                         </div>
                         
                     </form>
-                    <div id="showconfirm1">
-                        <h6>Thanks for joining Koi’s community!</h6>
+                    <div id="showconfirm2">
+                        <h6>Thanks for joining Koii’s community!</h6>
                     </div>
                     <script type="text/javascript">
                         function avoidjump(){
@@ -30,48 +68,36 @@
                         }
                      </script>
                     </div>
-
-                    <!--End mc_embed_signup-->
-            </div>
-        </div>
-        <div class="row footer-options-wrapper">
-            {% for item in site.data.navigation %}
-            <div class="footer-option {{ item.class }}">
-                <h6 class="footer-option-title">{{ item.header }}</h6>
-                <div class="footer-option-list">
-                    {% for child in item.children %}
-                    <div class="nav-item mb-1">
-                        <a class="nav-link {{ child.class }}" href="{{ child.link }}">
-                            {{ child.name }}
-                        </a>
-                    </div>
-                    {% endfor %}
                 </div>
-                {% if item.header == 'COMPANY' { %}
-                {% endif %}
+                <div class="lbl-descr company-lbl">©Koii Labs Inc. 2021 All Rights Reserved, 2021.</div>
             </div>
-            {% endfor %}
         </div>
-        <div class="social-area">
-            <div class="sc-item">
-                <a href="https://twitter.com/open_koi" target="_blank"><img src="/img/social/twitter.svg"></a>
+        <div class="footer-end">
+            <div class="footer-link-area">
+                <a href="https://openkoi.com/Koii_Contest_Terms.pdf" class="footer-link"><span>Contest Terms & Conditions</span></a>
+                <a href="#" class="footer-link"><span>Terms of Service</span></a>
+                <a href="#" class="footer-link"><span>Privacy Policy</span></a>
             </div>
-            <div class="sc-item">
-                <a href="https://discord.com/invite/SDwgnjxNEn" target="_blank"><img src="/img/social/discord.svg"></a>
-            </div>
-            <div class="sc-item">
-                <a href="https://t.me/joinchat/OEHs_8T9-8ZhZmU5" target="_blank"><img src="/img/social/telegram.svg"></a>
-            </div>
-            <div class="sc-item">
-                <a href="https://github.com/open-koi" target="_blank"><img src="/img/social/github.svg"></a>
-            </div>
-            <div class="sc-item">
-                <a href="https://www.linkedin.com/company/open-koi/" target="_blank"><img src="/img/social/linkedin.svg"></a>
-            </div>
-            <div class="sc-item">
-                <a href="https://www.youtube.com/watch?v=g0sT-0NqWUY" target="_blank"><img src="/img/social/youtube.svg"></a>
+            <div class="social-area">
+                <div class="sc-item">
+                    <a href="https://twitter.com/open_koi" target="_blank"><img src="/img/social/tw.svg"></a>
+                </div>
+                <div class="sc-item">
+                    <a href="https://discord.com/invite/SDwgnjxNEn" target="_blank"><img src="/img/social/discord.svg"></a>
+                </div>
+                <div class="sc-item">
+                    <a href="https://t.me/joinchat/OEHs_8T9-8ZhZmU5" target="_blank"><img src="/img/social/telegram.svg"></a>
+                </div>
+                <div class="sc-item">
+                    <a href="https://github.com/open-koi" target="_blank"><img src="/img/social/github.svg"></a>
+                </div>
+                <div class="sc-item">
+                    <a href="https://www.linkedin.com/company/open-koi/" target="_blank"><img src="/img/social/li.svg"></a>
+                </div>
+                <div class="sc-item">
+                    <a href="https://www.youtube.com/watch?v=g0sT-0NqWUY" target="_blank"><img src="/img/social/youtube.svg"></a>
+                </div>
             </div>
         </div>
     </div>
-    <p class="text-center mb-0">©KOI Co. 2021</p>
 </section>
