@@ -3,7 +3,20 @@
 #footer {
   background: $blueDarkBg;
   color: $white;
-  padding: 70px 0 24px;
+  padding: 40px 0 24px;
+  .logo-icon{
+    font-family: $sora;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    img{
+      vertical-align: top;
+    }
+    &:hover, &:active{
+      text-decoration: none;
+    }
+  }
   .container {
     h3.footer-description {
       margin-bottom: 35px;

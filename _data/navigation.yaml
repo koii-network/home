@@ -17,12 +17,6 @@
       link: /earn/everyone
       class: normal
 
-    # - header: ''
-    #   children:
-    - name: Developers
-      link: /earn/developers
-      class: normal
-
     - name: Register NFTs
       link: https://koi.rocks
       class: normal
@@ -31,13 +25,6 @@
       link: "mailto:support@openkoi.com"
       class: normal
 
-    - name: Careers
-      link: /earn/careers
-      class: normal
-
-    - name: Contest Terms and Conditions
-      link: /Contest_Terms_and_Conditions_Updated_.pdf
-      class: normal
 
   # - name: Blog
   #   link: https://blog.openkoi.com/
@@ -61,10 +48,6 @@
     - name: Earn for Code
       link: https://docs.openkoi.com/#tools-for-easy-protocolization
       class: normal
-
-    # - name: Join the Discord
-    #   link: https://discord.gg/SDwgnjxNEn
-    #   class: normal
 
     - name: Lightpaper
       link: /Lightpaper.pdf
