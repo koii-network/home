@@ -151,6 +151,11 @@ a {
     color: $green;
 }
 
+/* Hover Effects */
+.build_better-card:hover, .publish_content-card:hover, .stop-card:hover {
+    margin-top: -1rem;
+}
+
 @media (min-width: $xl) {
     body::-webkit-scrollbar {
         width: 6px;
