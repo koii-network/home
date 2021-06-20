@@ -68,7 +68,6 @@
       border-radius: 30px;
       padding: 5px 210px 5px 25px;
       outline: none;
-
       font-family: $sora;
       font-weight: normal;
       font-size: 14px;
@@ -97,14 +96,17 @@
       color: #ffffff;
       border: 0px solid #171753;
     }
-    div#showconfirm1 {
-      display: none;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 32px;
-      letter-spacing: -1%;
-      color: #171753;
-    }
+    input#mc-embedded-subscribe {
+      margin-top: 1em;
+      background: #171753;
+      border: solid #171753;
+      color: #FFF !important;
+      text-align: inherit;
+      padding: 5px 25px 5px 25px !important;
+      width: fit-content;
+      height: 56px;
+      border-radius: 30px;
+  }
   }
   .font-cap1 {
     font-weight: 400;
