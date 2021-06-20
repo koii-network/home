@@ -187,6 +187,30 @@
         color: #ffffff;
         border: 0px solid #237b75;
       }
+      input#mc-embedded-subscribe {
+        margin-top: 1em;
+        background: #237B75;
+        border: solid #237B75;
+        color: #FFF !important;
+        text-align: inherit;
+        padding: 5px 25px 5px 25px !important;
+        width: fit-content;
+        height: fit-content;
+    }
+    #mc_embed_signup div.mce_inline_error {
+      margin: 0.5em 0 0 0.5em;
+      padding: 5px 10px;
+      background-color: #6B0505;
+      font-weight: bold;
+      z-index: 1;
+      color: #fff;
+      border-radius: 30px;
+      max-width: fit-content;
+      border-radius: 30px;
+  }
+  div#mce-success-response {
+    margin: 0.5em 0 0 0.5em;
+}
     }
   }
   @media (max-width: $xl) {
