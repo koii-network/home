@@ -174,7 +174,8 @@
     }
     .submit-area {
       input#mce-EMAIL {
-        padding: 5px 100px 5px 25px;
+        padding: 5px 25px 5px 25px;
+        min-width: 300px;
       }
       button {
         width: 100px;
@@ -196,7 +197,8 @@
   @media (max-width: 572px) {
     .submit-area {
       input#mce-EMAIL {
-        padding: 5px 100px 5px 25px;
+        padding: 5px 25px 5px 25px;
+        min-width: 300px;
       }
       button {
         width: 100px;
