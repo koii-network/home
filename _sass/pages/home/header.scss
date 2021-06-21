@@ -64,14 +64,14 @@
     font-weight: 400;
   }
 
-  .header-description{
+  .header-description {
     max-width: 800px;
   }
-  .join-area{
+  .join-area {
     padding-top: 20px;
     width: 500px;
     flex: 1;
-    .lbl-descr{
+    .lbl-descr {
       font-family: $sora;
       font-style: normal;
       font-weight: normal;
@@ -79,91 +79,80 @@
       line-height: 24px;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      color: #BEF0ED;
+      color: #bef0ed;
       margin-left: 30px;
-      &.company-lbl{
-        color: #BCB8D0;
+      &.company-lbl {
+        color: #bcb8d0;
         margin-top: 30px;
         margin-bottom: 30px;
       }
     }
   }
-  .submit-area{
+  .submit-area {
     margin-bottom: 20px;
-    // input{
-    //   background: #fff;
-    //   height: 56px;
-    //   border-radius: 30px;
-      
-    //   outline: none;
-      
-    //   font-family: $sora;
-    //   font-weight: normal;
-    //   font-size: 14px;
-    //   line-height: 24px;
-    //   color: #8C87A6;
-    //   width: 100%;
-    // }
     input#mc-embedded-subscribe {
       margin-top: 1em;
-      background: #237B75;
-      border: solid #237B75;
-      color: #FFF !important;
+      background: #237b75;
+      border: solid #237b75;
+      color: #fff !important;
       text-align: inherit;
       padding: 5px 25px 5px 25px !important;
       width: fit-content;
       height: 56px;
       border-radius: 30px;
-  }
-  input#mce-EMAIL {
-    padding: 5px 210px 5px 25px;
-    height: 56px;
-    border-radius: 30px;
-  }
+    }
+    input#mce-EMAIL {
+      padding: 5px 25px 5px 25px;
+      height: 56px;
+      border-radius: 30px;
+      min-width: 400px;
+    }
     #mc_embed_signup div.mce_inline_error {
       margin: 0.5em 0 0 0.5em;
       padding: 5px 10px;
-      background-color: #6B0505;
+      background-color: #6b0505;
       font-weight: bold;
       z-index: 1;
       color: #fff;
       border-radius: 30px;
       max-width: fit-content;
       border-radius: 30px;
-  }
-  div#mce-success-response {
-    margin: 0.5em 0 0 0.5em;
-}
-    .clear{position: relative;}
-    button{
+    }
+    div#mce-success-response {
+      margin: 0.5em 0 0 0.5em;
+    }
+    .clear {
+      position: relative;
+    }
+    button {
       position: absolute;
       right: 5px;
       top: -13px;
       width: 205px;
       height: 48px;
       border-radius: 24px;
-      background-color: #237B75;
+      background-color: #237b75;
       font-family: "Sora", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
       line-height: 24px;
       letter-spacing: -0.01em;
-      color: #FFFFFF;
-      border: 0px solid #237B75;
+      color: #ffffff;
+      border: 0px solid #237b75;
     }
   }
   form#mc-embedded-subscribe-form {
     display: flex;
   }
-  
+
   div#showconfirm {
     display: none;
   }
-  
+
   .social-area {
     width: 262px;
-    padding-left: 30px;;
+    padding-left: 30px;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
@@ -176,22 +165,22 @@
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
-    .container{
+    .container {
       padding: 0 0 100px 0;
     }
-    .join-area{
+    .join-area {
       margin-bottom: 20px;
       width: 100%;
     }
-    .submit-area{
+    .submit-area {
       input#mce-EMAIL {
         padding: 5px 100px 5px 25px;
       }
-      button{
+      button {
         width: 100px;
       }
     }
-    .social-area{
+    .social-area {
       padding-left: 0;
       margin: 0 auto;
     }
@@ -203,14 +192,13 @@
       font-size: 20px;
       line-height: 40px;
     }
-    
   }
   @media (max-width: 572px) {
-    .submit-area{
+    .submit-area {
       input#mce-EMAIL {
         padding: 5px 100px 5px 25px;
       }
-      button{
+      button {
         width: 100px;
       }
     }
