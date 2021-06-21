@@ -184,7 +184,7 @@ a {
 .build_better-card:hover,
 .publish_content-card:hover,
 .stop-card:hover {
-  margin-top: -1rem;
+  transform: translate(0, -1rem);
   box-shadow: 2px 12px 15px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-out;
 }
