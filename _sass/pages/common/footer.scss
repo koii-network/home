@@ -35,7 +35,7 @@
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.04em;
-//         text-transform: uppercase;
+        //         text-transform: uppercase;
         color: #bef0ed;
         margin-left: 30px;
         &.company-lbl {
@@ -150,7 +150,7 @@
         border-radius: 30px;
         padding: 5px 125px 5px 25px;
         outline: none;
-
+        border: 1px solid #ffffff;
         font-family: $sora;
         font-weight: normal;
         font-size: 14px;
@@ -189,28 +189,28 @@
       }
       input#mc-embedded-subscribe {
         margin-top: 1em;
-        background: #237B75;
-        border: solid #237B75;
-        color: #FFF !important;
+        background: #237b75;
+        border: solid #237b75;
+        color: #fff !important;
         text-align: inherit;
         padding: 5px 25px 5px 25px !important;
         width: fit-content;
         height: fit-content;
-    }
-    #mc_embed_signup div.mce_inline_error {
-      margin: 0.5em 0 0 0.5em;
-      padding: 5px 10px;
-      background-color: #6B0505;
-      font-weight: bold;
-      z-index: 1;
-      color: #fff;
-      border-radius: 30px;
-      max-width: fit-content;
-      border-radius: 30px;
-  }
-  div#mce-success-response {
-    margin: 0.5em 0 0 0.5em;
-}
+      }
+      #mc_embed_signup div.mce_inline_error {
+        margin: 0.5em 0 0 0.5em;
+        padding: 5px 10px;
+        background-color: #6b0505;
+        font-weight: bold;
+        z-index: 1;
+        color: #fff;
+        border-radius: 30px;
+        max-width: fit-content;
+        border-radius: 30px;
+      }
+      div#mce-success-response {
+        margin: 0.5em 0 0 0.5em;
+      }
     }
   }
   @media (max-width: $xl) {

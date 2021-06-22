@@ -27,9 +27,9 @@
       position: absolute;
       height: 100%;
       top: 10px;
-      right: -100px;
+      right: -10em;
       background: url(/img/homepage/bk_get_scoop.svg);
-      width: 250px;
+      width: 300px;
       background-size: cover;
       background-repeat: no-repeat;
       opacity: 50%;
@@ -37,6 +37,10 @@
         top: -50px;
         right: -50px;
         width: 134px;
+      }
+      @media (min-width: 1441px) {
+        right: -15em;
+        width: 300;
       }
     }
   }
@@ -100,13 +104,13 @@
       margin-top: 1em;
       background: #171753;
       border: solid #171753;
-      color: #FFF !important;
+      color: #fff !important;
       text-align: inherit;
       padding: 5px 25px 5px 25px !important;
       width: fit-content;
       height: 56px;
       border-radius: 30px;
-  }
+    }
   }
   .font-cap1 {
     font-weight: 400;
