@@ -21,6 +21,16 @@
     top: 100px;
     background: linear-gradient(180deg, #c4f1ee 0%, #ffffff 100%);
   }
+  .btn.rebrand {
+    background: #9be7c4;
+    color: #171753;
+    width: fit-content;
+    display: inline-flex;
+    margin-left: 15em;
+  }
+  a {
+    text-decoration: none;
+  }
 
   .news1 {
     max-width: 251px;
@@ -49,6 +59,7 @@
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
     }
+
     p {
       font-size: 15px !important;
       overflow: hidden;
@@ -60,6 +71,13 @@
   }
 
   @media (max-width: $xs) {
+    .btn.rebrand {
+      background: #9be7c4;
+      color: #171753;
+      width: fit-content;
+      display: flex;
+      margin: 1em 0 1em 3em;
+    }
     .news1 {
       max-width: 145px;
       a {
