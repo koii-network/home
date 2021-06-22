@@ -56,6 +56,10 @@
       link: /koi-protocol.pdf
       class: normal
 
+    - name: Koii Partnerships Whitelist
+      link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
+      class: normal
+
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
