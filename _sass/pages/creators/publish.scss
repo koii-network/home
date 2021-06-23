@@ -1,0 +1,48 @@
+@import "variables";
+
+#publish {
+  position: relative;
+  background: $blueDark;
+  padding: 122px 0;
+  color: white;
+  font-family: $sora;
+  .font-cap1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  .font-cap3 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #bef0ed;
+  }
+  .plus-card {
+    margin-top: 52px;
+    background: #171753;
+    max-width: 805px;
+    height: 164px;
+    display: flex;
+    padding: 10px 19px;
+    color: $white;
+    border: 1px solid $white;
+    .img-plus {
+      background-color: #ffe9d2;
+      min-width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 19px;
+    }
+    h6 {
+      font-size: 14px !important;
+      line-height: 24px;
+      margin-bottom: 0;
+    }
+  }
+}
