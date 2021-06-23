@@ -10,6 +10,29 @@
                 <img src="/img/creators/Gallery 1.png" class="gallery" />
             </div>
             <img src="/img/homepage/Dots.svg" class="gallery-dots" />
+            
+            <div class="extension-cards-wrapper">
+                <div class="extension-cards">
+                  <div class="row">
+                        {% for item in site.data.creators_extension %}
+                        <div class="col-md-4">
+                            <a href="#" class="text-green"></a>
+                            <div class="extension-card">
+                                <img src="/img/creators/{{item.img}}.svg" width="57" />
+                                <h3>{{item.title}}</h3>
+                            </div>
+                            </a>
+                        </div>
+                        {% endfor %}
+                  </div>
+                </div>
+            </div>
+            <img src="/img/homepage/Dots.svg" class="wallet-dots-left" />
+            <img src="/img/homepage/Dots.svg" class="wallet-dots-right" />
+            <div class="col-12 getwallet">
+                <div class="font-cap5">Install the Finnie Wallet, and start publishing peer-to-peer today. Own your content forever.</div>
+                <div class="btnwallet"><a href="https://cutt.ly/Sb3aU8a"><div class="btn btn-get">Get the Finnie Wallet</div></a></div>
+            </div>
         </div>
     </div>
 </section>
