@@ -2,10 +2,14 @@
 
 #publish {
   position: relative;
-  background: $blueDark;
+  background: #030332;
   padding: 122px 0;
   color: white;
   font-family: $sora;
+
+  .container {
+    max-width: 850px;
+  }
   .font-cap1 {
     font-weight: 400;
     font-size: 40px;
@@ -20,29 +24,45 @@
     letter-spacing: -0.01em;
     color: #bef0ed;
   }
+  .dots-plus {
+    position: absolute;
+    right: -190px;
+    top: 160px;
+    z-index: 1;
+  }
   .plus-card {
     margin-top: 52px;
-    background: #171753;
+    background: #030332;
     max-width: 805px;
-    height: 164px;
+    height: fit-content;
     display: flex;
     padding: 10px 19px;
     color: $white;
     border: 1px solid $white;
+    z-index: 9;
+    position: relative;
     .img-plus {
-      background-color: #ffe9d2;
-      min-width: 96px;
-      height: 96px;
-      border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-right: 19px;
     }
-    h6 {
-      font-size: 14px !important;
-      line-height: 24px;
-      margin-bottom: 0;
+    .text-plus {
+      margin: 5px 35px;
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #ffc78f;
+        margin-bottom: 5px;
+      }
+      h6 {
+        font-size: 16px !important;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        color: #ffffff;
+      }
     }
   }
 }

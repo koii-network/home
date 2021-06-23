@@ -13,27 +13,29 @@
   &::before {
     background-image: url(/img/creators/creators-header.svg);
     background-repeat: no-repeat;
-    background-size: 510px auto;
+    background-size: 835px auto;
     background-position-y: 0px;
     background-position-x: right;
     content: "";
     display: block;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: -190px;
+    top: 100px;
+    left: 0px;
     width: 100%;
     opacity: 100%;
     @media (min-width: 1441px) {
-      left: -390px;
+      left: -200px;
     }
     @media (max-width: 768px) {
-      left: -50px;
+      left: 0px;
       opacity: 50%;
     }
     @media (max-width: 572px) {
-      left: 0;
-      opacity: 50%;
+      opacity: 30%;
+      width: 735px;
+      left: 0px;
+      top: 100px;
     }
   }
 
