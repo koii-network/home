@@ -1,0 +1,60 @@
+@import "variables";
+
+#creators-header {
+  position: relative;
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  color: $white;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+  font-family: $sora;
+
+  &::before {
+    background-image: url(/img/creators/creators-header.svg);
+    background-repeat: no-repeat;
+    background-size: 510px auto;
+    background-position-y: 0px;
+    background-position-x: right;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -190px;
+    width: 100%;
+    opacity: 100%;
+    @media (min-width: 1441px) {
+      left: -390px;
+    }
+    @media (max-width: 768px) {
+      left: -50px;
+      opacity: 50%;
+    }
+    @media (max-width: 572px) {
+      left: 0;
+      opacity: 50%;
+    }
+  }
+
+  .container {
+    padding: 75px 0;
+    z-index: 9;
+  }
+  .font-cap1 {
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .font-cap3 {
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #bef0ed;
+    font-weight: 400;
+    max-width: 400px;
+  }
+}
