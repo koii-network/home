@@ -1,0 +1,96 @@
+@import "variables";
+
+#registration {
+  background: $blueDark;
+  padding: 182px 0;
+  color: $blueDark;
+  font-family: $sora;
+  .registration-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    .registration-dots {
+      position: absolute;
+      bottom: 18px;
+      left: 347px;
+    }
+    .registration-content {
+      width: 100%;
+      height: 495px;
+      background-color: $lightestBlue;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 110px;
+      p {
+        margin-bottom: 36px;
+      }
+    }
+    .registration-cards {
+      position: absolute;
+      right: 57px;
+      max-width: 700px;
+
+      .registration-card {
+        height: 296px;
+        background: #ffffff;
+        box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 20px 30px;
+        transition: all 0.2s ease-in;
+        &:hover {
+          transform: translate(0, -1em);
+          transition: all 0.2s ease-out;
+        }
+        img {
+          margin-bottom: 27px;
+        }
+        a {
+          text-decoration: underline;
+          line-height: 32px;
+        }
+        p.hint {
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    padding: 53px 0;
+    .registration-wrapper {
+      .registration-content {
+        max-height: 319px;
+        padding-left: 18px;
+      }
+      .registration-cards {
+        position: relative;
+        right: unset;
+        margin: 15px 16px;
+        top: -45px;
+        .registration-card {
+          height: unset;
+        }
+      }
+      .registration-dots {
+        bottom: 50%;
+        left: 0px;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+  }
+  @media (max-width: $sm) {
+  }
+}
