@@ -1,0 +1,45 @@
+@import "variables";
+
+#extension {
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  position: relative;
+  padding: 122px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: $sora;
+  .head-tag {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #bef0ed;
+  }
+  .font-cap1 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  .font-cap3 {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #f5f5f5;
+    max-width: 700px;
+    font-weight: 400;
+  }
+  .gallery-part {
+    margin-top: 50px;
+    text-align: -webkit-center;
+    .gallery {
+      position: relative;
+      z-index: 9;
+    }
+  }
+  .gallery-dots {
+    position: absolute;
+    right: 200px;
+    top: 330px;
+  }
+}
