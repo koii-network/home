@@ -64,5 +64,14 @@
         color: #ffffff;
       }
     }
+    @media (max-width: 500px) {
+      flex-direction: column;
+      img {
+        max-width: 80px;
+      }
+      .text-plus {
+        margin: 5px 5px;
+      }
+    }
   }
 }
