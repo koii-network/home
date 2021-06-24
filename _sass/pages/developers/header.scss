@@ -32,10 +32,10 @@
       opacity: 50%;
     }
     @media (max-width: 572px) {
-      opacity: 30%;
-      width: 735px;
-      left: 0px;
-      top: 100px;
+      opacity: 100%;
+      width: 638px;
+      left: 0;
+      top: 24px;
     }
   }
 
@@ -52,5 +52,16 @@
     letter-spacing: -0.02em;
     color: #ffffff;
     max-width: 575px;
+  }
+  @media (max-width: 572px) {
+    .font-cap1 {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #f8f7fc;
+      max-width: 320px;
+    }
   }
 }

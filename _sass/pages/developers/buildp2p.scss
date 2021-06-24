@@ -1,0 +1,120 @@
+#buildp2p {
+  background: #171753;
+  font-family: $sora;
+  .topbar {
+    background: linear-gradient(180deg, #030320 0%, rgba(23, 23, 83, 0) 100%);
+    height: 168px;
+  }
+  .buildp2p-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 16px;
+    .buildp2p-dots {
+      position: absolute;
+      bottom: 18px;
+      left: 347px;
+    }
+
+    .buildp2p-content {
+      width: 100%;
+      height: 495px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 110px;
+      .font-cap1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+        color: #ffffff;
+        max-width: 400px;
+        font-weight: 400;
+        font-family: $sora !important;
+      }
+    }
+    .buildp2p-cards {
+      position: absolute;
+      right: 10px;
+      max-width: 700px;
+      div#right {
+        margin-top: 160px;
+      }
+      .buildp2p-card {
+        height: 296px;
+        background: #ffffff;
+        box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 20px 30px;
+        transition: all 0.2s ease-in;
+        &:hover {
+          transform: translate(0, -1em);
+          transition: all 0.2s ease-out;
+        }
+        img {
+          margin-bottom: 27px;
+        }
+        a {
+          text-decoration: underline;
+          line-height: 32px;
+        }
+        p.hint {
+          font-size: 12px !important;
+          color: #237b75;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    .buildp2p-wrapper {
+      .buildp2p-content {
+        max-height: 319px;
+        padding-left: 18px;
+      }
+      .buildp2p-cards {
+        position: relative;
+        right: unset;
+        margin: 15px 16px;
+        top: -45px;
+        .buildp2p-card {
+          height: unset;
+        }
+      }
+      .buildp2p-dots {
+        bottom: 50%;
+        left: 0px;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    div#right {
+      margin-top: 0px !important;
+    }
+  }
+  @media (max-width: 500px) {
+    .buildp2p-wrapper {
+      padding: 0 16px;
+    }
+    .buildp2p-content {
+      .font-cap1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+        max-width: 350px;
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: $sm) {
+  }
+}
