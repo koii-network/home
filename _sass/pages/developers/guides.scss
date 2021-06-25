@@ -21,16 +21,18 @@
     height: 116px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+
     padding: 10px 19px;
     color: $blueDark;
     margin: 10px 0;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: flex-start;
-    .img {
+
+    .guides-content {
       display: flex;
+      align-items: center;
+      .img {
+        display: flex;
+      }
     }
   }
 }
