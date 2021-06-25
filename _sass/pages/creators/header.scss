@@ -13,29 +13,37 @@
   &::before {
     background-image: url(/img/creators/creators-header.svg);
     background-repeat: no-repeat;
-    background-size: 835px auto;
-    background-position-y: 0px;
+    background-size: auto;
+    background-position-y: center;
     background-position-x: right;
     content: "";
     display: block;
     height: 100%;
     position: absolute;
-    // top: 100px;
-    // left: 0px;
     width: 100%;
     opacity: 100%;
-    @media (min-width: 1441px) {
-      left: -200px;
+  }
+  .header-content {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .font-cap1 {
+      font-size: 56px;
+      line-height: 72px;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      font-weight: 600;
     }
-    @media (max-width: 768px) {
-      left: 0px;
-      opacity: 50%;
-    }
-    @media (max-width: 572px) {
-      opacity: 30%;
-      width: 735px;
-      left: 0px;
-      top: 100px;
+    .font-cap3 {
+      margin-top: 23px;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      color: #bef0ed;
+      font-weight: 400;
+      max-width: 400px;
     }
   }
 }
