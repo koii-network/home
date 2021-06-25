@@ -139,14 +139,16 @@
   @media (max-width: 1200px) {
     padding: 53px 0;
     .extension-cards-wrapper {
-      margin-right: -50px;
-      margin-left: 50px;
       height: unset;
       padding-top: 30px;
       text-align: -webkit-center;
+      margin-top: 0;
+      margin: 0 auto;
+      width: 80%;
+      margin-bottom: 53px;
       .extension-cards {
         position: relative;
-        right: 48px;
+        right: unset;
         margin: 15px 16px;
         top: unset;
         .extension-card {
