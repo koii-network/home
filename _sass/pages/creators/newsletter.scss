@@ -1,10 +1,48 @@
 @import "variables";
 
 #creators-newsletter {
-  background-color: #171753;
+  position: relative;
+  background-image: linear-gradient(90deg, #030332 0%, #171753 100%);
   padding: 75px 0;
   font-family: $sora;
   text-align: center;
+  .bg-dots {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    opacity: 50%;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  .bg-nets-left {
+    position: absolute;
+    top: 378px;
+    left: 0em;
+    opacity: 50%;
+    @media (max-width: 768px) {
+      top: -50px;
+      right: -50px;
+    }
+    @media (min-width: 1441px) {
+      right: -15em;
+    }
+  }
+  .bg-nets-right {
+    position: absolute;
+    top: 133px;
+    right: -7em;
+    opacity: 50%;
+    @media (max-width: 768px) {
+      top: unset;
+      right: 0px;
+      bottom: 0;
+    }
+    @media (min-width: 1441px) {
+      right: -15em;
+    }
+  }
   .get-scoop-area {
     position: relative;
     padding: 65px 15px 50px;
@@ -12,39 +50,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .bg-left {
-      position: absolute;
-      height: 100%;
-      top: 75px;
-      left: 50px;
-      background: url(/img/homepage/Dots.svg);
-      width: 250px;
-      background-repeat: no-repeat;
-      opacity: 50%;
-      @media (max-width: 768px) {
-        display: none;
-      }
-    }
-    .bg-right {
-      position: absolute;
-      height: 100%;
-      top: 10px;
-      right: -10em;
-      background: url(/img/homepage/bk_get_scoop.svg);
-      width: 300px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      opacity: 50%;
-      @media (max-width: 768px) {
-        top: -50px;
-        right: -50px;
-        width: 134px;
-      }
-      @media (min-width: 1441px) {
-        right: -15em;
-        width: 300;
-      }
-    }
   }
   .join-area {
     padding-top: 20px;
@@ -156,6 +161,7 @@
     max-width: 780px;
   }
   @media (max-width: 768px) {
+    padding-bottom: 187px;
     .font-cap2 {
       font-size: 32px;
       line-height: 40px;
