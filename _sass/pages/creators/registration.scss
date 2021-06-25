@@ -37,7 +37,9 @@
       position: absolute;
       right: 57px;
       max-width: 700px;
-
+      .cards-background {
+        background-color: red;
+      }
       .registration-card {
         height: 296px;
         background: #ffffff;
@@ -72,25 +74,60 @@
     padding: 53px 0;
     .registration-wrapper {
       .registration-content {
-        max-height: 319px;
-        padding-left: 18px;
+        height: fit-content;
+        background-color: transparent;
+        color: white;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 80px;
       }
       .registration-cards {
         position: relative;
         right: unset;
-        margin: 15px 16px;
-        top: -45px;
-        .registration-card {
-          height: unset;
+        background: #ecfffe;
+        padding-top: 20px;
+        .row {
+          position: relative;
         }
-      }
-      .registration-dots {
-        bottom: 50%;
-        left: 0px;
+        .registration-card {
+          margin-bottom: 20px;
+        }
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
+    padding: 53px 0;
+    .registration-wrapper {
+      .registration-content {
+        height: fit-content;
+        background-color: transparent;
+        color: white;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 80px;
+      }
+      .registration-cards {
+        position: relative;
+        right: unset;
+        background: #ecfffe;
+        left: -150px;
+        padding-top: 20px;
+        .row {
+          position: relative;
+          left: 150px;
+        }
+        .registration-card {
+          margin-bottom: 20px;
+          padding: 20px 15px;
+        }
+      }
+    }
   }
   @media (max-width: $sm) {
   }
