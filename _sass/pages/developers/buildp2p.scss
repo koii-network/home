@@ -6,31 +6,23 @@
   );
   background-color: #171753;
   font-family: $sora;
-  padding-bottom: 80px;
   .buildp2p-wrapper {
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     padding: 50px 16px;
-    .buildp2p-dots {
-      position: absolute;
-      bottom: 18px;
-      left: 347px;
-    }
 
     .buildp2p-content {
       width: 100%;
-      height: 495px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      padding-left: 110px;
+      max-width: fit-content;
       .font-cap1 {
         font-size: 40px;
         line-height: 48px;
@@ -42,27 +34,37 @@
       }
     }
     .buildp2p-cards {
-      position: absolute;
-      right: 10px;
-      max-width: 700px;
-      div#right {
-        margin-top: 160px;
+      position: relative;
+      padding-left: 50px;
+      .buildp2p-dots1 {
+        position: absolute;
+        top: -14px;
+        left: 300px;
+      }
+      .buildp2p-dots2 {
+        position: absolute;
+        bottom: 17px;
+        left: 300px;
       }
       .buildp2p-card {
-        height: 296px;
+        position: relative;
+        min-height: 296px;
         background: #ffffff;
         box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
         margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: left;
         justify-content: center;
         padding: 20px 30px;
         transition: all 0.2s ease-in;
         &:hover {
           transform: translate(0, -1em);
           transition: all 0.2s ease-out;
+        }
+        &.card2 {
+          margin-bottom: 0;
         }
         img {
           margin-bottom: 27px;
@@ -78,45 +80,31 @@
       }
     }
   }
-  @media (max-width: 1200px) {
-    .buildp2p-wrapper {
-      .buildp2p-content {
-        max-height: 319px;
-        padding-left: 18px;
-      }
-      .buildp2p-cards {
-        position: relative;
-        right: unset;
-        margin: 15px 16px;
-        top: -45px;
-        .buildp2p-card {
-          height: unset;
-        }
-      }
-      .buildp2p-dots {
-        bottom: 50%;
-        left: 0px;
-      }
-    }
-  }
   @media (max-width: 768px) {
-    div#right {
-      margin-top: 0px !important;
-    }
-  }
-  @media (max-width: 500px) {
     .buildp2p-wrapper {
-      padding: 0 16px;
-    }
-    .buildp2p-content {
-      .font-cap1 {
-        font-size: 32px !important;
-        line-height: 40px !important;
-        max-width: 350px;
+      flex-direction: column;
+      .buildp2p-content {
+        padding-left: 0;
         text-align: center;
       }
+      .buildp2p-cards {
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        .buildp2p-dots1 {
+          top: -69px;
+          left: 0;
+        }
+        .buildp2p-dots2 {
+          bottom: 213px;
+          left: -12px;
+        }
+        .buildp2p-card {
+          &.card2 {
+            margin-bottom: 30px;
+          }
+        }
+      }
     }
-  }
-  @media (max-width: $sm) {
   }
 }
