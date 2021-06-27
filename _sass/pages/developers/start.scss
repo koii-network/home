@@ -31,40 +31,36 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 50px 0;
-    .start-cards {
-      position: absolute;
-      top: -40px;
-      margin: 80px -100px;
-
-      .start-card {
-        min-height: 364px;
-        color: $blueDark;
-        background: #ffffff;
-        box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.15);
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 30px;
-        .li {
-          margin: 0;
-          padding: 0;
-        }
-        .font-cap1 {
-          font-size: 24px;
-          line-height: 32px;
-          text-align: center;
-          letter-spacing: -0.02em;
-          color: #171753;
-        }
-        .font-t {
-          margin-top: 10px;
-          font-size: 18px;
-          line-height: 32px;
-          letter-spacing: -0.01em;
-          color: #171753;
-        }
+    align-items: stretch;
+    margin: 50px -20px;
+    .start-card {
+      flex: 1;
+      margin: 20px;
+      min-height: 364px;
+      color: $blueDark;
+      background: #ffffff;
+      box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 30px;
+      .li {
+        margin: 0;
+        padding: 0;
+      }
+      .font-cap1 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #171753;
+      }
+      .font-t {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        color: #171753;
       }
     }
   }
@@ -92,17 +88,11 @@
       height: unset;
       padding-top: 30px;
       background-color: #ecfffe;
-      .start-cards {
-        position: relative;
-        right: 0px;
-        margin: 15px 16px;
-        top: unset;
-        .start-card {
-          background-color: white;
-          height: unset;
-          min-height: unset;
-          width: 100%;
-        }
+      .start-card {
+        background-color: white;
+        height: unset;
+        min-height: unset;
+        width: 100%;
       }
     }
   }
