@@ -7,60 +7,92 @@
   display: flex;
   padding: 70px 0 100px 0;
   font-family: $sora;
-
-  .font-cap1 {
-    margin-top: 40px;
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: -0.04em;
-    color: #ffffff;
-  }
-  .font-cap2 {
-    margin-top: 20px;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    color: #ffffff;
-  }
-  .font-cap3 {
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: -0.01em;
-    color: #ffffff;
-  }
-  .tutorials {
-    color: #171753;
-    margin-top: 20px;
-    .tutorials-content {
-      text-align: center;
-      padding: 20px 10px;
-      .font-t {
-        font-size: 24px;
-        line-height: 32px;
-        letter-spacing: -0.02em;
-        font-weight: 400;
-        margin-top: 10px;
-      }
-      .font-d {
-        margin-top: 10px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 30px;
-        min-height: 200px;
-
-        p {
+  .container {
+    max-width: 1280px;
+    .font-cap1 {
+      margin-top: 40px;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -0.04em;
+      color: #ffffff;
+    }
+    .font-cap2 {
+      margin-top: 20px;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+    .font-cap3 {
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+    }
+    .tutorials {
+      color: #171753;
+      margin-top: 20px;
+      .tutorials-content {
+        text-align: center;
+        padding: 20px 10px;
+        .card-top {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .font-t {
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.02em;
           font-weight: 400;
-          margin: 0px;
+          margin-top: 10px;
+        }
+        .font-d {
+          margin-top: 10px;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 30px;
+          min-height: 200px;
+
+          p {
+            font-weight: 400;
+            margin: 0px;
+          }
+        }
+        a {
+          font-size: 13px;
+          line-height: 23px;
+          letter-spacing: 0.04em;
+          text-decoration-line: underline;
+          text-transform: uppercase;
+          color: #ffa54b;
         }
       }
-      a {
-        font-size: 13px;
-        line-height: 23px;
-        letter-spacing: 0.04em;
-        text-decoration-line: underline;
-        text-transform: uppercase;
-        color: #ffa54b;
+    }
+  }
+  @media (max-width: 768px) {
+    .cards-wrapper {
+      left: 100px;
+      background-color: #ecfffe;
+      position: relative;
+      .cards {
+        left: -100px;
+        position: relative;
+        .tutorials {
+          margin-top: 0;
+          margin: 10px 0;
+          .tutorials-content {
+            text-align: left;
+            .card-top {
+              flex-direction: row;
+              .font-t {
+                margin-top: 0;
+                margin-left: 27px;
+              }
+            }
+          }
+        }
       }
     }
   }
