@@ -1,10 +1,21 @@
 @import "variables";
 
 #help {
+  position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
   padding: 50px 0;
   color: white;
   font-family: $sora;
+  .vector-left {
+    position: absolute;
+    left: 0;
+    top: 84px;
+  }
+  .vector-right {
+    position: absolute;
+    right: 0;
+    top: 324px;
+  }
   .container {
     text-align: -webkit-center;
     .font-cap1 {
@@ -45,14 +56,22 @@
       display: none;
     }
   }
-  @media (max-width: $xs) {
+  @media (max-width: 768px) {
+    padding: 128px 0 0;
+    .vector-left {
+      top: 20px;
+      width: 100px;
+    }
+    .vector-right {
+      width: 69px;
+    }
     .big-map {
       display: none !important;
     }
     .small-map {
       display: flex !important;
-      margin-top: 30px;
       width: 100%;
+      margin-top: 95px;
     }
   }
 }
