@@ -46,6 +46,11 @@
         bottom: 17px;
         left: 300px;
       }
+      .buildp2p-vector {
+        position: absolute;
+        top: -14px;
+        right: 50px;
+      }
       .buildp2p-card {
         position: relative;
         min-height: 296px;
@@ -65,6 +70,9 @@
         }
         &.card2 {
           margin-bottom: 0;
+        }
+        h3 {
+          text-align: center;
         }
         img {
           margin-bottom: 27px;
@@ -98,6 +106,10 @@
         .buildp2p-dots2 {
           bottom: 213px;
           left: -12px;
+        }
+        .buildp2p-vector {
+          top: 207px;
+          right: -64px;
         }
         .buildp2p-card {
           &.card2 {
