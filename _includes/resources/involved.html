@@ -1,0 +1,22 @@
+<section id="involved">
+  <div class="involved-wrapper">
+    <div class="involved-content">
+      <h1>Get Involved</h1>
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+    </div>
+    <img src="/img/homepage/Dots.svg" class="involved-dots" />
+    <div class="involved-cards">
+      <div class="row">
+        {% for item in site.data.get_involved %}
+        <div class="col-md-6">
+          <div class="involved-card">
+            <h3>{{item.title}}</h3>
+            <p>{{item.subtitle}}</p>
+            <p class="hint">{{item.hint}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
