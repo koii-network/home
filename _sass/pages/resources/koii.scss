@@ -8,4 +8,56 @@
   flex-direction: column;
   align-items: center;
   font-family: $sora;
+  .koii-card {
+    width: 290px;
+    height: 328px;
+    background: #ffffff;
+    box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+  }
+  .splide {
+    padding: 20px 0;
+  }
+  
+  // // Generic Slide
+  // .splide__slide {
+  //   img {
+  //     display: block;
+  //     width: 100%;
+  //     border-radius: 8px;
+  //     transition: transform 400ms;
+  //     transform: scale(.9);
+  //     transform-origin: center center;
+  //   }
+  // }
+  
+  // // Active Slide
+  // .splide__slide.is-active {
+  //   img {
+  //     transform: scale(1);
+  //   }
+  // }
+  
+  // // Arrow Tweaks for Accessibility
+  // .splide .splide__arrow {
+  //   top: 0;
+  //   bottom: 0;
+  //   height: 100%;
+  //   transform: none;
+  //   border-radius: unset;
+  //   width: 50px;
+  //   opacity: .9;
+  //   svg {
+  //     filter: invert(1);
+  //     width: 24px;
+  //     height: 24px;
+  //   }
+  // }
+  // .splide__arrow.splide__arrow--prev {
+  //   left: 0;
+  //   background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 100%);
+  // }
+  // .splide__arrow.splide__arrow--next {
+  //   right: 0;
+  //   background: linear-gradient(270deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 100%);
+  // }
 }
