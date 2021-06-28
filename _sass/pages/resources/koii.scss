@@ -1,0 +1,11 @@
+@import "variables";
+
+#koii {
+  position: relative;
+  background: #171753;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $sora;
+}
