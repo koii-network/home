@@ -1,14 +1,17 @@
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#splide", {
-      type: "loop",
-      perPage: 3,
-      perMove: 1,
+      fixedWidth: 290,
+      // height: 328,
+      gap: 40,
+      rewind: true,
+      cover: true,
     }).mount();
   });
 </script>
 <header id="koii">
-  <div class="koii-wrapper">
+  <img src="/img/resources/fish.svg" class="bg-fish" />
+  <div class="container-fluid">
     <div class="section-title">What is Koii?</div>
     <div class="section-description">
       Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
@@ -21,7 +24,9 @@
           {% for item in site.data.koi_cards %}
           <li class="splide__slide">
             <div class="koii-card">
-              {{item.title}} {{item.description}} {{item.link_label}}
+              <div class="koii-card-title">{{item.title}}</div>
+              <div class="koii-card-description">{{item.description}}</div>
+              <div class="koii-card-link">{{item.link_label}}</div>
             </div>
           </li>
           {% endfor %}

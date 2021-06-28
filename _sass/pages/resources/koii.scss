@@ -3,58 +3,56 @@
 #koii {
   position: relative;
   background: #171753;
-  color: $white;
   font-family: $sora;
-  .koii-card {
-    width: 290px;
-    height: 328px;
-    background: red;
-    box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+  color: white;
+  padding: 54px 0 143px;
+  .section-title {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+  }
+  .section-description {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom: 66px;
   }
   .splide {
-    padding: 20px 0;
+    padding-left: 50px;
+    .koii-card {
+      color: $blueDark;
+      width: 290px;
+      min-height: 328px;
+      background: white;
+      box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+      padding: 24px 32px 10px;
+      .koii-card-title {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      .koii-card-description {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      .koii-card-link {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        text-decoration-line: underline;
+        color: #237b75;
+      }
+    }
+    .splide__pagination {
+      bottom: -1.5em;
+    }
   }
-  
-  // // Generic Slide
-  // .splide__slide {
-  //   img {
-  //     display: block;
-  //     width: 100%;
-  //     border-radius: 8px;
-  //     transition: transform 400ms;
-  //     transform: scale(.9);
-  //     transform-origin: center center;
-  //   }
-  // }
-  
-  // // Active Slide
-  // .splide__slide.is-active {
-  //   img {
-  //     transform: scale(1);
-  //   }
-  // }
-  
-  // // Arrow Tweaks for Accessibility
-  // .splide .splide__arrow {
-  //   top: 0;
-  //   bottom: 0;
-  //   height: 100%;
-  //   transform: none;
-  //   border-radius: unset;
-  //   width: 50px;
-  //   opacity: .9;
-  //   svg {
-  //     filter: invert(1);
-  //     width: 24px;
-  //     height: 24px;
-  //   }
-  // }
-  // .splide__arrow.splide__arrow--prev {
-  //   left: 0;
-  //   background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 100%);
-  // }
-  // .splide__arrow.splide__arrow--next {
-  //   right: 0;
-  //   background: linear-gradient(270deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 100%);
-  // }
 }
