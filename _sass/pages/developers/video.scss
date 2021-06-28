@@ -22,11 +22,8 @@
     width: 100%;
     opacity: 100%;
     @media (max-width: $xs) {
-      opacity: 50%;
-      width: 400px;
       right: 0;
-      top: -50px;
-      background-size: 282px 443px;
+      background-size: 50% auto;
     }
   }
   .font-cap1 {
@@ -34,28 +31,16 @@
     font-size: 56px;
     line-height: 72px;
     letter-spacing: -0.02em;
-    margin-top: 50px;
+    margin-top: 29px;
   }
   .font-cap2 {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.02em;
-    margin-top: 50px;
+    margin-top: 29px;
   }
-  .font-cap3 {
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: -0.01em;
-    margin-top: 50px;
-    max-width: 600px;
-  }
-  .nav-link.signup {
-    margin: 20px 10px 0 0;
-    background: #bef0ed;
-    padding: 5px 40px;
-    border-radius: 24px;
-    color: #171753;
-    width: max-content;
+  img {
+    width: 100%;
   }
   @media (max-width: $xs) {
     .font-cap1 {
@@ -63,10 +48,13 @@
       line-height: 40px;
       text-align: center;
       letter-spacing: -0.02em;
+      margin-bottom: 39px;
     }
     .font-cap2 {
       font-size: 20px !important;
       text-align: center;
+      margin-top: 10px;
+      margin-bottom: 39px;
     }
   }
 }
