@@ -4,10 +4,26 @@
   position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
   color: $white;
-  padding: 75px 0 125px;
+  padding: 102px 0 110px;
   display: flex;
   align-items: center;
   font-family: $sora;
+  .bg-guide1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .bg-guide2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .bg-guide2-mobile {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
   .font-cap1 {
     font-size: 40px;
     line-height: 48px;
@@ -17,12 +33,12 @@
   }
   .guides-card {
     background: #ecfffe;
-    max-width: 380px;
-    height: 116px;
+    width: 100%;
+    min-height: 116px;
     display: flex;
     align-items: center;
 
-    padding: 10px 19px;
+    padding: 0px 50px 0px 63px;
     color: $blueDark;
     margin: 10px 0;
     flex-direction: row;
@@ -30,9 +46,41 @@
     .guides-content {
       display: flex;
       align-items: center;
+      justify-content: space-between;
+      width: 100%;
       .img {
         display: flex;
       }
+      .font-cap2 {
+        max-width: 70%;
+        text-align: left;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .bg-guide1 {
+      display: none;
+    }
+    .bg-guide2 {
+      bottom: unset;
+      top: 129px;
+    }
+    .bg-guide2-mobile {
+      display: block;
+    }
+    .guides-card {
+      padding: 20px;
+      min-height: 108px;
+    }
+    .font-cap1 {
+      font-size: 32px !important;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -0.02em;
+    }
+    .font-cap2 {
+      font-size: 18px !important;
+      text-align: center;
     }
   }
 }
