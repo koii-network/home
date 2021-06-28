@@ -1,10 +1,10 @@
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
-    new Splide( '#splide', {
-	type   : 'loop',
-	perPage: 3,
-	perMove: 1,
-} ).mount();
+    new Splide("#splide", {
+      type: "loop",
+      perPage: 3,
+      perMove: 1,
+    }).mount();
   });
 </script>
 <header id="koii">
@@ -18,20 +18,15 @@
     <div id="splide" class="splide">
       <div class="splide__track">
         <ul class="splide__list">
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
-          <li class="splide__slide"><div class="koii-card"></div></li>
+          {% for item in site.data.koi_cards %}
+          <li class="splide__slide">
+            <div class="koii-card">
+              {{item.title}} {{item.description}} {{item.link_label}}
+            </div>
+          </li>
+          {% endfor %}
         </ul>
       </div>
     </div>
-    
   </div>
 </header>
