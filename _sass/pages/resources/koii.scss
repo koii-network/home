@@ -53,6 +53,16 @@
     }
     .splide__pagination {
       bottom: -1.5em;
+      .splide__pagination__page {
+        width: 40px;
+        height: 5px;
+        background: #ffffff;
+        border-radius: 8px;
+        &.is-active {
+          background: #5ed9d1;
+          transform: unset;
+        }
+      }
     }
   }
 }
