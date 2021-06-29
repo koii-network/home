@@ -194,15 +194,14 @@ a {
   transition: all 0.2s ease-in;
 }
 * {
-  scrollbar-color: #171753 #fff2ee; /* 滑块颜色  滚动条背景颜色 */
-  scrollbar-width: none; /* 滚动条宽度有三种：thin、auto、none */
-  scrollbar-width: none;
+  scrollbar-color: #171753 #fff2ee; /* firefox scrollbar-style */
+  scrollbar-width: thin; 
 }
 
 @media (min-width: $xl) {
   * {
-    scrollbar-color: #171753 #fff2ee; /* 滑块颜色  滚动条背景颜色 */
-    scrollbar-width: thin; /* 滚动条宽度有三种：thin、auto、none */
+    scrollbar-color: #171753 #fff2ee; 
+    scrollbar-width: thin; 
   }
   body::-webkit-scrollbar {
     width: 6px;
