@@ -8,9 +8,12 @@
   align-items: center;
   margin-top: 74px;
   font-family: $sora;
+  overflow: hidden;
   .bg-desktop {
     // height: calc(100vw * 477 / 1000);
     width: 100%;
+    min-height: 300px;
+    max-height: 600px;
   }
   .bg-mobile {
     display: none;
@@ -44,7 +47,6 @@
     }
     .bg-mobile {
       display: block;
-      height: 436px;
       width: 100%;
     }
     .hero-content {
