@@ -9,20 +9,20 @@
       </div>
     </div>
     <div class="row">
-      {% for item in site.data.developers_guides %}
-      <div class="col-md-6">
-        <div class="guides-card">
-          <div class="guides-content">
-            <div class="font-cap2">{{item.title}}</div>
-            <img
-              class="img-wrapper"
-              src="/img/developers/Return-button.svg"
-              width="40px"
-            />
-          </div>
-        </div>
-      </div>
-      {% endfor %}
+      {% assign sortguide = site.guides | sort: 'number' %}
+            {% for guides in sortguide %}
+            
+                <div class="col-md-6 guides-wrapper">
+                <div class="guides-card">
+                        <div class="guides-content">         
+                        <div class="font-cap2">{{guides.title}}</div>
+                        <!-- <a href="{{guides.permalink}}"> -->
+                        <img class="img-wrapper" src="/img/developers/Return-button.svg" width="40px">
+                    <!-- </a> -->
+                        </div>     
+                </div>
+                </div>
+            {% endfor %}
     </div>
   </div>
 </section>
