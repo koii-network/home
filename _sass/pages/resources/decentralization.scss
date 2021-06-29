@@ -10,41 +10,27 @@
     position: relative;
     min-height: 230px;
     margin-bottom: 57px;
-    .content1 {
-      position: absolute;
-      top: 0;
-      left: 50px;
-      background: #171753;
-      width: 100%;
-      max-width: 850px;
-      height: 140px;
-      text-align: left;
+    .left-content {
+      padding-left: 50px;
+      padding-top: 40px;
       .section-title {
+        font-weight: normal;
         font-size: 40px;
         line-height: 48px;
         letter-spacing: -0.04em;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       .section-description {
+        font-weight: normal;
         font-size: 16px;
         line-height: 32px;
         letter-spacing: -0.01em;
-        margin-bottom: 66px;
       }
     }
-    .content2 {
-      position: absolute;
-      bottom: 0px;
-      right: 0;
-      background: #c4c4c4;
-      width: 100%;
-      max-width: 650px;
-      height: 205px;
-      color: #171753;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      padding-right: 119px;
+    .img-wrapper {
+      img {
+        width: 100%;
+      }
     }
   }
   .splide-wrapper {
@@ -101,6 +87,11 @@
           }
         }
       }
+      .splide__arrows {
+        .splide__arrow {
+          background: transparent;
+        }
+      }
     }
     #decentralization-splide-mobile {
       .koii-card {
@@ -145,6 +136,27 @@
         //     transform: unset;
         //   }
         // }
+      }
+      .splide__arrows {
+        .splide__arrow {
+          background: transparent;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .content-wrapper {
+      .left-content {
+        padding-left: 0;
+        .section-title {
+          font-weight: normal;
+        }
+        .section-description {
+          font-weight: normal;
+        }
+      }
+      .img-wrapper {
+        margin-top: 40px;
       }
     }
   }

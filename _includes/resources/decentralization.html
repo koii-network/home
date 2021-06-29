@@ -20,22 +20,36 @@
 </script>
 <header id="decentralization">
   <div class="container-fluid">
-    <div class="content-wrapper">
-      <div class="content2">
-        <div class="section-subtitle">Decentralization <br /> graphic here</div>
+    <div class="row content-wrapper">
+      <div class="col-lg-6">
+        <div
+          class="d-flex flex-column align-items-start justify-content-start h-100 left-content"
+        >
+          <div class="section-title">What is Decentralization?</div>
+          <div class="section-description">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostr...
+          </div>
+        </div>
       </div>
-      <div class="content1">
-        <div class="section-title">What is Decentralization?</div>
-        <div class="section-description">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostr...
+      <div class="col-lg-6">
+        <div class="img-wrapper text-center">
+          <img src="/img/resources/decentralization.svg" />
         </div>
       </div>
     </div>
     <div class="splide-wrapper">
       <div class="splide-bg"></div>
       <div id="decentralization-splide" class="splide d-none d-md-block">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <img src="/img/icons/icon-left.svg" width="24" />
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <img src="/img/icons/icon-right.svg" width="24" />
+          </button>
+        </div>
         <div class="splide__track">
           <ul class="splide__list">
             {% for item in site.data.koi_cards %}
@@ -51,6 +65,14 @@
         </div>
       </div>
       <div id="decentralization-splide-mobile" class="splide d-md-none">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <img src="/img/icons/icon-left.svg" width="24" />
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <img src="/img/icons/icon-right.svg" width="24" />
+          </button>
+        </div>
         <div class="splide__track">
           <ul class="splide__list">
             {% for item in site.data.koi_cards %}
