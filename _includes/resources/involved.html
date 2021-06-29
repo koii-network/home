@@ -2,7 +2,11 @@
   <div class="involved-wrapper">
     <div class="involved-content">
       <h1>Get Involved</h1>
-      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
     </div>
     <img src="/img/homepage/Dots.svg" class="involved-dots" />
     <div class="involved-cards">
@@ -10,7 +14,10 @@
         {% for item in site.data.get_involved %}
         <div class="col-md-6">
           <div class="involved-card">
-            <h3>{{item.title}}</h3>
+            <div class="involved-header">
+              <img src="/img/homepage/icon_transparent.svg" />
+              <h3>{{item.title}}</h3>
+            </div>
             <p>{{item.subtitle}}</p>
             <p class="hint">{{item.hint}}</p>
           </div>

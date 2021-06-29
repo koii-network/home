@@ -52,14 +52,22 @@
         align-items: center;
         text-align: center;
         justify-content: flex-start;
-        padding: 60px 20px 10px;
+        padding: 40px 20px 10px;
         transition: all 0.2s ease-in;
         &:hover {
           transform: translate(0, -1em);
           transition: all 0.2s ease-out;
         }
-        img {
-          margin-bottom: 27px;
+        .involved-header {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 5px;
+          h3 {
+            margin-bottom: 0;
+            margin-left: 16px;
+          }
         }
         a {
           text-decoration: underline;
