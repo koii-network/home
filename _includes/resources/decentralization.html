@@ -8,6 +8,15 @@
       cover: true,
     }).mount();
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    new Splide("#decentralization-splide-mobile", {
+      focus: "center",
+      // height: 328,
+      // gap: 40,
+      // rewind: true,
+      // cover: true,
+    }).mount();
+  });
 </script>
 <header id="decentralization">
   <div class="container-fluid">
@@ -26,7 +35,22 @@
     </div>
     <div class="splide-wrapper">
       <div class="splide-bg"></div>
-      <div id="decentralization-splide" class="splide">
+      <div id="decentralization-splide" class="splide d-none d-md-block">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {% for item in site.data.koi_cards %}
+            <li class="splide__slide">
+              <div class="koii-card">
+                <div class="koii-card-title">{{item.title}}</div>
+                <div class="koii-card-description">{{item.description}}</div>
+                <div class="koii-card-link">{{item.link_label}}</div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="decentralization-splide-mobile" class="splide d-md-none">
         <div class="splide__track">
           <ul class="splide__list">
             {% for item in site.data.koi_cards %}

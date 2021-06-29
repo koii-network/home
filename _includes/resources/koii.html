@@ -8,6 +8,15 @@
       cover: true,
     }).mount();
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    new Splide("#splide-mobile", {
+      focus: "center",
+      // height: 328,
+      // gap: 40,
+      // rewind: true,
+      // cover: true,
+    }).mount();
+  });
 </script>
 <header id="koii">
   <img src="/img/resources/fish.svg" class="bg-fish" />
@@ -19,7 +28,22 @@
       Velit officia consequat duis enim velit mollit. Exercitation veniam
       consequat sunt nostr...
     </div>
-    <div id="splide" class="splide">
+    <div id="splide" class="splide d-none d-md-block">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for item in site.data.koi_cards %}
+          <li class="splide__slide">
+            <div class="koii-card">
+              <div class="koii-card-title">{{item.title}}</div>
+              <div class="koii-card-description">{{item.description}}</div>
+              <div class="koii-card-link">{{item.link_label}}</div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div id="splide-mobile" class="splide d-md-none">
       <div class="splide__track">
         <ul class="splide__list">
           {% for item in site.data.koi_cards %}

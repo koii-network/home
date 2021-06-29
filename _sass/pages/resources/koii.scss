@@ -32,7 +32,7 @@
     margin: 0 auto;
     margin-bottom: 66px;
   }
-  .splide {
+  #splide {
     padding-left: 50px;
     .koii-card {
       color: $blueDark;
@@ -75,6 +75,51 @@
           transform: unset;
         }
       }
+    }
+  }
+  #splide-mobile {
+    .koii-card {
+      color: $blueDark;
+      width: 100%;
+      min-height: 328px;
+      background: white;
+      box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+      padding: 24px 32px 10px;
+      margin: 0 auto;
+      .koii-card-title {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      .koii-card-description {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      .koii-card-link {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        text-decoration-line: underline;
+        color: #237b75;
+      }
+    }
+    .splide__pagination {
+      bottom: -1.5em;
+      // .splide__pagination__page {
+      //   width: 40px;
+      //   height: 5px;
+      //   background: #ffffff;
+      //   border-radius: 8px;
+      //   &.is-active {
+      //     background: #5ed9d1;
+      //     transform: unset;
+      //   }
+      // }
     }
   }
 }
