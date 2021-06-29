@@ -32,12 +32,36 @@
     line-height: 72px;
     letter-spacing: -0.02em;
     margin-top: 29px;
+    margin-bottom: 48px;
   }
   .font-cap2 {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.02em;
     margin-top: 29px;
+  }
+  .section-title {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin-bottom: 46px;
+  }
+  .section-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    max-width: 650px;
+  }
+  .btn {
+    width: 152px;
+    height: 40px;
+    background: #bef0ed;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
   }
   img {
     width: 100%;
