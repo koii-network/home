@@ -55,11 +55,13 @@
           {% for resources in sortkoii %}
         {% if resources.tag contains 'koii' %}
           <li class="splide__slide">
+            <a href="{{resources.permalink }}" style="text-decoration: none;">
             <div class="koii-card">
               <div class="koii-card-title">{{ resources.title }}</div>
               <div class="koii-card-description">{{ resources.details }}</div>
               <!-- <div class="koii-card-link">{{item.link_label}}</div> -->
             </div>
+          </a>
           </li>
           {% endif %}
         {% endfor %}
