@@ -26,68 +26,73 @@
       background-size: 50% auto;
     }
   }
-  .font-cap1 {
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 72px;
-    letter-spacing: -0.02em;
-    margin-top: 29px;
-    margin-bottom: 48px;
-  }
-  .font-cap2 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    margin-top: 29px;
-  }
-  .section-title {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    margin-bottom: 46px;
-  }
-  .section-description {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: -0.01em;
-    margin-bottom: 20px;
-    max-width: 650px;
-  }
-  .btn {
-    width: 152px;
-    height: 40px;
-    background: #bef0ed;
-    border-radius: 24px;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-  }
-  img {
-    width: 100%;
-  }
-  @media (max-width: $xs) {
+  .container {
+    z-index: 1;
     .font-cap1 {
-      font-size: 32px !important;
-      line-height: 40px;
-      text-align: center;
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 72px;
       letter-spacing: -0.02em;
-      margin-bottom: 39px;
+      margin-top: 29px;
+      margin-bottom: 48px;
     }
     .font-cap2 {
-      font-size: 20px !important;
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 39px;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      margin-top: 29px;
     }
     .section-title {
-      text-align: center;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      margin-bottom: 46px;
     }
     .section-description {
-      text-align: center;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      margin-bottom: 20px;
+      max-width: 650px;
     }
     .btn {
-      margin: 0 auto;
+      width: 152px;
+      height: 40px;
+      background: #bef0ed;
+      border-radius: 24px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  @media (max-width: $xs) {
+    .container {
+      .font-cap1 {
+        font-size: 32px !important;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        margin-bottom: 39px;
+      }
+      .font-cap2 {
+        font-size: 20px !important;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 39px;
+      }
+      .section-title {
+        text-align: center;
+      }
+      .section-description {
+        text-align: center;
+      }
+      .btn {
+        margin: 0 auto;
+      }
     }
   }
 }
