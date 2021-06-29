@@ -78,10 +78,10 @@
         </div>
         <div class="splide__track">
           <ul class="splide__list">
-            {% assign sortdoc = site.documents %}
+            {%- assign sortdoc = site.documents | sort: 'number' -%}
             {% for doc in sortdoc %}
             <li class="splide__slide">
-              <a href="{{doc.permalink }}" target="_blank" style="text-decoration: none;">
+              <a href="{{doc.link }}" target="_blank" style="text-decoration: none;">
               <div class="koii-card">
                 <div class="koii-card-title">{{ doc.title }}</div>
                 <div class="koii-card-description">{{ doc.details }}</div>

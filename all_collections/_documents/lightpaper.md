@@ -1,6 +1,6 @@
 ---
 title: Lightpaper
 details: Get the quick version of how Koii works.
-permalink: /lightpaper.pdf
+link: /lightpaper.pdf
 number: 1
 ---

@@ -27,13 +27,14 @@ collections:
     layout: front
     output: true
 
+  documents:
+    layout: front
+    output: false
+    
   resources:
     layout: front
     output: false
 
-  documents:
-    layout: front
-    output: false
 
 defaults:
   - scope:
