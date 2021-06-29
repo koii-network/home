@@ -50,11 +50,10 @@
         </div>
         <div class="splide__track">
           <ul class="splide__list">
-            {%- assign sortdec = site.resources | sort: 'number' -%}
+            {%- assign sortdec = site.documents | sort: 'number' -%}
             {% for resources in sortdec %}
-            {% if resources.tag contains 'dec' %}
             <li class="splide__slide">
-              <a href="{{resources.permalink }}" style="text-decoration: none;">
+              <a href="{{resources.link }}" style="text-decoration: none;">
               <div class="koii-card">
                 <div class="koii-card-title">{{ resources.title }}</div>
                 <div class="koii-card-description">{{ resources.details }}</div>
@@ -62,7 +61,6 @@
               </div>
             </a>
             </li>
-            {% endif %}
             {% endfor %}
           </ul>
         </div>
