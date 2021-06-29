@@ -81,6 +81,11 @@
         }
       }
     }
+    .splide__arrows {
+      .splide__arrow {
+        background: transparent;
+      }
+    }
   }
   #splide-mobile {
     .koii-card {
@@ -125,6 +130,11 @@
       //     transform: unset;
       //   }
       // }
+    }
+    .splide__arrows {
+      .splide__arrow {
+        background: transparent;
+      }
     }
   }
 }

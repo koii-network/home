@@ -29,6 +29,14 @@
       consequat sunt nostr...
     </div>
     <div id="splide" class="splide d-none d-md-block">
+      <div class="splide__arrows">
+        <button class="splide__arrow splide__arrow--prev">
+          <img src="/img/icons/icon-left.svg" width="24" />
+        </button>
+        <button class="splide__arrow splide__arrow--next">
+          <img src="/img/icons/icon-right.svg" width="24" />
+        </button>
+      </div>
       <div class="splide__track">
         <ul class="splide__list">
           {%- assign sortkoii = site.resources | sort: 'number' -%}
@@ -49,6 +57,14 @@
       </div>
     </div>
     <div id="splide-mobile" class="splide d-md-none">
+      <div class="splide__arrows">
+        <button class="splide__arrow splide__arrow--prev">
+          <img src="/img/icons/icon-left.svg" width="24" />
+        </button>
+        <button class="splide__arrow splide__arrow--next">
+          <img src="/img/icons/icon-right.svg" width="24" />
+        </button>
+      </div>
       <div class="splide__track">
         <ul class="splide__list">
           {%- assign sortkoii = site.resources | sort: 'number' -%}
