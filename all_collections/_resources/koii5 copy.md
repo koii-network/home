@@ -1,8 +1,8 @@
 ---
-title: What is Koii 9
-details: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation ven
+title: Yield Farming for NFTs
+details: New Revenue Streams. Open Koii provides NFTs with new income streams while expanding and optimizing NFT capabilities via “Koii Assets”.
 layout: koii101
-permalink: /resources/what-is-koii-4
+permalink: https://blog.koii.network/Yield-Farming-for-NFTs/
 number: 9
 tag: koii
 ---

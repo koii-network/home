@@ -1,8 +1,8 @@
 ---
-title: What is Koii 2
-details: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation ven
+title: I am the product
+details: What you do online is an extension of yourself… A few years ago I had a conversation with a friend of mine regarding data collection, at the time I ignorantly said, “who cares, I have nothing to hide”, as he tried to explain the significance of collecting user data especially when one single entity was doing it.
 layout: koii101
-permalink: /resources/what-is-koii-2
+permalink: https://blog.koii.network/I-Am-The-Product/
 number: 2
 tag: koii
 ---

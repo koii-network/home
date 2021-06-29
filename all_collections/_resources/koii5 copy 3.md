@@ -1,8 +1,8 @@
 ---
-title: What is Koii 7
-details: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation ven
+title: The Koii Ecosystem
+details: Koii.rocks is a decentralized web application (DApp) powered by Koii, a protocol for information retrieval and publishing on the new web.
 layout: koii101
-permalink: /resources/what-is-koii-4
+permalink: https://blog.koii.network/Ecosystem-Launch/
 number: 7
 tag: koii
 ---

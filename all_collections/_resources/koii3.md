@@ -1,8 +1,8 @@
 ---
-title: What is Koii 3
-details: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation ven
+title: The Snowden Problem
+details: There are serious problems with the current Web 2.0 paradigm..
 layout: koii101
-permalink: /resources/what-is-koii-3
+permalink: https://blog.koii.network/The-Snowden-Problem/
 number: 3
 tag: koii
 ---

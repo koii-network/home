@@ -1,8 +1,8 @@
 ---
-title: What is Koii 5
-details: Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation ven
+title: NFTs - SO HOT, right now?
+details:For the original registration of “EthBoy” (shown above), one can visit the async.art gallery. 
 layout: koii101
-permalink: /resources/what-is-koii-4
+permalink: https://blog.koii.network/atomic-nfts/
 number: 5
 tag: koii
 ---
