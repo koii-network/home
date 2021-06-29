@@ -29,7 +29,11 @@ collections:
 
   resources:
     layout: front
-    output: true
+    output: false
+
+  documents:
+    layout: front
+    output: false
 
 defaults:
   - scope:

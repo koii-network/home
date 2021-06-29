@@ -37,7 +37,7 @@
       </div>
       <div class="splide__track">
         <ul class="splide__list">
-          {%- assign sortkoii = site.resources | sort: 'number' -%}
+        {%- assign sortkoii = site.resources | sort: 'number' -%}
         {% for resources in sortkoii %}
         {% if resources.tag contains 'koii' %}
           <li class="splide__slide">
