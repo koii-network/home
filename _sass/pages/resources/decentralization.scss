@@ -66,6 +66,11 @@
         background: white;
         box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
         padding: 24px 32px 10px;
+        transition: all 0.2s ease-out;
+        &:hover {
+          transition: all 0.2s ease-out;
+          box-shadow: 0px 10px 20px 5px #5ed9d1;
+        }
         .koii-card-title {
           font-weight: normal;
           font-size: 24px;

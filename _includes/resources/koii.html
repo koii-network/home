@@ -31,15 +31,20 @@
     <div id="splide" class="splide d-none d-md-block">
       <div class="splide__track">
         <ul class="splide__list">
-          {% for item in site.data.koi_cards %}
+          {%- assign sortkoii = site.resources | sort: 'number' -%}
+        {% for resources in sortkoii %}
+        {% if resources.tag contains 'koii' %}
           <li class="splide__slide">
+            <a href="{{resources.permalink }}" style="text-decoration: none;">
             <div class="koii-card">
-              <div class="koii-card-title">{{item.title}}</div>
-              <div class="koii-card-description">{{item.description}}</div>
-              <div class="koii-card-link">{{item.link_label}}</div>
+              <div class="koii-card-title">{{ resources.title }}</div>
+              <div class="koii-card-description">{{ resources.details }}</div>
+              <!-- <div class="koii-card-link">{{item.link_label}}</div> -->
             </div>
+          </a>
           </li>
-          {% endfor %}
+          {% endif %}
+        {% endfor %}
         </ul>
       </div>
     </div>
