@@ -38,13 +38,19 @@
           color: #bef0ed;
           margin-bottom: 0;
           text-transform: uppercase;
+          font-family: $sora !important;
+          font-weight: 400;
         }
         h1 {
           font-size: 48px !important;
           margin-bottom: 0;
+          font-family: $sora !important;
+          font-weight: 400;
         }
         p {
           font-size: 18px !important;
+          font-family: $sora !important;
+          font-weight: 400;
         }
         .btn-get {
           background: #bef0ed;
@@ -82,6 +88,18 @@
           text-align: center;
           justify-content: center;
           padding: 20px 30px;
+
+          h3 {
+            font-family: $sora !important;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+          }
+          p {
+            font-family: $sora !important;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            margin: 20px 0;
+          }
           img {
             margin-bottom: 27px;
           }
