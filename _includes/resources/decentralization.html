@@ -25,9 +25,9 @@
         <div
           class="d-flex flex-column align-items-start justify-content-start h-100 left-content"
         >
-          <div class="section-title">Peer-to-Peer is our bread and butter.</div>
+          <div class="section-title">We wanted it, so we built it.</div>
           <div class="section-description">
-            The Koii Toolkit comes with everything you need to build a decentralized application, free of censorship and monetized by attention. Click a link below to read our research documentation.
+            Peer-to-peer technology and decentralization have been buzzwords for awhile. Koii exists because nothing else did the job. We've built the technology that was needed, now we want to help you use it. <br><a href="mailto:support@koii.network">Let us know if you need a hand.</a>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
             {%- assign sortdec = site.documents | sort: 'number' -%}
             {% for resources in sortdec %}
             <li class="splide__slide">
-              <a href="{{resources.link }}" style="text-decoration: none;">
+              <a href="{{resources.link }}" target="_blank" style="text-decoration: none;">
               <div class="koii-card">
                 <div class="koii-card-title">{{ resources.title }}</div>
                 <div class="koii-card-description">{{ resources.details }}</div>
