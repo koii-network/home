@@ -1,6 +1,6 @@
 ---
 title: What is the attention economy?
-describe: "Your attention has value.You can pay it to whatever you like, whether it be attention to a news article, a movie or a social media post"
+describe: "Information is abundant, attention is scarce. Learn how you can earn KOII today via the revolutionary attention economy."
 layout: front
 image: /news/Koi-attention-economy-blog-cover.jpg
 date: 2021-06-07

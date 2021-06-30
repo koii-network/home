@@ -1,6 +1,6 @@
 ---
 title: The Snowden Problem
-describe: There are serious problems with the current Web 2.0 paradigm..
+describe: the current Web 2.0 paradigm does not protect its users it exploits them. Learn how Koii plans to build an internet you can truly own.
 layout: front
 image: /news/snowdenblogpostcover.jpg
 date: 2021-05-11

@@ -1,6 +1,6 @@
 ---
 title: Back up your OpenSea NFTs for 200 years, and earn tokens for all the people who look at them.
-describe: Welcome to Koii’s Atomic NFT Portal
+describe: Back up your OpenSea NFTs for 200 years, and earn KOII every time they’re viewed!
 layout: front
 image: /news/Openseablogcover.jpg
 date: 2021-05-18
