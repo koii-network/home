@@ -29,8 +29,22 @@
       align-items: flex-start;
       justify-content: center;
       padding-left: 110px;
+      h1 {
+        font-family: $sora !important;
+        font-weight: 600;
+        font-size: 48px !important;
+        letter-spacing: -0.02em;
+      }
+
       p {
         margin-bottom: 36px;
+        font-family: $sora !important;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+      }
+      a {
+        font-family: $sora !important;
+        font-weight: 600;
       }
     }
     .build_better-cards {
@@ -49,12 +63,24 @@
         text-align: center;
         justify-content: center;
         padding: 20px 30px;
+        h3 {
+          font-family: $sora !important;
+          font-weight: 400;
+          letter-spacing: -0.02em;
+        }
+        p {
+          font-family: $sora !important;
+          font-weight: 400;
+          letter-spacing: -0.01em;
+        }
         img {
           margin-bottom: 27px;
         }
         a {
           text-decoration: underline;
           line-height: 32px;
+          font-family: $sora !important;
+          font-weight: 400;
         }
       }
     }

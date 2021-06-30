@@ -7,7 +7,7 @@
 
 html,
 body {
-  height: 100%;
+  // height: 100%;
   width: 100vw;
   overflow-x: hidden;
   // scroll-behavior: smooth;
@@ -193,6 +193,10 @@ a {
 .stop-card {
   transition: all 0.2s ease-in;
 }
+* {
+  scrollbar-color: #171753 #fff2ee; /* firefox scrollbar-style */
+  scrollbar-width: thin; 
+}
 
 /* koii101 style */
 .koii101 {
@@ -209,6 +213,10 @@ a {
 }
 
 @media (min-width: $xl) {
+  * {
+    scrollbar-color: #171753 #fff2ee; 
+    scrollbar-width: thin; 
+  }
   body::-webkit-scrollbar {
     width: 6px;
   }
