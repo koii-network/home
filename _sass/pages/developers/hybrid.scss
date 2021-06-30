@@ -38,8 +38,9 @@
       text-decoration-line: underline;
       text-transform: uppercase;
       color: #5ed9d1;
+      max-width: 290px;
+      font-family: $sora !important;
       font-weight: 400;
-      max-width: 280px;
     }
   }
   .small-img {

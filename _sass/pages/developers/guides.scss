@@ -59,6 +59,8 @@
       .font-cap2 {
         max-width: 70%;
         text-align: left;
+        font-family: $sora !important;
+        font-weight: 400;
       }
     }
   }
@@ -86,6 +88,8 @@
     .font-cap2 {
       font-size: 18px !important;
       text-align: center;
+      font-family: $sora !important;
+      font-weight: 400;
     }
   }
 }
