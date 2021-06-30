@@ -27,6 +27,8 @@
         text-align: center;
         letter-spacing: -0.04em;
         color: #ffffff;
+        font-family: $sora !important;
+        font-weight: 400;
       }
       p {
         font-size: 16px;
@@ -34,7 +36,9 @@
         text-align: center;
         letter-spacing: -0.01em;
         color: #ffffff;
-        max-width: 500px;
+        max-width: 650px;
+        font-family: $sora !important;
+        font-weight: 400;
       }
     }
     .start-cards-wrapper {
@@ -76,6 +80,11 @@
           letter-spacing: -0.01em;
           color: #171753;
           padding-left: 14px;
+          p {
+            font-family: $sora !important;
+            font-weight: 400;
+            font-size: 14px !important;
+          }
         }
       }
     }

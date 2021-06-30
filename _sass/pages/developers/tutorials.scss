@@ -56,7 +56,10 @@
           min-height: 200px;
 
           p {
+            font-family: $sora !important;
             font-weight: 400;
+            font-size: 14px !important;
+
             margin: 0px;
           }
         }
