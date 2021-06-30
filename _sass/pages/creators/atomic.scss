@@ -34,10 +34,16 @@
       padding-left: 60px;
       padding-bottom: 40px;
       .node-left {
-        width: 39%;
+        width: 50%;
         padding-left: 40px;
         h3 {
           font-size: 32px !important;
+          font-family: $sora !important;
+          font-weight: 400;
+        }
+        p {
+          font-family: $sora !important;
+          font-weight: 400;
         }
       }
       .node-right {
@@ -69,6 +75,9 @@
             line-height: 32px;
             margin-bottom: 0;
             transition: all 0.3s ease-out;
+            font-family: $sora !important;
+            font-weight: 400;
+            letter-spacing: -0.01em;
           }
           .node-card-title {
             font-weight: 600;

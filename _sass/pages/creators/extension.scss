@@ -96,6 +96,11 @@
           transform: translate(0, -1em);
           box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.35);
         }
+        h3 {
+          letter-spacing: -0.02em;
+          font-family: $sora !important;
+          font-weight: 400;
+        }
         img {
           margin-bottom: 27px;
         }

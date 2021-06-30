@@ -60,6 +60,7 @@
           text-transform: uppercase;
           color: #ffc78f;
           margin-bottom: 5px;
+          font-family: $sora !important;
         }
         h6 {
           font-size: 16px !important;
@@ -67,6 +68,11 @@
           letter-spacing: -0.01em;
           color: #ffffff;
           margin-bottom: 0;
+          font-family: $sora !important;
+          font-weight: 400;
+          a {
+            font-family: $sora !important;
+          }
         }
       }
       @media (max-width: 500px) {
