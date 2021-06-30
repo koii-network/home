@@ -54,6 +54,10 @@
         justify-content: flex-start;
         padding: 40px 20px 10px;
         transition: all 0.2s ease-in;
+        img {
+          display: block;
+          margin: 1rem;
+        }
         &:hover {
           transform: translate(0, -1em);
           transition: all 0.2s ease-out;

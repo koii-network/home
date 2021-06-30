@@ -1,6 +1,6 @@
 ---
-title: Deploying apps quickly with Koii-X
-permalink: /earn/developers/Deploying-apps-quickly-with-Koii-X/
+title: Deploying apps that last forever
+permalink: https://blog.koii.network/Almost-Infinite/
 number: 7
 layout: koii101
 ---

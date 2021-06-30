@@ -1,6 +1,6 @@
 ---
-title: Earning Koii by deploying apps
-permalink: /earn/developers/Earning-Koii-by-deploying-apps/
+title: What is the Attention Economy? 
+permalink: https://blog.koii.network/What-Is-The-Attention_Economy/
 number: 2
 layout: koii101
 ---
