@@ -1,0 +1,108 @@
+@import "variables";
+
+#publish {
+  position: relative;
+  background: #030332;
+  padding: 122px 0;
+  color: white;
+  font-family: $sora;
+
+  .container {
+    max-width: 850px;
+  }
+  .font-cap1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  .font-cap3 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #bef0ed;
+  }
+  .plus-card-wrapper {
+    position: relative;
+    margin-top: 52px;
+    .dots-plus {
+      position: absolute;
+      right: -213px;
+      top: -37px;
+    }
+    .plus-card {
+      position: relative;
+      background: #030332;
+      max-width: 805px;
+      height: fit-content;
+      display: flex;
+      padding: 27px 19px;
+      color: $white;
+      border: 1px solid $white;
+      z-index: 1;
+      .img-plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          margin-bottom: 20px;
+        }
+      }
+      .text-plus {
+        margin: 5px 35px;
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: #ffc78f;
+          margin-bottom: 5px;
+        }
+        h6 {
+          font-size: 16px !important;
+          line-height: 32px;
+          letter-spacing: -0.01em;
+          color: #ffffff;
+          margin-bottom: 0;
+        }
+      }
+      @media (max-width: 500px) {
+        flex-direction: column;
+        img {
+          max-width: 80px;
+        }
+        .text-plus {
+          margin: 0;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 60px 0;
+    .font-cap1 {
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .font-cap3 {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .plus-card-wrapper {
+      .dots-plus {
+        right: -11px;
+        top: -40px;
+      }
+      .plus-card {
+        .text-plus {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

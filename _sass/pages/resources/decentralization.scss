@@ -1,0 +1,168 @@
+@import "variables";
+
+#decentralization {
+  position: relative;
+  background: #171753;
+  font-family: $sora;
+  color: white;
+  padding: 54px 0 143px;
+  .content-wrapper {
+    position: relative;
+    min-height: 230px;
+    margin-bottom: 57px;
+    .left-content {
+      padding-left: 50px;
+      padding-top: 40px;
+      .section-title {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+        margin-bottom: 10px;
+      }
+      .section-description {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+      }
+    }
+    .img-wrapper {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .splide-wrapper {
+    position: relative;
+    .splide-bg {
+      position: absolute;
+      top: 24px;
+      left: 14px;
+      width: 100%;
+      height: 100%;
+      background: #ecfffe;
+    }
+    #decentralization-splide {
+      padding-left: 50px;
+      .koii-card {
+        color: $blueDark;
+        width: 290px;
+        min-height: 328px;
+        background: white;
+        box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+        padding: 24px 32px 10px;
+        transition: all 0.2s ease-out;
+        &:hover {
+          transition: all 0.2s ease-out;
+          box-shadow: 0px 10px 20px 5px #5ed9d1;
+        }
+        .koii-card-title {
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          margin-bottom: 20px;
+        }
+        .koii-card-description {
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 32px;
+          margin-bottom: 20px;
+        }
+        .koii-card-link {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 32px;
+          text-align: center;
+          letter-spacing: -0.01em;
+          text-decoration-line: underline;
+          color: #237b75;
+        }
+      }
+      .splide__pagination {
+        bottom: -4.5em;
+        .splide__pagination__page {
+          width: 40px;
+          height: 5px;
+          background: #ffffff;
+          border-radius: 8px;
+          &.is-active {
+            background: #5ed9d1;
+            transform: unset;
+          }
+        }
+      }
+      .splide__arrows {
+        .splide__arrow {
+          background: transparent;
+        }
+      }
+    }
+    #decentralization-splide-mobile {
+      .koii-card {
+        color: $blueDark;
+        width: 100%;
+        min-height: 328px;
+        background: white;
+        box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+        padding: 24px 32px 10px;
+        margin: 0 auto;
+        .koii-card-title {
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 32px;
+          margin-bottom: 20px;
+        }
+        .koii-card-description {
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 32px;
+          margin-bottom: 20px;
+        }
+        .koii-card-link {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 32px;
+          text-align: center;
+          letter-spacing: -0.01em;
+          text-decoration-line: underline;
+          color: #237b75;
+        }
+      }
+      .splide__pagination {
+        bottom: -1.5em;
+        // .splide__pagination__page {
+        //   width: 40px;
+        //   height: 5px;
+        //   background: #ffffff;
+        //   border-radius: 8px;
+        //   &.is-active {
+        //     background: #5ed9d1;
+        //     transform: unset;
+        //   }
+        // }
+      }
+      .splide__arrows {
+        .splide__arrow {
+          background: transparent;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .content-wrapper {
+      .left-content {
+        padding-left: 0;
+        .section-title {
+          font-weight: normal;
+        }
+        .section-description {
+          font-weight: normal;
+        }
+      }
+      .img-wrapper {
+        margin-top: 40px;
+      }
+    }
+  }
+}

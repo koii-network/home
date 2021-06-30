@@ -1,0 +1,13 @@
+- title: Register once, <br>share anywhere.
+  subtitle: Pay a small ($0.01) one time fee to register and permanently archive your content, then easily export it to any platform.
+  link_title: Say goodbye to data silos
+  img: icon_transparent
+- title: Track your views & hold big tech accountable.
+  subtitle: Add your tracking tag anywhere on the web to mine KOII tokens. Sell them to pay bills or spend them to register content & access services.
+  hint: "*You may also want to hold onto these. They entitle you to run a node and earn interest, or vote on the future of the Koii Network"
+  link_title: Earn KOII by building apps
+  img: icon_accessible
+- title: Never get deplatformed. Never lose your work.
+  subtitle: Once your work is atomically registered, you own it, securely and permanently. If you lose access on a platform, your work is safely stored until you’re ready to migrate to a different one.
+  link_title: Learn more about Atomic NFTs
+  img: icon_open

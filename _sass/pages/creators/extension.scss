@@ -1,0 +1,168 @@
+@import "variables";
+
+#extension {
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  position: relative;
+  padding: 122px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: $sora;
+  .head-tag {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #bef0ed;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .font-cap1 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    @media (max-width: 768px) {
+      font-size: 32px;
+      text-align: center;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .font-cap3 {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #f5f5f5;
+    max-width: 700px;
+    font-weight: 400;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .gallery-part {
+    position: relative;
+    margin-top: 50px;
+    text-align: -webkit-center;
+    .gallery {
+      position: relative;
+      z-index: 9;
+      width: 100%;
+    }
+    .gallery-dots {
+      position: absolute;
+      right: 0;
+      top: 0;
+      @media (max-width: 768px) {
+        top: unset;
+        right: unset;
+        position: relative;
+        margin-top: 50px;
+        bottom: 100px;
+      }
+    }
+  }
+
+  .extension-cards-wrapper {
+    margin: 120px -50px 35px;
+    position: relative;
+    z-index: 9;
+    background-color: #ecfffe;
+    width: 1280px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    .extension-cards {
+      position: absolute;
+      max-width: 1070px;
+      top: -40px;
+      .extension-card {
+        min-height: 198px;
+        min-width: 330px;
+        color: #171753;
+        background: #f5f5f5;
+        box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 20px 30px;
+        transition: all 0.2s ease-in;
+        &:hover {
+          transition: all 0.2s ease-out;
+          transform: translate(0, -1em);
+          box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.35);
+        }
+        img {
+          margin-bottom: 27px;
+        }
+      }
+    }
+  }
+  .font-cap5 {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .btnwallet {
+    margin: 25px 0;
+    text-align: -webkit-center;
+    a {
+      text-decoration: none;
+      .btn-get {
+        background: #bef0ed;
+        border-radius: 24px;
+        width: 212px;
+        height: 40px;
+        font-size: 16px !important;
+        line-height: 24px;
+        color: $blueDark;
+        font-family: "Sora";
+      }
+    }
+  }
+  .wallet-dots-left {
+    position: absolute;
+    left: 0;
+    bottom: 400px;
+    z-index: 1;
+  }
+  .wallet-dots-right {
+    position: absolute;
+    right: 0px;
+    bottom: 150px;
+    z-index: 1;
+  }
+  @media (max-width: 1200px) {
+    padding: 53px 0;
+    .extension-cards-wrapper {
+      height: unset;
+      padding-top: 30px;
+      text-align: -webkit-center;
+      margin-top: 0;
+      margin: 0 auto;
+      width: 80%;
+      margin-bottom: 53px;
+      .extension-cards {
+        position: relative;
+        right: unset;
+        margin: 15px 16px;
+        top: unset;
+        .extension-card {
+          max-width: 300px;
+          height: unset;
+          min-height: unset;
+          width: 100%;
+        }
+        .extension-dots {
+          bottom: 50%;
+          left: 0px;
+        }
+      }
+    }
+  }
+}

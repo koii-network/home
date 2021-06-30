@@ -1,0 +1,99 @@
+@import "variables";
+
+#video {
+  position: relative;
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  color: $white;
+  display: flex;
+  padding: 70px 0 100px;
+  font-family: $sora;
+  &::before {
+    background-image: url(/img/developers/chain.svg);
+    background-repeat: no-repeat;
+    background-size: 400px auto;
+    background-position-y: 0px;
+    background-position-x: right;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 100%;
+    @media (max-width: $xs) {
+      right: 0;
+      background-size: 50% auto;
+    }
+  }
+  .container {
+    z-index: 1;
+    .font-cap1 {
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 72px;
+      letter-spacing: -0.02em;
+      margin-top: 29px;
+      margin-bottom: 48px;
+    }
+    .font-cap2 {
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      margin-top: 29px;
+    }
+    .section-title {
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      margin-bottom: 46px;
+    }
+    .section-description {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      margin-bottom: 20px;
+      max-width: 650px;
+    }
+    .nav-link.signup {
+      margin: 10px 10px 0 0;
+      background: #bef0ed;
+      padding: 5px 40px;
+      border-radius: 24px;
+      color: #171753;
+      width: max-content;
+      font-family: "Sora", sans-serif !important;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  @media (max-width: $xs) {
+    .container {
+      .font-cap1 {
+        font-size: 32px !important;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        margin-bottom: 39px;
+      }
+      .font-cap2 {
+        font-size: 20px !important;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 39px;
+      }
+      .section-title {
+        text-align: center;
+      }
+      .section-description {
+        text-align: center;
+      }
+      .btn {
+        margin: 0 auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<section id="registration">
+  <div class="registration-wrapper">
+    <div class="registration-content">
+      <h1>Atomic<br />Registration</h1>
+    </div>
+    <img src="/img/homepage/Dots.svg" class="registration-dots" />
+    <div class="registration-cards">
+      <div class="row">
+        {% for item in site.data.creators_registration %}
+        <div class="col-md-6">
+          <div class="registration-card">
+            <h3>{{item.title}}</h3>
+            <p>{{item.subtitle}}</p>
+            <p class="hint">{{item.hint}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

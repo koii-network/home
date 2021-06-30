@@ -1,0 +1,29 @@
+<section id="involved">
+  <div class="involved-wrapper">
+    <div class="involved-content">
+      <h1>Join the Movement</h1>
+      <p>
+        Whether you're a developer, a creator, or just someone who wants to see a world without technology oligarchs, we would love to help you get involved.
+      </p>
+    </div>
+    <img src="/img/homepage/Dots.svg" class="involved-dots" />
+    <div class="involved-cards">
+      <div class="row">
+        {% for item in site.data.get_involved %}
+          <div class="col-md-6">
+            <a href="{{ item.link }}">
+            <div class="involved-card">
+              <div class="involved-header">
+                <img src="/img/homepage/{{ item.icon }}" />
+                <h3>{{item.title}}</h3>
+              </div>
+              <p>{{item.subtitle}}</p>
+              <p class="hint">{{item.hint}}</p>
+            </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

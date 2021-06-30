@@ -198,6 +198,20 @@ a {
   scrollbar-width: thin; 
 }
 
+/* koii101 style */
+.koii101 {
+  position: relative;
+  background: $blueDarkBg;
+  color: $white;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  .detail-101 {
+    margin: 5rem 0 5rem;
+  }
+}
+
 @media (min-width: $xl) {
   * {
     scrollbar-color: #171753 #fff2ee; 

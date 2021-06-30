@@ -22,6 +22,19 @@ collections:
   jobs:
     layout: front
     output: true 
+  
+  guides:
+    layout: front
+    output: true
+
+  documents:
+    layout: front
+    output: false
+    
+  resources:
+    layout: front
+    output: false
+
 
 defaults:
   - scope:

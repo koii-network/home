@@ -1,0 +1,122 @@
+#buildp2p {
+  background-image: linear-gradient(
+    180deg,
+    #030320 0%,
+    rgba(23, 23, 83, 0) 26%
+  );
+  background-color: #171753;
+  font-family: $sora;
+  .buildp2p-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 16px;
+
+    .buildp2p-content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      max-width: fit-content;
+      .font-cap1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.04em;
+        color: #ffffff;
+        max-width: 400px;
+        font-weight: 400;
+        font-family: $sora !important;
+      }
+    }
+    .buildp2p-cards {
+      position: relative;
+      padding-left: 50px;
+      .buildp2p-dots1 {
+        position: absolute;
+        top: -14px;
+        left: 300px;
+      }
+      .buildp2p-dots2 {
+        position: absolute;
+        bottom: 17px;
+        left: 300px;
+      }
+      .buildp2p-vector {
+        position: absolute;
+        top: -14px;
+        right: 50px;
+      }
+      .buildp2p-card {
+        position: relative;
+        min-height: 296px;
+        background: #ffffff;
+        box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+        padding: 20px 30px;
+        transition: all 0.2s ease-in;
+        &:hover {
+          transform: translate(0, -1em);
+          transition: all 0.2s ease-out;
+        }
+        &.card2 {
+          margin-bottom: 0;
+        }
+        h3 {
+          text-align: center;
+        }
+        img {
+          margin-bottom: 27px;
+        }
+        a {
+          text-decoration: underline;
+          line-height: 32px;
+        }
+        p.hint {
+          font-size: 12px !important;
+          color: #237b75;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .buildp2p-wrapper {
+      flex-direction: column;
+      .buildp2p-content {
+        padding-left: 0;
+        text-align: center;
+      }
+      .buildp2p-cards {
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        .buildp2p-dots1 {
+          top: -69px;
+          left: 0;
+        }
+        .buildp2p-dots2 {
+          bottom: 213px;
+          left: -12px;
+        }
+        .buildp2p-vector {
+          top: 207px;
+          right: -64px;
+        }
+        .buildp2p-card {
+          &.card2 {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
