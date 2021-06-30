@@ -31,32 +31,42 @@
     max-width: 665px;
     margin: 0 auto;
     margin-bottom: 66px;
+    a {
+      font-family: $sora;
+      color: #ffffff;
+      text-decoration: underline;
+    }
   }
   #splide {
     padding-left: 50px;
     .koii-card {
       color: $blueDark;
       width: 290px;
-      min-height: 328px;
+      min-height: 426px;
       background: white;
       box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
-      padding: 24px 32px 10px;
+      padding: 24px 24px 10px;
       transition: all 0.2s ease-out;
+      margin-bottom: 10px;
       &:hover {
         transition: all 0.2s ease-out;
         box-shadow: 0px 10px 20px 2px #ecfffe;
       }
       .koii-card-title {
-        font-weight: normal;
+        font-weight: 400;
         font-size: 24px;
         line-height: 32px;
         margin-bottom: 20px;
+        letter-spacing: -0.01em;
+        font-family: $sora;
       }
       .koii-card-description {
-        font-weight: normal;
+        font-weight: 400;
         font-size: 18px;
         line-height: 32px;
         margin-bottom: 20px;
+        letter-spacing: -0.02em;
+        font-family: $sora;
       }
       .koii-card-link {
         font-weight: normal;

@@ -37,7 +37,7 @@
       </div>
       <div class="splide__track">
         <ul class="splide__list">
-        {%- assign sortkoii = site.news | sort: 'date' -%}
+        {%- assign sortkoii = site.news | sort: 'date' | reverse -%}
         {% for news in sortkoii %}
         {% if news.resources contains 'koii' %}
           <li class="splide__slide">
@@ -65,7 +65,7 @@
       </div>
       <div class="splide__track">
         <ul class="splide__list">
-          {%- assign sortkoii = site.news | sort: 'date' -%}
+          {%- assign sortkoii = site.news | sort: 'date' | reverse -%}
         {% for news in sortkoii %}
         {% if news.resources contains 'koii' %}
           <li class="splide__slide">

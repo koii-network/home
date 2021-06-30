@@ -1,6 +1,6 @@
 ---
 title: Almost Infinite.
-describe: What is the purpose of permanence?
+describe: Understand why permanence and Koii is the key to a better future and why we must not let the past repeat itself.
 layout: front
 image: /news/almostinfiniteblog2.png
 date: 2021-05-21

@@ -25,6 +25,11 @@
         font-size: 16px;
         line-height: 32px;
         letter-spacing: -0.01em;
+        a {
+          font-family: $sora;
+          color: #ffffff;
+          text-decoration: underline;
+        }
       }
     }
     .img-wrapper {
@@ -62,12 +67,15 @@
           font-size: 24px;
           line-height: 32px;
           margin-bottom: 20px;
+          font-family: $sora;
         }
         .koii-card-description {
           font-weight: normal;
           font-size: 18px;
           line-height: 32px;
           margin-bottom: 20px;
+          font-family: $sora;
+          letter-spacing: -0.01em;
         }
         .koii-card-link {
           font-weight: normal;

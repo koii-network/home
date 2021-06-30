@@ -29,10 +29,18 @@
       align-items: flex-start;
       justify-content: center;
       padding-left: 110px;
+      h1 {
+        font-family: $sora !important;
+        letter-spacing: -0.02em;
+        font-weight: 600;
+      }
       p {
         margin-bottom: 36px;
         max-width: 330px;
         line-height: 32px;
+        font-family: $sora !important;
+        letter-spacing: -0.01em;
+        font-weight: 400;
       }
     }
     .involved-cards {
@@ -71,17 +79,24 @@
           h3 {
             margin-bottom: 0;
             margin-left: 16px;
+            font-family: $sora !important;
+            letter-spacing: -0.02em;
+            font-weight: 400;
+          }
+          p {
+            font-family: $sora !important;
+            letter-spacing: -0.01em;
+            font-weight: 400;
           }
         }
         a {
           text-decoration: underline;
           line-height: 32px;
         }
-        p.hint {
-          font-size: 9px !important;
-          color: #237b75;
-          line-height: 16px;
-          margin-bottom: 0;
+        p {
+          font-family: $sora !important;
+          letter-spacing: -0.01em;
+          font-weight: 400;
         }
       }
     }
