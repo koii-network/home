@@ -29,8 +29,12 @@
       align-items: flex-start;
       justify-content: center;
       padding-left: 110px;
+      h1 {
+        font-family: $sora !important;
+      }
       p {
         margin-bottom: 36px;
+        font-family: $sora !important;
       }
     }
     .registration-cards {
@@ -55,6 +59,16 @@
         &:hover {
           transform: translate(0, -1em);
           transition: all 0.2s ease-out;
+        }
+        h3 {
+          font-family: $sora !important;
+          font-weight: 400;
+          letter-spacing: -0.02em;
+        }
+        p {
+          font-family: $sora !important;
+          font-weight: 400;
+          font-size: 14px !important;
         }
         img {
           margin-bottom: 27px;
