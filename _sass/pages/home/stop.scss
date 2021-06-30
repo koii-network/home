@@ -5,8 +5,8 @@
   background: $blueDark;
   padding: 122px 0;
   color: white;
-  font-family: $sora;
-  a{
+  font-family: $sora !important;
+  a {
     text-decoration: none;
   }
   .img-left {
@@ -48,38 +48,45 @@
           color: #bef0ed;
           margin-bottom: 0;
           text-transform: uppercase;
+          font-family: $sora !important;
+          font-weight: 400;
         }
         h1 {
           font-size: 40px !important;
           margin-bottom: 0;
+          font-family: $sora !important;
+          font-weight: 400;
         }
         p {
           font-size: 18px !important;
+          font-family: $sora !important;
+          font-weight: 400;
+          max-width: 765px;
         }
         &.btns-wrapper {
           display: flex;
           align-items: center;
           .btn-tool {
-            background: #9BE7C4;
+            background: #9be7c4;
             border-radius: 24px;
-            width: 163px;
             height: 40px;
             font-size: 16px !important;
             line-height: 24px;
             color: $blueDark;
             margin-right: 16px;
             text-decoration: none;
+            font-family: $sora !important;
           }
           .btn-get {
-            background: #5ED9D1;
+            background: #5ed9d1;
             text-decoration: none;
             border-radius: 24px;
-            width: 212px;
             height: 40px;
             font-size: 16px !important;
             line-height: 24px;
             color: $blueDark;
-            &:focus{
+            font-family: $sora !important;
+            &:focus {
               text-decoration: none;
             }
           }
@@ -95,9 +102,9 @@
       margin-bottom: 57px;
       .stop-cards {
         .stop-card {
-          min-height: 208px;
+          min-height: 225px;
           color: $blueDark;
-          background: #ECFFFE;
+          background: #ecfffe;
           box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
           margin-bottom: 30px;
           display: flex;
@@ -110,11 +117,14 @@
             font-size: 24px !important;
             margin-bottom: 16px;
             text-align: left;
+            font-family: $sora !important;
+            font-weight: 400;
           }
           p {
             font-size: 14px !important;
             color: #3c3754;
             text-align: left;
+            font-family: $sora !important;
           }
         }
       }
@@ -122,6 +132,8 @@
     .level-title {
       font-size: 24px !important;
       margin-bottom: 23px;
+      font-family: $sora !important;
+      font-weight: 400;
     }
     .stop-level-cards-wrapper {
       width: 100%;
@@ -150,6 +162,8 @@
           font-size: 14px !important;
           line-height: 24px;
           margin-bottom: 0;
+          font-family: $sora !important;
+          font-weight: 400;
         }
       }
     }
@@ -182,11 +196,12 @@
           }
           &.btns-wrapper {
             flex-direction: column;
-            .btn-get, .btn-tool {
+            .btn-get,
+            .btn-tool {
               font-size: 16px !important;
               width: 280px;
               margin: 0;
-              margin-bottom: 34px;
+              margin-bottom: 20px;
             }
           }
         }

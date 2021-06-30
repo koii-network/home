@@ -38,6 +38,12 @@
         padding-left: 40px;
         h3 {
           font-size: 32px !important;
+          font-family: $sora !important;
+          font-weight: 400;
+        }
+        p {
+          font-family: $sora !important;
+          font-weight: 400;
         }
       }
       .node-right {
@@ -68,11 +74,15 @@
           p {
             line-height: 32px;
             margin-bottom: 0;
+            letter-spacing: -0.01em;
             transition: all 0.3s ease-out;
+            font-family: $sora !important;
+            font-weight: 400;
           }
           .node-card-title {
-            font-weight: 600;
             margin-bottom: 12px;
+            font-family: $sora !important;
+            font-weight: 600;
           }
         }
       }
