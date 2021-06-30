@@ -8,5 +8,4 @@ newsdate: May 03, 2021
 rsvpUrl: https://blog.koii.network/An-Arweave-faucet-tutorial/
 newsType: news
 tag: news
-resources: koii
 ---
