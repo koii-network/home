@@ -37,14 +37,14 @@
       </div>
       <div class="splide__track">
         <ul class="splide__list">
-        {%- assign sortkoii = site.resources | sort: 'number' -%}
-        {% for resources in sortkoii %}
-        {% if resources.tag contains 'koii' %}
+        {%- assign sortkoii = site.news | sort: 'date' -%}
+        {% for news in sortkoii %}
+        {% if news.tag contains 'news' %}
           <li class="splide__slide">
-            <a href="{{resources.permalink }}" style="text-decoration: none;">
+            <a href="{{news.rsvpUrl}}" style="text-decoration: none;">
             <div class="koii-card">
-              <div class="koii-card-title">{{ resources.title }}</div>
-              <div class="koii-card-description">{{ resources.details }}</div>
+              <div class="koii-card-title">{{ news.title }}</div>
+              <div class="koii-card-description">{{ news.describe }}</div>
               <!-- <div class="koii-card-link">{{item.link_label}}</div> -->
             </div>
           </a>
@@ -65,14 +65,14 @@
       </div>
       <div class="splide__track">
         <ul class="splide__list">
-          {%- assign sortkoii = site.resources | sort: 'number' -%}
-          {% for resources in sortkoii %}
-        {% if resources.tag contains 'koii' %}
+          {%- assign sortkoii = site.news | sort: 'date' -%}
+        {% for news in sortkoii %}
+        {% if news.tag contains 'news' %}
           <li class="splide__slide">
             <a href="{{resources.permalink }}" style="text-decoration: none;">
             <div class="koii-card">
-              <div class="koii-card-title">{{ resources.title }}</div>
-              <div class="koii-card-description">{{ resources.details }}</div>
+              <div class="koii-card-title">{{ news.title }}</div>
+              <div class="koii-card-description">{{ news.describe }}</div>
               <!-- <div class="koii-card-link">{{item.link_label}}</div> -->
             </div>
           </a>
