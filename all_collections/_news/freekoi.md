@@ -8,4 +8,5 @@ newsdate: May 02, 2021
 rsvpUrl: https://blog.koii.network/How-To-Get-Free-Koi-A-Faucet-Wallet-Tutorial/
 newsType: news
 tag: news
+resources: koii
 ---

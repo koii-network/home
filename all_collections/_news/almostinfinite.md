@@ -8,4 +8,5 @@ newsdate: May 21, 2021
 rsvpUrl: https://blog.koii.network/Almost-Infinite/
 newsType: news
 tag: news
+resources: koii
 ---

@@ -8,4 +8,5 @@ newsdate: May 11, 2021
 rsvpUrl: https://blog.koii.network/The-Snowden-Problem/
 newsType: news
 tag: news
+resources: koii
 ---

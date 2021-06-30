@@ -39,7 +39,7 @@
         <ul class="splide__list">
         {%- assign sortkoii = site.news | sort: 'date' -%}
         {% for news in sortkoii %}
-        {% if news.tag contains 'news' %}
+        {% if news.resources contains 'koii' %}
           <li class="splide__slide">
             <a href="{{news.rsvpUrl}}" style="text-decoration: none;">
             <div class="koii-card">
@@ -67,7 +67,7 @@
         <ul class="splide__list">
           {%- assign sortkoii = site.news | sort: 'date' -%}
         {% for news in sortkoii %}
-        {% if news.tag contains 'news' %}
+        {% if news.resources contains 'koii' %}
           <li class="splide__slide">
             <a href="{{resources.permalink }}" style="text-decoration: none;">
             <div class="koii-card">

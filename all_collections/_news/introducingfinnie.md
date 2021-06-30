@@ -8,4 +8,5 @@ newsdate: June 18, 2021
 rsvpUrl: https://blog.koii.network/Introducing-Finnie-the-Infinite-Fis/
 newsType: news
 tag: news
+resources: koii
 ---

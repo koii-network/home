@@ -8,4 +8,5 @@ newsdate: May 18, 2021
 rsvpUrl: https://blog.koii.network/OpenSea-Tutorial/
 newsType: news
 tag: news
+resources: koii
 ---
