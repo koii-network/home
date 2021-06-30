@@ -8,4 +8,5 @@ newsdate: June 07, 2021
 rsvpUrl: https://blog.koii.network/What-Is-The-Attention_Economy/
 newsType: news
 tag: news
+resources: koii
 ---
