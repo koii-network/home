@@ -107,6 +107,12 @@
       }
     }
     #decentralization-splide-mobile {
+      button.splide__arrow.splide__arrow--prev {
+        left: 1px;
+      }
+      button.splide__arrow.splide__arrow--next {
+        right: 1px;
+      }
       .koii-card {
         color: $blueDark;
         width: 100%;
@@ -115,6 +121,9 @@
         box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
         padding: 24px 32px 10px;
         margin: 0 auto;
+        @media (max-width: $xs) {
+          width: 80%;
+        }
         .koii-card-title {
           font-weight: normal;
           font-size: 24px;
