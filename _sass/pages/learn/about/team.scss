@@ -1,41 +1,77 @@
 @import "variables";
 
 #about-team {
-  color: $blueDark;
-  .font-cap1{
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  color: $white;
+  .bg-nets-left {
+    position: absolute;
+    bottom: -1000px;
+    left: 0em;
+    opacity: 50%;
+    @media (max-width: 768px) {
+      width: 80%;
+      left: 0em;
+      bottom: -500px;
+    }
+    @media (min-width: 1441px) {
+      width: 80%;
+      left: 0em;
+    }
+  }
+  .bg-nets-right {
+    position: absolute;
+    bottom: -1800px;
+    right: -7em;
+    opacity: 50%;
+    @media (max-width: 768px) {
+      width: 80%;
+      bottom: -3000px;
+      right: 0em;
+      transform: rotateY(180deg);
+    }
+    @media (min-width: 1441px) {
+      width: 80%;
+      left: 0em;
+    }
+  }
+  .font-cap1 {
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
+    color: $white;
   }
-  .font-cap2{
+  .font-cap2 {
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
+    color: $white;
   }
-  .font-cap3{
+  .font-cap3 {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    color: $white;
   }
-  .users-area{
+  .users-area {
     // display: flex;
     // flex-wrap: wrap;
-    .user{
+    color: $white;
+    .user {
       min-width: 150px;
       display: flex;
       flex-direction: column;
       padding: 0 20px;
       float: left;
       width: 20%;
-      margin-bottom: 40px;
+      padding-bottom: 40px;
       // .avatar-area{
       //   max-width: 100px;
       //   border-radius: 50%;
       // }
-      .info-area{
+      .info-area {
         min-height: 100px;
       }
-      img{
+      img {
         width: 100px;
         border-radius: 50%;
         height: 100px;
@@ -43,30 +79,30 @@
         object-fit: cover;
       }
       @media (max-width: 1300px) {
-        width: 25%;  
+        width: 25%;
       }
       @media (max-width: 1024px) {
-        width: 33.33%;  
+        width: 33.33%;
       }
       @media (max-width: 575px) {
-        width: 50%;  
+        width: 50%;
       }
       @media (max-width: 400px) {
-        width: 100%;  
+        width: 100%;
       }
     }
   }
-  
+
   @media (max-width: $sm) {
-    .font-cap1{
+    .font-cap1 {
       font-size: 24px;
       line-height: 32px;
     }
-    .font-cap2{
+    .font-cap2 {
       font-size: 16px;
       line-height: 18px;
     }
-    .font-cap3{
+    .font-cap3 {
       font-size: 15px;
       line-height: 20px;
     }

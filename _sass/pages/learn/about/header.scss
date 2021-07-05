@@ -2,9 +2,8 @@
 
 #about-header {
   position: relative;
-  background: linear-gradient(to bottom, #bcf3ef 11%, white 50%);
-  color: $blueDark;
-  // min-height: 535px;
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  color: white;
   padding-top: 75px;
   display: flex;
   align-items: flex-end;
@@ -15,55 +14,70 @@
     background-size: auto 100%;
     content: "";
     display: block;
-    height: 350px;
+    height: 650px;
     position: absolute;
-    top: 0;
+    top: 70px;
     width: 100%;
+    opacity: 0.6;
+    @media (max-width: $xs) {
+      background-image: url("/img/learn/run-vector.svg");
+      background-repeat: no-repeat;
+      // background-size: 839px auto;
+      background-size: auto 100%;
+      content: "";
+      display: block;
+      height: 350px;
+      position: absolute;
+      top: 65px;
+      width: 100%;
+      opacity: 0.6;
+    }
   }
   .s-title {
     margin-top: 70px;
+    color: white;
   }
   .font-cap1 {
     font-weight: bold;
     font-size: 32px;
     line-height: 56px;
+    color: white;
   }
   .font-cap2 {
     font-size: 20px;
     line-height: 32px;
+    color: white;
   }
   .font-cap3 {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
+    color: white;
   }
   .font-cap4 {
     font-size: 15px;
     line-height: 24px;
+    color: white;
   }
   .font-cap5 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
+    color: white;
   }
   .btn {
     padding: 0 30px;
     font-size: 18px;
     height: 40px;
-    color: $white;
-    background: $blueDark;
+    color: #171753;
+    background: $white;
     width: fit-content;
     margin: 0 auto;
   }
 
   @media (max-width: $sm) {
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
     padding: 30px 0;
-    background-image: url("/img/homepage/vector-mobile.svg"),
-      linear-gradient(to bottom, #bcf3ef 11%, white 50%);
-    background-repeat: no-repeat;
-    &::before {
-      display: none;
-    }
     .font-cap1 {
       font-size: 32px;
       line-height: 56px;
