@@ -69,7 +69,7 @@
         {% for news in sortkoii %}
         {% if news.resources contains 'koii' %}
           <li class="splide__slide">
-            <a href="{{resources.permalink }}" style="text-decoration: none;" target="_blank">
+            <a href="{{news.rsvpUrl}}" style="text-decoration: none;" target="_blank">
             <div class="koii-card">
               <div class="koii-card-title">{{ news.title }}</div>
               <div class="koii-card-description">{{ news.describe }}</div>
