@@ -1,9 +1,13 @@
 @import "variables";
 
 #allnews {
-  background: $white;
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  color: $white;
   padding: 0px 0;
   min-height: 456px;
+  .container {
+    padding-top: 8rem;
+  }
 
   .backfront {
     display: flex;
@@ -30,12 +34,14 @@
   }
   a {
     text-decoration: none;
+    color: $white;
   }
 
   .news1 {
     max-width: 251px;
+    color: $white;
     a {
-      color: #171753;
+      color: $white;
     }
     img {
       margin-top: 20px;
@@ -58,6 +64,7 @@
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
+      color: $white;
     }
 
     p {
@@ -67,6 +74,7 @@
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
+      color: $white;
     }
   }
 

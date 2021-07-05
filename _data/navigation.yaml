@@ -13,6 +13,10 @@
       link: https://blog.koii.network/
       class: normal
 
+    - name: News
+      link: /learn/news
+      class: normal
+
     - name: Node
       link: /earn/everyone
       class: normal
