@@ -4,44 +4,50 @@
 
 #mission-header {
   position: relative;
-  color: $blueDark;
-  // min-height: 535px;
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  color: $white;
+  min-height: calc(25vh);
   padding-top: 75px;
   display: flex;
   align-items: flex-end;
   &::before {
-    background-image: url("/img/learn/run-vector.svg");
+    background-image: url("/img/run/run-vector.svg");
     background-repeat: no-repeat;
-    // background-size: 839px auto;
     background-size: auto 100%;
     content: "";
     display: block;
-    height: 350px;
+    height: 700px;
     position: absolute;
     top: 0;
     width: 100%;
+    opacity: 0.6;
   }
 
   .s-title {
     margin-top: 70px;
+    color: $white;
   }
   .font-cap1 {
     font-weight: bold;
     font-size: 32px;
     line-height: 56px;
+    color: $white;
   }
   .font-cap2 {
     font-size: 20px;
     line-height: 32px;
+    color: $white;
   }
   .font-cap3 {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
+    color: $white;
   }
   .font-cap4 {
     font-size: 16px;
     line-height: 28px;
+    color: $white;
   }
   .font-cap-mb {
     margin: 50px 20px;
@@ -51,7 +57,7 @@
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.03em;
-    color: #171753;
+    color: $white;
   }
   .btn {
     padding: 0 30px;
@@ -65,10 +71,12 @@
 
   @media (max-width: $sm) {
     padding: 30px 0;
-    background-image: url("/img/homepage/vector-mobile.svg");
-    background-repeat: no-repeat;
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+    color: $white;
     &::before {
-      display: none;
+      height: 400px;
+      opacity: 0.4;
+      background-image: url("/img/homepage/vector-mobile.svg");
     }
     .font-cap1 {
       font-size: 32px;
