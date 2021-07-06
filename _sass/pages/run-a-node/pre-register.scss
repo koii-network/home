@@ -1,17 +1,18 @@
 @import "variables";
 
 #pre_register {
-    background: $white;
-    color: $blueDark;
-    padding: 75px 0;
-    min-height: 456px;
-    .pre-register-area{
-        background-color: $greenLight;
+  background: #171753;
+  color: $white;
+  padding: 75px 0;
+  min-height: 456px;
+  .pre-register-area {
+    background-color: $greenLight;
+    color: #171753;
+  }
+  .help-bottom-description {
+    a {
+      color: $green;
+      text-decoration: underline;
     }
-    .help-bottom-description {
-          a {
-            color: $green;
-            text-decoration: underline;
-        }
-    }
+  }
 }
