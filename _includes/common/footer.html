@@ -11,7 +11,7 @@
                     <div class="footer-option-list">
                         {% for child in item.children %}
                         <div class="nav-item mb-1">
-                            <a class="nav-link" href="{{ child.link }}">
+                            <a class="nav-link" href="{{ child.link }}" {{ child.newtab }}>
                                 {{ child.name }}
                             </a>
                         </div>

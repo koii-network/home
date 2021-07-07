@@ -12,6 +12,7 @@
     - name: Blog
       link: https://blog.koii.network/
       class: normal
+      newtab: target="_blank"
 
     - name: News
       link: /learn/news
@@ -24,10 +25,12 @@
     - name: Register NFTs
       link: https://koi.rocks
       class: normal
+      newtab: target="_blank"
 
     - name: Support
       link: "mailto:support@koii.network"
       class: normal
+      newtab: target="_blank"
 
   # - name: Blog
   #   link: https://blog.openkoi.com/
@@ -43,26 +46,32 @@
     - name: Run a Node
       link: https://docs.google.com/forms/d/e/1FAIpQLSduDTdxD3dDOvcbIcKlG7JWOsnDFVZFdLy0J38q_OOzUC3okA/viewform
       class: normal
+      newtab: target="_blank"
 
     - name: Get the Extension
       link: https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
       class: normal
+      newtab: target="_blank"
 
     - name: Earn for Code
       link: https://docs.koii.network/#tools-for-easy-protocolization
       class: normal
+      newtab: target="_blank"
 
     - name: Lightpaper
       link: /lightpaper.pdf
       class: normal
+      newtab: target="_blank"
 
     - name: Technical Paper
       link: /koi-protocol.pdf
       class: normal
+      newtab: target="_blank"
 
     - name: Koii Partnerships Whitelist
       link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
       class: normal
+      newtab: target="_blank"
 
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
@@ -70,19 +79,24 @@
     - name: hello@koii.network
       link: "mailto:hello@koii.network"
       class: normal
+      newtab: target="_blank"
 
     - name: investors@koii.network
       link: "mailto:investors@koii.network"
       class: normal
+      newtab: target="_blank"
 
     - name: developer@koii.network
       link: "mailto:developers@koii.network"
       class: normal
+      newtab: target="_blank"
 
     - name: jobs@koii.network
       link: "mailto:jobs@koii.network"
       class: normal
+      newtab: target="_blank"
 
     - name: press@koii.network
       link: "mailto:press@koii.network"
       class: normal
+      newtab: target="_blank"
