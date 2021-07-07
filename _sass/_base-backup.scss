@@ -18,10 +18,6 @@ body {
     width: 100%;
 }
 
-body {
-    @include serif-font;
-}
-
 hr {
     border-color: $theme-primary;
     border-width: 3px;
