@@ -1,11 +1,11 @@
 ---
 title: Community Call with Koii Founder Al Morris
-describe: Register now for Koii's event on Crowdcast, scheduled to go live on Friday July 09, 2021 at 2:00 EDT | 6:00 pm GMT.
+describe: Watch the replay now for Koii's event on Crowdcast!
 layout: front
 image: /news/video-item3.jpg
 date: 2021-07-03
 newsdate: July 03, 2021
-rsvpUrl: https://www.crowdcast.io/e/community-call-with-koii/register
+rsvpUrl: https://www.crowdcast.io/e/community-call-with-koii/1
 newsType: top
 tag: news
 ---
