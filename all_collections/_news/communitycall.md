@@ -1,5 +1,5 @@
 ---
-title: Community Call with Koii Founder Al Morris
+title: Community Call with the Koii Team
 describe: Watch the replay now for Koii's event on Crowdcast!
 layout: front
 image: /news/video-item3.jpg
