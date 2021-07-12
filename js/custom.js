@@ -138,8 +138,10 @@ $(document).ready(function() {
   
   $(".btn-subscription").click(function(){
     var email = $('.input-subscription').val()
+    
     if(isEmail(email)){
       // alert('Thanks for joining Koi’s community!')
+      dataLayer.push({'email': email });
       document.getElementById('showconfirm').style.display = "flex";
       document.getElementById('mc-embedded-subscribe-form').style.display = "none";
     }else{
@@ -153,6 +155,7 @@ $(document).ready(function() {
     var email = $('.input-signup').val()
     if(isEmail(email)){
       // alert('Thanks for joining Koi’s community!')
+      dataLayer.push({'email': email });
       document.getElementById('showconfirm1').style.display = "flex";
       document.getElementById('mc-embedded-signup-form').style.display = "none";
     }else{
@@ -166,6 +169,7 @@ $(document).ready(function() {
     var email = $('.input-submit').val()
     if(isEmail(email)){
       // alert('Thanks for joining Koi’s community!')
+      dataLayer.push({'email': email });
       document.getElementById('showconfirm2').style.display = "flex";
       document.getElementById('mc-embedded-submit-form').style.display = "none";
     }else{
