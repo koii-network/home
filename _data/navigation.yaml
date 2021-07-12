@@ -22,6 +22,11 @@
       link: /earn/everyone
       class: normal
 
+    - name: Get the Extension
+      link: https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
+      class: normal
+      newtab: target="_blank"
+
     - name: Register NFTs
       link: https://koi.rocks
       class: normal
@@ -48,34 +53,53 @@
       class: normal
       newtab: target="_blank"
 
-    - name: Get the Extension
-      link: https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
-      class: normal
-      newtab: target="_blank"
-
     - name: Earn for Code
       link: https://docs.koii.network/#tools-for-easy-protocolization
       class: normal
       newtab: target="_blank"
 
-    - name: Lightpaper
+    - name: Resources
+      link: /resources/
+      class: normal
+
+    - name: › Lightpaper
       link: /lightpaper.pdf
       class: normal
       newtab: target="_blank"
 
-    - name: Technical Paper
+    - name: › Technical Paper
       link: /koi-protocol.pdf
       class: normal
       newtab: target="_blank"
 
-    - name: Koii Partnerships Whitelist
-      link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
+    - name: › Proofs of Real Traffic
+      link: /proofs-of-real-traffic.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: › Gradual Consensus
+      link: /gradual-consensus.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: › Universal Content Registry
+      link: /universal-content-registry.pdf
       class: normal
       newtab: target="_blank"
 
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
+    - name: Apply for Partnerships
+      link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
+      class: normal
+      newtab: target="_blank"
+
+    - name: Apply for Grants
+      link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
+      class: normal
+      newtab: target="_blank"
+
     - name: hello@koii.network
       link: "mailto:hello@koii.network"
       class: normal
