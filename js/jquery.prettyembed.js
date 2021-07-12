@@ -273,7 +273,7 @@
 			if ( (obj.attr('data-pe-allow-fullscreen') === 'false') || (options.allowFullScreen === false) ) { fullScreenFlag = ''; } else { fullScreenFlag = 'allowfullscreen '; }
 
 			// Write the YouTube video iFrame into the element at the exact dimensions it is now
-			obj.html('<iframe width="' + wrapperWidth + '" height="' + wrapperHeight + '" ' + fullScreenFlag + 'style="border:none;" src="//www.youtube.com/embed/' + thisVideoID + '?autoplay=1' + playerOptions + '"></iframe>')
+			obj.html('<iframe width="' + wrapperWidth + '" height="' + wrapperHeight + '" ' + fullScreenFlag + 'style="border:none;" loading="lazy" src="//www.youtube.com/embed/' + thisVideoID + '?autoplay=1' + playerOptions + '"></iframe>')
 				// Remove the YouTube 'play' button using a CSS class
 				.addClass('play');
 
