@@ -96,6 +96,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 $(document).ready(function() {
+  $("img.lazy").lazyload(); // image lazy loading
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
   console.log({paths})
