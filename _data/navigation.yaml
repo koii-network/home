@@ -23,7 +23,7 @@
       class: normal
 
     - name: Get the Extension
-      link: https://docs.google.com/forms/d/1ic0X1XgbN1TgFQceLw9ApJgTHZlrkTbbpZIdr_xefD4/viewform?edit_requested=true
+      link: https://blog.koii.network/How-to-install-the-Koii-Extension-in-Chrome/
       class: normal
       newtab: target="_blank"
 
