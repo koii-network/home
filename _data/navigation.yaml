@@ -23,7 +23,7 @@
       class: normal
 
     - name: Get the Extension
-      link: https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj
+      link: /getFinnie
       class: normal
       newtab: target="_blank"
 
