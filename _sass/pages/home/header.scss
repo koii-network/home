@@ -62,6 +62,14 @@
     letter-spacing: -2%;
     color: #ffffff;
     font-weight: 400;
+    a {
+      font-size: 24px;
+      line-height: 40px;
+      letter-spacing: -2%;
+      color: #ffc78f;
+      font-weight: 400;
+      text-decoration: underline;
+    }
   }
 
   .header-description {
