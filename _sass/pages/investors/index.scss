@@ -1,48 +1,46 @@
 @import "variables";
 
 #investors {
-    position: relative;
-    color: $blueDark;
-    // min-height: 535px;
-    margin-top: 75px;
+  position: relative;
+  color: $blueDark;
+  // min-height: 535px;
+  margin-top: 175px;
 
-    .font-cap1 {
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 56px;
-    }
+  .font-cap1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 56px;
+  }
+  .font-cap2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 15px 35px;
+  }
+  .btn {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 8px 50px;
+    line-height: 24px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    border-color: #171753;
+  }
+
+  @media (max-width: $sm) {
     .font-cap2 {
-        font-size: 20px;
-        line-height: 32px;
-        margin: 15px 35px;
+      margin: 15px 20px;
     }
-    .btn{
-        margin: 0 auto;
-        width: fit-content;
-        padding: 8px 50px;
-        line-height: 24px;
-        border: 2px solid transparent;
-        border-radius: 4px;
-        border-color: #171753;
-    }
-    
-
-    @media (max-width: $sm) {
-      .font-cap2 {
-        margin: 15px 20px;
-      }
-    }
+  }
 }
-.investors-partners{
+.investors-partners {
   margin: 75px 0;
-  .call-to-action{
+  .call-to-action {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    a img{
+    a img {
       margin: 10px;
     }
   }
-
 }
