@@ -50,7 +50,11 @@
     padding: 75px 0;
     z-index: 9;
   }
-
+  a {
+    font-family: $sora !important;
+    text-decoration: none;
+    font-weight: 500;
+  }
   .font-cap1 {
     font-size: 56px;
     line-height: 72px;
