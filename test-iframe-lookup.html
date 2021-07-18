@@ -3,10 +3,14 @@ permalink: /testIframe/
 ---
 
 <script>
-  document.getElementById('status').innerHTML = window.location.href;
+  function updateStatus () {
+    
+    document.getElementById('status').innerHTML = window.location.href;
+
+  }
 </script>
 
 <body>
-  <h1 id="status">Loading</h1>
+  <h1 id="status" onload="updateStatus">Loading</h1>
 </body>
   
