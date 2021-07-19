@@ -124,13 +124,14 @@
     }
     #mc_embed_signup div.mce_inline_error {
       margin: 0.5em 0 0 0.5em;
-      padding: 5px 10px;
+      padding: 12px 10px;
       background-color: #6b0505;
       font-weight: bold;
       z-index: 1;
       color: #fff;
       border-radius: 30px;
       max-width: fit-content;
+      min-width: fit-content;
       border-radius: 30px;
     }
     div#mce-success-response {
@@ -166,8 +167,8 @@
   }
 
   .social-area {
-    width: 262px;
-    padding-left: 30px;
+    width: 236px;
+    // padding-left: 30px;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
@@ -175,7 +176,24 @@
       padding: 0;
     }
   }
-  @media (max-width: 1200px) {
+  @media (min-width: 1200px) {
+    .mc-field-group {
+      display: flex;
+    }
+    input#mce-EMAIL {
+      padding: 5px 85px 5px 25px !important;
+    }
+    input#mc-embedded-subscribe {
+      margin-top: 0em !important;
+    }
+    #join-button {
+      right: 80px;
+    }
+    .mce_inline_error {
+      right: 80px;
+    }
+  }
+  @media (max-width: 1199.98px) {
   }
   @media (max-width: 1000px) {
   }
