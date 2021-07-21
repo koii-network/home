@@ -1,16 +1,16 @@
 - title: Make your mark on history
-  icon: icon_transparent.svg
+  icon: create_icon.svg
   subtitle: Get the Finnie Wallet to start archiving your content and earning KOII.
   link: https://docs.google.com/forms/d/e/1FAIpQLScRQUBaLQBugGi-dFvu1F2q4j-cOji2fOHQczLeyWTq_LIobw/viewform
 - title: The best content on the web
-  icon: icon_accessible.svg
+  icon: build_icon.svg
   subtitle: Koii transparently tracks attention and awards tokens to the winners daily. Visit Koi.rocks to see our best.
   link: https://koi.rocks/
 - title: Build Better.
-  icon: icon_echo.svg
+  icon: node_icon.svg
   subtitle: You can use the Koii Toolkit to build decentralized apps that scale.
   link: https://koi.rocks/
-- title: Get a Grant
-  icon: icon_open.svg
+- title: Get a Grantx
+  icon: community_icon.svg
   subtitle: Do you have an idea that could make the internet more transparent, or help artists and creators publish freely?
   link: https://docs.google.com/forms/d/e/1FAIpQLSeC9Qyc4lQrKSW6_92knIE_Ko7Kd_z5g1thT0FFD0qsD7HwVw/viewform
