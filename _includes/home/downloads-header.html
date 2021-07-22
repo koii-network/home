@@ -2,9 +2,9 @@
     <script>
 //         window.open("https://koii.network/finnie.zip", "Download");
     </script>
-    <div class="container">
+    <div class="container" id="downloadfinnie-header">
         
-        <div class="header-description">
+        <div class="col-md-6 header-description">
             <div class="col-12">
                 <div class="font-cap1">Welcome, Finnie</div>
                 <div class="font-cap3">Start making Atomic NFTs. Get rewarded like you should.</div>
@@ -16,7 +16,7 @@
                 <a href="https://blog.koii.network/Introducing-Finnie/" target="_blank" class="button accent">Tutorial</a>
             </div>
         </div>
-        <div class="intro-finnie-video">
+        <div class="col-md-6 intro-finnie-video">
             <video controls class="video">
                 <source src="/img/FinnieWallet.mp4" type="video/mp4">
                 <source src="/img/FinnieWallet.ogg" type="video/ogg">
@@ -27,12 +27,17 @@
               </video>
                 
         </div>
+       
     </div>
-    <img src="/img/download/finnie-hero-vector.svg" class="backgroundGraphic">
+    
+    <img src="/img/creators/creators-header.svg" class="backgroundGraphic">
     
 </header>
 
 <style>
+    #downloadfinnie-header {
+        display: flex;
+    }
     .button {
         margin-top: 3em;
         background: #5ED9D1;
@@ -52,15 +57,16 @@
     }
     .backgroundGraphic {
         position: absolute;
-        float: right;
-        right: 0;
+        float: left;
+        top: 400px;
+        width: 58%;
     }
     .intro-finnie-video {
-        margin: 2rem 0 0;
+        margin: 6rem 0 0 4rem;
     }
     .video {
-        width:480px;
-        height: 240px;
+        width:580px;
+        height: 440px;
     }
     @media (max-width:1300px) { 
         .backgroundGraphic {
