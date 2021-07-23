@@ -37,6 +37,7 @@
 <style>
     #downloadfinnie-header {
         display: flex;
+        flex-wrap: wrap;
     }
     .button {
         margin-top: 3em;
@@ -58,11 +59,13 @@
     .backgroundGraphic {
         position: absolute;
         float: left;
-        top: 400px;
+        left: -170px;
+        top: 450px;
         width: 58%;
+        opacity: 0.3;
     }
     .intro-finnie-video {
-        margin: 6rem 0 0 4rem;
+        margin-top: -6em;
     }
     .video {
         width:580px;
@@ -80,7 +83,10 @@
         .video {
         width:350px;
         height: 240px;
-    }     
+        }     
+        .intro-finnie-video {
+        margin-top: 4em;
+    }
     }
     #home-header::before {
         display: none !important;
