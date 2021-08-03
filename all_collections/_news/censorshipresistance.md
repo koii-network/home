@@ -6,6 +6,6 @@ image: /news/video-item2.jpg
 date: 2021-07-06
 newsdate: July 07, 2021
 rsvpUrl: https://cointelegraph.com/news/censorship-resistance-hong-kong-s-apple-daily-archives-preserved-by-artist-kevin-abosch
-newsType: top
+newsType: news
 tag: news
 ---
