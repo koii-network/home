@@ -23,10 +23,12 @@
         <div class="row">
           {% for item in site.data.home_stop %}
           <div class="col-md-3">
-            <div class="stop-card">
-              <h3>{{item.title}}</h3>
-              <p>{{item.subtitle}}</p>
-            </div>
+            <a href="{{ item.link }}" target="_blank">
+              <div class="stop-card">
+                <h3>{{item.title}}</h3>
+                <p>{{item.subtitle}}</p>
+              </div>
+          </a>
           </div>
           {% endfor %}
         </div>

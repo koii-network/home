@@ -181,21 +181,21 @@ a {
 }
 
 /* Hover Effects */
-.build_better-card:hover,
+// .build_better-card:hover,
 .publish_content-card:hover,
 .stop-card:hover {
   transform: translate(0, -1rem);
   box-shadow: 2px 12px 15px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-out;
 }
-.build_better-card,
+// .build_better-card,
 .publish_content-card,
 .stop-card {
   transition: all 0.2s ease-in;
 }
 * {
   scrollbar-color: #171753 #fff2ee; /* firefox scrollbar-style */
-  scrollbar-width: thin; 
+  scrollbar-width: thin;
 }
 
 /* koii101 style */
@@ -214,8 +214,8 @@ a {
 
 @media (min-width: $xl) {
   * {
-    scrollbar-color: #171753 #fff2ee; 
-    scrollbar-width: thin; 
+    scrollbar-color: #171753 #fff2ee;
+    scrollbar-width: thin;
   }
   body::-webkit-scrollbar {
     width: 6px;
