@@ -56,10 +56,10 @@
         justify-content: flex-start;
         padding: 60px 20px 10px;
         transition: all 0.2s ease-in;
-        &:hover {
-          transform: translate(0, -1em);
-          transition: all 0.2s ease-out;
-        }
+        // &:hover {
+        //   transform: translate(0, -1em);
+        //   transition: all 0.2s ease-out;
+        // }
         h3 {
           font-family: $sora !important;
           font-weight: 400;

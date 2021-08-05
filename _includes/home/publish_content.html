@@ -15,13 +15,15 @@
       <div class="publish_content-cards">
         <div class="row">
           {% for item in site.data.home_publish_content %}
+          
           <div class="col-md-4">
+          <a href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj" target="_blank">
             <div class="publish_content-card">
               <img src="/img/homepage/{{item.img}}"/>
               <h3>{{item.title}}</h3>
-              <p>{{item.subtitle}}</p>
-              <a href="#" class="text-green">{{item.link_title}}</a>
+              <p>{{item.subtitle}}</p>  
             </div>
+          </a>
           </div>
           {% endfor %}
         </div>
