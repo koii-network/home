@@ -19,7 +19,7 @@
     right: 0;
     bottom: 17%;
   }
-  .stop-wrapper {
+  .reward-wrapper {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -29,12 +29,12 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 16px;
-    .stop-dots {
+    .reward-dots {
       position: absolute;
       bottom: 18px;
       left: 347px;
     }
-    .stop-content {
+    .reward-content {
       width: 100%;
       display: flex;
       align-items: center;
@@ -93,15 +93,15 @@
         }
       }
     }
-    .stop-cards-wrapper {
+    .reward-cards-wrapper {
       position: relative;
       max-width: 1280px;
       width: 100%;
       display: flex;
       justify-content: center;
       margin-bottom: 57px;
-      .stop-cards {
-        .stop-card {
+      .reward-cards {
+        .reward-card {
           min-height: 225px;
           color: $blueDark;
           background: #ecfffe;
@@ -135,11 +135,11 @@
       font-family: $sora !important;
       font-weight: 400;
     }
-    .stop-level-cards-wrapper {
+    .reward-level-cards-wrapper {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      .stop-level-card {
+      .reward-level-card {
         background: white;
         max-width: 380px;
         height: 116px;
@@ -173,8 +173,8 @@
     .img-right {
       top: 34%;
     }
-    .stop-wrapper {
-      .stop-content {
+    .reward-wrapper {
+      .reward-content {
         max-height: 319px;
         padding-left: 18px;
         flex-direction: column;
@@ -206,15 +206,15 @@
           }
         }
       }
-      .stop-cards-wrapper {
+      .reward-cards-wrapper {
         height: unset;
-        .stop-cards {
+        .reward-cards {
           position: relative;
           right: 0;
           margin: 15px 16px;
           top: unset;
           align-items: flex-start;
-          .stop-card {
+          .reward-card {
             background-color: white;
             height: unset;
             min-height: unset;
@@ -229,9 +229,9 @@
         font-size: 24px !important;
         margin-bottom: 67px;
       }
-      .stop-level-cards-wrapper {
+      .reward-level-cards-wrapper {
         flex-direction: column;
-        .stop-level-card {
+        .reward-level-card {
           margin: 0 auto;
           margin-bottom: 35px;
           .img-wrapper {
@@ -241,7 +241,7 @@
           }
         }
       }
-      .stop-dots {
+      .reward-dots {
         bottom: 50%;
         left: 0px;
       }
