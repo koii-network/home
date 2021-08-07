@@ -41,26 +41,12 @@
       justify-content: space-between;
       padding-bottom: 60px;
       .content-part {
-        h6 {
-          font-size: 14px !important;
-          line-height: 24px;
-          color: #bef0ed;
-          margin-bottom: 0;
-          text-transform: uppercase;
-          font-family: $sora !important;
-          font-weight: 400;
-        }
         h1 {
           font-size: 40px !important;
+          line-height: 48px;
           margin-bottom: 0;
           font-family: $sora !important;
           font-weight: 400;
-        }
-        p {
-          font-size: 18px !important;
-          font-family: $sora !important;
-          font-weight: 400;
-          max-width: 765px;
         }
         &.btns-wrapper {
           display: flex;
@@ -91,29 +77,38 @@
       margin-bottom: 57px;
       .reward-cards {
         .reward-card {
-          min-height: 225px;
+          min-height: 330px;
           color: $blueDark;
-          background: #ecfffe;
+          // background: #ecfffe;
           box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
           margin-bottom: 30px;
           display: flex;
           flex-direction: column;
-          align-items: center;
-          text-align: center;
           justify-content: flex-start;
-          padding: 20px 24px;
+          // padding: 20px 24px;
           h3 {
             font-size: 24px !important;
+            line-height: 32px;
             margin-bottom: 16px;
             text-align: left;
             font-family: $sora !important;
             font-weight: 400;
+            color: #fff;
           }
           p {
-            font-size: 14px !important;
-            color: #3c3754;
+            font-size: 18px !important;
+            line-height: 32px;
+            margin-bottom: 5px;
+            color: #fff;
             text-align: left;
             font-family: $sora !important;
+            &.subtitle{
+              color: #5ED9D1;
+              font-size: 16px;
+            }
+            .view-ct{
+              font-size: 25px !important;
+            }
           }
         }
       }
@@ -170,18 +165,10 @@
         margin-bottom: 64px;
         padding-bottom: 0;
         .content-part {
-          h6 {
-            font-size: 14px !important;
-            margin-bottom: 13px;
-          }
           h1 {
-            font-size: 32px !important;
+            font-size: 40px !important;
+            line-height: 48px;
             font-weight: normal;
-          }
-          p {
-            font-size: 16px !important;
-            line-height: 32px;
-            margin-bottom: 32px;
           }
           &.btns-wrapper {
             flex-direction: column;
