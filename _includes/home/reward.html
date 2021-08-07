@@ -1,0 +1,58 @@
+<section id="reward">
+  <img src="/img/homepage/stop_vector_left.svg" class="img-left" />
+  <img src="/img/homepage/stop_vector_right.svg" class="img-right" />
+  <div class="stop-wrapper">
+    <div class="stop-content">
+      <div class="content-part">
+        <h1>Get Rewarded For Your Work</h1>
+        <p>
+          The Koii Protocol is built for people and media, not currency, allowing
+          for greater scale.
+        </p>
+      </div>
+      <div class="content-part btns-wrapper">
+        <a href="https://docs.koii.network/"><div class="btn btn-tool">Developer Tools</div></a>
+        <a href="https://docs.google.com/forms/d/1E-DBTtEYQ_qZtAUDcimmO4dGYfSyE-xMVH39K_WSOQU/edit">
+          <div class="btn btn-get">Register for a Hackathon</div>
+        </a>
+      </div>
+    </div>
+    <div class="stop-cards-wrapper">
+      <div class="stop-cards">
+        <div class="row">
+          {% for item in site.data.home_stop %}
+          <div class="col-md-3">
+            <a href="{{ item.link }}" target="_blank">
+              <div class="stop-card">
+                <h3>{{item.title}}</h3>
+                <p>{{item.subtitle}}</p>
+              </div>
+          </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <h3 class="level-title">Not all applications require a Turing Machine— try a new level of speed.</h3>
+    <div class="stop-level-cards-wrapper">
+      <div class="stop-level-card">
+        <div class="img-wrapper">
+          <img src="/img/homepage/icon_level1.svg" width="57" />
+        </div>
+        <h6>Koii Tasks can be written in any language, and only run on as many nodes as you need.</h6>
+      </div>
+      <div class="stop-level-card">
+        <div class="img-wrapper">
+          <img src="/img/homepage/icon_level2.svg" width="57" />
+        </div>
+        <h6>Lazy execution and gradual consensus are more efficient.  Save energy and reduce costs.</h6>
+      </div>
+      <div class="stop-level-card">
+        <div class="img-wrapper">
+          <img src="/img/homepage/icon_level3.svg" width="57" />
+        </div>
+        <h6>We’re in this to build a better future, and we’re dedicated to making it as easy as possible.</h6>
+      </div>
+    </div>
+  </div>
+</section>
