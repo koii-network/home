@@ -20,12 +20,15 @@
     <div class="reward-cards-wrapper">
       <div class="reward-cards">
         <div class="row">
-          {% for item in site.data.home_stop %}
+          {% for item in site.data.home_reward %}
           <div class="col-md-3">
             <a href="{{ item.link }}" target="_blank">
               <div class="reward-card">
+                <iframe width="100%" height="100%" src="https://koi.rocks/embed/EQNJ0nzIO61VdQNaMdDw0T7gP5zaMpoxGWFebisGE4s?t=632778.2708865604" title="Koii NFT image" frameborder="0" allowfullscreen></iframe>
                 <h3>{{item.title}}</h3>
-                <p>{{item.subtitle}}</p>
+                <p class="subtitle">{{item.subtitle}}</p>
+                <p><span class="view-ct">{{item.view}}</span> views</p>
+                <p><span class="view-ct">{{item.reward}}</span> total KOII rewards</p>
               </div>
           </a>
           </div>
