@@ -9,27 +9,27 @@
   align-items: center;
   margin-top: 48px;
   font-family: $sora;
+  background-image: url(/img/homepage/hero_bk_desktop.svg);
 
-  &::before {
-    background-image: url(/img/homepage/hero_bk.svg);
-    background-repeat: no-repeat;
-    background-size: 3000px auto;
-    background-position-y: -1800px;
-    background-position-x: right;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 100%;
-    opacity: 50%;
-    @media (max-width: 768px) {
-      background-size: 1000px auto;
-      background-position-y: -450px;
-      opacity: 80%;
-    }
-  }
+  // &::before {
+    // background-repeat: no-repeat;
+    // background-size: 3000px auto;
+    // background-position-y: -1800px;
+    // background-position-x: right;
+    // content: "";
+    // display: block;
+    // height: 100%;
+    // position: absolute;
+    // top: 0;
+    // left: 0px;
+    // width: 100%;
+    // opacity: 50%;
+    // @media (max-width: 768px) {
+    //   background-size: 1000px auto;
+    //   background-position-y: -450px;
+    //   opacity: 80%;
+    // }
+  // }
   &::after {
     background-image: url(/img/homepage/hero_bk_after.svg);
     background-repeat: no-repeat;
