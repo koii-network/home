@@ -191,12 +191,24 @@
           top: unset;
           align-items: flex-start;
           .reward-card {
-            background-color: white;
             height: unset;
             min-height: unset;
             width: 100%;
             h3 {
               font-size: 18px !important;
+              line-height: 24px;
+              margin-bottom: 10px;
+            }
+            p {
+              font-size: 14px !important;
+              line-height: 24px;
+              margin-bottom: 5px;
+              &.subtitle{
+                font-size: 13px;
+              }
+              .view-ct{
+                font-size: 20px !important;
+              }
             }
           }
         }
@@ -223,7 +235,21 @@
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: $sm) {
+    .reward-wrapper {
+      .reward-content .content-part h1{
+        font-size: 32px !important;
+      }
+      .reward-cards-wrapper {
+        .reward-cards {
+          .reward-card {
+            max-width: 400px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
   }
   @media (max-width: $sm) {
   }
