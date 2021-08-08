@@ -30,22 +30,22 @@
     //   opacity: 80%;
     // }
   // }
-  &::after {
-    background-image: url(/img/homepage/hero_bk_after.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 50px;
-    bottom: 40px;
-    width: 100%;
-    @media (max-width: 768px) {
-      background-size: 100px;
-    }
-  }
+  // &::after {
+  //   background-image: url(/img/homepage/hero_bk_after.svg);
+  //   background-repeat: no-repeat;
+  //   background-position-x: right;
+  //   background-position-y: bottom;
+  //   content: "";
+  //   display: block;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 50px;
+  //   bottom: 40px;
+  //   width: 100%;
+  //   @media (max-width: 768px) {
+  //     background-size: 100px;
+  //   }
+  // }
   .container {
     padding: 75px 0;
     z-index: 9;
