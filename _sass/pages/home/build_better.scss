@@ -92,7 +92,9 @@
       .build_better-content {
         max-height: 319px;
         padding: 0 18px;
-        p{max-width: 100%;}
+        p {
+          max-width: 100%;
+        }
       }
       .build_better-cards {
         position: relative;
@@ -112,7 +114,9 @@
   @media (max-width: 768px) {
     .build_better-wrapper {
       .build_better-content {
-        h1{ font-size: 36px !important;}
+        h1 {
+          font-size: 36px !important;
+        }
       }
     }
   }
