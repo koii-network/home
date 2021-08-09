@@ -37,6 +37,11 @@
       class: normal
       newtab: target="_blank"
 
+    - name: Press Kit
+      link: "/Koii Press Kit 2021.zip"
+      class: normal
+      newtab: target="_blank"
+
   # - name: Blog
   #   link: https://blog.openkoi.com/
   #   class: normal
@@ -84,6 +89,11 @@
 
     - name: › Universal Content Registry
       link: /universal-content-registry.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: '100K KOII, <span style="color: #49CE8B">Enter to Win</span>'
+      link: https://gleam.io/c3Cwz/-welcome-to-the-koii-drop-
       class: normal
       newtab: target="_blank"
 
