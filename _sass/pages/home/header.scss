@@ -9,7 +9,10 @@
   align-items: center;
   margin-top: 48px;
   font-family: $sora;
-  background-image: url(/img/homepage/hero_bk_desktop.svg);
+  // background-image: url(/img/homepage/hero_bk_desktop.svg);
+  background: linear-gradient(180deg, #48a0ac 0.14%, #171753 99.87%);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 
   // &::before {
     // background-repeat: no-repeat;
@@ -59,6 +62,9 @@
     background: #BEF0ED;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
     border-radius: 24px;
+  }
+  .koii-logo-hero{
+    margin-top: 55px;
   }
   a.button {
     font-family: $sora !important;
