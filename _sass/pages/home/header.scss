@@ -255,6 +255,20 @@
     left: 0;
     top: 15px;
     width: 200px;
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .text-result {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #171753;
+    text-align: center;
+    position: absolute;
+    top: 15px;
   }
   
   .percentage {
@@ -293,6 +307,10 @@
       &:after {
         $value: ($i * 1%);
         width: $value;
+      }
+      .text-result{
+        $x-width: ($i - 4%);
+        left: $x-width;
       }
     }
   }
