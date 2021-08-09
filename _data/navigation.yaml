@@ -110,18 +110,13 @@
       class: normal
       newtab: target="_blank"
 
-    - name: hello@koii.network
-      link: "mailto:hello@koii.network"
+    - name: support@koii.network
+      link: "mailto:support@koii.network"
       class: normal
       newtab: target="_blank"
 
     - name: investors@koii.network
       link: "mailto:investors@koii.network"
-      class: normal
-      newtab: target="_blank"
-
-    - name: developer@koii.network
-      link: "mailto:developers@koii.network"
       class: normal
       newtab: target="_blank"
 
