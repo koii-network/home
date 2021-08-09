@@ -50,6 +50,16 @@
     padding: 75px 0;
     z-index: 9;
   }
+  .finnieButton {
+    margin-top: 36px;
+    color: #171753 !important;
+    padding: 5px 25px 5px 25px !important;
+    width: fit-content;
+    border: 1px solid #BEF0ED;
+    background: #BEF0ED;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 24px;
+  }
   a.button {
     font-family: $sora !important;
     text-decoration: none;
@@ -78,7 +88,7 @@
   }
 
   .header-description {
-    max-width: 800px;
+    max-width: 510px;
   }
   .join-area {
     padding-top: 20px;
