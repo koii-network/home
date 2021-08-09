@@ -14,41 +14,6 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
 
-  // &::before {
-    // background-repeat: no-repeat;
-    // background-size: 3000px auto;
-    // background-position-y: -1800px;
-    // background-position-x: right;
-    // content: "";
-    // display: block;
-    // height: 100%;
-    // position: absolute;
-    // top: 0;
-    // left: 0px;
-    // width: 100%;
-    // opacity: 50%;
-    // @media (max-width: 768px) {
-    //   background-size: 1000px auto;
-    //   background-position-y: -450px;
-    //   opacity: 80%;
-    // }
-  // }
-  // &::after {
-  //   background-image: url(/img/homepage/hero_bk_after.svg);
-  //   background-repeat: no-repeat;
-  //   background-position-x: right;
-  //   background-position-y: bottom;
-  //   content: "";
-  //   display: block;
-  //   position: absolute;
-  //   top: 0;
-  //   right: 50px;
-  //   bottom: 40px;
-  //   width: 100%;
-  //   @media (max-width: 768px) {
-  //     background-size: 100px;
-  //   }
-  // }
   .container {
     padding: 75px 0;
     z-index: 9;
@@ -256,5 +221,33 @@
     }
   }
   @media (max-width: 450px) {
+  }
+}
+.bar-chart{
+  .percentage:after {
+    content: "";
+    display: block;
+    background-color: #3d9970;
+  }
+  .percentage-20:after {
+    width: 20%;
+  }
+  .percentage-30:after {
+    width: 30%;
+  }
+  .percentage {
+    background: repeating-linear-gradient(
+      to right,
+      #ddd,
+      #ddd 1px,
+      #fff 1px,
+      #fff 5%
+    );
+  }
+}
+@for $i from 1 through 100 {
+  .percentage-#{$i}:after {
+    $value: ($i * 1%);
+    width: $value;
   }
 }
