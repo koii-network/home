@@ -32,7 +32,7 @@
       h1 {
         font-family: $sora !important;
         font-weight: 600;
-        font-size: 48px !important;
+        font-size: 44px !important;
         letter-spacing: -0.02em;
       }
 
@@ -41,6 +41,7 @@
         font-family: $sora !important;
         font-weight: 400;
         letter-spacing: -0.01em;
+        max-width: 330px;
       }
       a {
         font-family: $sora !important;
@@ -90,7 +91,10 @@
     .build_better-wrapper {
       .build_better-content {
         max-height: 319px;
-        padding-left: 18px;
+        padding: 0 18px;
+        p {
+          max-width: 100%;
+        }
       }
       .build_better-cards {
         position: relative;
@@ -107,7 +111,14 @@
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
+    .build_better-wrapper {
+      .build_better-content {
+        h1 {
+          font-size: 36px !important;
+        }
+      }
+    }
   }
   @media (max-width: $sm) {
   }

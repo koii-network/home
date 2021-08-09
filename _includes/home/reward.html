@@ -1,0 +1,34 @@
+<section id="reward">
+  <img src="/img/homepage/reward_vector_left.svg" class="img-left" />
+  <img src="/img/homepage/reward_vector_right.svg" class="img-right" />
+  <div class="reward-wrapper">
+    <div class="reward-content">
+      <div class="content-part">
+        <h1>Get Rewarded For Your Work</h1>
+      </div>
+      <div class="content-part btns-wrapper">
+        <a href="#"><div class="btn btn-get">Lean How</div></a>
+      </div>
+    </div>
+    <div class="reward-cards-wrapper">
+      <div class="reward-cards">
+        <div class="row">
+          {% for item in site.data.home_reward %}
+          <div class="col-md-3">
+            <a href="{{ item.link }}" target="_blank">
+              <div class="reward-card">
+                <iframe width="100%" height="300px" src="{{item.url}}" title="Koii NFT image" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <h3>{{item.title}}</h3>
+                <p class="subtitle">{{item.subtitle}}</p>
+                <p><span class="view-ct">{{item.view}}</span> views</p>
+                <p><span class="view-ct">{{item.reward}}</span> total KOII rewards</p>
+              </div>
+          </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

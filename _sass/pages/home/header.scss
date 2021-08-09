@@ -4,51 +4,39 @@
   position: relative;
   background: #171753;
   color: $white;
-  padding: 80px 0;
+  padding: 150px 0;
   display: flex;
   align-items: center;
   margin-top: 48px;
   font-family: $sora;
+  background-image: url(/img/homepage/FULL_HERO.svg);
+  // background: linear-gradient(180deg, #48a0ac 0.14%, #171753 99.87%);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 
-  &::before {
-    background-image: url(/img/homepage/hero_bk.svg);
-    background-repeat: no-repeat;
-    background-size: 3000px auto;
-    background-position-y: -1800px;
-    background-position-x: right;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 100%;
-    opacity: 50%;
-    @media (max-width: 768px) {
-      background-size: 1000px auto;
-      background-position-y: -450px;
-      opacity: 80%;
-    }
-  }
-  &::after {
-    background-image: url(/img/homepage/hero_bk_after.svg);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 50px;
-    bottom: 40px;
-    width: 100%;
-    @media (max-width: 768px) {
-      background-size: 100px;
-    }
-  }
   .container {
     padding: 75px 0;
     z-index: 9;
+    display: flex;
+  }
+  .bar-chart {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    padding: 0 15px;
+  }
+  .finnieButton {
+    margin-top: 36px;
+    color: #171753 !important;
+    padding: 5px 25px 5px 25px !important;
+    width: fit-content;
+    border: 1px solid #bef0ed;
+    background: #bef0ed;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 24px;
+  }
+  .koii-logo-hero {
+    margin-top: 55px;
   }
   a.button {
     font-family: $sora !important;
@@ -78,7 +66,7 @@
   }
 
   .header-description {
-    max-width: 800px;
+    max-width: 510px;
   }
   .join-area {
     padding-top: 20px;
@@ -176,6 +164,60 @@
       padding: 0;
     }
   }
+
+  .vl1 {
+    border-left: 3px solid #5ed9d1;
+    height: 400px;
+    position: relative;
+    right: -139px;
+    top: 51px;
+  }
+  .vl2 {
+    border-left: 3px solid #5ed9d1;
+    height: 483px;
+    position: relative;
+    right: -163px;
+    top: 12px;
+  }
+  .vl3 {
+    border-left: 3px solid #5ed9d1;
+    height: 384px;
+    position: relative;
+    right: -178px;
+    top: 87px;
+  }
+  .first {
+    position: relative;
+    right: 80px;
+    top: -92px;
+    width: 159px;
+    text-align: center;
+  }
+  .second {
+    position: relative;
+    right: 80px;
+    top: -108px;
+    width: 159px;
+    text-align: center;
+  }
+  .third {
+    position: relative;
+    right: 90px;
+    top: -92px;
+    width: 173px;
+    text-align: center;
+  }
+  .num {
+    font-family: $sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #171753;
+  }
+
   @media (min-width: 960px) {
     .mc-field-group {
       display: flex;
@@ -194,12 +236,39 @@
     }
   }
   @media (max-width: 1199.98px) {
+    // .container {
+    //   flex-direction: column;
+    // }
+    .vl1 {
+      border-left: 3px solid #5ed9d1;
+      height: 400px;
+      position: relative;
+      right: -39px;
+      top: -51px;
+    }
+    .vl2 {
+      border-left: 3px solid #5ed9d1;
+      height: 483px;
+      position: relative;
+      right: -52px;
+      top: -72px;
+    }
+    .vl3 {
+      border-left: 3px solid #5ed9d1;
+      height: 384px;
+      position: relative;
+      right: -76px;
+      top: -47px;
+    }
   }
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
+    padding: 100px 0;
+    background-image: url(/img/homepage/hero_bk_mobile.svg);
     .container {
       padding: 0 0 100px 0;
+      flex-direction: column;
     }
     .join-area {
       margin-bottom: 20px;
@@ -226,6 +295,45 @@
       font-size: 20px;
       line-height: 40px;
     }
+    .vl1 {
+      border-left: 6px solid #5ed9d1;
+      height: 82px;
+      position: relative;
+      right: -79px;
+      top: 13px;
+    }
+    .vl2 {
+      border-left: 6px solid #5ed9d1;
+      height: 52px;
+      position: relative;
+      right: -180px;
+      top: 12px;
+    }
+    .vl3 {
+      border-left: 6px solid #5ed9d1;
+      height: 121px;
+      position: relative;
+      right: -305px;
+      top: -193px;
+    }
+    .num {
+      font-size: 32px;
+      color: white;
+    }
+    .second {
+      position: relative;
+      right: 80px;
+      top: -77px;
+      width: 159px;
+      text-align: center;
+    }
+    .third {
+      position: relative;
+      right: 90px;
+      top: -92px;
+      width: 172px;
+      text-align: center;
+    }
   }
   @media (max-width: 572px) {
     .submit-area {
@@ -239,5 +347,134 @@
     }
   }
   @media (max-width: 450px) {
+    padding: 100px 0;
+    background-image: url(/img/homepage/hero_bk_mobile.svg);
+    .header-description {
+      max-width: 510px;
+      margin-top: 85px;
+    }
+    .vl1 {
+      border-left: 3px solid #5ed9d1;
+      height: 82px;
+      position: relative;
+      right: -79px;
+      top: 13px;
+    }
+    .vl2 {
+      border-left: 3px solid #5ed9d1;
+      height: 52px;
+      position: relative;
+      right: -180px;
+      top: 12px;
+    }
+    .vl3 {
+      border-left: 3px solid #5ed9d1;
+      height: 83px;
+      position: relative;
+      right: -305px;
+      top: -100px;
+    }
+    .num {
+      font-size: 32px;
+      color: white;
+    }
+    .second {
+      position: relative;
+      right: 80px;
+      top: -77px;
+      width: 159px;
+      text-align: center;
+    }
+    .third {
+      position: relative;
+      right: 90px;
+      top: -92px;
+      width: 172px;
+      text-align: center;
+    }
+  }
+}
+.bar-chart {
+  dl {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 50px);
+    position: relative;
+    padding: 20px;
+  }
+
+  dt {
+    align-self: flex-start;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 130px;
+  }
+
+  .text-description {
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+  .text-result {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: #fff;
+    // color: #171753;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+  }
+
+  .percentage {
+    font-size: 20px;
+    line-height: 1;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 60px;
+    background: transparent;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      background-color: #3d9970;
+      width: 50px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      height: 90%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+    &:hover,
+    &:focus {
+      &:after {
+        background-color: #fff;
+      }
+    }
+  }
+
+  @for $i from 1 through 100 {
+    .percentage-#{$i} {
+      &:after {
+        $value: ($i * 1%);
+        width: $value;
+      }
+      .text-result {
+        $x-width: ($i - 15%);
+        left: $x-width;
+      }
+    }
   }
 }
