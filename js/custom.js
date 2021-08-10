@@ -135,25 +135,6 @@ $(document).ready(function() {
       $(this).hide()
     })
   })
-  
-  $('.num').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 2000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(getRupeesFormat(Math.ceil(now)));
-        }
-    });
-});
-
-function getRupeesFormat(val) {
-  while (/(\d+)(\d{3})/.test(val.toString())) {
-      val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-  }
-  return val;
-}
 
   $(".btn-subscription").click(function(){
     var email = $('.input-subscription').val()
@@ -198,4 +179,23 @@ function getRupeesFormat(val) {
     }
   })
   
+    $('.num').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      }, {
+          duration: 2000,
+          easing: 'swing',
+          step: function (now) {
+              $(this).text(getRupeesFormat(Math.ceil(now)));
+          }
+      });
+  });
+
+  function getRupeesFormat(val) {
+    while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+    }
+    return val;
+  }
+
 })
