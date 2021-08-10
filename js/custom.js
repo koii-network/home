@@ -24,7 +24,10 @@ function openSubMenu (category, subMenu) {
 function setActiveMenu(category, subCategory) {
   console.log("category :", category)
   console.log("sub :", subCategory)
-  if(category === '') { return }
+  if(category === '') { 
+    console.log("home page") // https://koii.live/info.json
+    return 
+  }
   $("#topbar .web-header .nav-item").each(function(index, value){
     if($(this).hasClass('active')){
       $(this).removeClass('active')
