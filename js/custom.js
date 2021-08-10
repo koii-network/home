@@ -21,19 +21,37 @@ function openSubMenu (category, subMenu) {
     }
   }
 }
+function getRupeesFormat(val) {
+  while (/(\d+)(\d{3})/.test(val.toString())) {
+      val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+  }
+  return val;
+}
 function num_animations() {
   $(".numerial-item").each(function(){
     console.log($(this))
     $(this).addClass('active')
   })
   $('.num').each(function () {
+    console.log("$(this).text() ===", $(this).text())
+
+    // $({ Counter: 0 }).animate({
+    //   Counter: $(this).text()
+    // }, {
+    //   duration: 1000,
+    //   easing: 'swing',
+    //   step: function() {
+    //     $(this).text(getRupeesFormat(Math.ceil(this.Counter)));
+    //   }
+    // });
+        
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
         duration: 2000,
         easing: 'swing',
         step: function (now) {
-            $(this).text(getRupeesFormat(Math.ceil(now)));
+          $(this).text(getRupeesFormat(Math.ceil(now)));
         }
     })
   })
@@ -62,9 +80,9 @@ function httpGet(theUrl){
       success: function(data) { 
         console.log( "Sample of data:", data );
         if(data) {
-          $(".num_users").html(data.users)
-          $(".num_koii_earned").html(data.koii_earned)
-          $(".num_atomic_nfts").html(data.atomic_nfts)
+          $(".num_users").text(data.users)
+          $(".num_koii_earned").text(data.koii_earned)
+          $(".num_atomic_nfts").text(data.atomic_nfts)
         }
         num_animations()
         alert("Success"); },
@@ -74,7 +92,9 @@ function httpGet(theUrl){
         $(".num_users").text(2894)
         $(".num_koii_earned").text(88240)
         $(".num_atomic_nfts").text(3325)
-        num_animations()
+        setTimeout(function(){
+          num_animations()
+        },100)
       }
     });
 }
@@ -238,13 +258,4 @@ $(document).ready(function() {
       return ;
     }
   })
-  
-
-  function getRupeesFormat(val) {
-    while (/(\d+)(\d{3})/.test(val.toString())) {
-        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-    }
-    return val;
-  }
-
 })
