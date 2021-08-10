@@ -23,27 +23,35 @@ function openSubMenu (category, subMenu) {
 }
 function httpGet(theUrl)
 {
-    // var xmlHttp = new XMLHttpRequest();
-    // console.log("here --------- 1")
-    // xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-    // console.log("here --------- 2")
-    // xmlHttp.send( null );
-    // console.log("here --------- 3")
-    // return xmlHttp.responseText;
-    // $.get( theUrl, function( data ) {
-    //   console.log(data)
-    //   alert( "Load was performed." );
+    $.ajax({ 
+      type: 'GET', 
+      url: theUrl, 
+      dataType: 'json',
+      success: function (data) { 
+        if(data) {
+          $(".num_users").html(data.users)
+          $(".num_koii_earned").html(data.koii_earned)
+          $(".num_atomic_nfts").html(data.atomic_nfts)
+        }else{
+          console.log("error api call")
+        }
+      }
+    });
+    // $.ajax({
+    //   url: theUrl,
+    //   type: 'GET',
+    //   crossDomain: true,
+    //   dataType: 'jsonp',
+    //   success: function() { alert("Success"); },
+    //   error: function(err) { console.log(err); alert('Failed!'); }
+    // }).done(function( data ) {
+    //   console.log( "Sample of data:", data );
+    //   if(data) {
+    //     $(".num_users").html(data.users)
+    //     $(".num_koii_earned").html(data.koii_earned)
+    //     $(".num_atomic_nfts").html(data.atomic_nfts)
+    //   }
     // });
-    $.ajax({
-
-      url: theUrl,
-      type: 'GET',
-      crossDomain: true,
-      dataType: 'jsonp',
-      success: function() { alert("Success"); },
-      error: function() { alert('Failed!'); },
-      beforeSend: setHeader
-  });
 }
 function setActiveMenu(category, subCategory) {
   console.log("category :", category)
