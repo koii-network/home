@@ -21,11 +21,35 @@ function openSubMenu (category, subMenu) {
     }
   }
 }
+function httpGet(theUrl)
+{
+    // var xmlHttp = new XMLHttpRequest();
+    // console.log("here --------- 1")
+    // xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    // console.log("here --------- 2")
+    // xmlHttp.send( null );
+    // console.log("here --------- 3")
+    // return xmlHttp.responseText;
+    // $.get( theUrl, function( data ) {
+    //   console.log(data)
+    //   alert( "Load was performed." );
+    // });
+    $.ajax({
+
+      url: theUrl,
+      type: 'GET',
+      crossDomain: true,
+      dataType: 'jsonp',
+      success: function() { alert("Success"); },
+      error: function() { alert('Failed!'); },
+      beforeSend: setHeader
+  });
+}
 function setActiveMenu(category, subCategory) {
   console.log("category :", category)
   console.log("sub :", subCategory)
   if(category === '') { 
-    console.log("home page") // https://koii.live/info.json
+    httpGet('https://koii.live/info.json')
     return 
   }
   $("#topbar .web-header .nav-item").each(function(index, value){
