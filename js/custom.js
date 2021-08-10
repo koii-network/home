@@ -21,6 +21,12 @@ function openSubMenu (category, subMenu) {
     }
   }
 }
+function getRupeesFormat(val) {
+  while (/(\d+)(\d{3})/.test(val.toString())) {
+      val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+  }
+  return val;
+}
 function num_animations() {
   $(".numerial-item").each(function(){
     console.log($(this))
@@ -28,6 +34,17 @@ function num_animations() {
   })
   $('.num').each(function () {
     console.log("$(this).text() ===", $(this).text())
+
+    // $({ Counter: 0 }).animate({
+    //   Counter: $(this).text()
+    // }, {
+    //   duration: 1000,
+    //   easing: 'swing',
+    //   step: function() {
+    //     $(this).text(getRupeesFormat(Math.ceil(this.Counter)));
+    //   }
+    // });
+        
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
     }, {
@@ -241,13 +258,4 @@ $(document).ready(function() {
       return ;
     }
   })
-  
-
-  function getRupeesFormat(val) {
-    while (/(\d+)(\d{3})/.test(val.toString())) {
-        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-    }
-    return val;
-  }
-
 })
