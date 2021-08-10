@@ -170,7 +170,19 @@
     height: 400px;
     position: relative;
     right: -139px;
-    top: 51px;
+    top: 50px;
+    animation: line1 2.5s;
+  }
+
+  @keyframes line1 {
+    from {
+      top: 410px;
+      height: 40px;
+    }
+    to {
+      top: 50px;
+      height: 400px;
+    }
   }
   .vl2 {
     border-left: 3px solid #5ed9d1;
@@ -178,6 +190,18 @@
     position: relative;
     right: -163px;
     top: 12px;
+    animation: line2 2.5s;
+  }
+
+  @keyframes line2 {
+    from {
+      top: 470px;
+      height: 20px;
+    }
+    to {
+      top: 12px;
+      height: 483px;
+    }
   }
   .vl3 {
     border-left: 3px solid #5ed9d1;
@@ -185,6 +209,18 @@
     position: relative;
     right: -178px;
     top: 87px;
+    animation: line3 2.5s;
+  }
+
+  @keyframes line3 {
+    from {
+      top: 450px;
+      height: 20px;
+    }
+    to {
+      top: 87px;
+      height: 384px;
+    }
   }
   .first {
     position: relative;
