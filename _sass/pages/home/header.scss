@@ -164,6 +164,12 @@
       padding: 0;
     }
   }
+  .numerial-item{
+    display: none;
+    &.active{
+      display: block;
+    }
+  }
 
   .vl1 {
     border-left: 3px solid #5ed9d1;

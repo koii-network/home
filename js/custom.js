@@ -21,37 +21,62 @@ function openSubMenu (category, subMenu) {
     }
   }
 }
-function httpGet(theUrl)
-{
-    $.ajax({ 
-      type: 'GET', 
-      url: theUrl, 
-      dataType: 'json',
-      success: function (data) { 
+function num_animations() {
+  $(".numerial-item").each(function(){
+    console.log($(this))
+    $(this).addClass('active')
+  })
+  $('.num').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 2000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(getRupeesFormat(Math.ceil(now)));
+        }
+    })
+  })
+}
+function httpGet(theUrl){
+    // $.ajax({ 
+    //   type: 'GET', 
+    //   url: theUrl, 
+    //   dataType: 'json',
+    //   success: function (data) { 
+    //     if(data) {
+    //       $(".num_users").text(data.users)
+    //       $(".num_koii_earned").text(data.koii_earned)
+    //       $(".num_atomic_nfts").text(data.atomic_nfts)
+    //     }else{
+    //       console.log("error api call")
+    //     }
+    //   }
+    // });
+    $.ajax({
+      url: theUrl,
+      type: 'GET',
+      crossDomain: true,
+      dataType: 'jsonp',
+      contentType: 'application/json',
+      success: function(data) { 
+        console.log( "Sample of data:", data );
         if(data) {
           $(".num_users").html(data.users)
           $(".num_koii_earned").html(data.koii_earned)
           $(".num_atomic_nfts").html(data.atomic_nfts)
-        }else{
-          console.log("error api call")
         }
+        num_animations()
+        alert("Success"); },
+      error: function(err) { 
+        console.log(err); 
+        console.log('Failed!'); 
+        $(".num_users").text(2894)
+        $(".num_koii_earned").text(88240)
+        $(".num_atomic_nfts").text(3325)
+        num_animations()
       }
     });
-    // $.ajax({
-    //   url: theUrl,
-    //   type: 'GET',
-    //   crossDomain: true,
-    //   dataType: 'jsonp',
-    //   success: function() { alert("Success"); },
-    //   error: function(err) { console.log(err); alert('Failed!'); }
-    // }).done(function( data ) {
-    //   console.log( "Sample of data:", data );
-    //   if(data) {
-    //     $(".num_users").html(data.users)
-    //     $(".num_koii_earned").html(data.koii_earned)
-    //     $(".num_atomic_nfts").html(data.atomic_nfts)
-    //   }
-    // });
 }
 function setActiveMenu(category, subCategory) {
   console.log("category :", category)
@@ -214,17 +239,6 @@ $(document).ready(function() {
     }
   })
   
-    $('.num').each(function () {
-      $(this).prop('Counter',0).animate({
-          Counter: $(this).text()
-      }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function (now) {
-              $(this).text(getRupeesFormat(Math.ceil(now)));
-          }
-      });
-  });
 
   function getRupeesFormat(val) {
     while (/(\d+)(\d{3})/.test(val.toString())) {
