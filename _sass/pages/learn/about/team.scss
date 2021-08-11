@@ -48,6 +48,7 @@
     color: $white;
     display: flex;
     justify-content: center;
+    width: 205px;
   }
   .font-cap3 {
     font-weight: 400;
@@ -73,6 +74,9 @@
       // }
       .info-area {
         min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
       img {
         width: 100px;
@@ -87,6 +91,8 @@
         border-radius: unset !important;
         margin-bottom: 0px !important;
         object-fit: contain;
+        position: absolute;
+        margin-left: 5px;
       }
       @media (max-width: 1300px) {
         width: 25%;
