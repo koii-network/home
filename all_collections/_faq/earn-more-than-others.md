@@ -1,10 +1,14 @@
 ---
-title: Why do some NFTs earn more KOII than others?
+title: Have some questions? You're in the right spot!
 describe:
 layout: koii101
-permalink: /Why-do-some-NFTs-earn-more-KOII-than-others
+permalink: /NFTs-FAQ
 ---
 
-## write something here
+## Do I always get the same amount of KOII for each view?
 
 Let's write something!
+
+## Why do some NFTs earn more KOII than others?
+
+Write something!
