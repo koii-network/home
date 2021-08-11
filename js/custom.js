@@ -57,35 +57,27 @@ function num_animations() {
   })
 }
 function httpGet(theUrl){
-    // $.ajax({ 
-    //   type: 'GET', 
-    //   url: theUrl, 
-    //   dataType: 'json',
-    //   success: function (data) { 
-    //     if(data) {
-    //       $(".num_users").text(data.users)
-    //       $(".num_koii_earned").text(data.koii_earned)
-    //       $(".num_atomic_nfts").text(data.atomic_nfts)
-    //     }else{
-    //       console.log("error api call")
-    //     }
-    //   }
-    // });
-    $.ajax({
-      url: theUrl,
-      type: 'GET',
-      crossDomain: true,
-      dataType: 'jsonp',
-      contentType: 'application/json',
-      success: function(data) { 
-        console.log( "Sample of data:", data );
+    $.ajax({ 
+      type: 'GET', 
+      url: theUrl, 
+      dataType: 'json',
+      success: function (data) { 
         if(data) {
+          console.log("success api call")
           $(".num_users").text(data.users)
           $(".num_koii_earned").text(data.koii_earned)
           $(".num_atomic_nfts").text(data.atomic_nfts)
+          num_animations()
+        }else{
+          console.log("error api call")
+          $(".num_users").text(2894)
+          $(".num_koii_earned").text(88240)
+          $(".num_atomic_nfts").text(3325)
+          setTimeout(function(){
+            num_animations()
+          },100)
         }
-        num_animations()
-        alert("Success"); },
+      },
       error: function(err) { 
         console.log(err); 
         console.log('Failed!'); 
@@ -97,6 +89,32 @@ function httpGet(theUrl){
         },100)
       }
     });
+    // $.ajax({
+    //   url: theUrl,
+    //   type: 'GET',
+    //   crossDomain: true,
+    //   dataType: 'jsonp',
+    //   contentType: 'application/json',
+    //   success: function(data) { 
+    //     console.log( "Sample of data:", data );
+    //     if(data) {
+    //       $(".num_users").text(data.users)
+    //       $(".num_koii_earned").text(data.koii_earned)
+    //       $(".num_atomic_nfts").text(data.atomic_nfts)
+    //     }
+    //     num_animations()
+    //     alert("Success"); },
+    //   error: function(err) { 
+    //     console.log(err); 
+    //     console.log('Failed!'); 
+    //     $(".num_users").text(2894)
+    //     $(".num_koii_earned").text(88240)
+    //     $(".num_atomic_nfts").text(3325)
+    //     setTimeout(function(){
+    //       num_animations()
+    //     },100)
+    //   }
+    // });
 }
 function setActiveMenu(category, subCategory) {
   console.log("category :", category)
