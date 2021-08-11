@@ -3,6 +3,7 @@
 #about-team {
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
   color: $white;
+  padding-top: 5rem;
   .bg-nets-left {
     position: absolute;
     bottom: -1000px;
@@ -45,6 +46,8 @@
     font-size: 20px;
     line-height: 24px;
     color: $white;
+    display: flex;
+    justify-content: center;
   }
   .font-cap3 {
     font-weight: 400;
@@ -77,6 +80,13 @@
         height: 100px;
         margin-bottom: 12px;
         object-fit: cover;
+      }
+      .li-icon {
+        width: 30px !important;
+        height: 20px !important;
+        border-radius: unset !important;
+        margin-bottom: 0px !important;
+        object-fit: contain;
       }
       @media (max-width: 1300px) {
         width: 25%;

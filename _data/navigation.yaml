@@ -6,7 +6,7 @@
       class: normal
 
     - name: About
-      link: /learn/about
+      link: /team
       class: normal
 
     - name: Blog
