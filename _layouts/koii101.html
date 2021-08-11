@@ -7,8 +7,33 @@ layout: front
         <div class="title">
             <h1>{{ page.title }} </h1>
         </div>
+        <img src="/img/creators/creators-header.svg" class="backgroundGraphic">
         <div class="detail-101">
     {{ content }}
+        </div>
+        
+        {% include home/section7.html %}    
 </div>
 </div>
-</div>
+
+<style>
+    .backgroundGraphic {
+        position: absolute;
+        float: left;
+        left: 650px;
+        top: 20px;
+        width: 58%;
+        opacity: 0.3;
+    }
+
+    @media (max-width:1300px) { 
+        .backgroundGraphic {
+            opacity: 0.25;
+        }     
+    }
+    @media (max-width:450px) { 
+        .backgroundGraphic {
+            display: none;
+        }
+    }
+</style>
