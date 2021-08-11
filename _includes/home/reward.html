@@ -5,7 +5,7 @@
     <div class="reward-content">
       <div class="content-part">
         <h1>Get Rewarded For Your Work</h1>
-        <a href="/NFTs-FAQ" target="_blank">Do I always get the same amount of KOII for each view?</a>
+        <!-- <a href="/NFTs-FAQ" target="_blank">Do I always get the same amount of KOII for each view?</a> -->
       </div>
       <div class="content-part btns-wrapper">
         <a href="https://koi.rocks/contents"><div class="btn btn-get">Lean How</div></a>
@@ -18,7 +18,9 @@
           <div class="col-md-3">
             <a href="{{ item.link }}" target="_blank">
               <div class="reward-card">
-                <iframe width="100%" height="300px" src="{{item.url}}" title="Koii NFT image" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="300px" src="{{item.url}}" title="Koii NFT image" frameborder="0" allowfullscreen
+                onclick="contentdetail()"
+                ></iframe>
                 <br>
                 <h3>{{item.title}}</h3>
                 <p class="subtitle">{{item.subtitle}}</p>
@@ -32,7 +34,14 @@
       </div>
     </div>
     <div class="nft-faq">
-      <a href="/NFTs-FAQ" target="_blank"><i>Why do some NFTs earn more KOII than others?</i></a>
+      <!-- <a href="/NFTs-FAQ" target="_blank"><i>Why do some NFTs earn more KOII than others?</i></a> -->
     </div>
   </div>
 </section>
+<script>
+function contentdetail() {
+  window.location.href='https://koi.rocks/contents';
+}
+
+
+</script>
