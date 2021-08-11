@@ -48,6 +48,14 @@
           font-family: $sora !important;
           font-weight: 400;
         }
+        a {
+          font-size: 18px !important;
+          line-height: 24px;
+          color: #49ce8b;
+          margin-bottom: 0;
+          font-family: "Sora", sans-serif !important;
+          font-weight: 400;
+        }
         &.btns-wrapper {
           display: flex;
           align-items: center;
@@ -102,11 +110,11 @@
             color: #fff;
             text-align: left;
             font-family: $sora !important;
-            &.subtitle{
-              color: #5ED9D1;
+            &.subtitle {
+              color: #5ed9d1;
               font-size: 16px;
             }
-            .view-ct{
+            .view-ct {
               font-size: 25px !important;
             }
           }
@@ -150,6 +158,19 @@
           font-weight: 400;
         }
       }
+    }
+  }
+  .nft-faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      font-size: 18px !important;
+      line-height: 24px;
+      color: #5ed9d1;
+      margin-bottom: 0;
+      font-family: "Sora", sans-serif !important;
+      font-weight: 400;
     }
   }
   @media (max-width: 1200px) {
@@ -203,10 +224,10 @@
               font-size: 14px !important;
               line-height: 24px;
               margin-bottom: 5px;
-              &.subtitle{
+              &.subtitle {
                 font-size: 13px;
               }
-              .view-ct{
+              .view-ct {
                 font-size: 20px !important;
               }
             }
@@ -237,7 +258,7 @@
   }
   @media (max-width: $sm) {
     .reward-wrapper {
-      .reward-content .content-part h1{
+      .reward-content .content-part h1 {
         font-size: 32px !important;
       }
       .reward-cards-wrapper {
