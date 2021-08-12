@@ -30,11 +30,24 @@
     margin-top: 36px;
     color: #171753 !important;
     padding: 5px 25px 5px 25px !important;
-    width: fit-content;
+    width: 220px;
     border: 1px solid #bef0ed;
     background: #bef0ed;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
     border-radius: 24px;
+    font-weight: 600;
+  }
+  .tutorialButton {
+    margin-left: 50px;
+    margin-top: 36px;
+    color: #237b75 !important;
+    padding: 5px 25px 5px 25px !important;
+    width: 220px;
+    border: 1px solid #ecfffe;
+    background: #ecfffe;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 24px;
+    font-weight: 600;
   }
   .koii-logo-hero {
     margin-top: 55px;
@@ -165,9 +178,9 @@
       padding: 0;
     }
   }
-  .numerial-item{
+  .numerial-item {
     display: none;
-    &.active{
+    &.active {
       display: block;
     }
   }
@@ -401,6 +414,9 @@
     .header-description {
       max-width: 510px;
       margin-top: 85px;
+    }
+    .tutorialButton {
+      margin-left: 0px;
     }
     .vl1 {
       border-left: 3px solid #5ed9d1;
