@@ -8,7 +8,17 @@ function iframe_lazy_load() {
       return src;
   });
 }
+function iframe_after_load() {
+  const millis = Date.now() - start;
+  console.log(`iframe load time offset = ${Math.floor(millis / 1000)}`);
+  iframes.attr('src', function() {
+      return $(this).data('src');
+  });
+}
 
 $(document).ready(function() {
   iframe_lazy_load()
+})
+$(window).load(function() {
+  iframe_after_load()
 })
