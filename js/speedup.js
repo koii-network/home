@@ -10,6 +10,7 @@ function iframe_lazy_load() {
 }
 function iframe_after_load() {
   const millis = Date.now() - start;
+  var iframes = $('iframe');
   console.log(`iframe load time offset = ${Math.floor(millis / 1000)}`);
   iframes.attr('src', function() {
       return $(this).data('src');
