@@ -17,9 +17,9 @@ function iframe_after_load() {
   });
 }
 
-$(document).ready(function() {
-  iframe_lazy_load()
-})
-$(window).load(function() {
-  iframe_after_load()
-})
+// $(document).ready(function() {
+//   iframe_lazy_load()
+// })
+// $(window).load(function() {
+//   iframe_after_load()
+// })
