@@ -18,11 +18,9 @@
                 // that require this pattern but the window provided is a noop
                 // if it's defined (how jquery works)
                 if (typeof window !== 'undefined') {
-                    console.log('here1')
                     jQuery = require('jquery');
                 }
                 else {
-                    console.log('here2')
                     jQuery = require('jquery')(root);
                 }
             }

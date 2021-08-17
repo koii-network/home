@@ -21,6 +21,23 @@ function openSubMenu (category, subMenu) {
     }
   }
 }
+function revolution_show_video() {
+  $('#my-video-display').prettyEmbed({
+    videoID: 'zoxAW6R9NEM',
+    previewSize: 'thumb-default',				// use either this option...
+    customPreviewImage: 'https://img.youtube.com/vi/zoxAW6R9NEM/0.jpg',			// ...or this option
+
+    // Embed controls
+    showInfo: true,
+    showControls: true,
+    loop: false,
+
+    colorScheme: 'dark',
+    showRelated: false,
+
+    // useFitVids: true
+  });
+}
 function getRupeesFormat(val) {
   while (/(\d+)(\d{3})/.test(val.toString())) {
       val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
@@ -57,7 +74,7 @@ function num_animations() {
   })
 }
 function httpGet(theUrl){
-    $.ajax({ 
+    jQuery.ajax({ 
       type: 'GET', 
       url: theUrl, 
       dataType: 'json',
@@ -194,7 +211,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-$(document).ready(function() {
+jQuery(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
   console.log({paths})
@@ -210,19 +227,19 @@ $(document).ready(function() {
     show_slide()
   }
   setActiveMenu(category, subCat)
-  $("#tap1").click(function(){
+  $("#tap1").on('click', function(){
     $(".content-detail").each(function(){
       $(this).hide()
     })
     $(".tap1-content").show()
   })
-  $("#tap3").click(function(){
+  $("#tap3").on('click', function(){
     $(".content-detail").each(function(){
       $(this).hide()
     })
     $(".tap3-content").show()
   })
-  $("#tap2").click(function(){
+  $("#tap2").on('click', function(){
     $(".content-detail").each(function(){
       $(this).hide()
     })
@@ -234,7 +251,7 @@ $(document).ready(function() {
     })
   })
 
-  $(".btn-subscription").click(function(){
+  $(".btn-subscription").on('click', function(){
     var email = $('.input-subscription').val()
     
     if(isEmail(email)){
@@ -249,7 +266,7 @@ $(document).ready(function() {
     }
   })
 
-  $(".btn-signup").click(function(){
+  $(".btn-signup").on('click', function(){
     var email = $('.input-signup').val()
     if(isEmail(email)){
       // alert('Thanks for joining Koi’s community!')
@@ -263,7 +280,7 @@ $(document).ready(function() {
     }
   })
 
-  $(".btn-submit").click(function(){
+  $(".btn-submit").on('click', function(){
     var email = $('.input-submit').val()
     if(isEmail(email)){
       // alert('Thanks for joining Koi’s community!')
@@ -276,5 +293,6 @@ $(document).ready(function() {
       return ;
     }
   })
+  revolution_show_video()
   $(".lazy").lazyload(); // image and iframe lazy loading
 })
