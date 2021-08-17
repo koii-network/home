@@ -193,7 +193,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-$(document).ready(function() {
+jQuery(function($) {
   $(".lazy").lazyload(); // image and iframe lazy loading
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
