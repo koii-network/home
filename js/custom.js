@@ -193,8 +193,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-jQuery(function($) {
-  $(".lazy").lazyload(); // image and iframe lazy loading
+
+$(document).ready(function() {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
   console.log({paths})
@@ -276,4 +276,5 @@ jQuery(function($) {
       return ;
     }
   })
+  $(".lazy").lazyload(); // image and iframe lazy loading
 })
