@@ -1,10 +1,10 @@
 ---
 layout: front
-permalink: /learn/news/
+permalink: /en/news/
 stylesheet: koi.css
 ---
 
-{% include learn/news/header.html %}
+{% include /en/news/header.html %}
 {%- assign sorted = site.news | sort: 'newsType' -%}
 <section id="topnews">
     <div class="container">
@@ -39,7 +39,7 @@ stylesheet: koi.css
             {% for news in sorted %}
 
             {%- if news.newsType contains "top" -%}    
-            {% include learn/news/topnews.html 
+            {% include /en/news/topnews.html 
                             title=news.title
                             subtitle=news.describe
                             image=news.image
@@ -79,7 +79,7 @@ stylesheet: koi.css
                 
                     {%- for news in sorttime -%}
                         {%- if news.tag contains "news" -%}
-                        {% include learn/news/allnews.html 
+                        {% include /en/news/allnews.html 
                                         title=news.title
                                         subtitle=news.describe
                                         image=news.image
@@ -112,7 +112,7 @@ stylesheet: koi.css
         <div class="row">
             {%- for news in sorttime -%}
                 {%- if news.tag contains "node" -%}
-                {% include learn/news/nodenews.html 
+                {% include /en/news/nodenews.html 
                                 title=news.title
                                 subtitle=news.describe
                                 image=news.image

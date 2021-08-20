@@ -215,11 +215,11 @@ function showSlides(n) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
   console.log({paths})
-  // ["", "learn", "about"]
+  // ["", "lang", "learn", "about"]
   var category = '', subCat = ''
   if(paths.length === 2) {
     category = paths[1]
-  }else if(paths.length >= 3){
+  }else if(paths.length >= 4){
     category = paths[1]
     subCat = paths[2]
   }

@@ -2,11 +2,11 @@
   class: col-sm-5 company
   children:
     - name: Home
-      link: /
+      link: /en/
       class: normal
 
     - name: About
-      link: /learn/about
+      link: /en/about
       class: normal
 
     - name: Blog
@@ -15,15 +15,15 @@
       newtab: target="_blank"
 
     - name: News
-      link: /learn/news
+      link: /en/news
       class: normal
 
     - name: Node
-      link: /earn/everyone
+      link: /en/everyone
       class: normal
 
     - name: Get the Extension
-      link: /getFinnie
+      link: /en/getFinnie
       class: normal
       newtab: target="_blank"
 
@@ -64,7 +64,7 @@
       newtab: target="_blank"
 
     - name: Resources
-      link: /resources/
+      link: /en/resources/
       class: normal
 
     - name: › Lightpaper
