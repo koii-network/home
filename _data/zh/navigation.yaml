@@ -1,0 +1,131 @@
+- header: 关于
+  class: col-sm-5 company
+  children:
+    - name: 首页
+      link: /zh/
+      class: normal
+
+    - name: 关于我们
+      link: /zh/about
+      class: normal
+
+    - name: 博客
+      link: https://blog.koii.network/
+      class: normal
+      newtab: target="_blank"
+
+    - name: 新闻
+      link: /zh/news
+      class: normal
+
+    - name: 节点
+      link: /zh/everyone
+      class: normal
+
+    - name: 获取插件
+      link: /zh/getFinnie
+      class: normal
+      newtab: target="_blank"
+
+    - name: 注册 NFTs
+      link: https://koi.rocks/contents
+      class: normal
+      newtab: target="_blank"
+
+    - name: 支持
+      link: "mailto:support@koii.network"
+      class: normal
+      newtab: target="_blank"
+
+    - name: Press Kit
+      link: "/Koii Press Kit 2021.zip"
+      class: normal
+      newtab: target="_blank"
+
+  # - name: Blog
+  #   link: https://blog.openkoi.com/
+  #   class: normal
+
+  # - name: WhitePaper
+  #   link: /
+  #   class: child
+
+- header: 产品
+  class: col-sm-4 get-involved
+  children:
+    - name: 运行节点
+      link: https://docs.google.com/forms/d/e/1FAIpQLSduDTdxD3dDOvcbIcKlG7JWOsnDFVZFdLy0J38q_OOzUC3okA/viewform
+      class: normal
+      newtab: target="_blank"
+
+    - name: Earn for Code
+      link: https://docs.koii.network/#tools-for-easy-protocolization
+      class: normal
+      newtab: target="_blank"
+
+    - name: 资源
+      link: /en/resources/
+      class: normal
+
+    - name: › Lightpaper
+      link: /lightpaper.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: › Technical Paper
+      link: /koi-protocol.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: › Proofs of Real Traffic
+      link: /proofs-of-real-traffic.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: › Gradual Consensus
+      link: /gradual-consensus.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: › Universal Content Registry
+      link: /universal-content-registry.pdf
+      class: normal
+      newtab: target="_blank"
+
+    - name: '100K KOII, <span style="color: #49CE8B">Enter to Win</span>'
+      link: https://gleam.io/c3Cwz/-welcome-to-the-koii-drop-
+      class: normal
+      newtab: target="_blank"
+
+- header: 联系我们
+  class: col-sm-3 get-in-touch
+  children:
+    - name: 成为合作伙伴
+      link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
+      class: normal
+      newtab: target="_blank"
+
+    - name: Apply for Grants
+      link: https://docs.google.com/forms/d/e/1FAIpQLSetLoXNxlztRjLSQPVWXeQYIoP1Hx5pzcAS5batEPQW45t2DQ/viewform?usp=sf_link
+      class: normal
+      newtab: target="_blank"
+
+    - name: support@koii.network
+      link: "mailto:support@koii.network"
+      class: normal
+      newtab: target="_blank"
+
+    - name: investors@koii.network
+      link: "mailto:investors@koii.network"
+      class: normal
+      newtab: target="_blank"
+
+    - name: jobs@koii.network
+      link: "mailto:jobs@koii.network"
+      class: normal
+      newtab: target="_blank"
+
+    - name: press@koii.network
+      link: "mailto:press@koii.network"
+      class: normal
+      newtab: target="_blank"

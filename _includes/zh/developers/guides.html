@@ -1,0 +1,30 @@
+<section id="guides">
+  <img src="/img/developers/guide1.svg" class="bg-guide1" />
+  <img src="/img/developers/guide2.svg" class="bg-guide2" />
+  <img src="/img/developers/guide2-mobile.svg" class="bg-guide2-mobile" />
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="font-cap1">Get started with Koii guides</div>
+      </div>
+    </div>
+    <div class="row">
+      {% assign sortguide = site.guides | sort: 'number' %}
+      {% for guides in sortguide %}
+      
+          <div class="col-md-6 guides-wrapper">
+            <a href="{{guides.permalink}}" style="text-decoration: none;" target="_blank">
+          <div class="guides-card">
+                  <div class="guides-content">         
+                  <div class="font-cap2">{{ guides.title }}</div>
+                  
+                  <img class="img-wrapper" src="/img/developers/Return-button.svg" width="40px">
+              
+                  </div>     
+          </div>
+        </a>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,94 @@
+<header id="home-header">
+    <script>
+//         window.open("https://koii.network/finnie.zip", "Download");
+    </script>
+    <div class="container" id="downloadfinnie-header">
+        
+        <div class="col-md-6 header-description">
+            <div class="col-12">
+                <div class="font-cap1">Welcome, Finnie</div>
+                <div class="font-cap3">Start making Atomic NFTs. Get rewarded like you should.</div>
+            </div>
+            <div class="col-12">
+                <br>
+                <br>
+                <a href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj" target="_blank"  class="button">Get Finnie</a>
+                <a href="https://blog.koii.network/Introducing-Finnie/" target="_blank" class="button accent">Tutorial</a>
+            </div>
+        </div>
+        <div class="col-md-6 intro-finnie-video">
+            <video controls class="video">
+                <source src="/img/FinnieWallet.mp4" type="video/mp4">
+                <source src="/img/FinnieWallet.ogg" type="video/ogg">
+                <source src="/img/FinnieWallet.webm" type="video/webm">
+                <object data="/img/FinnieWallet.mp4" width="320" height="240">
+                  <embed src="/img/FinnieWallet.swf" width="320" height="240">
+                </object>
+              </video>
+                
+        </div>
+       
+    </div>
+    
+    <img src="/img/creators/creators-header.svg" class="backgroundGraphic">
+    
+</header>
+
+<style>
+    #downloadfinnie-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button {
+        margin-top: 3em;
+        background: #5ED9D1;
+        border: solid #5ED9D1;
+        color: #171753 !important;
+        font-weight: 250;
+        text-align: inherit;
+        padding: 5px 25px 5px 25px !important;
+        width: fit-content;
+        height: 56px;
+        border-radius: 30px;
+    }
+    .button.accent {
+        background: #FFC78F;
+        border: solid #FFC78F;
+        margin-left: 1rem;
+    }
+    .backgroundGraphic {
+        position: absolute;
+        float: left;
+        left: -170px;
+        top: 450px;
+        width: 58%;
+        opacity: 0.3;
+    }
+    .intro-finnie-video {
+        margin-top: -6em;
+    }
+    .video {
+        width:580px;
+        height: 440px;
+    }
+    @media (max-width:1300px) { 
+        .backgroundGraphic {
+            opacity: 0.25;
+        }     
+    }
+    @media (max-width:450px) { 
+        .backgroundGraphic {
+            display: none;
+        }
+        .video {
+        width:350px;
+        height: 240px;
+        }     
+        .intro-finnie-video {
+        margin-top: 4em;
+    }
+    }
+    #home-header::before {
+        display: none !important;
+    }
+</style>

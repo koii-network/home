@@ -1,0 +1,25 @@
+<section id="registration">
+  <div class="registration-wrapper">
+    <div class="registration-content">
+      <h1>Atomic<br />Registration</h1>
+      <div class="d-flex align-items-center">
+        <a href="https://koi.rocks" class="text-green text-bold" target="_blank">Check out the Atomic NFTs</a>
+        <img src="/img/homepage/arrow-right.svg" class="ml-2" />
+      </div>
+    </div>
+    <img src="/img/homepage/Dots.svg" class="registration-dots" />
+    <div class="registration-cards">
+      <div class="row">
+        {% for item in site.data.en.creators_registration %}
+        <div class="col-md-6">
+          <div class="registration-card">
+            <h3>{{item.title}}</h3>
+            <p>{{item.subtitle}}</p>
+            <p class="hint">{{item.hint}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

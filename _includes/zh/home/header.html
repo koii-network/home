@@ -1,0 +1,71 @@
+<header id="home-header">
+  <div class="container">
+    <div class="header-description">
+      <div class="col-12">
+        <div class="font-cap1">发布来获得收益</div>
+        <div class="font-cap3">尝试我们的钱包插件，你的每一个NFT都会使你获得收益</div>
+      </div>
+      <div class="col-12">
+        <div class="join-area">
+          <div class="submit-area">
+            <div class="clear">
+              <input type="submit" onclick="window.open('https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj')" class="finnieButton valid"
+                aria-invalid="false" value="现在获取Finnie">
+              <input type="submit" onclick="window.open('https://koii.network/getFinnie')" class="tutorialButton valid"
+                aria-invalid="false" value="了解Finnie">
+            </div>
+            
+            <div class="koii-logo-hero">
+              <img src="/img/homepage/hero_bk_after.svg" class="hero-bk-after" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vl1 numerial-item">
+      <div class="first">
+        <span class="num num_users"></span><br>
+        <span>Finnie 用户</span>
+      </div>
+    </div>
+    <div class="vl2 numerial-item">
+      <div class="second">
+        <span class="num num_koii_earned"></span><br>
+        <span>已赚取KOII</span>
+      </div>
+    </div>
+    <div class="vl3 numerial-item">
+      <div class="third">
+        <span class="num num_atomic_nfts"></span><br>
+        <span>已创建Atomic NFTs</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-build-better">
+    <div class="build_better-wrapper">
+      <div class="build_better-content">
+        <h1>Built for media</h1>
+        <p>Repurposing blockchain: built for content, not just currency.</p>
+        <div class="d-flex align-items-center">
+          <a href="/earn/developers" class="text-green text-bold">Learn How</a>
+          <img src="/img/homepage/arrow-right.svg" class="ml-2" />
+        </div>
+      </div>
+      <img src="/img/homepage/Dots.svg" class="build_better-dots" />
+      <div class="build_better-cards">
+        <div class="row">
+          {% for item in site.data.en.home_build_better %}
+          <div class="col-md-6">
+            <div class="build_better-card">
+              <img src="/img/homepage/{{item.img}}.svg" width="57" />
+              <h3>{{item.title}}</h3>
+              <p>{{item.subtitle}}</p>
+              <!-- <a href="#" class="text-green">{{item.link_title}}</a> -->
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,32 @@
+<section id="run_a_node">
+  <img src="/img/homepage/run_node_img.svg" class="run_node_img" />
+  <div class="run_a_node-wrapper">
+    <div class="run_a_node-content">
+      <h1>Run a node</h1>
+      <p class="description">
+        Peer to peer technology makes it possible to build a more transparent
+        and accountable information network, but we need you to run a node to
+        make it possible.
+      </p>
+      <div class="run_a_node-cards">
+        <img src="/img/homepage/Dots.svg" class="run_node_dots" />
+        <div class="row">
+          {% for item in site.data.en.home_run_a_node %}
+          <div class="col-md-4">
+            <div class="run_a_node-card">
+              <div class="card-top">
+              <h2>0{{item.order}}</h2>
+              <h6>{{item.title}}</h6>
+            </div>
+              <p>{{item.subtitle}}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <a href="https://bit.ly/2SYFtBd" target="_blank">
+        <div class="btn btn-get">Pre-Register to Run a Node</div>
+      </a>
+    </div>
+  </div>
+</section>
