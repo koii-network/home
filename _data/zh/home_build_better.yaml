@@ -1,16 +1,16 @@
-- title: Transparent
-  subtitle: Koii is open-source, and all network data is public.
+- title: 透明化
+  subtitle: Koii是开源的，所有的网站数据全部公开。
   link_title: Say goodbye to data silos
   img: icon_transparent
-- title: Accessible
-  subtitle: Users can be onboarded without purchasing tokens.
+- title: 无障碍
+  subtitle: 用户无需购买代币便能加入。
   link_title: Earn KOII by building apps
   img: icon_accessible
-- title: Open & Owned
-  subtitle: When all content is an NFT, anyone can be an owner.
+- title: 持有权
+  subtitle: 当所有内容都是 NFT 时，任何人都可以成为所有者。
   link_title: Learn more about Atomic NFTs
   img: icon_open
-- title: Eco-Friendly
-  subtitle: Gradual consensus is flexible, so nodes don’t waste energy.
+- title: 节能性
+  subtitle: 渐进共识使得节点不会浪费过多能源。
   link_title: See Proof-of-Stake Templates
   img: icon_echo
