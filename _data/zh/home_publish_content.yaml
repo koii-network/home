@@ -1,9 +1,9 @@
-- title: Register Once, Store Permanently
-  subtitle: Drag and drop any file into the Finnie Wallet to permanently store and own it.
+- title: 一经发布，永久储存
+  subtitle: 将任何内容拖拽进Finnie钱包，永久储存且拥有它。
   img: icon_publish1.svg
-- title: Bridging Blockchains
-  subtitle: Once your assets are registered as Atomic NFTs with Koii, they can be transferred and traded easily.
+- title: 桥接区块链
+  subtitle: 一旦您的资产在 Koii 注册为 Atomic NFT，它们就可以轻松转移和交易。
   img: icon_blockchain.svg
-- title: Global Attention Tracking
-  subtitle: Track attention and views across any portal or medium to keep big tech accountable (and mine KOII).
+- title: 全局关注度跟踪
+  subtitle: 跟踪任何门户网站或媒体上的关注度和浏览量（以及挖掘KOII）
   img: icon_global.svg
