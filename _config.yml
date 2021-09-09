@@ -27,6 +27,10 @@ collections:
     layout: front
     output: true
 
+  guideszh:
+    layout: front
+    output: true
+
   documents:
     layout: front
     output: false

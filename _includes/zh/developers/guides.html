@@ -5,18 +5,18 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="font-cap1">Get started with Koii guides</div>
+        <div class="font-cap1">Koii使用指南</div>
       </div>
     </div>
     <div class="row">
-      {% assign sortguide = site.guides | sort: 'number' %}
-      {% for guides in sortguide %}
+      {% assign sortguide = site.guideszh | sort: 'number' %}
+      {% for guideszh in sortguide %}
       
           <div class="col-md-6 guides-wrapper">
             <a href="{{guides.permalink}}" style="text-decoration: none;" target="_blank">
           <div class="guides-card">
                   <div class="guides-content">         
-                  <div class="font-cap2">{{ guides.title }}</div>
+                  <div class="font-cap2">{{ guideszh.title }}</div>
                   
                   <img class="img-wrapper" src="/img/developers/Return-button.svg" width="40px">
               
