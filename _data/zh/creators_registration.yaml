@@ -1,17 +1,17 @@
-- title: Register once, <br>share anywhere.
-  subtitle: Pay a small ($0.01) one time fee to register and permanently archive your content, then easily export it to any platform.
+- title: 一经注册, <br>随时随地分享.
+  subtitle: 支付少量（0.01 美元）一次性费用来注册和永久存档您的内容，然后轻松将其导出到任何平台。
   link_title: Say goodbye to data silos
   img: icon_transparent
-- title: Track your views & hold big tech accountable.
-  subtitle: Add your tracking tag anywhere on the web to mine KOII tokens. Sell them to pay bills or spend them to register content & access services.
-  hint: "*You may also want to hold onto these. They entitle you to run a node and earn interest, or vote on the future of the Koii Network"
+- title: 实时跟踪您的关注度<br>其他事交给别人
+  subtitle: 将您的跟踪标签添加到Web上的任何位置，以挖掘KOII。使用KOII来支付账单，或者用它们来注册内容和访问服务。
+  hint: "*或者你可以持有这些KOII。它们让你有权经营一个节点，赚取利息，或者对Koii Network的未来进行投票"
   link_title: Earn KOII by building apps
   img: icon_accessible
-- title: Never get deplatformed. Never lose your work.
-  subtitle: Once your work is atomically registered, you own it, securely and permanently. If you lose access on a platform, your work is safely stored until you’re ready to migrate to a different one.
+- title: 平台用不掉线. <br>作品永不丢失.
+  subtitle: 一旦你的作品被自动注册，你就可以安全永久地拥有它。如果您无法访问某个平台，您的工作依然被安全地存储，直到您准备好迁移到另一个平台。
   link_title: Learn more about Atomic NFTs
   img: icon_open
-- title: Slow it down, <br>save the planet
-  subtitle: Koii NFTs are 99% more efficient than most other chains. Gradual consensus runs on personal devices, rather than big energy-sucking data centers.
+- title: 放慢脚步, <br>拯救地球
+  subtitle: Koii NFT的效率比大多数其他链高出99%。渐进共识运行于个人设备，而不是耗能的大型数据中心。
   link_title: See Proof-of-Stake Templates
   img: icon_echo
