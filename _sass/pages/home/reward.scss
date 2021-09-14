@@ -192,26 +192,34 @@
     .ribbon span {
       position: absolute;
       display: block;
-      width: 225px;
-      padding: 15px 0;
-      background-color: #3498db;
+      width: 190px;
+      padding: 2px 0;
       box-shadow: 0 5px 10px rgba(0,0,0,.1);
-      color: #fff;
-      font: 700 18px/1 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
       text-shadow: 0 1px 1px rgba(0,0,0,.2);
-      text-transform: uppercase;
       text-align: center;
+      &.ribbon1{
+        background-color: #5ED9D1;
+      }
+      &.ribbon2{
+        background-color: #FFA54B;
+      }
+      &.ribbon3{
+        background-color: #9BE7C4;
+      }
+      &.ribbon4{
+        background-color: #FFEE81;
+      }
+      background-color: #3498db;
     }
     
     /* top left*/
     .ribbon-top-left {
-      top: -10px;
-      left: -10px;
-    }
-    /* top left*/
-    .ribbon-top-left {
-      top: -10px;
-      left: -10px;
+      top: -3px;
+      left: -3px;
     }
     .ribbon-top-left::before,
     .ribbon-top-left::after {
@@ -227,7 +235,7 @@
       left: 0;
     }
     .ribbon-top-left span {
-      right: -25px;
+      right: 10px;
       top: 30px;
       transform: rotate(-45deg);
     }
