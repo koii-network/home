@@ -171,6 +171,12 @@
     @media (max-width: 768px) {
       .btns-wrapper{ display: none; }
       justify-content: center;
+      text-align: center;
+      padding-bottom: 0px;
+      h1{
+        font-size: 36px;
+        line-height: 48px;
+      }
     }
   }
   .flower-wrapper {
@@ -237,21 +243,22 @@
     }
   }
   @media (max-width: 768px) {
+    padding: 0 0 0px 0;
     .flower-content{
       display: none;
     }
+    .flower-dots{display: none;}
     .flower-content-mobile{
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
+      max-width: 400px;
+      margin: 0 auto;
       .flower-item{
         flex: 1;
-        position: relative;
         display: flex;
-        .flower-line{ 
-          position: absolute;
-        }
+        align-items: center;
         p{
           flex: 1;
           font-weight: 400;
@@ -265,11 +272,75 @@
         }
         .img-flower{ 
           transform: scale(0.75);
+          position: relative;
           img { max-width: 100%; }
+          .flower-line{ 
+            position: absolute;
+          }
+        }
+        &.item1{
+          .flower-line{ 
+            top: calc(50% + 30px);
+            right: -25px;
+          }
+        }
+        &.item2{
+          p{margin-top: 50px;}
+          .flower-line{ 
+            top: calc(50% + 30px);
+            left: -100px;
+          }
+        }
+        &.item3{
+          p{margin-top: 50px;}
+          .flower-line{ 
+            top: 30px;
+            right: -60px;
+          }
+        }
+        &.item4{
+          flex-direction: column;
+          p{margin-top: 10px;}
+          .flower-line{ 
+            top: -60px;
+            left: 50px;
+          }
         }
       }
     }
   }
   @media (max-width: $sm) {
+    .flower-content-mobile{
+      padding: 0 20px;
+      .flower-item{
+        margin-top: 30px;
+        .img-flower{ 
+          transform: scale(1);
+          max-width: 180px;
+          padding: 0 20px;
+        }
+        &.item2{
+          p{margin-top: 50px;}
+          .flower-line{ 
+            top: calc(50% + 20px);
+            left: -60px;
+          }
+        }
+        &.item3{
+          p{margin-top: 50px;}
+          .flower-line{ 
+            top: -7px;
+          }
+        }
+        &.item4{
+          .img-flower{ margin-top: 60px;}
+          p{margin-right: 50px;}
+          .flower-line{ 
+            top: -70px;
+            left: 10px;
+          }
+        }
+      }
+    }
   }
 }
