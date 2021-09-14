@@ -4,7 +4,7 @@
   position: relative;
   background: #171753;
   color: $white;
-  padding: 150px 0 75px;
+  padding: 150px 0 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,20 @@
     position: absolute;
     top: 260px;
     right: 280px;
+    @media (max-width: 1500px) {
+      top: 200px;
+      right: 220px;
+      img{ max-width: 300px;}
+    }
+    @media (max-width: 1300px) {
+      top: 165px;
+      right: 180px;
+    }
+    @media (max-width: 1100px) {
+      top: 135px;
+      right: 130px;
+      img{ max-width: 280px;}
+    }
   }
   .finnieButton {
     margin-top: 36px;
@@ -74,6 +88,7 @@
   .koii-logo-hero {
     margin-top: 55px;
   }
+  .koii-flower-area-mobile{display: none;}
   a.button {
     font-family: $sora !important;
     text-decoration: none;
@@ -84,6 +99,10 @@
     line-height: 72px;
     letter-spacing: 0em;
     color: #ffffff;
+    @media (max-width: 1300px) {
+      font-size: 45px;
+      line-height: 60px;
+    }
   }
   .font-cap3 {
     font-size: 24px;
@@ -114,10 +133,43 @@
   }
   @media (max-width: 768px) {
     padding: 100px 0;
-    background-image: url(/img/homepage/home-bk-mobile.svg);
+    .demo-bg{
+      content: url(/img/homepage/home-bk-mobile.svg);
+      top: -450px;
+      @media (max-width: 700px) {
+        top: -380px;
+      }
+      @media (max-width: 540px) {
+        top: -220px;
+      }
+      @media (max-width: 481px) {
+        top: -120px;
+      }
+      @media (max-width: 400px) {
+        top: -80px;
+      }
+      @media (max-width: 375px) {
+        top: -30px;
+      }
+    } 
     .container {
       padding: 0 0 100px 0;
       flex-direction: column;
+    }
+    .header-description{
+      text-align: center;
+    }
+    .koii-flower-area{display: none;}
+    .koii-flower-area-mobile{
+      display: block;
+      margin-top: 150px;
+      @media (max-width: 540px) {
+        img{ width: 220px; }
+      }
+      @media (max-width: 480px) {
+        margin-top: 100px;
+        img{ width: 200px; }
+      }
     }
     .join-area {
       margin-bottom: 20px;
@@ -127,14 +179,17 @@
       button {
         width: 100px;
       }
+      .finnieButton{
+        margin-top: 0px;
+      }
     }
     .font-cap1 {
       font-size: 36px;
-      line-height: 72px;
+      line-height: 48px;
     }
     .font-cap3 {
       font-size: 20px;
-      line-height: 40px;
+      line-height: 32px;
     }
   }
   @media (max-width: 572px) {
@@ -149,7 +204,7 @@
     // background-image: url(/img/homepage/home-bk-mobile.svg);
     .header-description {
       max-width: 510px;
-      margin-top: 85px;
+      margin-top: 0px;
     }
     .tutorialButton {
       margin-left: 0px;
@@ -161,6 +216,7 @@
   padding-top: 325px !important;
   color: white;
   font-family: $sora;
+  padding-bottom: 0px !important;
   .living-nft-content {
     width: 100%;
     display: flex;
