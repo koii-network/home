@@ -1,0 +1,133 @@
+@import "variables";
+
+#koii_framework {
+  // background: $blueDark;
+  background: conic-gradient(from 180deg at 50% 50%, #1F5468 0deg, #181854 129.48deg, #181854 170.63deg, #1F5468 238.32deg, #1F5468 360deg);
+  padding: 182px 0;
+  color: $blueDark;
+  font-family: $sora;
+  position: relative;
+  .koii_framework-dots {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: lighten;  
+  }
+  .koii_framework-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    .koii_framework-content {
+      width: 100%;
+      h1 {
+        font-family: $sora !important;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        color: white;
+        margin-bottom: 25px;
+      }
+
+      p {
+        font-family: $sora !important;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        font-size: 18px;
+        line-height: 30px;
+        color: white;
+        span{ 
+          color: #49ce8b;
+        }
+      }
+      a {
+        font-family: $sora !important;
+        font-weight: 600;
+      }
+    }
+    .koii_framework-cards {
+      
+      .koii_framework-card {
+        background: #ffffff;
+        box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 35px 30px;
+        h3 {
+          font-family: $sora !important;
+          font-weight: 400;
+          letter-spacing: -0.02em;
+          font-size: 24px;
+          line-height: 32px;
+        }
+        p {
+          font-family: $sora !important;
+          font-weight: 400;
+          letter-spacing: -0.01em;
+        }
+        img {
+          margin-bottom: 5px;
+        }
+        a {
+          text-decoration: underline;
+          line-height: 32px;
+          font-family: $sora !important;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    padding: 53px 0;
+    .koii_framework-wrapper {
+      .koii_framework-content {
+        padding: 0 18px;
+        p {
+          max-width: 100%;
+        }
+      }
+      .koii_framework-cards {
+        margin-top: 30px;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    
+    .koii_framework-dots {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: auto;
+      mix-blend-mode: lighten;
+      // transform: rotate(-180deg);
+      content: url(/img/homepage/koii-framework-bk-mobile.svg);
+    }
+    .koii_framework-wrapper {
+      .koii_framework-content {
+        h1 {
+          font-size: 36px !important;
+        }
+      }
+      .koii_framework-cards {
+        .col-md-6 { width: 50%; }
+        .koii_framework-card{
+          padding: 10px 30px;
+          h3{
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $sm) {
+  }
+}

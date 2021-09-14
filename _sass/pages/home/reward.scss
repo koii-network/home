@@ -2,7 +2,8 @@
 
 #reward {
   position: relative;
-  background: $blueDark;
+  // background: $blueDark;
+  background: conic-gradient(from 180deg at 50% 50%, #171753 -38.53deg, #171753 40.97deg, #1F5368 178.3deg, #1F5368 229.29deg, #171753 321.47deg, #171753 400.97deg);
   padding: 122px 0;
   color: white;
   font-family: $sora !important;
@@ -171,6 +172,73 @@
       margin-bottom: 0;
       font-family: "Sora", sans-serif !important;
       font-weight: 400;
+    }
+  }
+  .ribbon-box{
+    position: relative;
+    .ribbon {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      position: absolute;
+    }
+    .ribbon::before,
+    .ribbon::after {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      display: block;
+      border: 5px solid #2980b9;
+    }
+    .ribbon span {
+      position: absolute;
+      display: block;
+      width: 190px;
+      padding: 2px 0;
+      box-shadow: 0 5px 10px rgba(0,0,0,.1);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.2);
+      text-align: center;
+      &.ribbon1{
+        background-color: #5ED9D1;
+      }
+      &.ribbon2{
+        background-color: #FFA54B;
+      }
+      &.ribbon3{
+        background-color: #9BE7C4;
+      }
+      &.ribbon4{
+        background-color: #FFEE81;
+      }
+      background-color: #3498db;
+    }
+    
+    /* top left*/
+    .ribbon-top-left {
+      top: -3px;
+      left: -3px;
+    }
+    .ribbon-top-left::before,
+    .ribbon-top-left::after {
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-top-left::before {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-top-left::after {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-top-left span {
+      right: 10px;
+      top: 30px;
+      transform: rotate(-45deg);
     }
   }
   @media (max-width: 1200px) {
