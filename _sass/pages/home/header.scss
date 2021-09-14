@@ -20,12 +20,12 @@
     padding: 75px 0;
     z-index: 9;
     display: flex;
+    position: relative;
   }
-  .bar-chart {
-    flex: 1;
-    align-items: center;
-    display: flex;
-    padding: 0 15px;
+  .koii-flower-area{
+    position: absolute;
+    top: 250px;
+    right: 10%;
   }
   .finnieButton {
     margin-top: 36px;
@@ -85,50 +85,12 @@
     max-width: 610px;
   }
   @media (min-width: 960px) {
-    .mc-field-group {
-      display: flex;
-    }
-    input#mce-EMAIL {
-      padding: 5px 85px 5px 25px !important;
-    }
-    input#mc-embedded-subscribe {
-      margin-top: 0em !important;
-    }
     #join-button {
-      right: 80px;
-    }
-    .mce_inline_error {
       right: 80px;
     }
   }
   @media (min-width: 1449.98px) {
     padding: 150px 0 350px;
-  }
-  @media (max-width: 1199.98px) {
-    // .container {
-    //   flex-direction: column;
-    // }
-    .vl1 {
-      border-left: 3px solid #5ed9d1;
-      height: 400px;
-      position: relative;
-      right: -39px;
-      top: -51px;
-    }
-    .vl2 {
-      border-left: 3px solid #5ed9d1;
-      height: 483px;
-      position: relative;
-      right: -52px;
-      top: -72px;
-    }
-    .vl3 {
-      border-left: 3px solid #5ed9d1;
-      height: 384px;
-      position: relative;
-      right: -76px;
-      top: -47px;
-    }
   }
   @media (max-width: 1000px) {
   }
@@ -144,17 +106,9 @@
       width: 100%;
     }
     .submit-area {
-      input#mce-EMAIL {
-        padding: 5px 25px 5px 25px;
-        min-width: 300px;
-      }
       button {
         width: 100px;
       }
-    }
-    .social-area {
-      padding-left: 0;
-      margin: 0 auto;
     }
     .font-cap1 {
       font-size: 36px;
@@ -164,55 +118,9 @@
       font-size: 20px;
       line-height: 40px;
     }
-    .vl1 {
-      border-left: 6px solid #5ed9d1;
-      height: 82px;
-      position: relative;
-      right: -79px;
-      top: 13px;
-      animation: none;
-    }
-    .vl2 {
-      border-left: 6px solid #5ed9d1;
-      height: 52px;
-      position: relative;
-      right: -180px;
-      top: 12px;
-      animation: none;
-    }
-    .vl3 {
-      border-left: 6px solid #5ed9d1;
-      height: 121px;
-      position: relative;
-      right: -305px;
-      top: -193px;
-      animation: none;
-    }
-    .num {
-      font-size: 32px;
-      color: white;
-    }
-    .second {
-      position: relative;
-      right: 80px;
-      top: -77px;
-      width: 159px;
-      text-align: center;
-    }
-    .third {
-      position: relative;
-      right: 90px;
-      top: -92px;
-      width: 172px;
-      text-align: center;
-    }
   }
   @media (max-width: 572px) {
     .submit-area {
-      input#mce-EMAIL {
-        padding: 5px 25px 5px 25px;
-        min-width: 300px;
-      }
       button {
         width: 100px;
       }
@@ -220,7 +128,7 @@
   }
   @media (max-width: 450px) {
     padding: 100px 0;
-    background-image: url(/img/homepage/hero_bk_mobile.svg);
+    // background-image: url(/img/homepage/home-bk-mobile.svg);
     .header-description {
       max-width: 510px;
       margin-top: 85px;
