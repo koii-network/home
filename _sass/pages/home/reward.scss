@@ -2,7 +2,8 @@
 
 #reward {
   position: relative;
-  background: $blueDark;
+  // background: $blueDark;
+  background: conic-gradient(from 180deg at 50% 50%, #171753 -38.53deg, #171753 40.97deg, #1F5368 178.3deg, #1F5368 229.29deg, #171753 321.47deg, #171753 400.97deg);
   padding: 122px 0;
   color: white;
   font-family: $sora !important;
