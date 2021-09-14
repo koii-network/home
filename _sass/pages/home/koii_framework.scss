@@ -98,18 +98,32 @@
       .koii_framework-cards {
         margin-top: 30px;
       }
-      .koii_framework-dots {
-        bottom: 50%;
-        left: 0px;
-      }
     }
   }
   @media (max-width: 768px) {
     
+    .koii_framework-dots {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: auto;
+      mix-blend-mode: lighten;
+      // transform: rotate(-180deg);
+      content: url(/img/homepage/koii-framework-bk-mobile.svg);
+    }
     .koii_framework-wrapper {
       .koii_framework-content {
         h1 {
           font-size: 36px !important;
+        }
+      }
+      .koii_framework-cards {
+        .col-md-6 { width: 50%; }
+        .koii_framework-card{
+          padding: 10px 30px;
+          h3{
+            font-size: 18px !important;
+          }
         }
       }
     }
