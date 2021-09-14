@@ -174,8 +174,8 @@
     width: 100%;
     .flower-dots {
       position: absolute;
-      bottom: 18px;
-      left: -150px;
+      bottom: 35px;
+      left: -100px;
     }
   }
   .flower-content{
@@ -192,12 +192,25 @@
         font-weight: 400;
         font-size: 20px !important;
         line-height: 32px;
-        padding-right: 25px;
+        padding-right: 15px;
         a{
           color: #5ED9D1;
           text-decoration: underline;
         }
       }
+      .img-flower{ 
+        transform: scale(0.75);
+        margin-top: -30px;
+        img { max-width: 100%; }
+      }
+      .flower1-line{ margin-left: 50px; }
+      .flower1-flower{ text-align: right; }
+      .flower2-line{ text-align: center; }
+      .flower2-flower{ text-align: center; }
+      .flower3-line{ margin-left: calc(50% - 30px); }
+      .flower3-flower{ text-align: right; }
+      .flower4-line{ margin-left: calc(50% + 10px); }
+      .flower4-flower{ text-align: left; }
     }
   }
   @media (max-width: 1200px) {
