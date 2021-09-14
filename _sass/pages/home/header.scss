@@ -10,7 +10,8 @@
   align-items: center;
   margin-top: 48px;
   font-family: $sora;
-  background-image: url(/img/homepage/FULL_HERO.svg);
+  // background-color: radial-gradient(95.69% 140% at 93.33% 54.79%, #237B75 0%, #171753 60.3%);
+  background-image: url(/img/homepage/home-bk.svg), radial-gradient(95.69% 140% at 93.33% 54.79%, #237B75 0%, #171753 60.3%);
   // background: linear-gradient(180deg, #48a0ac 0.14%, #171753 99.87%);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -58,15 +59,16 @@
     font-weight: 500;
   }
   .font-cap1 {
-    font-size: 56px;
+    font-size: 52px;
     line-height: 72px;
-    letter-spacing: -2%;
+    letter-spacing: 0em;
     color: #ffffff;
   }
   .font-cap3 {
     font-size: 24px;
     line-height: 40px;
-    letter-spacing: -2%;
+    letter-spacing: 0px;
+    margin-top: 10px;
     color: #ffffff;
     font-weight: 400;
     a {
@@ -80,200 +82,8 @@
   }
 
   .header-description {
-    max-width: 510px;
+    max-width: 610px;
   }
-  .join-area {
-    padding-top: 20px;
-    width: 500px;
-    flex: 1;
-    .lbl-descr {
-      font-family: $sora;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 24px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #bef0ed;
-      margin-left: 30px;
-      &.company-lbl {
-        color: #bcb8d0;
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-    }
-  }
-  .submit-area {
-    margin-bottom: 20px;
-    input#mc-embedded-subscribe {
-      margin-top: 1em;
-      background: #237b75;
-      border: solid #237b75;
-      color: #fff !important;
-      text-align: inherit;
-      padding: 5px 25px 5px 25px !important;
-      width: fit-content;
-      height: 56px;
-      border-radius: 30px;
-    }
-    input#mce-EMAIL {
-      padding: 5px 25px 5px 25px;
-      height: 56px;
-      border-radius: 30px;
-      min-width: 400px;
-      border: 1px solid #ffffff;
-      outline: none;
-    }
-    #mc_embed_signup div.mce_inline_error {
-      margin: 0.5em 0 0 0.5em;
-      padding: 12px 10px;
-      background-color: #6b0505;
-      font-weight: bold;
-      z-index: 1;
-      color: #fff;
-      border-radius: 30px;
-      max-width: fit-content;
-      min-width: fit-content;
-      border-radius: 30px;
-    }
-    div#mce-success-response {
-      margin: 0.5em 0 0 0.5em;
-    }
-    .clear {
-      position: relative;
-    }
-    button {
-      position: absolute;
-      right: 5px;
-      top: -13px;
-      width: 205px;
-      height: 48px;
-      border-radius: 24px;
-      background-color: #237b75;
-      font-family: "Sora", sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: -0.01em;
-      color: #ffffff;
-      border: 0px solid #237b75;
-    }
-  }
-  form#mc-embedded-subscribe-form {
-    display: flex;
-  }
-
-  div#showconfirm {
-    display: none;
-  }
-
-  .social-area {
-    width: 236px;
-    // padding-left: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    .social-item {
-      padding: 0;
-    }
-  }
-  .numerial-item {
-    display: none;
-    &.active {
-      display: block;
-    }
-  }
-
-  .vl1 {
-    border-left: 3px solid #5ed9d1;
-    height: 400px;
-    position: relative;
-    right: -139px;
-    top: 50px;
-    animation: line1 2.5s;
-  }
-
-  @keyframes line1 {
-    from {
-      top: 410px;
-      height: 40px;
-    }
-    to {
-      top: 50px;
-      height: 400px;
-    }
-  }
-  .vl2 {
-    border-left: 3px solid #5ed9d1;
-    height: 483px;
-    position: relative;
-    right: -163px;
-    top: 12px;
-    animation: line2 2.5s;
-  }
-
-  @keyframes line2 {
-    from {
-      top: 470px;
-      height: 20px;
-    }
-    to {
-      top: 12px;
-      height: 483px;
-    }
-  }
-  .vl3 {
-    border-left: 3px solid #5ed9d1;
-    height: 384px;
-    position: relative;
-    right: -178px;
-    top: 87px;
-    animation: line3 2.5s;
-  }
-
-  @keyframes line3 {
-    from {
-      top: 450px;
-      height: 20px;
-    }
-    to {
-      top: 87px;
-      height: 384px;
-    }
-  }
-  .first {
-    position: relative;
-    right: 80px;
-    top: -92px;
-    width: 159px;
-    text-align: center;
-  }
-  .second {
-    position: relative;
-    right: 80px;
-    top: -108px;
-    width: 159px;
-    text-align: center;
-  }
-  .third {
-    position: relative;
-    right: 90px;
-    top: -92px;
-    width: 173px;
-    text-align: center;
-  }
-  .num {
-    font-family: $sora;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    letter-spacing: -0.04em;
-    color: #171753;
-  }
-
   @media (min-width: 960px) {
     .mc-field-group {
       display: flex;
@@ -324,7 +134,7 @@
   }
   @media (max-width: 768px) {
     padding: 100px 0;
-    background-image: url(/img/homepage/hero_bk_mobile.svg);
+    background-image: url(/img/homepage/home-bk-mobile.svg);
     .container {
       padding: 0 0 100px 0;
       flex-direction: column;
