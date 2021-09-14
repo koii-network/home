@@ -1,12 +1,19 @@
 @import "variables";
 
-#build_better {
-  background: $blueDark;
+#koii_framework {
+  // background: $blueDark;
+  background: conic-gradient(from 180deg at 50% 50%, #1F5468 0deg, #181854 129.48deg, #181854 170.63deg, #1F5468 238.32deg, #1F5468 360deg);
   padding: 182px 0;
   color: $blueDark;
   font-family: $sora;
-  .build_better-wrapper {
-    position: relative;
+  position: relative;
+  .koii_framework-dots {
+    position: absolute;
+    top: 0;
+    right: 0;
+    mix-blend-mode: lighten;  
+  }
+  .koii_framework-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,59 +22,51 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 16px;
-    .build_better-dots {
-      position: absolute;
-      bottom: 18px;
-      left: 347px;
-    }
-    .build_better-content {
+    .koii_framework-content {
       width: 100%;
-      height: 495px;
-      background-color: $lightestBlue;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      padding-left: 110px;
       h1 {
         font-family: $sora !important;
-        font-weight: 600;
-        font-size: 44px !important;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
         letter-spacing: -0.02em;
+        color: white;
       }
 
       p {
-        margin-bottom: 36px;
         font-family: $sora !important;
         font-weight: 400;
-        letter-spacing: -0.01em;
-        max-width: 330px;
+        letter-spacing: -0.02em;
+        font-size: 18px;
+        line-height: 30px;
+        color: white;
+        span{ 
+          color: #49ce8b;
+        }
       }
       a {
         font-family: $sora !important;
         font-weight: 600;
       }
     }
-    .build_better-cards {
-      position: absolute;
-      right: 57px;
-      max-width: 700px;
-
-      .build_better-card {
-        height: 296px;
+    .koii_framework-cards {
+      
+      .koii_framework-card {
         background: #ffffff;
-        box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
-        margin-bottom: 30px;
+        box-shadow: 0px 94px 114px -56px rgba(0, 76, 108, 0.08);
+        margin-bottom: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         justify-content: center;
-        padding: 20px 30px;
+        padding: 35px 30px;
         h3 {
           font-family: $sora !important;
           font-weight: 400;
           letter-spacing: -0.02em;
+          font-size: 24px;
+          line-height: 32px;
         }
         p {
           font-family: $sora !important;
@@ -75,7 +74,7 @@
           letter-spacing: -0.01em;
         }
         img {
-          margin-bottom: 27px;
+          margin-bottom: 5px;
         }
         a {
           text-decoration: underline;
@@ -88,32 +87,32 @@
   }
   @media (max-width: 1200px) {
     padding: 53px 0;
-    .build_better-wrapper {
-      .build_better-content {
+    .koii_framework-wrapper {
+      .koii_framework-content {
         max-height: 319px;
         padding: 0 18px;
         p {
           max-width: 100%;
         }
       }
-      .build_better-cards {
+      .koii_framework-cards {
         position: relative;
         right: unset;
         margin: 15px 16px;
         top: -45px;
-        .build_better-card {
+        .koii_framework-card {
           height: unset;
         }
       }
-      .build_better-dots {
+      .koii_framework-dots {
         bottom: 50%;
         left: 0px;
       }
     }
   }
   @media (max-width: 768px) {
-    .build_better-wrapper {
-      .build_better-content {
+    .koii_framework-wrapper {
+      .koii_framework-content {
         h1 {
           font-size: 36px !important;
         }
