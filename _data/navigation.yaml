@@ -110,6 +110,11 @@
       class: normal
       newtab: target="_blank"
 
+    - name: Investor Whitelist
+      link: https://docs.google.com/forms/d/e/1FAIpQLSd2SmUm8pr6RN4hGk1nSM_LsZyUQmxQhoRXE9lrt-oNRn0xHg/viewform
+      class: normal
+      newtab: target="_blank"
+
     - name: support@koii.network
       link: "mailto:support@koii.network"
       class: normal
