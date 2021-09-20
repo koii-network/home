@@ -78,9 +78,21 @@
       }
     }
   }
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    display: block;
+  }
   
   @media (max-width: $md) {
     padding: 45px 0;
+    .mobile{
+      display: block;
+    }
+    .desktop{
+      display: none;
+    }
     .party-wrapper{
       margin: 0 45px;
       width: auto;
