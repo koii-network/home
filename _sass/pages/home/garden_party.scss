@@ -93,7 +93,11 @@
     .desktop{
       display: none;
     }
-    .lbl-cap1, .lbl-font2{ 
+    .lbl-cap1{ 
+      text-align: center;
+    }
+    .lbl-font2{ 
+      margin-top: 150px !important;
       text-align: center;
     }
     .btn-area{
@@ -115,20 +119,37 @@
       img{ 
         position: relative;
         &.bubble{
-          left: -600;
+          left: -60px;
           top: 0px;
         }
         &.flower{
-          left: 80px;
-          top: 0px;
-          width: 95%; 
+          left: 10%;
+          top: 15%;
+          width: 80%; 
           position: absolute;
         }
       }
     }
   }
   @media (max-width: 768px) {
-    
+    .lbl-cap1{ 
+      font-size: 36px !important;
+      line-height: 48px;
+    }
+    .lbl-font1{ 
+      font-size: 16px;
+      line-height: 24px;
+      color: #f8f7fc;
+    }
+    .lbl-font2{ 
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .lbl-font3{ 
+      font-size: 32px;
+      line-height: 40px;
+      color: #fcfeee;
+    }
    
   }
   @media (max-width: $sm) {
