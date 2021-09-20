@@ -106,6 +106,7 @@
     .party-wrapper{
       margin: 0 45px;
       width: auto;
+      padding: 40px 45px;
     }
     .party-img{
       // position: absolute;
@@ -114,10 +115,8 @@
       img{ 
         position: relative;
         &.bubble{
-          left: 0;
-          top: -80px;
-          width: calc(100% + 120px); 
-          mix-blend-mode: luminosity;
+          left: -600;
+          top: 0px;
         }
         &.flower{
           left: 80px;
