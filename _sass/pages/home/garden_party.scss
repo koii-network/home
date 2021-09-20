@@ -1,0 +1,17 @@
+@import "variables";
+
+#garden_party {
+  // background: $blueDark;
+  background: conic-gradient(from 175.17deg at 43.54% 59.1%, #1F5368 -20.14deg, #1C3E61 46.42deg, #1D4162 156.8deg, #205569 200.91deg, #1F5368 242.98deg, #1F5368 339.86deg, #1C3E61 406.42deg);
+  padding: 92px 0;
+  color: $blueDark;
+  font-family: $sora;
+  position: relative;
+  
+  @media (max-width: 768px) {
+    
+   
+  }
+  @media (max-width: $sm) {
+  }
+}
