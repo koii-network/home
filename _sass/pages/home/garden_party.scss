@@ -8,13 +8,20 @@
   font-family: $sora;
   position: relative;
   
-  h1{ 
-    font-size: 40px;
+  .lbl-cap1{ 
+    font-size: 40px !important;
     line-height: 48px;
+    color: #fcfefe;
   }
   .lbl-font1{ 
     font-size: 18px;
     line-height: 32px;
+    color: #f8f7fc;
+  }
+  .lbl-font2{ 
+    font-size: 24px;
+    line-height: 32px;
+    color: #5ed9d1;
   }
   .party-wrapper {
     position: relative;
@@ -26,9 +33,8 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 16px;
-    background: #181854;
-    mix-blend-mode: overlay;
-    opacity: 0.5;
+    background: #181854c2;
+    // mix-blend-mode: overlay;
     padding: 80px 85px;
   }
   .party-img{
