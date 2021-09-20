@@ -8,6 +8,20 @@
   font-family: $sora;
   position: relative;
   
+  .party-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: #181854;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+  }
   @media (max-width: 768px) {
     
    
