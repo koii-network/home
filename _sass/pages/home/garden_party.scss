@@ -146,12 +146,14 @@
       line-height: 24px;
     }
     .lbl-font3{ 
-      font-size: 32px;
+      font-size: 25px;
       line-height: 40px;
-      color: #fcfeee;
     }
    
   }
-  @media (max-width: $sm) {
+  @media (max-width: 540px) {
+    .lbl-font2{ 
+      margin-top: 50px !important;
+    }
   }
 }
