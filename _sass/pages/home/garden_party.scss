@@ -93,7 +93,14 @@
     .desktop{
       display: none;
     }
-    .lbl-cap1{ 
+    .lbl-cap1, .lbl-font2{ 
+      text-align: center;
+    }
+    .btn-area{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .created-date{
       text-align: center;
     }
     .party-wrapper{
