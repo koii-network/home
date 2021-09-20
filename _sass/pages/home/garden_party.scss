@@ -38,10 +38,23 @@
     padding: 80px 85px;
   }
   .party-img{
-    position: absolute;
-    left: 0;
-    top: -80px;
-    img{ width: 120%; }
+    // position: absolute;
+    // left: 0;
+    // top: -80px;
+    img{ 
+      position: absolute;
+      &.bubble{
+        left: 0;
+        top: -80px;
+        width: calc(100% + 150px); 
+        mix-blend-mode: luminosity;
+      }
+      &.flower{
+        left: 80px;
+        top: 0px;
+        width: 95%; 
+      }
+    }
   }
   @media (max-width: 768px) {
     
