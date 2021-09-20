@@ -4,10 +4,18 @@
   // background: $blueDark;
   background: conic-gradient(from 175.17deg at 43.54% 59.1%, #1F5368 -20.14deg, #1C3E61 46.42deg, #1D4162 156.8deg, #205569 200.91deg, #1F5368 242.98deg, #1F5368 339.86deg, #1C3E61 406.42deg);
   padding: 92px 0;
-  color: $blueDark;
+  color: white;
   font-family: $sora;
   position: relative;
   
+  h1{ 
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .lbl-font1{ 
+    font-size: 18px;
+    line-height: 32px;
+  }
   .party-wrapper {
     position: relative;
     display: flex;
@@ -21,6 +29,13 @@
     background: #181854;
     mix-blend-mode: overlay;
     opacity: 0.5;
+    padding: 80px 85px;
+  }
+  .party-img{
+    position: absolute;
+    left: 0;
+    top: -80px;
+    img{ width: 120%; }
   }
   @media (max-width: 768px) {
     
