@@ -1,44 +1,22 @@
 @import "variables";
-
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 #home-header {
   position: relative;
   background: #171753;
   color: $white;
-  padding: 150px 0 0px;
+  padding: 200px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 48px;
   font-family: $sora;
-  background: radial-gradient(
-    95.69% 140% at 93.33% 54.79%,
-    #237b75 0%,
-    #171753 60.3%
-  );
-  // background-color: radial-gradient(95.69% 140% at 93.33% 54.79%, #237B75 0%, #171753 60.3%);
-  // background-image: url(/img/homepage/home-bk.svg),
-  //   radial-gradient(95.69% 140% at 93.33% 54.79%, #237b75 0%, #171753 60.3%);
-  // // background: linear-gradient(180deg, #48a0ac 0.14%, #171753 99.87%);
-  // background-size: 100% auto;
-  // background-repeat: no-repeat;
-  // position: relative;
-  .demo-wrap {
-    overflow: hidden;
-  }
+  background: linear-gradient(181.75deg, #171753 3.4%, #69d687 80.44%);
 
-  .demo-bg {
-    background: radial-gradient(
-      95.69% 140% at 93.33% 54.79%,
-      #237b75 0%,
-      #171753 60.3%
-    );
-    opacity: 0.25;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-  }
+  background-image: url(/img/homepage/Hero/Atomic-Zombie-Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
   .container {
     padding: 75px 0;
     z-index: 9;
@@ -50,7 +28,9 @@
     @media (max-width: 1500px) {
       top: 200px;
       right: 220px;
-      img{ max-width: 300px;}
+      img {
+        max-width: 300px;
+      }
     }
     @media (max-width: 1300px) {
       top: 165px;
@@ -59,18 +39,20 @@
     @media (max-width: 1100px) {
       top: 135px;
       right: 130px;
-      img{ max-width: 280px;}
+      img {
+        max-width: 280px;
+      }
     }
   }
   .finnieButton {
-    margin-top: 36px;
-    color: #171753 !important;
+    margin-top: 50px;
+    color: #ffffff !important;
     padding: 5px 25px 5px 25px !important;
     width: 220px;
-    border: 1px solid #bef0ed;
-    background: #bef0ed;
+    border: 1px solid #ffffff;
+    background: #171753;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
-    border-radius: 24px;
+    border-radius: 3px;
     font-weight: 600;
   }
   .tutorialButton {
@@ -88,14 +70,17 @@
   .koii-logo-hero {
     margin-top: 55px;
   }
-  .koii-flower-area-mobile{display: none;}
+  .koii-flower-area-mobile {
+    display: none;
+  }
   a.button {
     font-family: $sora !important;
     text-decoration: none;
     font-weight: 500;
   }
   .font-cap1 {
-    font-size: 52px;
+    font-family: "Creepster", cursive;
+    font-size: 80px;
     line-height: 72px;
     letter-spacing: 0em;
     color: #ffffff;
@@ -105,10 +90,11 @@
     }
   }
   .font-cap3 {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 40px;
     letter-spacing: 0px;
     margin-top: 10px;
+    margin-bottom: 10px;
     color: #ffffff;
     font-weight: 400;
     a {
@@ -133,7 +119,7 @@
   }
   @media (max-width: 768px) {
     padding: 100px 0;
-    .demo-bg{
+    .demo-bg {
       content: url(/img/homepage/home-bk-mobile.svg);
       top: -450px;
       @media (max-width: 700px) {
@@ -151,24 +137,30 @@
       @media (max-width: 375px) {
         top: -30px;
       }
-    } 
+    }
     .container {
       padding: 0 0 100px 0;
       flex-direction: column;
     }
-    .header-description{
+    .header-description {
       text-align: center;
     }
-    .koii-flower-area{display: none;}
-    .koii-flower-area-mobile{
+    .koii-flower-area {
+      display: none;
+    }
+    .koii-flower-area-mobile {
       display: block;
       margin-top: 150px;
       @media (max-width: 540px) {
-        img{ width: 220px; }
+        img {
+          width: 220px;
+        }
       }
       @media (max-width: 480px) {
         margin-top: 100px;
-        img{ width: 200px; }
+        img {
+          width: 200px;
+        }
       }
     }
     .join-area {
@@ -179,8 +171,8 @@
       button {
         width: 100px;
       }
-      .finnieButton{
-        margin-top: 0px;
+      .finnieButton {
+        margin-top: 20px;
       }
     }
     .font-cap1 {
@@ -244,11 +236,13 @@
       background: #bef0ed;
     }
     @media (max-width: 768px) {
-      .btns-wrapper{ display: none; }
+      .btns-wrapper {
+        display: none;
+      }
       justify-content: center;
       text-align: center;
       padding-bottom: 0px;
-      h1{
+      h1 {
         font-size: 36px;
         line-height: 48px;
       }
@@ -316,7 +310,7 @@
       }
     }
   }
-  .flower-content-mobile{
+  .flower-content-mobile {
     display: none;
   }
   @media (max-width: 1200px) {
@@ -327,9 +321,9 @@
         left: 0px;
       }
     }
-    .flower-content{
-      .flower-item{
-        .img-flower{ 
+    .flower-content {
+      .flower-item {
+        .img-flower {
           margin-top: -10px;
         }
       }
@@ -337,64 +331,74 @@
   }
   @media (max-width: 768px) {
     padding: 0 0 0px 0 !important;
-    .flower-content{
+    .flower-content {
       display: none;
     }
-    .flower-dots{display: none;}
-    .flower-content-mobile{
+    .flower-dots {
+      display: none;
+    }
+    .flower-content-mobile {
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
       max-width: 400px;
       margin: 0 auto;
-      .flower-item{
+      .flower-item {
         flex: 1;
         display: flex;
         align-items: center;
-        p{
+        p {
           flex: 1;
           font-weight: 400;
           font-size: 16px !important;
           line-height: 24px;
           padding-right: 5px;
-          a{
-            color: #5ED9D1;
+          a {
+            color: #5ed9d1;
             text-decoration: underline;
           }
         }
-        .img-flower{ 
+        .img-flower {
           transform: scale(0.75);
           position: relative;
-          img { max-width: 100%; }
-          .flower-line{ 
+          img {
+            max-width: 100%;
+          }
+          .flower-line {
             position: absolute;
           }
         }
-        &.item1{
-          .flower-line{ 
+        &.item1 {
+          .flower-line {
             top: calc(50% + 30px);
             right: -25px;
           }
         }
-        &.item2{
-          p{margin-top: 50px;}
-          .flower-line{ 
+        &.item2 {
+          p {
+            margin-top: 50px;
+          }
+          .flower-line {
             top: calc(50% + 30px);
             left: -100px;
           }
         }
-        &.item3{
-          p{margin-top: 50px;}
-          .flower-line{ 
+        &.item3 {
+          p {
+            margin-top: 50px;
+          }
+          .flower-line {
             top: 30px;
             right: -60px;
           }
         }
-        &.item4{
+        &.item4 {
           flex-direction: column;
-          p{margin-top: 10px;}
-          .flower-line{ 
+          p {
+            margin-top: 10px;
+          }
+          .flower-line {
             top: -60px;
             left: 50px;
           }
@@ -403,32 +407,40 @@
     }
   }
   @media (max-width: $sm) {
-    .flower-content-mobile{
+    .flower-content-mobile {
       padding: 0 20px;
-      .flower-item{
+      .flower-item {
         margin-top: 30px;
-        .img-flower{ 
+        .img-flower {
           transform: scale(1);
           max-width: 180px;
           padding: 0 20px;
         }
-        &.item2{
-          p{margin-top: 50px;}
-          .flower-line{ 
+        &.item2 {
+          p {
+            margin-top: 50px;
+          }
+          .flower-line {
             top: calc(50% + 20px);
             left: -60px;
           }
         }
-        &.item3{
-          p{margin-top: 50px;}
-          .flower-line{ 
+        &.item3 {
+          p {
+            margin-top: 50px;
+          }
+          .flower-line {
             top: -7px;
           }
         }
-        &.item4{
-          .img-flower{ margin-top: 60px;}
-          p{margin-right: 50px;}
-          .flower-line{ 
+        &.item4 {
+          .img-flower {
+            margin-top: 60px;
+          }
+          p {
+            margin-right: 50px;
+          }
+          .flower-line {
             top: -70px;
             left: 10px;
           }
