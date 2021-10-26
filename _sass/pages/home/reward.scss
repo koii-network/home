@@ -56,6 +56,9 @@
           margin-bottom: 0;
           font-family: "Sora", sans-serif !important;
           font-weight: 400;
+          &:hover {
+            text-decoration: underline !important;
+          }
         }
         &.btns-wrapper {
           display: flex;

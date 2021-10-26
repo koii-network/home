@@ -100,6 +100,7 @@
     font-size: 80px;
     line-height: 72px;
     letter-spacing: 0em;
+    text-shadow: 1px 1px 2px #000;
     color: #ffffff;
     @media (max-width: 1300px) {
       font-size: 70px;
@@ -113,6 +114,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: #ffffff;
+    text-shadow: 1px 1px 2px #000;
     font-weight: 400;
     a {
       font-size: 24px;
@@ -122,6 +124,9 @@
       font-weight: 400;
       text-decoration: underline;
     }
+  }
+  .font-cap5 {
+    text-shadow: 1px 1px 2px #000;
   }
 
   .header-description {
