@@ -2,8 +2,8 @@
 
 #reward {
   position: relative;
-  // background: $blueDark;
-  background: conic-gradient(from 180deg at 50% 50%, #171753 -38.53deg, #171753 40.97deg, #1F5368 178.3deg, #1F5368 229.29deg, #171753 321.47deg, #171753 400.97deg);
+  background: $blueDark;
+  // background: conic-gradient(from 180deg at 50% 50%, #171753 -38.53deg, #171753 40.97deg, #1F5368 178.3deg, #1F5368 229.29deg, #171753 321.47deg, #171753 400.97deg);
   padding: 122px 0;
   color: white;
   font-family: $sora !important;
@@ -174,7 +174,7 @@
       font-weight: 400;
     }
   }
-  .ribbon-box{
+  .ribbon-box {
     position: relative;
     .ribbon {
       width: 150px;
@@ -186,7 +186,7 @@
     .ribbon::after {
       position: absolute;
       z-index: -1;
-      content: '';
+      content: "";
       display: block;
       border: 5px solid #2980b9;
     }
@@ -195,28 +195,28 @@
       display: block;
       width: 190px;
       padding: 2px 0;
-      box-shadow: 0 5px 10px rgba(0,0,0,.1);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       font-size: 16px;
       font-weight: 700;
       line-height: 24px;
       letter-spacing: 0px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.2);
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
       text-align: center;
-      &.ribbon1{
-        background-color: #5ED9D1;
+      &.ribbon1 {
+        background-color: #5ed9d1;
       }
-      &.ribbon2{
-        background-color: #FFA54B;
+      &.ribbon2 {
+        background-color: #ffa54b;
       }
-      &.ribbon3{
-        background-color: #9BE7C4;
+      &.ribbon3 {
+        background-color: #9be7c4;
       }
-      &.ribbon4{
-        background-color: #FFEE81;
+      &.ribbon4 {
+        background-color: #ffee81;
       }
       background-color: #3498db;
     }
-    
+
     /* top left*/
     .ribbon-top-left {
       top: -3px;
