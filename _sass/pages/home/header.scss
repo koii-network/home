@@ -16,7 +16,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  @media (min-width: 1500px) {
+  @media (max-width: 2800px) {
+    padding: 420px 0px;
+  }
+  @media (max-width: 2000px) {
     padding: 280px 0px;
   }
   @media (max-width: 1500px) {
