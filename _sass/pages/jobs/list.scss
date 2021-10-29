@@ -1,0 +1,45 @@
+@import "variables";
+
+#list {
+    position: relative;
+    background: linear-gradient(180deg, #F5F5F5 0%, #171753 100%);
+    display: flex;
+    align-items: center;
+    font-family: $sora;
+    padding: 105px 0;
+    .categories-card{
+        background: #FFFFFF;
+        padding: 16px 20px 30px;
+        .categories-title{
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #0A071B;
+        }
+    }
+    .btn-group-vertical{
+        margin-top: 20px;
+        margin-left: -10px;
+    
+        .btn-secondary{
+            padding: 12px;
+            background: #F8F7FC;
+            border-radius: 24px;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            color: #0A071B;
+            margin: 8px 8px;
+            justify-content: flex-start;
+        }
+        .active{
+            background: #BEF0ED;
+        }
+        .categories-content {
+            font-weight: 400;
+            padding: 0 12px;
+        }        
+    }
+   
+}
