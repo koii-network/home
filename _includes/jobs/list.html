@@ -7,14 +7,14 @@
 
                 <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option1" autocomplete="off" > 
+                      <input type="radio" name="options" id="option1" autocomplete="off" onclick="option1()" > 
                       <img src="/img/jobs/icon/fedl.svg" alt="">
                       <div class="categories-content">
                         Front-End Development Lead
                       </div>
                     </label>
                     <label class="btn btn-secondary">
-                      <input type="radio" name="options" id="option2" autocomplete="off"> 
+                      <input type="radio" name="options" id="option2" autocomplete="off" onclick="option2()"> 
                       <img src="/img/jobs/icon/fed.svg" alt="">
                       <div class="categories-content">
                         Front-End Developer
@@ -59,7 +59,7 @@
               </div>
             </div>
             <div class="col-md-8">
-                <div class="detail">
+                <div class="detail" id="detail">
                     <div class="detail-card">
                         <div class="detail-left">
                             <div class="title mt10">Front-End Web Development Lead</div>

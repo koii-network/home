@@ -79,7 +79,47 @@
                 color: #171753;
             }
         }
+        .job-content{
+            padding: 25px;
+            .job-title{
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 40px;
+                letter-spacing: -0.02em;
+                color: #171753;
+            }
+            .job-green {
+                color: #237B75;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                margin-top: 25px;
+            }
+            .job-detail{
+                font-size: 16px;
+                line-height: 23px;
+                color: #171753;
+                margin-top: 20px;
+            }
+            .job-line {
+                color: #171753;
+                font-weight: 400;
+            }
+            .job-link{
+                color: #237B75;
+            }
+        }
+        .job-apply{
+            justify-content: center;
+            margin: 50px;
+            .btn-apply {
+                background: #5ED9D1;
+                border-radius: 24px;
+                padding: 10px 35px;
+            }
+        }
         
     }
+    
    
 }
