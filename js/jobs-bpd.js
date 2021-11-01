@@ -1,7 +1,7 @@
-function option2() {
+function option5() {
     document.getElementById("detail").innerHTML = `
     <div class="job-content">
-    <div class="job-title">Front-End Web Developer</div>
+    <div class="job-title">Blockchain Protocol Developer</div>
     <div class="job-green">Who we are</div>
     <div class="job-detail">
       Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their digital content.
@@ -9,24 +9,30 @@ function option2() {
       <br /><br />Koii just closed a third successful funding round and we’re looking for talent to help us grow.
     </div>
     <div class="job-green">Job Type: <spam class="job-line">Full-time, Independent Contractor</spam></div>
-    <div class="job-green">About the Role: <spam class="job-line">Front-End Web Developer</spam></div>
-    <div class="job-green">You have (requirements): </div>
+    <div class="job-green">About the Role: <spam class="job-line">Blockchain Protocol Developer</spam></div>
+    <div class="job-detail">
+    You are an intellectually curious and highly motivated software developer who wants to empower others by building the best dApp framework. You are a team player and good collaborator with good time management skills. You know when to ask for help and your work gets finished without intense management from a supervisor. You have a high attention to detail and comment thoroughly on your code. When you finish a task, you help your teammates without being asked.
+    <br/><br />At Koii, we are committed to developing and growing talent. Promotions and career development at Koii can happen over the course of weeks and months, not years. We’re always looking to promote leaders from within.
+    </div>
+    <div class="job-green">You must have (requirements): </div>
     <div class="job-detail">
       <ul>
-      <li>You have proven talent delivering high-performance, public-facing, responsive and mobile-friendly internet websites with demonstrative business impact</li>
-      <li>Mastery of web fundamentals including HTTP, Javascript, HTML and CSS</li>
-      <li>Proficient in TypeScript and React/Redux/Next.js</li>
-      <li>Experience with modern web development including build tools, testing and CI/CD</li>
-      <li>Good understanding of SEO principles and ensuring that application will adhere to them</li>
-      <li>Understanding of website optimization techniques such as SSR, CDN, and web-caching techniques</li>
-      <li>Self-motivated, relentlessly focused on impact, and able to operate under a great deal of independence</li>
+      <li>Basic understanding of MVC framework concepts</li>
+      <li>Experience building web applications (JavaScript / TypeScript preferred)</li>
+      <li>Excitement for building new technologies from scratch</li>
+      <li>Hands-on experience with NodeJs</li>
+      <li>Hands-on experience with MongoDB / Mongoose</li>
+      <li>Experience with Linux (At least know the basics)</li>
       </ul>
     </div>
-    <div class="job-green">We’ll be excited if you also have: </div>
+    <div class="job-green">It would be great if you have: </div>
     <div class="job-detail">
       <ul>
-          <li>Experience with cryptocurrency and other decentralized or blockchain-based technologies.</li>
-          <li>Experience running user testing, analytics, a/b tests, or other iterative processes to get feedback.</li>
+      <li>Experience working with public key cryptography, Web3.0 technology or blockchain-based systems directly.</li>
+      <li>Hands-on experience with crypto/NFT platforms, smart contracts, decentralized file storage and the like is needed to flatten the learning curve.</li>
+      <li>Distributed Systems certifications or experience</li>
+      <li>Experience with containerization or similar technologies</li>
+      <li>Good visual design and user experience skills are a bonus.</li>
       </ul>
     </div>
     <div class="job-green">To Apply: </div>

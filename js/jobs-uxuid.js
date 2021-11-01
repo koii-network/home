@@ -1,7 +1,7 @@
-function option3() {
+function option4() {
     document.getElementById("detail").innerHTML = `
     <div class="job-content">
-    <div class="job-title">UX Writer</div>
+    <div class="job-title">UX/UI Designer</div>
     <div class="job-green">Who we are</div>
     <div class="job-detail">
       Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their digital content.
@@ -11,16 +11,31 @@ function option3() {
     <div class="job-green">Job Type: <spam class="job-line">Full-time, Independent Contractor</spam></div>
     <div class="job-green">About the Role: </div>
     <div class="job-detail">
-    We are looking for a skilled and highly motivated UX writer to help us bridge the gap between our technology and the end-user. We believe that quality copy and content have a strong correlation to brand awareness and user experience while at the same time playing a vital role in the design process. You will be responsible for crafting content that will help make the onboarding of new users as painless and empathetic as possible. In addition, you will work closely with our core team to shape the language choice, voice and tone of our project and applications as we move forward. We have developed technology that is poised to have a significant impact in the web3 space and the future of the internet. We need you to help us increase the adoption and accessibility of this important new technology.
+    <ul>
+        <li>Use Figma as the primary design system.
+        <li>Sketch, wireframe, and create high fidelity prototypes to design projects with the goal of crafting the products and interactions our users have with the Koii brand.</li>
+        <li>Be an advocate for the user on every project ensuring we are solving the right problems in the right ways.</li>
+        <li>Understand the project objectives, user needs, and overall product strategy.</li>
+        <li>Lead user research efforts and user interviews</li>
+        <li>Represent the design team brand and refine design concepts with key stakeholders.</li>
+        <li>Observe, understand, document, then improve our users’ experience through both online and offline interactions</li>
+        <li>Embody the user voice on all digital solutions concepts (from discovery through to design and implementation)</li>
+        <li>Run user interviews, validate personas for concepts, and define user goals</li>
+        <li>Create highly visual task flow, user journey and customer journey maps showing the end to end customer experience</li>
+        <li>Work with the development team to develop achievable solutions and follow implementation</li>
+        <li>Create and package deliverables and conduct QA at an expert level</li>
+        <li>Review work with the Creator Director, and keep them updated on project status and escalate items appropriately</li>
+        <li>Commit to improving processes and methods with an emphasis on both effectiveness and efficiency</li>
+    <ul>
     </div>
-    <div class="job-green">What you’ll be doing: </div>
+    <div class="job-green">Requirements: </div>
     <div class="job-detail">
       <ul>
-      <li>Improve the ease of use and accessibility of our products through language, copy, and narrative as well as auditing and improving existing copy and content.</li>
-      <li>Collaborate with our team to define the terms used to describe our information architecture, including descriptions of features, concepts, actions, navigation, instructions, etc.</li>
-      <li>Create and maintain a content and product term library to enable consistency of language throughout our products and services</li>
-      <li>Support proofreading and rewriting of content to ensure that facts, issues, conclusions, and recommendations are presented accurately.</li>
-      <li>Stay up to date on content and trends in the blockchain and NFT space to ensure the latest writing, content best practices, and UX writing innovations.</li>
+      <li>You have proven talent designing digital products for consumers or businesses (3+ years)</li>
+      <li>You are able to use customer research and product data to inform your design decisions</li>
+      <li>You're experienced with modern design and collaboration tools like Figma, Zeplin, Sketch, or Adobe Creative Suite (Photoshop, Illustrator, Adobe Xd)</li>
+      <li>You prefer a collaborative approach to designing solutions</li>
+      <li>You have a fundamental understanding of accessibility and the WCAG 2.0 guidelines</li>
       </ul>
     </div>
     <div class="job-green">What we are looking for: </div>
@@ -40,6 +55,15 @@ function option3() {
       <li>You’re a strategic thinker and an eager problem solver.</li>
       <li>Good visual design and user experience skills are a bonus.</li>
       </ul>
+    </div>
+    <div class="job-green">We’ll be excited if you also have: </div>
+    <div class="job-detail">
+        <ul>
+        <li>Excellent writing skills</li>
+        <li>Basic Web editing skills, including with tools such as Squarespace or Wordpress. Experience with front-end web development is an asset.</li>
+        <li>Experience with cryptocurrency and other decentralized or blockchain-based technologies.</li>
+        <li>Experience running user testing, analytics, focus groups, or other iterative processes to get feedback on design.</li>
+        </ul>    
     </div>
     <div class="job-green">To Apply: </div>
     <div class="job-detail">

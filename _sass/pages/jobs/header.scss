@@ -73,7 +73,7 @@
 
   @media (max-width: 768px) {
     &::before {
-      display: none;
+      background-size: auto 34%;
     }
 
     .header-content {
@@ -97,6 +97,21 @@
         font-size: 18px;
         line-height: 32px;
       }
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding-top: 75px;
+    &::before {
+      background-size: auto 23%;
+    }
+
+    .header-content {
+      height: fit-content;
+      align-items: center;
+      text-align: center;
+      padding-top: 35px;
+      padding-bottom: 75px;
     }
   }
 }

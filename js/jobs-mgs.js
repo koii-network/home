@@ -1,7 +1,7 @@
-function option2() {
+function option6() {
     document.getElementById("detail").innerHTML = `
     <div class="job-content">
-    <div class="job-title">Front-End Web Developer</div>
+    <div class="job-title">Marketing & Growth Specialist</div>
     <div class="job-green">Who we are</div>
     <div class="job-detail">
       Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their digital content.
@@ -9,24 +9,34 @@ function option2() {
       <br /><br />Koii just closed a third successful funding round and we’re looking for talent to help us grow.
     </div>
     <div class="job-green">Job Type: <spam class="job-line">Full-time, Independent Contractor</spam></div>
-    <div class="job-green">About the Role: <spam class="job-line">Front-End Web Developer</spam></div>
-    <div class="job-green">You have (requirements): </div>
+    <div class="job-green">About the Role: <spam class="job-line">Marketing & Growth Specialist</spam></div>
+    <div class="job-detail">
+    Koii’s users can range from web developers to photographers, video game speedrunners to university students. In this role you will help segment and identify these potential users, pitch our value proposition, manage campaigns to target them and help us iterate and find product-market fit.
+    <br/><br/>At Koii, we are committed to developing and growing talent. Promotions and career development at Koii can happen over the course of weeks and months, not years. We’re always looking to promote leaders from within.    
+    </div>
+    <div class="job-green">You have must (requirements): </div>
     <div class="job-detail">
       <ul>
-      <li>You have proven talent delivering high-performance, public-facing, responsive and mobile-friendly internet websites with demonstrative business impact</li>
-      <li>Mastery of web fundamentals including HTTP, Javascript, HTML and CSS</li>
-      <li>Proficient in TypeScript and React/Redux/Next.js</li>
-      <li>Experience with modern web development including build tools, testing and CI/CD</li>
-      <li>Good understanding of SEO principles and ensuring that application will adhere to them</li>
-      <li>Understanding of website optimization techniques such as SSR, CDN, and web-caching techniques</li>
-      <li>Self-motivated, relentlessly focused on impact, and able to operate under a great deal of independence</li>
+      <li>Fluency and experience marketing crypto/blockchain-based technologies.</li>
+      <li>Participated in marketing and growth projects through multiple channels with large spend.</li>
+      <li>Comfort using CRM software, such as HubSpot, or analogous tools for Lead Generation, Email Marketing, and Customer Advocacy.</li>
+      <li>Experience scaling technology-based, online start-ups or marketing blockchain-based services and products.</li>
+      <li>Knowledge of how to effectively grow a healthy online community, balancing rapid expansion with intelligent moderation to create a safe space for all participants.</li>
+      <li>Experience overseeing best practices in SEO.</li>
+      <li>A willingness to help with the micro aspects of marketing campaigns, including quality assurance, graphics tweaks, content creation and educating team members.</li>
       </ul>
     </div>
-    <div class="job-green">We’ll be excited if you also have: </div>
+    <div class="job-green">It would be great if you have: </div>
     <div class="job-detail">
       <ul>
-          <li>Experience with cryptocurrency and other decentralized or blockchain-based technologies.</li>
-          <li>Experience running user testing, analytics, a/b tests, or other iterative processes to get feedback.</li>
+      <li>Fluency with video editing and/or graphic design software such as Adobe Premiere Pro or Photoshop.</li>
+      <li>Basic Web editing skills, including with tools such as Squarespace or WordPress.</li>
+      <li>Experience with BuzzSumo, SEMRush, Google Analytics or other analytics tools.</li>
+      <li>Quantitative and/or qualitative market research experience, including obtaining feedback from community members</li>
+      <li>Experience marketing an “initial token offering” with an organization.</li>
+      <li>Google Analytics, Google Console, Facebook Ads, and other digital marketing tools.</li>
+      <li>Experience designing and administering moderation tools in a digital context.</li>
+      <li>Experience managing subcontractors, consultants, ambassadors and other third-party agencies to achieve marketing and growth objectives.</li>
       </ul>
     </div>
     <div class="job-green">To Apply: </div>

@@ -1,7 +1,7 @@
-function option2() {
+function option7() {
     document.getElementById("detail").innerHTML = `
     <div class="job-content">
-    <div class="job-title">Front-End Web Developer</div>
+    <div class="job-title">Content & Copy Manager</div>
     <div class="job-green">Who we are</div>
     <div class="job-detail">
       Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their digital content.
@@ -9,24 +9,30 @@ function option2() {
       <br /><br />Koii just closed a third successful funding round and we’re looking for talent to help us grow.
     </div>
     <div class="job-green">Job Type: <spam class="job-line">Full-time, Independent Contractor</spam></div>
-    <div class="job-green">About the Role: <spam class="job-line">Front-End Web Developer</spam></div>
+    <div class="job-green">About the Role: <spam class="job-line">Content & Copy Manager</spam></div>
+    <div class="job-detail">
+    You will be responsible for website copy and content ranging from blogs, social posts, newsletters and more. You will start day-1 with a commitment to getting to know the value proposition and conversion points of multiple projects, and be willing to work from scratch developing and honing messaging that converts. You will be responsible for authoring content and before long, managing others working on website copy and marketing content.
+    <br/><br />At Koii, we are committed to developing and growing talent. Promotions and career development at Koii can happen over the course of weeks and months, not years. We’re always looking to promote leaders from within.
+    </div>
     <div class="job-green">You have (requirements): </div>
     <div class="job-detail">
       <ul>
-      <li>You have proven talent delivering high-performance, public-facing, responsive and mobile-friendly internet websites with demonstrative business impact</li>
-      <li>Mastery of web fundamentals including HTTP, Javascript, HTML and CSS</li>
-      <li>Proficient in TypeScript and React/Redux/Next.js</li>
-      <li>Experience with modern web development including build tools, testing and CI/CD</li>
-      <li>Good understanding of SEO principles and ensuring that application will adhere to them</li>
-      <li>Understanding of website optimization techniques such as SSR, CDN, and web-caching techniques</li>
-      <li>Self-motivated, relentlessly focused on impact, and able to operate under a great deal of independence</li>
+      <li>A post-secondary degree in Journalism, English, Communications, Marketing or related field</li>
+      <li>Proven experience working in advertising and website copywriting</li>
+      <li>Develop compelling long and short copy for direct and digital assignments with strong attention to detail, editing, and polish</li>
+      <li>Ability to consult with entrepreneurs and develop messaging from scratch</li>
+      <li>Understand complex value propositions thoroughly and ensure excellent brand consistency</li>
+      <li>Well versed in SEO (keyword research, best practices) and optimization experience</li>
+      <li>Literacy with cryptocurrency, blockchain technology, decentralized finance and the key debates and players in that space</li>
+      <li>Leverage data-driven decision making, particularly A/B testing content hypotheses to drive business outcomes (increase conversion, improve search CTR, etc.)</li>
       </ul>
     </div>
-    <div class="job-green">We’ll be excited if you also have: </div>
+    <div class="job-green">It would be great if you have: </div>
     <div class="job-detail">
       <ul>
-          <li>Experience with cryptocurrency and other decentralized or blockchain-based technologies.</li>
-          <li>Experience running user testing, analytics, a/b tests, or other iterative processes to get feedback.</li>
+      <li>Experience working for a company working on cryptocurrency and other decentralized or blockchain-based technologies</li>
+      <li>Experience using SAAS tools like BuzzSumo or SEMrush to create high-impact copy and content.</li>
+      <li>Experience mentoring and developing talent</li>
       </ul>
     </div>
     <div class="job-green">To Apply: </div>
