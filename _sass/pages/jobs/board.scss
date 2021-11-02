@@ -7,6 +7,23 @@
     align-items: center;
     font-family: $sora;
     padding: 85px 0;
+    &::before {
+        background-image: url(/img/jobs/Triangles.svg), url(/img/jobs/Vector.svg), url(/img/jobs/Vector2.png), url(/img/jobs/Vector3.png) ;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-y: 27rem, 27rem, 12rem, 12rem;
+        background-position-x: 51rem, 21rem, 5rem, 76rem;
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        opacity: 100%;
+        @media (min-width:1800px) {
+            background-position-y: 27rem, 27rem, 12rem, 12rem;
+        background-position-x: 70rem, 40rem, 25rem, 95rem;
+        }
+      }
     .subtitle {
         font-style: normal;
         font-weight: normal;
