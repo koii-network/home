@@ -75,8 +75,11 @@
                 line-height: 32px;
                 display: flex;
                 align-items: center;
-                text-decoration-line: underline;
                 color: #171753;
+                :hover {
+                    text-decoration-line: underline;
+                    color: #0056b3 !important;
+                }
             }
         }
         .job-content{
