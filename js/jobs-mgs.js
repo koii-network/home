@@ -1,5 +1,13 @@
 function option6() {
+  var elements = document.getElementsByClassName('btn btn-secondary active');
+    while(elements.length > 0){
+        elements[0].classList.remove('active');
+    }
+  var active = document.getElementById("mgs");
+  active.classList.add("active");
+
     document.getElementById("detail").innerHTML = `
+    <div class="bcak-icon"><img src="/img/jobs/icon/Job/Return-button.svg" onclick="jobmenu()"></div>
     <div class="job-content">
     <div class="job-title">Marketing & Growth Specialist</div>
     <div class="job-green">Who we are</div>
