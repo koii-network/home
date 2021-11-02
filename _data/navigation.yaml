@@ -37,6 +37,10 @@
       class: normal
       newtab: target="_blank"
 
+    - name: Careers
+      link: "/jobs"
+      class: normal
+
     - name: Press Kit
       link: "/Koii Press Kit 2021.zip"
       class: normal
