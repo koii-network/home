@@ -105,13 +105,17 @@
     &::before {
       background-size: auto 23%;
     }
-
-    .header-content {
-      height: fit-content;
-      align-items: center;
-      text-align: center;
-      padding-top: 35px;
-      padding-bottom: 75px;
+    .font-cap1{
+      font-size: 40px;
+      line-height: 49px;
+    }
+    .font-cap3 {
+      font-size: 32px;
+    }
+    .font-cap4 {
+      width: 250px;
+      font-size: 24px;
+      line-height: 29px;
     }
   }
 }

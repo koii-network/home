@@ -117,9 +117,13 @@
                 border-radius: 24px;
                 padding: 10px 35px;
             }
+            a:hover {
+                text-decoration: none !important; 
+              }
         }
-        
     }
-    
+    @media (max-width: 450px) {
+        padding-top: 0px;
+    }
    
 }

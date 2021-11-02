@@ -57,4 +57,12 @@
             color: #5B5675;
         }
     }
+    @media (max-width: 450px) {
+        .title {
+            font-size: 22px;
+        }
+        .card {
+            margin-top: 15px;
+        }
+    }
 }
