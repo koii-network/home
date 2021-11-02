@@ -76,9 +76,9 @@
                 display: flex;
                 align-items: center;
                 color: #171753;
-                :hover {
+                &:hover {
                     text-decoration-line: underline;
-                    color: #0056b3 !important;
+                    cursor: pointer !important;
                 }
             }
         }
