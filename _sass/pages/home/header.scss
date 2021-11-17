@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 #home-header {
   position: relative;
-  background: #171753;
   color: $white;
   padding: 150px 0px;
   display: flex;
@@ -10,12 +9,11 @@
   align-items: center;
   margin-top: 48px;
   font-family: $sora;
-  background: linear-gradient(181.75deg, #171753 3.4%, #69d687 80.44%);
-
-  background-image: url(/img/homepage/Hero/Atomic-Zombie-Hero.png);
+  background: url(/img/homepage/Hero/hole.png), linear-gradient(90deg, #171753 0%, #030332 100%);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+
   @media (max-width: 2800px) {
     padding: 420px 0px;
   }
@@ -23,7 +21,7 @@
     padding: 280px 0px;
   }
   @media (max-width: 1500px) {
-    padding: 130px 0px;
+    padding: 200px 0px 90px;
   }
   @media (max-width: 1080px) {
     padding: 100px 0px;
@@ -32,105 +30,45 @@
     padding: 50px 0px;
   }
   @media (max-width: 450px) {
-    background-position-x: -520px;
+    padding: 50px 0px;
+    background-position-x: -110px, 0;
   }
   .container {
     padding: 75px 0;
     z-index: 9;
   }
-  .koii-flower-area {
-    position: absolute;
-    top: 260px;
-    right: 280px;
-    @media (max-width: 1500px) {
-      top: 200px;
-      right: 220px;
-      img {
-        max-width: 300px;
-      }
-    }
-    @media (max-width: 1300px) {
-      top: 165px;
-      right: 180px;
-    }
-    @media (max-width: 1100px) {
-      top: 135px;
-      right: 130px;
-      img {
-        max-width: 280px;
-      }
-    }
-  }
-  .finnieButton {
-    margin-top: 50px;
-    color: #ffffff !important;
-    padding: 5px 25px 5px 25px !important;
-    width: 220px;
-    border: 1px solid #ffffff;
-    background: #171753;
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
-    border-radius: 3px;
-    font-weight: 600;
-  }
-  .tutorialButton {
-    margin-left: 50px;
-    margin-top: 36px;
-    color: #237b75 !important;
-    padding: 5px 25px 5px 25px !important;
-    width: 220px;
-    border: 1px solid #ecfffe;
-    background: #ecfffe;
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
-    border-radius: 24px;
-    font-weight: 600;
-  }
-  .koii-logo-hero {
-    margin-top: 55px;
-  }
-  .koii-flower-area-mobile {
-    display: none;
-  }
-  a.button {
-    font-family: $sora !important;
-    text-decoration: none;
-    font-weight: 500;
-  }
   .font-cap1 {
-    font-family: "Creepster", cursive;
-    font-size: 80px;
-    line-height: 72px;
-    letter-spacing: 0em;
+    font-size: 40px;
+    line-height: 61px;
+    letter-spacing: 0.04em;
     text-shadow: 1px 1px 2px #000;
-    color: #ffffff;
+    color: #F8F7FC;
+    text-transform: uppercase;
     @media (max-width: 1300px) {
-      font-size: 70px;
+      font-size: 40px;
       line-height: 60px;
     }
   }
   .font-cap3 {
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: 0px;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.27em;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #F8F7FC;
     text-shadow: 1px 1px 2px #000;
-    font-weight: 400;
-    a {
-      font-size: 24px;
-      line-height: 40px;
-      letter-spacing: -2%;
-      color: #ffc78f;
-      font-weight: 400;
-      text-decoration: underline;
-    }
+    font-weight: 700;
   }
   .font-cap5 {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #5ED9D1;
     text-shadow: 1px 1px 2px #000;
   }
 
   .header-description {
-    max-width: 610px;
+    max-width: 750px;
   }
   @media (min-width: 960px) {
     #join-button {
