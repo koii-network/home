@@ -77,9 +77,45 @@
             line-height: 23px;
         }
     }
-    .worldmap {
+    .worldmap-desktop {
         text-align: center;
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
+    .worldmap-mobile{
+        display:none;
+    }
+    @media (max-width: 450px) {
+        .font2{
+            margin: 25px 0 100px;
+        }
+        .worldmap-desktop {
+            display: none;
+        }
+        .worldmap-mobile{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .text-box1{
+            position: absolute;
+            left: 60px;
+            top: -100px;
+        }
+        .text-box2{
+            position: absolute;
+            right: 10px;
+        }
+        .text-box3 {
+            position: absolute;
+            right: -21px;
+            top: 245px;
+        }
+        .num {
+            font-size: 35px;
+        }
+        .text{
+            font-size: 20px;
+        }
+      }
 }
