@@ -4,6 +4,12 @@
     background: linear-gradient(90deg, #171753 0%, #030332 100%);
     font-family: $sora;
     padding: 90px 0px;
+    .bubble-area{
+        // position: absolute;
+        // right: 0;
+        // top: 0;
+        // width: 100%;
+    }
     .cap-area {
         max-width: 500px;
     }
