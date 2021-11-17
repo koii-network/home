@@ -1,8 +1,13 @@
 #get_scoop {
-  background-color: #171753;
+  background: url(/img/homepage/sign-frame.png), linear-gradient(180deg, #ECFFFE 0%, #171753 98.07%);
   padding: 75px 0;
   font-family: $sora;
   text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  @media (min-width: 1500px) {
+    background-size: cover;
+  }
   .get-scoop-area {
     position: relative;
     padding: 65px 15px 50px;
