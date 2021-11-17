@@ -1,15 +1,21 @@
 @import "variables";
 
-#whynode {
+#bubble {
     background: linear-gradient(90deg, #171753 0%, #030332 100%);
     font-family: $sora;
     padding: 90px 0px;
+    .cap-area {
+        max-width: 500px;
+    }
     .font1{
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 61px;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 48px;
         letter-spacing: -0.02em;
         color: #FFFFFF;
+    }
+    .orange {
+        color: #FFA54B;
     }
     .font2 {
         margin-top: 20px;
@@ -18,10 +24,6 @@
         letter-spacing: -0.02em;
         color: #ECFFFE;
         font-weight: 300;
-        .orange {
-            color: #FFA54B;
-            font-weight: 600;
-        }
         .hint {
             color: #5ED9D1;
             font-weight: 600;
