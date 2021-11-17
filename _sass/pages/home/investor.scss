@@ -1,0 +1,37 @@
+@import "variables";
+
+#home-investors {
+  position: relative;
+  color: $blueDark;
+  background: #ECFFFE;
+  font-family: $sora;
+
+  .font-cap1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #237B75;
+    z-index: 9;
+  }
+  .font-cap2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -4%;
+    color: #171753;
+    z-index: 9;
+  }
+}
+.home-partners {
+  background: #ECFFFE;
+  .call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    a img {
+      margin: 10px;
+    }
+  }
+}
