@@ -1,0 +1,85 @@
+@import "variables";
+
+#community {
+    background: linear-gradient(270deg, #030332 0%, #171753 100%);
+    font-family: $sora;
+    padding: 90px 0px 0px;
+    .font1{
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #BEF0ED;
+    }
+    .font2 {
+        margin: 25px 0;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #F5F5F5;
+    }
+    #box {
+        align-items: flex-end;
+        text-align: -webkit-center;
+    }
+    .text-box1 {
+        margin-top:30px;
+        width: 235px;
+        text-align: left;
+        .num {
+            color: #F5F5F5;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 23px;
+        }
+        .text {
+            margin-top: 15px;
+            color: #FFA54B;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+        }
+    }
+    .text-box2 {
+        width: 235px;
+        margin-top:30px;
+        text-align: left;
+        .num {
+            color: #F5F5F5;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 23px;
+        }
+        .text {
+            margin-top: 15px;
+            color: #FFA54B;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+        }
+    }
+    .text-box3 {
+        margin-top:30px;
+        width: 235px;
+        text-align: left;
+        .num {
+            color: #F5F5F5;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 23px;
+        }
+        .text {
+            margin-top: 15px;
+            color: #FFA54B;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+        }
+    }
+    .worldmap {
+        text-align: center;
+        display: flex;
+    flex-direction: column;
+    }
+}
