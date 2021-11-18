@@ -4,42 +4,19 @@
   background: linear-gradient(360deg, #171753 0%, #030332 68.53%);
   color: $white;
   padding-top: 5rem;
-  .bg-nets-left {
+  
+  .bg-star {
     position: absolute;
-    bottom: -1000px;
-    left: 0em;
-    opacity: 50%;
-    @media (max-width: 768px) {
-      width: 80%;
-      left: 0em;
-      bottom: -500px;
-    }
-    @media (min-width: 1441px) {
-      width: 80%;
-      left: 0em;
-    }
-  }
-  .bg-nets-right {
-    position: absolute;
-    bottom: -1800px;
-    right: -7em;
-    opacity: 50%;
-    @media (max-width: 768px) {
-      width: 80%;
-      bottom: -3000px;
-      right: 0em;
-      transform: rotateY(180deg);
-    }
-    @media (min-width: 1441px) {
-      width: 80%;
-      left: 0em;
-    }
-  }
+    right: 0;
+}
   .font-cap1 {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 40px;
-    line-height: 52px;
-    color: $white;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFA54B;
+
   }
   .font-cap2 {
     font-weight: bold;
@@ -57,21 +34,19 @@
     color: $white;
   }
   .users-area {
-    // display: flex;
-    // flex-wrap: wrap;
     color: $white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     .user {
       min-width: 150px;
       display: flex;
       flex-direction: column;
       padding: 0 20px;
       float: left;
-      width: 20%;
-      padding-bottom: 40px;
-      // .avatar-area{
-      //   max-width: 100px;
-      //   border-radius: 50%;
-      // }
+      width: 14%;
+      padding-bottom: 20px;
+      text-align: center;
       .info-area {
         min-height: 100px;
         display: flex;
@@ -85,15 +60,6 @@
         margin-bottom: 12px;
         object-fit: cover;
       }
-      .li-icon {
-        width: 30px !important;
-        height: 20px !important;
-        border-radius: unset !important;
-        margin-bottom: 0px !important;
-        object-fit: contain;
-        position: absolute;
-        margin-left: 5px;
-      }
       @media (max-width: 1300px) {
         width: 25%;
       }
@@ -103,8 +69,11 @@
       @media (max-width: 575px) {
         width: 50%;
       }
-      @media (max-width: 400px) {
-        width: 100%;
+      @media (max-width: 450px) {
+        width: 40%;
+        .user {
+          padding-bottom: 0px;
+        }
       }
     }
   }
@@ -122,5 +91,8 @@
       font-size: 15px;
       line-height: 20px;
     }
+    .bg-star {
+      top: 383rem;
+  }
   }
 }
