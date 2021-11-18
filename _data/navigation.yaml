@@ -96,11 +96,6 @@
       class: normal
       newtab: target="_blank"
 
-    - name: '100K KOII, <span style="color: #49CE8B">Enter to Win</span>'
-      link: https://gleam.io/c3Cwz/-welcome-to-the-koii-drop-
-      class: normal
-      newtab: target="_blank"
-
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
