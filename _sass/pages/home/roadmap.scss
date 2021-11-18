@@ -101,7 +101,7 @@
     
     .cbp-fwslider nav span {
         position: absolute;
-        // bottom: 50px;
+        bottom: 40%;
         width: 115px;
         color: #ffc78f;
         font-size: 12px;
@@ -152,5 +152,9 @@
         box-shadow: 0 0 0 2px #47a3da;
         transition: box-shadow 0.2s ease-in-out;
     }
-
+    body, nav {
+        width: calc(100vw + 150px) !important;
+        max-width: calc(100vw + 150px) !important;
+        overflow-x: visible !important;
+    }
 }
