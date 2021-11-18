@@ -215,6 +215,34 @@
         box-shadow: 0 0 0 2px #47a3da;
         transition: box-shadow 0.2s ease-in-out;
     }
+
+    .slide-item-wrapper {
+        width: 500px;
+        height: 84px;
+        margin: 0 auto;
+        overflow: hidden;
+        @media (max-width: 540px) {
+            width: 300px;
+        }
+    }
+    
+    .slide-item-wrapper > * {
+        transition: .5s ease-in-out;
+    }
+    
+    .box-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: red;
+        color: white;
+        width: 500px;
+        @media (max-width: 540px) {
+            width: 300px;
+        }
+        height: 84px;
+        margin-bottom: 20px;
+    }
     
     @media (max-width: 800px) {
         .desktop{display: none;}
