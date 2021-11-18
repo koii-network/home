@@ -299,3 +299,7 @@ function showSlides(n) {
   // $( '#cbp-fwslider' ).CBPFWSlider();
 
 })
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+  $(".cbp-fwnext").trigger('click')
+});

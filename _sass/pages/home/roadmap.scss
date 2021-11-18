@@ -1,14 +1,16 @@
 @import "variables";
 
 #roadmap {
-    background: linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
     font-family: $sora;
     padding-bottom: 80px;
-
-    .roadmap-area {
-        img {
-            width: 100%;
+    // background-image: url(/img/homepage/roadmap/roadmap_background.svg);
+    // background: linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    background: url(/img/homepage/roadmap/roadmap_background.svg), linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    .road-map-body {
+        .arrow-area{
+            img {width: 100%;}
         }
+        color: white;
     }
 
     .cap-area {
@@ -75,21 +77,19 @@
     
     .cbp-fwslider nav span {
         position: absolute;
-        top: 50%;
-        width: 50px;
-        height: 100px;
-        background: #47a3da;
-        color: #fff;
-        font-size: 50px;
+        bottom: 50px;
+        width: 115px;
+        color: #ffc78f;
+        font-size: 12px;
+        line-height: 16px;
         text-align: center;
         margin-top: -50px;
-        line-height: 100px;
         cursor: pointer;
-        font-weight: normal;
+        z-index: 9999;
     }
     
     .cbp-fwslider nav span:hover {
-        background: #378fc3;
+        color: #f4c89c;
     }
     
     .cbp-fwslider nav span.cbp-fwnext {
@@ -106,6 +106,7 @@
         white-space: nowrap;
         text-align: center;
         width: 100%;
+        display: none;
     }
     
     .cbp-fwdots span {
