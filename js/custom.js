@@ -230,13 +230,21 @@ function nextFwCurrent() {
 }
 var offset = 0;
 var count = $(".slide-item-wrapper > * > *").length;
-window.setInterval(
-  function() {
-    offset = (offset - 104) % (count * 104); // 104px div height (incl margin)
-    $(".slide-item-wrapper > *").css({
-      "transform": "translateY(" + offset + "px)",
-    });
-  }, 3000);
+var activeVSlider = 0
+// window.setInterval(
+//   function() {
+//     offset = (offset - 104) % (count * 104); // 104px div height (incl margin)
+//     $(".slide-item-wrapper > *").css({
+//       "transform": "translateY(" + offset + "px)",
+//     });
+//   }, 3000);
+function vertical_slider() {
+  var div_height = 620;
+  offset = (offset - div_height) % (count * div_height); // 104px div height (incl margin) -620,-1240,0
+  $(".slide-item-wrapper > *").css({
+    "transform": "translateY(" + offset + "px)",
+  });
+}
 
 (jQuery)(function($) {
   var pathname = window.location.pathname;
