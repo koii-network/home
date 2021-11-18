@@ -21,6 +21,9 @@
         letter-spacing: -0.02em;
         color: #FFFFFF;
     }
+    .col-md-8 { 
+        padding-left: 95px;
+    }
     .font2 {
         margin-top: 20px;
         font-size: 20px;
@@ -55,7 +58,7 @@
 
         .mobile-middle {
             margin-top: 156px;
-            width: 275px;
+            width: 225px;
             margin-left: 40px;
         }
         .mobile-bottom {
@@ -63,7 +66,9 @@
             margin-top: 65px;
             max-width: 300px;
         }
-
+        .col-md-8 { 
+            padding: 0;
+        }
         .font1{
             font-size: 30px;
         }
@@ -73,7 +78,7 @@
             margin-top:0px;
         }
         .font3{
-            font-size: 13px;
+            font-size: 11px;
             line-height: 18px;
             letter-spacing: -0.02em;
             color: #ECFFFE;
