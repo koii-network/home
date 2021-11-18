@@ -50,7 +50,7 @@ function num_animations() {
     $(this).addClass('active')
   })
   $('.num').each(function () {
-    console.log("$(this).text() ===", $(this).text())
+    // console.log("$(this).text() ===", $(this).text())
 
     // $({ Counter: 0 }).animate({
     //   Counter: $(this).text()
