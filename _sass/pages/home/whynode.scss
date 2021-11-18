@@ -1,7 +1,7 @@
 @import "variables";
 
 #whynode {
-    background: url(/img/homepage/whynode-star.png), linear-gradient(90deg, #171753 0%, #030332 100%);
+    background: url(/img/homepage/whynode-star.svg), linear-gradient(90deg, #171753 0%, #030332 100%);
     font-family: $sora;
     padding: 115px 0px;
     background-repeat: no-repeat;
@@ -41,9 +41,10 @@
         }
     }
     @media (max-width: 450px) {
-        background: url(/img/homepage/whynode-star-mobile.png), linear-gradient(90deg, #171753 0%, #030332 100%);
+        background: url(/img/homepage/whynode-star-mobile.svg), linear-gradient(180deg, #171753 0%, #171853 34.69%);;
         background-repeat: no-repeat;
         padding: 0px 0px 75px;
+        // background-size: cover;
         .desktop {
             display: none;
         }
@@ -52,13 +53,14 @@
             margin:0;
         }
         .mobile-top{
+            padding-top: 40px;
             margin-left: 135px;
             max-width: 210px;
         }
 
         .mobile-middle {
-            margin-top: 156px;
-            width: 225px;
+            margin-top: 150px;
+            width: 265px;
             margin-left: 40px;
         }
         .mobile-bottom {
@@ -78,7 +80,7 @@
             margin-top:0px;
         }
         .font3{
-            font-size: 11px;
+            font-size: 13px;
             line-height: 18px;
             letter-spacing: -0.02em;
             color: #ECFFFE;
