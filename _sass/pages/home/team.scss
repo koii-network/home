@@ -32,6 +32,7 @@
     font-size: 18px;
     line-height: 24px;
     color: $white;
+    width: 150%;
   }
   .last {
     display: flex;
@@ -42,6 +43,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 100px;
     .user {
       min-width: 150px;
       display: flex;
@@ -52,7 +54,6 @@
       padding-bottom: 20px;
       text-align: center;
       .info-area {
-        min-height: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
