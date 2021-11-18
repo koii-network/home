@@ -6,53 +6,59 @@
     // background-image: url(/img/homepage/roadmap/roadmap_background.svg);
     // background: linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
     background: url(/img/homepage/roadmap/roadmap_background.svg), linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    @media (max-width: 800px) {
+        background: url(/img/homepage/roadmap/roadmap_mobile.svg), linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    }
 
     .container {position: relative;}
-    .desktop > .road-map-body {
-        .arrow-area{
-            img {width: 100%;}
-        }
-        .space-between{
-            justify-content: space-between;
-        }
-        .space-around{
-            justify-content: space-around;
-        }
-        .item-step {
-            width: 185px;
-            .item-title{
-                font-weight: 600;
-                font-size: 18px;
-                line-height: 24px;
-                letter-spacing: -0.02em;
-                color: #5ED9D1;
-                cursor: pointer;
+    .mobile { display: none;}
+    .desktop {
+        .road-map-body {
+            .arrow-area{
+                img {width: 100%;}
             }
-            .item-description{
-                margin-top: 10px;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-                letter-spacing: -0.02em;
-                color: #fff;
-                word-break: break-word
+            .space-between{
+                justify-content: space-between;
             }
-            @media (max-width: 1050px) {
+            .space-around{
+                justify-content: space-around;
+            }
+            .item-step {
                 width: 185px;
                 .item-title{
-                    font-size: 15px;
-                    line-height: 20px;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    color: #5ED9D1;
+                    cursor: pointer;
                 }
                 .item-description{
-                    font-size: 15px;
-                    line-height: 20px;
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    color: #fff;
+                    word-break: break-word
+                }
+                @media (max-width: 1050px) {
+                    width: 185px;
+                    .item-title{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                    .item-description{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
                 }
             }
+            @media (max-width: 1050px) {
+                .d-flex{ padding: 0 20px;}
+            }
         }
-        @media (max-width: 1050px) {
-            .d-flex{ padding: 0 20px;}
-        }
-    }
+    } 
 
     .roadmap-nav-area{
         position: absolute;
@@ -262,45 +268,46 @@
     }
     
     @media (max-width: 800px) {
+        background-repeat: repeat-x;
         .desktop{display: none;}
         .mobile{
             display: flex;
             flex-direction: column;
             align-items: center;
-        }
-        .road-map-body {
-            display: flex;
-            .arrow-area{
-                img {
-                    height: calc(100% - 20px);
-                    margin-top: 10px;
+            .road-map-body {
+                display: flex;
+                .arrow-area{
+                    img {
+                        height: calc(100% - 20px);
+                        margin-top: 10px;
+                    }
                 }
-            }
-            .d-flex {flex-direction: column;}
-            .space-between{
-                justify-content: space-between;
-            }
-            .space-around{
-                justify-content: space-around;
-            }
-            .item-step {
-                width: 136px;
-                .item-title{
-                    font-weight: 600;
-                    font-size: 15px;
-                    line-height: 24px;
-                    letter-spacing: -0.02em;
-                    color: #5ED9D1;
-                    cursor: pointer;
+                .d-flex {flex-direction: column;}
+                .space-between{
+                    justify-content: space-between;
                 }
-                .item-description{
-                    margin-top: 10px;
-                    font-weight: 400;
-                    font-size: 15px;
-                    line-height: 24px;
-                    letter-spacing: -0.02em;
-                    color: #fff;
-                    word-break: break-word
+                .space-around{
+                    justify-content: space-around;
+                }
+                .item-step {
+                    width: 136px;
+                    .item-title{
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: -0.02em;
+                        color: #5ED9D1;
+                        cursor: pointer;
+                    }
+                    .item-description{
+                        margin-top: 10px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: -0.02em;
+                        color: #fff;
+                        word-break: break-word
+                    }
                 }
             }
         }
