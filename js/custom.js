@@ -231,6 +231,7 @@ function nextFwCurrent() {
 var offset = 0;
 var count = $(".slide-item-wrapper > * > *").length;
 var activeVSlider = 0
+var div_height = 640;
 // window.setInterval(
 //   function() {
 //     offset = (offset - 104) % (count * 104); // 104px div height (incl margin)
@@ -238,9 +239,20 @@ var activeVSlider = 0
 //       "transform": "translateY(" + offset + "px)",
 //     });
 //   }, 3000);
-function vertical_slider() {
-  var div_height = 620;
-  offset = (offset - div_height) % (count * div_height); // 104px div height (incl margin) -620,-1240,0
+function vertical_slider(direction = 'next') {
+  $(".vertical-roadmap-prev").css("display", "block");
+  $(".vertical-roadmap-next").css("display", "block");
+  if(direction === 'next') activeVSlider++
+  if(direction === 'prev') activeVSlider--
+  offset = -1 * div_height * activeVSlider
+  if(activeVSlider === 0) {
+    offset = 0
+    $(".vertical-roadmap-prev").css("display", "none");
+  }
+  else if(activeVSlider === 2) {
+    $(".vertical-roadmap-next").css("display", "none");
+  }
+  // offset = (offset - div_height) % (count * div_height); // 104px div height (incl margin) -620,-1240,0
   $(".slide-item-wrapper > *").css({
     "transform": "translateY(" + offset + "px)",
   });
@@ -343,5 +355,13 @@ window.addEventListener('load', (event) => {
   $(".horizontal-roadmap-next").click(function(){
     $(".cbp-fwnext").trigger('click')
     nextFwCurrent()
+  });
+  $(".vertical-roadmap-next").trigger('click')
+  vertical_slider('next')
+  $(".vertical-roadmap-prev").click(function(){
+    vertical_slider('prev')
+  });
+  $(".vertical-roadmap-next").click(function(){
+    vertical_slider('next')
   });
 });
