@@ -1,7 +1,7 @@
 @import "variables";
 
 #revolution {
-  background: linear-gradient(270deg, #030332 0%, #171753 100%);
+  background: url(/img/homepage/bubble/node-star.png),linear-gradient(270deg, #030332 0%, #171753 100%);
   padding: 75px 0;
   font-family: $sora;
   .revolution-area {
