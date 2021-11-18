@@ -24,6 +24,7 @@
                 line-height: 24px;
                 letter-spacing: -0.02em;
                 color: #5ED9D1;
+                cursor: pointer;
             }
             .item-description{
                 margin-top: 10px;
@@ -34,6 +35,29 @@
                 color: #fff;
                 word-break: break-word
             }
+        }
+    }
+
+    .roadmap-nav-area{
+        position: absolute;
+        margin-top: -170px;
+        width: 1140px;
+        height: 0px;
+        .cbp-fwprev-c{
+            margin-left: -75px;
+        }
+        .cbp-fwnext-c{
+            margin-right: 75px;
+        }
+        a{
+            width: 115px;
+            color: #ffc78f;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            margin-top: -50px;
+            cursor: pointer;
+            z-index: 999;
         }
     }
 
@@ -103,13 +127,13 @@
         position: absolute;
         bottom: 40%;
         width: 115px;
-        color: #ffc78f;
+        color: transparent;
         font-size: 12px;
         line-height: 16px;
         text-align: center;
         margin-top: -50px;
         cursor: pointer;
-        z-index: 9999;
+        z-index: 9;
     }
     
     .cbp-fwslider nav span:hover {
