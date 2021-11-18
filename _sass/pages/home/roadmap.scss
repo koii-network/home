@@ -113,6 +113,7 @@
         letter-spacing: -0.02em;
         color: #BEF0ED;
         position: relative;
+        margin-bottom: 20px;
     }
 
     .font2 {
@@ -218,8 +219,7 @@
 
     .slide-item-wrapper {
         width: 300px;
-        height: 620px;
-        margin: 0 auto;
+        height: 640px;
         overflow: hidden;
         @media (max-width: 540px) {
             width: 300px;
@@ -239,8 +239,7 @@
         @media (max-width: 540px) {
             width: 300px;
         }
-        height: 620px;
-        margin-bottom: 20px;
+        height: 640px;
     }
     .vertical-roadmap-prev, .vertical-roadmap-next{
         width: 115px;
@@ -252,10 +251,14 @@
         z-index: 9;
         height: 24px;
         display: block;
-        margin-left: 130px;
+        margin-left: 140px;
+        position: absolute;
         &:hover{
             text-decoration: none;
         }
+    }
+    .vertical-roadmap-next{
+        bottom: 12px;
     }
     
     @media (max-width: 800px) {
@@ -268,7 +271,10 @@
         .road-map-body {
             display: flex;
             .arrow-area{
-                img {height: 100%;}
+                img {
+                    height: calc(100% - 20px);
+                    margin-top: 10px;
+                }
             }
             .d-flex {flex-direction: column;}
             .space-between{
@@ -278,10 +284,10 @@
                 justify-content: space-around;
             }
             .item-step {
-                width: 185px;
+                width: 136px;
                 .item-title{
                     font-weight: 600;
-                    font-size: 18px;
+                    font-size: 15px;
                     line-height: 24px;
                     letter-spacing: -0.02em;
                     color: #5ED9D1;
@@ -290,26 +296,12 @@
                 .item-description{
                     margin-top: 10px;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 15px;
                     line-height: 24px;
                     letter-spacing: -0.02em;
                     color: #fff;
                     word-break: break-word
                 }
-                @media (max-width: 1050px) {
-                    width: 185px;
-                    .item-title{
-                        font-size: 15px;
-                        line-height: 20px;
-                    }
-                    .item-description{
-                        font-size: 15px;
-                        line-height: 20px;
-                    }
-                }
-            }
-            @media (max-width: 1050px) {
-                .d-flex{ padding: 0 20px;}
             }
         }
     }
