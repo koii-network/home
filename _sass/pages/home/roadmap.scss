@@ -40,14 +40,15 @@
 
     .roadmap-nav-area{
         position: absolute;
-        margin-top: -170px;
+        margin-top: -120px;
         width: 1140px;
         height: 0px;
         .cbp-fwprev-c{
-            margin-left: -75px;
+            margin-left: -50px;
         }
         .cbp-fwnext-c{
-            margin-right: 75px;
+            right: -17px;
+            position: absolute;
         }
         a{
             width: 115px;
@@ -58,6 +59,11 @@
             margin-top: -50px;
             cursor: pointer;
             z-index: 999;
+            height: 50px;
+            display: block;
+            &:hover{
+                text-decoration: none;
+            }
         }
     }
 
@@ -133,12 +139,11 @@
         text-align: center;
         margin-top: -50px;
         cursor: pointer;
-        z-index: 9;
     }
     
-    .cbp-fwslider nav span:hover {
-        color: #f4c89c;
-    }
+    // .cbp-fwslider nav span:hover {
+    //     color: #f4c89c;
+    // }
     
     .cbp-fwslider nav span.cbp-fwnext {
         right: 0px;

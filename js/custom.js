@@ -211,6 +211,26 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+var cbp_fwcurrent = 0;
+function prevFwCurrent() {
+  $(".cbp-fwprev-c").css("display", "block");
+  $(".cbp-fwnext-c").css("display", "block");
+  cbp_fwcurrent--;
+  if(cbp_fwcurrent === 0) {
+    $(".cbp-fwprev-c").css("display", "none");
+  }
+  console.log("current --", cbp_fwcurrent)
+}
+function nextFwCurrent() {
+  $(".cbp-fwprev-c").css("display", "block");
+  $(".cbp-fwnext-c").css("display", "block");
+  cbp_fwcurrent++;
+  if(cbp_fwcurrent === 2) {
+    $(".cbp-fwnext-c").css("display", "none");
+  }
+  console.log("current --", cbp_fwcurrent)
+}
+
 (jQuery)(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
@@ -296,10 +316,17 @@ function showSlides(n) {
   revolution_show_video()
   $(".lazy").lazyload(); // image and iframe lazy loading
   $( '#cbp-fwslider' ).cbpFWSlider();
-  // $( '#cbp-fwslider' ).CBPFWSlider();
-
 })
 window.addEventListener('load', (event) => {
   console.log('page is fully loaded');
   $(".cbp-fwnext").trigger('click')
+  nextFwCurrent()
+  $(".cbp-fwprev-c").click(function(){
+    $(".cbp-fwprev").trigger('click')
+    prevFwCurrent()
+  });
+  $(".cbp-fwnext-c").click(function(){
+    $(".cbp-fwnext").trigger('click')
+    nextFwCurrent()
+  });
 });
