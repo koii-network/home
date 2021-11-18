@@ -219,7 +219,6 @@ function prevFwCurrent() {
   if(cbp_fwcurrent === 0) {
     $(".cbp-fwprev-c").css("display", "none");
   }
-  console.log("current --", cbp_fwcurrent)
 }
 function nextFwCurrent() {
   $(".cbp-fwprev-c").css("display", "block");
@@ -228,7 +227,6 @@ function nextFwCurrent() {
   if(cbp_fwcurrent === 2) {
     $(".cbp-fwnext-c").css("display", "none");
   }
-  console.log("current --", cbp_fwcurrent)
 }
 
 (jQuery)(function($) {
