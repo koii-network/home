@@ -10,7 +10,31 @@
         .arrow-area{
             img {width: 100%;}
         }
-        color: white;
+        .space-between{
+            justify-content: space-between;
+        }
+        .space-around{
+            justify-content: space-around;
+        }
+        .item-step {
+            width: 185px;
+            .item-title{
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                color: #5ED9D1;
+            }
+            .item-description{
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                color: #fff;
+                word-break: break-word
+            }
+        }
     }
 
     .cap-area {
