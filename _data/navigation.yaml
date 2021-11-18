@@ -96,11 +96,6 @@
       class: normal
       newtab: target="_blank"
 
-    - name: '100K KOII, <span style="color: #49CE8B">Enter to Win</span>'
-      link: https://gleam.io/c3Cwz/-welcome-to-the-koii-drop-
-      class: normal
-      newtab: target="_blank"
-
 - header: GET IN TOUCH
   class: col-sm-3 get-in-touch
   children:
@@ -115,7 +110,7 @@
       newtab: target="_blank"
 
     - name: Investor Whitelist
-      link: https://docs.google.com/forms/d/e/1FAIpQLSd2SmUm8pr6RN4hGk1nSM_LsZyUQmxQhoRXE9lrt-oNRn0xHg/viewform
+      link: https://share.hsforms.com/14iIe1UZZTUqF-dPNONXc0Qc20dg
       class: normal
       newtab: target="_blank"
 

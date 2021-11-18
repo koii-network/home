@@ -1,5 +1,7 @@
+@import "variables";
+
 #revolution {
-  background-color: #171753;
+  background: url(/img/homepage/bubble/node-star.png),linear-gradient(270deg, #030332 0%, #171753 100%);
   padding: 75px 0;
   font-family: $sora;
   .revolution-area {
@@ -17,11 +19,11 @@
       border-top-right-radius: 15px;
       border-top-left-radius: 15px;
       max-width: 330px;
-      background: #141125;
+      background: #0B0B3E;
       box-shadow: 0px 124px 144px -56px rgba(43, 29, 103, 0.06);
       z-index: 9;
       transition: all 0.2s ease-out;
-      min-height: 450px;
+      min-height: 385px;
       &:hover {
         transform: translate(0, -1rem);
         transition: all 0.2s ease-out;
