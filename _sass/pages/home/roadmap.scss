@@ -8,7 +8,7 @@
     background: url(/img/homepage/roadmap/roadmap_background.svg), linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
 
     .container {position: relative;}
-    .road-map-body {
+    .desktop > .road-map-body {
         .arrow-area{
             img {width: 100%;}
         }
@@ -264,6 +264,53 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+        .road-map-body {
+            display: flex;
+            .arrow-area{
+                img {height: 100%;}
+            }
+            .d-flex {flex-direction: column;}
+            .space-between{
+                justify-content: space-between;
+            }
+            .space-around{
+                justify-content: space-around;
+            }
+            .item-step {
+                width: 185px;
+                .item-title{
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    color: #5ED9D1;
+                    cursor: pointer;
+                }
+                .item-description{
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    color: #fff;
+                    word-break: break-word
+                }
+                @media (max-width: 1050px) {
+                    width: 185px;
+                    .item-title{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                    .item-description{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            @media (max-width: 1050px) {
+                .d-flex{ padding: 0 20px;}
+            }
         }
     }
 }
