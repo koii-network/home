@@ -211,6 +211,53 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+var cbp_fwcurrent = 0;
+function prevFwCurrent() {
+  $(".horizontal-roadmap-prev").css("display", "block");
+  $(".horizontal-roadmap-next").css("display", "block");
+  cbp_fwcurrent--;
+  if(cbp_fwcurrent === 0) {
+    $(".horizontal-roadmap-prev").css("display", "none");
+  }
+}
+function nextFwCurrent() {
+  $(".horizontal-roadmap-prev").css("display", "block");
+  $(".horizontal-roadmap-next").css("display", "block");
+  cbp_fwcurrent++;
+  if(cbp_fwcurrent === 2) {
+    $(".horizontal-roadmap-next").css("display", "none");
+  }
+}
+var offset = 0;
+var count = $(".slide-item-wrapper > * > *").length;
+var activeVSlider = 0
+var div_height = 640;
+// window.setInterval(
+//   function() {
+//     offset = (offset - 104) % (count * 104); // 104px div height (incl margin)
+//     $(".slide-item-wrapper > *").css({
+//       "transform": "translateY(" + offset + "px)",
+//     });
+//   }, 3000);
+function vertical_slider(direction = 'next') {
+  $(".vertical-roadmap-prev").css("visibility", "visible");
+  $(".vertical-roadmap-next").css("visibility", "visible");
+  if(direction === 'next') activeVSlider++
+  if(direction === 'prev') activeVSlider--
+  offset = -1 * div_height * activeVSlider
+  if(activeVSlider === 0) {
+    offset = 0
+    $(".vertical-roadmap-prev").css("visibility", "hidden");
+  }
+  else if(activeVSlider === 2) {
+    $(".vertical-roadmap-next").css("visibility", "hidden");
+  }
+  // offset = (offset - div_height) % (count * div_height); // 104px div height (incl margin) -620,-1240,0
+  $(".slide-item-wrapper > *").css({
+    "transform": "translateY(" + offset + "px)",
+  });
+}
+
 (jQuery)(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
@@ -295,4 +342,26 @@ function showSlides(n) {
   })
   revolution_show_video()
   $(".lazy").lazyload(); // image and iframe lazy loading
+  $( '#cbp-fwslider' ).cbpFWSlider();
 })
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+  $(".cbp-fwnext").trigger('click')
+  nextFwCurrent()
+  $(".horizontal-roadmap-prev").click(function(){
+    $(".cbp-fwprev").trigger('click')
+    prevFwCurrent()
+  });
+  $(".horizontal-roadmap-next").click(function(){
+    $(".cbp-fwnext").trigger('click')
+    nextFwCurrent()
+  });
+  $(".vertical-roadmap-next").trigger('click')
+  vertical_slider('next')
+  $(".vertical-roadmap-prev").click(function(){
+    vertical_slider('prev')
+  });
+  $(".vertical-roadmap-next").click(function(){
+    vertical_slider('next')
+  });
+});
