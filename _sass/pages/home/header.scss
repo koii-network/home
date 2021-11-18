@@ -9,7 +9,7 @@
   align-items: center;
   margin-top: 70px;
   font-family: $sora;
-  background: url(/img/homepage/Hero/hole.png), linear-gradient(90deg, #171753 0%, #030332 100%);
+  background: url(/img/homepage/Hero/hole.svg), linear-gradient(90deg, #171753 0%, #030332 100%);
   // background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -33,8 +33,8 @@
     padding: 50px 0px;
   }
   @media (max-width: 450px) {
-    padding: 50px 0px;
-    background-position-x: -110px, 0;
+    background: url(/img/homepage/Hero/hole-mobile.svg), linear-gradient(90deg, #171753 0%, #030332 100%);
+    background-size: cover;
   }
   .container {
     padding: 75px 0;
