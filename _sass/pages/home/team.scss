@@ -32,27 +32,33 @@
     font-size: 18px;
     line-height: 24px;
     color: $white;
+    width: 150%;
   }
+  .last {
+    display: flex;
+    justify-content: center;
+}
   .users-area {
     color: $white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 100px;
     .user {
       min-width: 150px;
       display: flex;
       flex-direction: column;
       padding: 0 20px;
       float: left;
-      width: 14%;
+      width: 8%;
       padding-bottom: 20px;
       text-align: center;
       .info-area {
-        min-height: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
       }
+      
       img {
         width: 100px;
         border-radius: 50%;
@@ -93,6 +99,10 @@
     }
     .bg-star {
       top: 383rem;
+  }
+  .last {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   }
 }

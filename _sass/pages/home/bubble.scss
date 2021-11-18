@@ -1,7 +1,7 @@
 @import "variables";
 
 #bubble {
-    background: linear-gradient(90deg, #171753 0%, #030332 100%);
+    background: url(/img/homepage/bubble/node-star.png), linear-gradient(90deg, #171753 0%, #030332 100%);
     font-family: $sora;
     padding: 90px 0px;
     .bubble-area{
