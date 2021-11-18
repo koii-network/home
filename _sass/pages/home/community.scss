@@ -86,8 +86,18 @@
         display:none;
     }
     @media (max-width: 450px) {
+        .font1 {
+            font-size: 30px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -0.04em;
+        }
         .font2{
-            margin: 25px 0 100px;
+            margin: 25px 0 130px;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            padding: 0 50px;
         }
         .worldmap-desktop {
             display: none;
