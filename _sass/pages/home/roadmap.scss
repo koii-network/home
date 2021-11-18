@@ -1,0 +1,315 @@
+@import "variables";
+
+#roadmap {
+    font-family: $sora;
+    padding-bottom: 80px;
+    // background-image: url(/img/homepage/roadmap/roadmap_background.svg);
+    // background: linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    background: url(/img/homepage/roadmap/roadmap_background.svg), linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    @media (max-width: 800px) {
+        background: url(/img/homepage/roadmap/roadmap_mobile.svg), linear-gradient(0deg, #ECFFFE 0%, #171753 21.23%);
+    }
+
+    .container {position: relative;}
+    .mobile { display: none;}
+    .desktop {
+        .road-map-body {
+            .arrow-area{
+                img {width: 100%;}
+            }
+            .space-between{
+                justify-content: space-between;
+            }
+            .space-around{
+                justify-content: space-around;
+            }
+            .item-step {
+                width: 185px;
+                .item-title{
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    color: #5ED9D1;
+                    cursor: pointer;
+                }
+                .item-description{
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    color: #fff;
+                    word-break: break-word
+                }
+                @media (max-width: 1050px) {
+                    width: 185px;
+                    .item-title{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                    .item-description{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            @media (max-width: 1050px) {
+                .d-flex{ padding: 0 20px;}
+            }
+        }
+    } 
+
+    .roadmap-nav-area{
+        position: absolute;
+        margin-top: -120px;
+        width: 100%;
+        height: 0px;
+        .horizontal-roadmap-prev{
+            left: -40px;
+            position: absolute;
+        }
+        .horizontal-roadmap-next{
+            right: -17px;
+            position: absolute;
+        }
+        a{
+            top: 0px;
+            width: 115px;
+            color: #ffc78f;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            margin-top: -50px;
+            cursor: pointer;
+            z-index: 999;
+            height: 24px;
+            display: block;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        // @media (min-width: 1194px) {
+        //     width: 1140px;
+        // }
+        // @media (min-width: 1051px) and (max-width: 1187px) {
+        //     width: 960px;
+        // }
+        @media (max-width: 1050px) {
+            a{top: 10px;}
+            .horizontal-roadmap-prev{left: -40px;}
+            .horizontal-roadmap-next{right: 0px;}
+        }
+        @media (max-width: 976px) {
+            // width: 690px;
+            .horizontal-roadmap-prev{left: -50px;}
+            .horizontal-roadmap-next{right: -17px;}
+        }
+    }
+
+    .cap-area {
+        text-align: center;
+        padding-top: 85px;
+    }
+
+    .font1 {
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        color: #BEF0ED;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .font2 {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        color: #9be7c4;
+        font-weight: 400;
+    }
+
+    .roadmap-area-mobile {
+        display: none;
+    }
+
+    .cbp-fwslider {
+        position: relative;
+        margin: 0 0 10px;
+        overflow: hidden;
+        padding: 40px 0 60px;
+    }
+    
+    .cbp-fwslider ul {
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        list-style-type: none;
+    }
+    
+    .cbp-fwslider ul li {
+        transform: translateZ(0);
+        float: left;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cbp-fwslider ul li > a,
+    .cbp-fwslider ul li > div {
+        display: block;
+        text-align: center;
+        outline: none;
+    }
+    
+    .cbp-fwslider ul li > a img {
+        border: none;
+        display: block;
+        margin: 0 auto;
+        max-width: 75%;
+    }
+    
+    .cbp-fwslider nav span {
+        position: absolute;
+        bottom: 40%;
+        width: 115px;
+        color: transparent;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        margin-top: -50px;
+        cursor: pointer;
+    }
+    
+    // .cbp-fwslider nav span:hover {
+    //     color: #f4c89c;
+    // }
+    
+    .cbp-fwslider nav span.cbp-fwnext {
+        right: 0px;
+    }
+    
+    .cbp-fwslider nav span.cbp-fwprev {
+        left: 0px;
+    }
+    
+    .cbp-fwdots {
+        position: absolute;
+        bottom: 0px;
+        white-space: nowrap;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    
+    .cbp-fwdots span {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background: #ddd;
+        margin: 4px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .cbp-fwdots span:hover {
+        background: #999;
+    }
+    
+    .cbp-fwdots span.cbp-fwcurrent {
+        background: #47a3da;
+        box-shadow: 0 0 0 2px #47a3da;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+    .slide-item-wrapper {
+        width: 300px;
+        height: 640px;
+        overflow: hidden;
+        @media (max-width: 540px) {
+            width: 300px;
+        }
+    }
+    
+    .slide-item-wrapper > * {
+        transition: .5s ease-in-out;
+    }
+    
+    .box-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 300px;
+        @media (max-width: 540px) {
+            width: 300px;
+        }
+        height: 640px;
+    }
+    .vertical-roadmap-prev, .vertical-roadmap-next{
+        width: 115px;
+        color: #ffc78f;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: left;
+        cursor: pointer;
+        z-index: 9;
+        height: 24px;
+        display: block;
+        margin-left: 140px;
+        position: absolute;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .vertical-roadmap-next{
+        bottom: 12px;
+    }
+    
+    @media (max-width: 800px) {
+        background-repeat: repeat-x;
+        .desktop{display: none;}
+        .mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .road-map-body {
+                display: flex;
+                .arrow-area{
+                    img {
+                        height: calc(100% - 20px);
+                        margin-top: 10px;
+                    }
+                }
+                .d-flex {flex-direction: column;}
+                .space-between{
+                    justify-content: space-between;
+                }
+                .space-around{
+                    justify-content: space-around;
+                }
+                .item-step {
+                    width: 136px;
+                    .item-title{
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: -0.02em;
+                        color: #5ED9D1;
+                        cursor: pointer;
+                    }
+                    .item-description{
+                        margin-top: 10px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: -0.02em;
+                        color: #fff;
+                        word-break: break-word
+                    }
+                }
+            }
+        }
+    }
+}
