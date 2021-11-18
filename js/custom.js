@@ -211,6 +211,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function goto(id) {
+  
+}
+
 (jQuery)(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
