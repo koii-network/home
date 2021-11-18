@@ -213,19 +213,19 @@ function showSlides(n) {
 
 var cbp_fwcurrent = 0;
 function prevFwCurrent() {
-  $(".cbp-fwprev-c").css("display", "block");
-  $(".cbp-fwnext-c").css("display", "block");
+  $(".horizontal-roadmap-prev").css("display", "block");
+  $(".horizontal-roadmap-next").css("display", "block");
   cbp_fwcurrent--;
   if(cbp_fwcurrent === 0) {
-    $(".cbp-fwprev-c").css("display", "none");
+    $(".horizontal-roadmap-prev").css("display", "none");
   }
 }
 function nextFwCurrent() {
-  $(".cbp-fwprev-c").css("display", "block");
-  $(".cbp-fwnext-c").css("display", "block");
+  $(".horizontal-roadmap-prev").css("display", "block");
+  $(".horizontal-roadmap-next").css("display", "block");
   cbp_fwcurrent++;
   if(cbp_fwcurrent === 2) {
-    $(".cbp-fwnext-c").css("display", "none");
+    $(".horizontal-roadmap-next").css("display", "none");
   }
 }
 var offset = 0;
@@ -237,7 +237,7 @@ window.setInterval(
       "transform": "translateY(" + offset + "px)",
     });
   }, 3000);
-  
+
 (jQuery)(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
@@ -328,11 +328,11 @@ window.addEventListener('load', (event) => {
   console.log('page is fully loaded');
   $(".cbp-fwnext").trigger('click')
   nextFwCurrent()
-  $(".cbp-fwprev-c").click(function(){
+  $(".horizontal-roadmap-prev").click(function(){
     $(".cbp-fwprev").trigger('click')
     prevFwCurrent()
   });
-  $(".cbp-fwnext-c").click(function(){
+  $(".horizontal-roadmap-next").click(function(){
     $(".cbp-fwnext").trigger('click')
     nextFwCurrent()
   });
