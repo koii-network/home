@@ -38,12 +38,15 @@
       margin: 10px;
     }
   }
-  .partner {
-    max-width: 80px;
-  }
   @media (max-width: 450px) {
     background:url(/img/homepage/investor-star-mobile.png), #ECFFFE;
     background-repeat: no-repeat;
     background-position-x: right;
+    .toppartner{
+      max-width: 120px !important;
+    }
+    .partner {
+      height: 40px !important;
+    }
 }
 }
