@@ -94,5 +94,13 @@
                 font-weight: 600;
             }
         }
-      }
+    }
+    @media (max-width: 355px) {
+        .mobile-top {
+            margin-left: 120px;
+        }
+        .mobile-middle {
+            margin-top: 125px;
+        }
+    }
 }
