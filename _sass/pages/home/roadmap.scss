@@ -74,8 +74,7 @@
             position: absolute;
         }
         a{
-            top: 0px;
-            width: 115px;
+            top: -70px;
             color: #ffc78f;
             font-size: 12px;
             line-height: 16px;
@@ -87,21 +86,19 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            width: 170px;
             height: 100px;
-            background: red;
             &:hover{
                 text-decoration: none;
             }
         }
         // @media (min-width: 1194px) {
-        //     width: 1140px;
+        //     a{ width: 110px; }
         // }
         // @media (min-width: 1051px) and (max-width: 1187px) {
         //     width: 960px;
         // }
         @media (max-width: 1050px) {
-            a{top: 10px;}
+            a{top: -60px;}
             .horizontal-roadmap-prev{left: -40px;}
             .horizontal-roadmap-next{right: 0px;}
         }
