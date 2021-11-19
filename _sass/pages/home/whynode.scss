@@ -40,6 +40,9 @@
             color: #5ED9D1;
             font-weight: 600;
         }
+        @media (min-width: 451px) and (max-width: 767px) {
+            &.col-md-4{max-width: 250px;}
+        }
     }
     @media (max-width: 450px) {
         background: url(/img/homepage/whynode-star-mobile.svg), linear-gradient(180deg, #171753 0%, #171853 34.69%);;
