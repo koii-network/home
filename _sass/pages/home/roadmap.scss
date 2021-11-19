@@ -74,29 +74,31 @@
             position: absolute;
         }
         a{
-            top: 0px;
-            width: 115px;
+            top: -70px;
             color: #ffc78f;
             font-size: 12px;
             line-height: 16px;
             text-align: center;
             margin-top: -50px;
             cursor: pointer;
-            z-index: 999;
+            z-index: 9;
             height: 24px;
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 100px;
             &:hover{
                 text-decoration: none;
             }
         }
         // @media (min-width: 1194px) {
-        //     width: 1140px;
+        //     a{ width: 110px; }
         // }
         // @media (min-width: 1051px) and (max-width: 1187px) {
         //     width: 960px;
         // }
         @media (max-width: 1050px) {
-            a{top: 10px;}
+            a{top: -60px;}
             .horizontal-roadmap-prev{left: -40px;}
             .horizontal-roadmap-next{right: 0px;}
         }

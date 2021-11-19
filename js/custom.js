@@ -213,16 +213,16 @@ function showSlides(n) {
 
 var cbp_fwcurrent = 0;
 function prevFwCurrent() {
-  $(".horizontal-roadmap-prev").css("display", "block");
-  $(".horizontal-roadmap-next").css("display", "block");
+  $(".horizontal-roadmap-prev").css("display", "flex");
+  $(".horizontal-roadmap-next").css("display", "flex");
   cbp_fwcurrent--;
   if(cbp_fwcurrent === 0) {
     $(".horizontal-roadmap-prev").css("display", "none");
   }
 }
 function nextFwCurrent() {
-  $(".horizontal-roadmap-prev").css("display", "block");
-  $(".horizontal-roadmap-next").css("display", "block");
+  $(".horizontal-roadmap-prev").css("display", "flex");
+  $(".horizontal-roadmap-next").css("display", "flex");
   cbp_fwcurrent++;
   if(cbp_fwcurrent === 2) {
     $(".horizontal-roadmap-next").css("display", "none");
