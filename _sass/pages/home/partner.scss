@@ -113,21 +113,24 @@
 
     #partners-mobile {
       display: flex;
-      margin-top: 20px;
-      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 400px;
+      margin: 20px auto;
 
-      .\33 line {
+      .space-around {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        padding: 0 30px;
+      }
+
+      .space-between {
+        display: flex;
         justify-content: space-between;
       }
 
-      .\34 line {
-        display: flex;
-      }
-
       .partner-area {
-        width: 100px;
+        width: 70px;
         text-align: center;
         margin-top: 25px;
 
@@ -157,6 +160,11 @@
 
     .name {
       font-size: 10px;
+    }
+  }
+  @media (max-width: 450px) {
+    #partners-mobile {
+      width: 100%;
     }
   }
 }
