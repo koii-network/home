@@ -37,9 +37,54 @@
             font-weight: 600;
         }
         .hint {
+            font-size: 20px;
             color: #5ED9D1;
             font-weight: 600;
+            display: inline-block;
+            position: relative;
+            transition: opacity 0.5s;
+            opacity: 1;
         }
+        .hint .hinttext {
+            visibility: hidden;
+            width: 490px;
+            background-color: #ECFFFE;
+            font-weight: 400;
+            color: #237B75;
+            text-align: left;
+            border-radius: 6px;
+            padding: 10px 5px;
+            font-size: 16px;
+            line-height: 28px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+          
+            /* Position the hint */
+            position: absolute;
+            z-index: 1;
+            bottom: 150%;
+            left: 50%;
+            margin-left: -50px;
+
+            opacity: 0;
+            transition: opacity 0.5s;
+          }
+          .hint .hinttext ::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #ECFFFE transparent transparent transparent;
+            transition: opacity 0.5s;
+            opacity: 1;
+          }
+        .hint:hover .hinttext {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 0.5s;
+          }
         @media (min-width: 451px) and (max-width: 767px) {
             &.col-md-4{max-width: 250px;}
         }
@@ -96,7 +141,25 @@
             .hint {
                 color: #5ED9D1;
                 font-weight: 600;
+                display: inline-block;
+                position: relative;
             }
+            .hint .hinttext {
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+              
+                /* Position the hint */
+                position: absolute;
+                z-index: 1;
+              }
+            .hint:hover .hinttext {
+                visibility: visible;
+              }
         }
     }
     @media (max-width: 355px) {
