@@ -111,6 +111,7 @@
 
     .web-header {
       flex: 1;
+      .logo-icon { img {width: 64px;} }
 
       @media (max-width: $sm) {
         display: none;
