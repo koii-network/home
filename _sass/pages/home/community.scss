@@ -118,14 +118,19 @@
         }
         .text-box3 {
             position: absolute;
-            right: -21px;
-            top: 245px;
+            right: 0px;
+            top: 260px;
         }
         .number {
             font-size: 35px;
         }
         .text{
             font-size: 20px;
+        }
+    }
+    @media (max-width: 400px){
+        .text-box3 {
+            top: 225px;
         }
     }
 }
