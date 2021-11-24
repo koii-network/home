@@ -122,6 +122,9 @@
     margin: 8px;
     text-decoration: none;
     font-family: $sora !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   a {
     text-decoration: none;
