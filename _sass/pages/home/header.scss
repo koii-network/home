@@ -32,7 +32,7 @@
   @media (max-width: 750px) {
     padding: 50px 0px;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 540px) {
     background: url(/img/homepage/Hero/hole-mobile.svg), linear-gradient(90deg, #171753 0%, #030332 100%);
     background-size: cover;
   }
@@ -117,19 +117,27 @@
     }
     .font-cap5{
       font-size: 16px;
-      width:300px;
-      line-height: 22px;
+      width: 310px;
+      line-height: 23px;
     }
     .font-6{ 
       font-size: 14px;
       text-align: center;
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: 540px) {
     padding: 100px 0 0;
     .header-description {
       max-width: 510px;
-      margin-top: 176px;
+      margin-top: 200px;
+    }
+    .font-cap3 {
+      line-height: 53px;
+    }
+  }
+  @media (max-width: 420px) {
+    .header-description {
+      margin-top: 130px;
     }
   }
 }

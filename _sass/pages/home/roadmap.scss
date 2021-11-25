@@ -272,6 +272,12 @@
     @media (max-width: 800px) {
         background-repeat: repeat-x;
         .desktop{display: none;}
+        .cap-area{
+            margin-bottom: 15px;
+        }
+        .font1{
+            margin-bottom: 45px;
+        }
         .mobile{
             display: flex;
             flex-direction: column;
