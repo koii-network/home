@@ -5,16 +5,19 @@
   color: $blueDark;
   // min-height: 535px;
   margin-top: 175px;
+  font-family: $sora;
 
   .font-cap1 {
     font-weight: bold;
     font-size: 32px;
     line-height: 56px;
+    font-family: $sora;
   }
   .font-cap2 {
     font-size: 20px;
     line-height: 32px;
     margin: 15px 35px;
+    font-family: $sora;
   }
   .btn {
     margin: 0 auto;
@@ -24,6 +27,7 @@
     border: 2px solid transparent;
     border-radius: 4px;
     border-color: #171753;
+    font-family: $sora;
   }
 
   @media (max-width: $sm) {
