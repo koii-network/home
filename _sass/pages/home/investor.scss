@@ -1,5 +1,12 @@
 @import "variables";
 
+.new_invester{
+  @media (max-width: 540px) {
+    background:url(/img/homepage/Investors_mobile_new.svg), #ECFFFE;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
 #home-investors {
   position: relative;
   color: $blueDark;
@@ -23,6 +30,23 @@
     color: #171753;
     z-index: 9;
   }
+  @media (max-width: 540px) {
+    background: transparent;
+    padding-top: 200px;
+    .inves-area{
+      padding: 20px 15px;
+    }
+    .font-cap2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  @media (max-width: 480px) {
+    padding-top: 170px;
+  }
+  @media (max-width: 400px) {
+    padding-top: 120px;
+  }
 }
 .home-partners {
   padding-top:50px;
@@ -39,15 +63,18 @@
       margin: 10px;
     }
   }
+  @media (max-width: 540px) {
+    background: transparent;
+  }
   @media (max-width: 450px) {
-    background:url(/img/homepage/investor-star-mobile.svg), #ECFFFE;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    // background:url(/img/homepage/investor-star-mobile.svg), #ECFFFE;
+    // background-repeat: no-repeat;
+    // background-position-x: right;
     .toppartner{
       max-width: 120px !important;
     }
     .partner {
       height: 40px !important;
     }
-}
+  }
 }
