@@ -270,7 +270,7 @@
     }
     
     @media (max-width: 800px) {
-        background-repeat: repeat-x;
+        background-size: cover;
         .desktop{display: none;}
         .cap-area{
             margin-bottom: 15px;
