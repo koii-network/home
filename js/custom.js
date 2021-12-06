@@ -82,8 +82,8 @@ function httpGet(theUrl){
         if(data) {
           console.log("success api call")
           $(".num_users").text(data.users)
-          $(".num_koii_earned").text(data.koii_earned)
-          $(".num_atomic_nfts").text(data.atomic_nfts)
+          // $(".num_koii_earned").text(data.koii_earned)
+          // $(".num_atomic_nfts").text(data.atomic_nfts)
           num_animations()
         }else{
           console.log("error api call")
