@@ -82,14 +82,14 @@ function httpGet(theUrl){
         if(data) {
           console.log("success api call")
           $(".num_users").text(data.users)
-          // $(".num_koii_earned").text(data.koii_earned)
-          // $(".num_atomic_nfts").text(data.atomic_nfts)
+          $(".pre_register").text(data.pre_register)
+          $(".total_attention").text(data.total_attention)
           num_animations()
         }else{
           console.log("error api call")
-          $(".num_users").text(2894)
-          $(".num_koii_earned").text(88240)
-          $(".num_atomic_nfts").text(3325)
+          $(".num_users").text(14244)
+          $(".pre_register").text(21141)
+          $(".total_attention").text(8016332)
           setTimeout(function(){
             num_animations()
           },100)
