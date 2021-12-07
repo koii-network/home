@@ -5,6 +5,7 @@
     font-family: $sora;
     padding: 90px 0px;
     .bubble-area{
+        position: relative;
         img{ width: 100%; }
     }
     .cap-area {
@@ -34,6 +35,16 @@
     }
     .bubble-area-mobile{
         display: none;
+    }
+    .bk-blue{
+        background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 83.27%);
+        box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+        &:hover{
+            background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 100%);
+        }
+    }
+    .bbl-btn{
+        position: absolute;
     }
     @media (max-width: 1195px) {
         .cap-area {
