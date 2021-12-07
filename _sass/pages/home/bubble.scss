@@ -36,12 +36,21 @@
     .bubble-area-mobile{
         display: none;
     }
+    .bbl-btn:hover{
+        transform: scale(2.2);
+        // transform-origin: center center;
+        // width: 326px;
+        // height: 326px;
+        transition: all .1s;
+        z-index: 9;
+        font-size: 10px;
+    }
     .bk-blue{
         background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 83.27%);
         box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
-        &:hover{
-            background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 100%);
-        }
+        // &:hover{
+        //     background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 100%);
+        // }
     }
     .bk-green{
         background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 83.27%);
@@ -56,6 +65,11 @@
         &:hover{
             background: linear-gradient(133.01deg, #FFE5CA 20.04%, #FFA54B 100%);
         }
+    }
+    .vector-img{
+        position: absolute;
+        left: -40px;
+        top: 190px;
     }
     .bbl-btn{
         position: absolute;
