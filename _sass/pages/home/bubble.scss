@@ -50,6 +50,13 @@
             background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 100%);
         }
     }
+    .bk-orange{
+        background: linear-gradient(133.01deg, #FFE5CA 20.04%, #FFA54B 83.27%);
+        box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+        &:hover{
+            background: linear-gradient(133.01deg, #FFE5CA 20.04%, #FFA54B 100%);
+        }
+    }
     .bbl-btn{
         position: absolute;
         border-radius: 50%;
@@ -71,6 +78,11 @@
     .btn4{ width: 130px;height: 130px;left: 220px;top: 246px; }
     .btn5{ width: 157px;height: 157px;left: 504px;top: 248px; }
     .btn6{ width: 139px;height: 139px;right: 9px;top: 313px; }
+    .btn7{ width: 143px;height: 143px;left: 160px;bottom: 111px; }
+    .btn8{ width: 127px;height: 127px;right: 290px;bottom: 120px; }
+    .btn9{ width: 107px;height: 107px;left: 5px;bottom: 20px; }
+    .btn10{ width: 143px;height: 143px;left: 410px;bottom: 0px; }
+    .btn11{ width: 127px;height: 127px;right: 46px;bottom: 8px; }
 
     @media (max-width: 1195px) {
         .cap-area {
