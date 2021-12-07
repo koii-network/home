@@ -340,6 +340,17 @@ function vertical_slider(direction = 'next') {
       return ;
     }
   })
+  $(".bbl-btn").mouseover(function(){
+    let key = $(this).attr('data')
+    console.log({key})
+    $(this).css('display', 'none');
+    $(".bbl-btn-active.btn"+key).addClass('display', 'flex');
+  }).mouseleave(function() {
+    let key = $(this).attr('data')
+    console.log({key})
+    $(this).css('display', 'flex');
+    $(".bbl-btn-active.btn"+key).addClass('display', 'none');
+  });
   revolution_show_video()
   $(".lazy").lazyload(); // image and iframe lazy loading
   $( '#cbp-fwslider' ).cbpFWSlider();
