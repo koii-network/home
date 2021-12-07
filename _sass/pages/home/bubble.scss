@@ -43,6 +43,13 @@
             background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 100%);
         }
     }
+    .bk-green{
+        background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 83.27%);
+        box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+        &:hover{
+            background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 100%);
+        }
+    }
     .bbl-btn{
         position: absolute;
         border-radius: 50%;
@@ -56,8 +63,12 @@
         font-size: 18px;
         line-height: 24px;
         letter-spacing: -0.5px;
+        color: #171753;
     }
     .btn1{ width: 118px;height: 118px;left: 638px;top: 10px; }
+    .btn2{ width: 127px;height: 127px;left: 853px;top: 100px; }
+    // .btn3{ width: 118px;height: 118px;left: 638px;top: 10px; }
+    // .btn4{ width: 118px;height: 118px;left: 638px;top: 10px; }
     @media (max-width: 1195px) {
         .cap-area {
             margin-bottom: -150px;
