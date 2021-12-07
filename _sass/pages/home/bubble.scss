@@ -45,7 +45,19 @@
     }
     .bbl-btn{
         position: absolute;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+        font-family: $sora;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.5px;
     }
+    .btn1{ width: 118px;height: 118px;left: 638px;top: 10px; }
     @media (max-width: 1195px) {
         .cap-area {
             margin-bottom: -150px;
