@@ -204,10 +204,12 @@
             display: none;
         }
         .bubble-area-mobile{
-            padding-top: 50px;
-            display: flex;
-            flex: 1;
-            justify-content: center;
+            padding-bottom: 50px;
+            display: block;
+            position: relative;
+            margin: 0 auto;
+            width: 310px;
+            position: relative;
         }
     }
     @media (max-width: 767px) {

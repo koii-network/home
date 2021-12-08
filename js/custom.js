@@ -340,14 +340,14 @@ function vertical_slider(direction = 'next') {
       return ;
     }
   })
-  $(".bbl-btn").mouseover(function(){
-    let key = $(this).attr('data')
-    console.log("hover", ".btn"+key+"-hover")
-    $(".btn"+key+"-hover").css('display', 'flex');
-  })
-  $(".bbl-btn-active").mouseleave(function() {
-    $(this).css('display', 'none');
-  });
+  // $(".bbl-btn").mouseover(function(){
+  //   let key = $(this).attr('data')
+  //   console.log("hover", ".btn"+key+"-hover")
+  //   $(".btn"+key+"-hover").css('display', 'flex');
+  // })
+  // $(".bbl-btn-active").mouseleave(function() {
+  //   $(this).css('display', 'none');
+  // });
   revolution_show_video()
   $(".lazy").lazyload(); // image and iframe lazy loading
   $( '#cbp-fwslider' ).cbpFWSlider();
