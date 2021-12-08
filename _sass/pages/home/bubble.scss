@@ -211,18 +211,21 @@
             width: 310px;
             position: relative;
         }
-        .vector-img{ top: 0; }
+        .vector-img {
+            top: 450px;
+            left: 30px;
+        }
         .btn1 { width: 76px;height: 76px;left: 224px;top: 6px; }
         .btn2{ width: 86px;height: 86px;left: 186px;top: 372px; }
         .btn3{ width: 84px;height: 84px;left: 10px;top: -1px; }
         .btn4{ width: 86px;height: 86px;left: 108px;top: 65px; }
         .btn5{ width: 109px;height: 109px;left: 116px;top: 246px; }
-        .btn6{ width: 92px;height: 92px;right: 5px;top: 202px; }
+        .btn6{ width: 102px;height: 102px;left: 21px;bottom: 86px;top: revert; }
         .btn7{ width: 102px;height: 102px;left: 6px;top: 141px; }
-        .btn8{ width: 92px;height: 92px;right: 187px;bottom: 77px; }
-        .btn9{ width: 84px;height: 84px;left: -7px;bottom: 13px; }
+        .btn8{ width: 92px;height: 92px;left: 17px;bottom: 300px; }
+        .btn9{ width: 84px;height: 84px;left: 95px;bottom: 202px; }
         .btn10{ width: 90px;height: 90px;top: 135px;left: 202px; }
-        .btn11{ width: 84px;height: 84px;right: 29px;bottom: 4px; }
+        .btn11{ width: 97px;height: 97px;right: 40px;bottom: 57px; }
         .btn1-hover{ left: 338px;top: -50px; }
         .btn2-hover{ right: 10px;top: 4px; }
         .btn3-hover{ left: -64px;top: 150px; }
@@ -235,7 +238,7 @@
         .btn10-hover{ left: 202px;bottom: -65px; }
     }
     @media (max-width: 767px) {
-        padding-top: 0px;
+        padding-top: 50px;
         .cap-area{
             margin-top: 20px;
             margin-left: 50px;
@@ -252,5 +255,11 @@
             font-size: 14px;
             line-height: 22px;
         }
+    }
+    @media (max-width: 540px) {
+        // .bubble-area-mobile{
+        //     padding-top: 50px;
+        // }
+        
     }
 }
