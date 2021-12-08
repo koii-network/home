@@ -146,6 +146,7 @@
             font-size: 14px;
             line-height: 18px;
         }
+        .vector-img{ top: 0; }
         .btn1 { width: 80px;height: 80px;left: 412px;top: 5px; }
         .btn2{ width: 90px;height: 90px;left: 570px;top: 77px; }
         .btn3{ width: 70px;height: 70px;left: 5px;top: 208px; }
@@ -153,10 +154,10 @@
         .btn5{ width: 104px;height: 104px;left: 326px;top: 160px; }
         .btn6{ width: 92px;height: 92px;right: 5px;top: 202px; }
         .btn7{ width: 92px;height: 92px;left: 104px;bottom: 72px; }
-        .btn8{ width: 127px;height: 127px;right: 290px;bottom: 120px; }
-        .btn9{ width: 107px;height: 107px;left: 5px;bottom: 20px; }
-        .btn10{ width: 143px;height: 143px;left: 410px;bottom: 0px; }
-        .btn11{ width: 127px;height: 127px;right: 46px;bottom: 8px; }
+        .btn8{ width: 92px;height: 92px;right: 187px;bottom: 77px; }
+        .btn9{ width: 84px;height: 84px;left: -7px;bottom: 13px; }
+        .btn10{ width: 90px;height: 90px;left: 264px;bottom: 0px; }
+        .btn11{ width: 84px;height: 84px;right: 29px;bottom: 4px; }
         .btn1-hover{ left: 538px;top: -100px; }
         .btn2-hover{ right: 25px;top: 0px; }
         .btn3-hover{ left: -130px;top: 191px; }
@@ -178,17 +179,23 @@
         .cap-area {
             margin-bottom: 20px;
         }
-    }
-    @media (max-width: 767px) {
-        padding-top: 0px;
         .bubble-area{
+            margin-top: 0px;
+        }
+    }
+    @media (max-width: 900px) {
+        .desktop{ 
             display: none;
         }
         .bubble-area-mobile{
+            padding-top: 50px;
             display: flex;
             flex: 1;
             justify-content: center;
         }
+    }
+    @media (max-width: 767px) {
+        padding-top: 0px;
         .cap-area{
             margin-top: 20px;
             margin-left: 50px;
