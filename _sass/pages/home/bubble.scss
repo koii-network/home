@@ -99,7 +99,8 @@
         .hv-cap{
             font-weight: 700;
             font-size: 24px;
-            line-height: 40px;
+            line-height: 24px;
+            margin-top: 10px;
         }
         .hv-title{
             font-weight: 600;
@@ -128,11 +129,11 @@
     .btn3-hover{ left: -130px;top: 191px; }
     .btn4-hover{ left: 150px;top: 100px; }
     .btn5-hover{ left: 400px;top: 180px; }
-    .btn6-hover{ right: 9px;top: 313px; }
-    .btn7-hover{ left: 160px;bottom: 111px; }
-    .btn8-hover{ right: 290px;bottom: 120px; }
-    .btn9-hover{ left: 5px;bottom: 20px; }
-    .btn10-hover{ left: 410px;bottom: 0px; }
+    .btn6-hover{ right: -70px;top: 210px; }
+    .btn7-hover{ left: 100px;bottom: 0px; }
+    .btn8-hover{ right: 190px;bottom: 0px; }
+    .btn9-hover{ left: -100px;bottom: -100px; }
+    .btn10-hover{ left: 310px;bottom: -100px; }
     .btn11-hover{ right: 46px;bottom: 8px; }
 
     @media (max-width: 1195px) {
