@@ -149,6 +149,7 @@
         .bbl-btn-active{
             width: 210px;
             height: 210px;
+            display: flex;
             .hv-cap{
                 font-size: 16px;
                 line-height: 20px;
@@ -226,12 +227,12 @@
         .btn9{ width: 84px;height: 84px;left: 95px;bottom: 202px; }
         .btn10{ width: 90px;height: 90px;top: 135px;left: 202px; }
         .btn11{ width: 97px;height: 97px;right: 40px;bottom: 57px; }
-        .btn1-hover{ left: 338px;top: -50px; }
-        .btn2-hover{ right: 10px;top: 4px; }
-        .btn3-hover{ left: -64px;top: 150px; }
-        .btn4-hover{ left: 90px;top: 90px; }
-        .btn5-hover{ left: 268px;top: 108px; }
-        .btn6-hover{ right: -52px;top: 146px; }
+        .btn1-hover{ left: 112px;top: -57px; }
+        .btn2-hover{ right: -15px;top: 305px; }
+        .btn3-hover{ left: -37px;top: -65px; }
+        .btn4-hover{ left: 47px;top: 7px; }
+        .btn5-hover{ left: 68px;top: 200px; }
+        .btn6-hover{ right: 137px;top: revert;bottom: 4px; }
         .btn7-hover{ left: 69px;bottom: 4px; }
         .btn8-hover{ right: 140px;bottom: 0px; }
         .btn9-hover{ left: -78px;bottom: -70px; }
