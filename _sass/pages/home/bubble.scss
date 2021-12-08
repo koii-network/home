@@ -5,6 +5,7 @@
     font-family: $sora;
     padding: 90px 0px;
     .bubble-area{
+        position: relative;
         img{ width: 100%; }
     }
     .cap-area {
@@ -35,6 +36,157 @@
     .bubble-area-mobile{
         display: none;
     }
+    .bbl-btn:hover{
+        transition: all .1s;
+    }
+    .bk-blue{
+        background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 83.27%);
+        box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+    }
+    .bk-green{
+        background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 83.27%);
+        box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+    }
+    .bk-orange{
+        background: linear-gradient(133.01deg, #FFE5CA 20.04%, #FFA54B 83.27%);
+        box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+    }
+    .vector-img{
+        position: absolute;
+        left: -40px;
+        top: 190px;
+    }
+    .bbl-btn{
+        position: absolute;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+        font-family: $sora;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.5px;
+        color: #171753;
+    }
+    .bbl-btn-active{
+        position: absolute;
+        border-radius: 50%;
+        text-align: center;
+        // display: flex;
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 9;
+        width: 326px;
+        height: 326px;
+        font-family: $sora;
+        letter-spacing: -0.5px;
+        color: #171753;
+        &.bk-blue{
+            background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 83.27%);
+            box-shadow: 0px 0px 12px 8px rgba(255, 255, 255, 0.25), inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+        }
+        &.bk-green{
+            background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 83.27%);
+            box-shadow: 0px 0px 12px 8px rgba(255, 255, 255, 0.25), inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+        }
+        .hv-cap{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+            margin-top: 10px;
+        }
+        .hv-title{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        .hv-description{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .btn1{ width: 118px;height: 118px;left: 638px;top: 10px; }
+    .btn2{ width: 127px;height: 127px;left: 853px;top: 100px; }
+    .btn3{ width: 107px;height: 107px;left: 8px;top: 321px; }
+    .btn4{ width: 130px;height: 130px;left: 220px;top: 246px; }
+    .btn5{ width: 157px;height: 157px;left: 504px;top: 248px; }
+    .btn6{ width: 139px;height: 139px;right: 9px;top: 313px; }
+    .btn7{ width: 143px;height: 143px;left: 160px;bottom: 111px; }
+    .btn8{ width: 127px;height: 127px;right: 290px;bottom: 120px; }
+    .btn9{ width: 107px;height: 107px;left: 5px;bottom: 20px; }
+    .btn10{ width: 143px;height: 143px;left: 410px;bottom: 0px; }
+    .btn11{ width: 127px;height: 127px;right: 46px;bottom: 8px; }
+    .btn1-hover{ left: 538px;top: -100px; }
+    .btn2-hover{ right: 25px;top: 0px; }
+    .btn3-hover{ left: -130px;top: 191px; }
+    .btn4-hover{ left: 150px;top: 100px; }
+    .btn5-hover{ left: 400px;top: 180px; }
+    .btn6-hover{ right: -70px;top: 210px; }
+    .btn7-hover{ left: 100px;bottom: 0px; }
+    .btn8-hover{ right: 190px;bottom: 0px; }
+    .btn9-hover{ left: -100px;bottom: -100px; }
+    .btn10-hover{ left: 310px;bottom: -100px; }
+    .btn11-hover{ right: 46px;bottom: 8px; }
+
+    @media (max-width: 1200px) {
+        .bubble-area{
+            width: 720px;
+            margin: 0 auto;
+            margin-top: 150px;
+        }
+        .bbl-btn{
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .bbl-btn-active{
+            width: 210px;
+            height: 210px;
+            // display: flex;
+            .hv-cap{
+                font-size: 16px;
+                line-height: 20px;
+                margin-top: 0px;
+            }
+            .hv-title{
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .hv-description{
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+        .vector-img{ top: 0; }
+        .btn1 { width: 80px;height: 80px;left: 412px;top: 5px; }
+        .btn2{ width: 90px;height: 90px;left: 570px;top: 77px; }
+        .btn3{ width: 70px;height: 70px;left: 5px;top: 208px; }
+        .btn4{ width: 90px;height: 90px;left: 140px;top: 152px; }
+        .btn5{ width: 104px;height: 104px;left: 326px;top: 160px; }
+        .btn6{ width: 92px;height: 92px;right: 5px;top: 202px; }
+        .btn7{ width: 92px;height: 92px;left: 104px;bottom: 72px; }
+        .btn8{ width: 92px;height: 92px;right: 187px;bottom: 77px; }
+        .btn9{ width: 84px;height: 84px;left: -7px;bottom: 13px; }
+        .btn10{ width: 90px;height: 90px;left: 264px;bottom: 0px; }
+        .btn11{ width: 84px;height: 84px;right: 29px;bottom: 4px; }
+        .btn1-hover{ left: 338px;top: -50px; }
+        .btn2-hover{ right: 10px;top: 4px; }
+        .btn3-hover{ left: -64px;top: 150px; }
+        .btn4-hover{ left: 90px;top: 90px; }
+        .btn5-hover{ left: 268px;top: 108px; }
+        .btn6-hover{ right: -52px;top: 146px; }
+        .btn7-hover{ left: 69px;bottom: 4px; }
+        .btn8-hover{ right: 140px;bottom: 0px; }
+        .btn9-hover{ left: -78px;bottom: -70px; }
+        .btn10-hover{ left: 202px;bottom: -65px; }
+    }
     @media (max-width: 1195px) {
         .cap-area {
             margin-bottom: -150px;
@@ -44,17 +196,50 @@
         .cap-area {
             margin-bottom: 20px;
         }
-    }
-    @media (max-width: 767px) {
-        padding-top: 0px;
         .bubble-area{
+            margin-top: 0px;
+        }
+    }
+    @media (max-width: 900px) {
+        .desktop{ 
             display: none;
         }
         .bubble-area-mobile{
-            display: flex;
-            flex: 1;
-            justify-content: center;
+            padding-bottom: 50px;
+            display: block;
+            position: relative;
+            margin: 0 auto;
+            width: 310px;
+            position: relative;
         }
+        .vector-img {
+            top: 450px;
+            left: 30px;
+        }
+        .btn1 { width: 76px;height: 76px;left: 224px;top: 6px; }
+        .btn2{ width: 86px;height: 86px;left: 186px;top: 372px; }
+        .btn3{ width: 84px;height: 84px;left: 10px;top: -1px; }
+        .btn4{ width: 86px;height: 86px;left: 108px;top: 65px; }
+        .btn5{ width: 109px;height: 109px;left: 116px;top: 246px; }
+        .btn6{ width: 102px;height: 102px;left: 21px;bottom: 86px;top: revert; }
+        .btn7{ width: 102px;height: 102px;left: 6px;top: 141px; }
+        .btn8{ width: 92px;height: 92px;left: 17px;bottom: 300px; }
+        .btn9{ width: 84px;height: 84px;left: 95px;bottom: 202px; }
+        .btn10{ width: 90px;height: 90px;top: 135px;left: 202px; }
+        .btn11{ width: 97px;height: 97px;right: 40px;bottom: 57px; }
+        .btn1-hover{ left: 112px;top: -57px; }
+        .btn2-hover{ right: -15px;top: 305px; }
+        .btn3-hover{ left: -37px;top: -65px; }
+        .btn4-hover{ left: 47px;top: 7px; }
+        .btn5-hover{ left: 68px;top: 200px; }
+        .btn6-hover{ right: 137px;top: revert;bottom: 4px; }
+        .btn7-hover{ left: -32px;bottom: 421px; }
+        .btn8-hover{ right: 130px;bottom: 220px; }
+        .btn9-hover{ left: 33px;bottom: 130px; }
+        .btn10-hover{ left: 118px;bottom: 433px; }
+    }
+    @media (max-width: 767px) {
+        padding-top: 50px;
         .cap-area{
             margin-top: 20px;
             margin-left: 50px;
@@ -71,5 +256,11 @@
             font-size: 14px;
             line-height: 22px;
         }
+    }
+    @media (max-width: 540px) {
+        // .bubble-area-mobile{
+        //     padding-top: 50px;
+        // }
+        
     }
 }
