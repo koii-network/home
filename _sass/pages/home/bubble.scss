@@ -36,14 +36,13 @@
     .bubble-area-mobile{
         display: none;
     }
+    .bbl-btn-active{ display: none; }
     .bbl-btn:hover{
-        transform: scale(2.2);
+        // transform: scale(2.2);
         // transform-origin: center center;
         // width: 326px;
         // height: 326px;
         transition: all .1s;
-        z-index: 9;
-        font-size: 10px;
     }
     .bk-blue{
         background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 83.27%);
@@ -86,7 +85,21 @@
         letter-spacing: -0.5px;
         color: #171753;
     }
+    .bbl-btn-active{
+        position: absolute;
+        border-radius: 50%;
+        text-align: center;
+        // display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 9;
+        width: 326px;
+        height: 326px;
+    }
     .btn1{ width: 118px;height: 118px;left: 638px;top: 10px; }
+    .btn1-hover{ left: 438px;top: 10px; }
     .btn2{ width: 127px;height: 127px;left: 853px;top: 100px; }
     .btn3{ width: 107px;height: 107px;left: 8px;top: 321px; }
     .btn4{ width: 130px;height: 130px;left: 220px;top: 246px; }
