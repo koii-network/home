@@ -149,7 +149,7 @@
         .bbl-btn-active{
             width: 210px;
             height: 210px;
-            display: flex;
+            // display: flex;
             .hv-cap{
                 font-size: 16px;
                 line-height: 20px;
@@ -233,10 +233,10 @@
         .btn4-hover{ left: 47px;top: 7px; }
         .btn5-hover{ left: 68px;top: 200px; }
         .btn6-hover{ right: 137px;top: revert;bottom: 4px; }
-        .btn7-hover{ left: 69px;bottom: 4px; }
-        .btn8-hover{ right: 140px;bottom: 0px; }
-        .btn9-hover{ left: -78px;bottom: -70px; }
-        .btn10-hover{ left: 202px;bottom: -65px; }
+        .btn7-hover{ left: -32px;bottom: 421px; }
+        .btn8-hover{ right: 130px;bottom: 220px; }
+        .btn9-hover{ left: 33px;bottom: 130px; }
+        .btn10-hover{ left: 118px;bottom: 433px; }
     }
     @media (max-width: 767px) {
         padding-top: 50px;
