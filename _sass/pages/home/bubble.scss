@@ -92,10 +92,14 @@
             background: linear-gradient(133.01deg, #5ED9D1 20.04%, #376D8B 83.27%);
             box-shadow: 0px 0px 12px 8px rgba(255, 255, 255, 0.25), inset 0px -4px 8px rgba(0, 0, 0, 0.24);
         }
+        &.bk-green{
+            background: linear-gradient(133.01deg, #99E4C1 20.04%, #48AF80 83.27%);
+            box-shadow: 0px 0px 12px 8px rgba(255, 255, 255, 0.25), inset 0px -4px 8px rgba(0, 0, 0, 0.24);
+        }
         .hv-cap{
             font-weight: 700;
             font-size: 24px;
-            line-height: 24px;
+            line-height: 40px;
         }
         .hv-title{
             font-weight: 600;
@@ -120,7 +124,7 @@
     .btn10{ width: 143px;height: 143px;left: 410px;bottom: 0px; }
     .btn11{ width: 127px;height: 127px;right: 46px;bottom: 8px; }
     .btn1-hover{ left: 538px;top: -100px; }
-    .btn2-hover{ left: 853px;top: 100px; }
+    .btn2-hover{ right: 3px;top: 0px; }
     .btn3-hover{ left: 8px;top: 321px; }
     .btn4-hover{ left: 220px;top: 246px; }
     .btn5-hover{ left: 504px;top: 248px; }
