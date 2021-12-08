@@ -146,6 +146,23 @@
             font-size: 14px;
             line-height: 18px;
         }
+        .bbl-btn-active{
+            width: 210px;
+            height: 210px;
+            .hv-cap{
+                font-size: 16px;
+                line-height: 20px;
+                margin-top: 0px;
+            }
+            .hv-title{
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .hv-description{
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
         .vector-img{ top: 0; }
         .btn1 { width: 80px;height: 80px;left: 412px;top: 5px; }
         .btn2{ width: 90px;height: 90px;left: 570px;top: 77px; }
@@ -158,17 +175,16 @@
         .btn9{ width: 84px;height: 84px;left: -7px;bottom: 13px; }
         .btn10{ width: 90px;height: 90px;left: 264px;bottom: 0px; }
         .btn11{ width: 84px;height: 84px;right: 29px;bottom: 4px; }
-        .btn1-hover{ left: 538px;top: -100px; }
-        .btn2-hover{ right: 25px;top: 0px; }
-        .btn3-hover{ left: -130px;top: 191px; }
-        .btn4-hover{ left: 150px;top: 100px; }
-        .btn5-hover{ left: 400px;top: 180px; }
-        .btn6-hover{ right: -70px;top: 210px; }
-        .btn7-hover{ left: 100px;bottom: 0px; }
-        .btn8-hover{ right: 190px;bottom: 0px; }
-        .btn9-hover{ left: -100px;bottom: -100px; }
-        .btn10-hover{ left: 310px;bottom: -100px; }
-        .btn11-hover{ right: 46px;bottom: 8px; }
+        .btn1-hover{ left: 338px;top: -50px; }
+        .btn2-hover{ right: 10px;top: 4px; }
+        .btn3-hover{ left: -64px;top: 150px; }
+        .btn4-hover{ left: 90px;top: 90px; }
+        .btn5-hover{ left: 268px;top: 108px; }
+        .btn6-hover{ right: -52px;top: 146px; }
+        .btn7-hover{ left: 69px;bottom: 4px; }
+        .btn8-hover{ right: 140px;bottom: 0px; }
+        .btn9-hover{ left: -78px;bottom: -70px; }
+        .btn10-hover{ left: 202px;bottom: -65px; }
     }
     @media (max-width: 1195px) {
         .cap-area {
