@@ -1,13 +1,25 @@
 @import "variables";
 
 #spread {
+    position: relative;
     font-family: $sora;
     padding: 54px 0px 22px;
     background-repeat: no-repeat;
     background: linear-gradient(270deg, #030332 0%, #171753 100%);
 
+    .spread-title {
+        font-size: 50px !important;
+        font-weight: normal;
+    }
     .img-spread {
         width: 100%;
+        position: absolute;
+        &.img-spread-left {
+            left: 40px;
+        }
+        &.img-spread-right {
+            right: 40px;
+        }
     }
 
     .spread-content-left {
