@@ -96,6 +96,14 @@ p {
   background: $white;
   color: $blueDark;
 }
+.btn-greenLight {
+  background: $greenLight;
+  color: $blueDark;
+}
+.btn-greenLightest {
+  background: #5ED9D1;
+  color: $blueDark;
+}
 .fade-1 {
   animation: slideInLeft;
   animation-duration: 0s;
@@ -167,6 +175,12 @@ p {
 .font-green {
   letter-spacing: 0.03em;
   color: $green;
+}
+.text-light-green {
+  color: #5ED9D1;
+}
+.text-orange {
+  color: $orange;
 }
 
 /* Hover Effects */
