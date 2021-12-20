@@ -48,7 +48,41 @@
     }
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 576px) {
+    .mobile {
+      .container {
+        padding-top: 165px;
+        position: relative;
+        .img-spread-mobile {
+          width: 100%;
+          position: absolute;
+          top: 0;
+        }
+        .spread-content {
+          font-size: 18px;
+          line-height: 32px;
+          font-weight: normal;
+          a {
+            color: #5ed9d1;
+            font-weight: bold;
+          }
+        }
+        .partner {
+          display: flex;
+          flex-direction: column;
+          .btn {
+            top: 10px;
+          }
+        }
+        .grant {
+          display: flex;
+          flex-direction: column;
+          .btn {
+            top: -10px;
+          }
+        }
+      }
+    }
   }
 
   @media (max-width: 355px) {
