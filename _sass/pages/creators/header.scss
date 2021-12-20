@@ -3,10 +3,6 @@
 #creators-header {
   position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
-  // background-repeat: no-repeat;
-  // background-size: auto;
-  // background-position-y: center;
-  // background-position-x: right;
   .bg-hero {
     position: absolute;
     width: 100%;
@@ -48,24 +44,13 @@
       margin-top: 51px;
     }
   }
-  @media (max-width: 1200px) {
-    &::before {
-      background-size: auto 50%;
-    }
-  }
-  @media (max-width: 992px) {
-    &::before {
-      background-size: auto 34%;
-    }
-  }
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     &::before {
       display: none;
     }
     .header-content {
-      height: fit-content;
-      align-items: center;
-      text-align: center;
+      height: calc(100vw * 730 / 375);
+      align-items: flex-start;
       padding-top: 75px;
       padding-bottom: 75px;
       img {
@@ -79,6 +64,9 @@
       .header-description {
         font-size: 18px;
         line-height: 32px;
+      }
+      .btn {
+        margin-top: 18px;
       }
     }
   }
