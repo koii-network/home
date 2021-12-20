@@ -34,7 +34,14 @@
         padding: 0 28px;
     }
 
-    @media (max-width: 450px) {}
+    @media (max-width: 576px) {
+        background: linear-gradient(270deg, #030332 0%, #171753 100%);
+        .btn {
+            width: 164px;
+            font-size: 16px !important;
+            padding: 0;
+        }
+    }
 
     @media (max-width: 355px) {}
 }
