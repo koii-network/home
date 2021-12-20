@@ -1,53 +1,56 @@
 @import "variables";
 
 #spread {
-    position: relative;
-    font-family: $sora;
-    padding: 54px 0px 22px;
-    background-repeat: no-repeat;
-    background: linear-gradient(270deg, #030332 0%, #171753 100%);
-
+  position: relative;
+  font-family: $sora;
+  padding: 54px 0px 22px;
+  background-repeat: no-repeat;
+  background: linear-gradient(270deg, #030332 0%, #171753 100%);
+  .desktop {
     .spread-title {
-        font-size: 50px !important;
-        font-weight: normal;
+      font-size: 50px !important;
+      font-weight: normal;
     }
     .img-spread {
-        width: 100%;
-        position: absolute;
-        &.img-spread-left {
-            left: 40px;
-        }
-        &.img-spread-right {
-            right: 40px;
-        }
+      width: 100%;
+      position: absolute;
+      &.img-spread-left {
+        left: 40px;
+      }
+      &.img-spread-right {
+        right: 40px;
+      }
     }
 
     .spread-content-left {
-        color: white;
-        font-size: 18px;
-        line-height: 32px;
-        max-width: 269px;
-        font-weight: normal;
-        a {
-            color: #5ED9D1;
-            font-weight: bold;
-        }
+      color: white;
+      font-size: 18px;
+      line-height: 32px;
+      max-width: 269px;
+      font-weight: normal;
+      a {
+        color: #5ed9d1;
+        font-weight: bold;
+      }
     }
     .spread-content-right {
-        font-size: 25px;
-        line-height: 32px;
-        font-weight: normal;
-        a {
-            color: #5ED9D1;
-            font-weight: bold;
-        }
+      font-size: 25px;
+      line-height: 32px;
+      font-weight: normal;
+      a {
+        color: #5ed9d1;
+        font-weight: bold;
+      }
     }
     .btn {
-        border-radius: 24px;
-        height: 48px;
+      border-radius: 24px;
+      height: 48px;
     }
+  }
 
-    @media (max-width: 450px) {}
+  @media (max-width: 450px) {
+  }
 
-    @media (max-width: 355px) {}
+  @media (max-width: 355px) {
+  }
 }
