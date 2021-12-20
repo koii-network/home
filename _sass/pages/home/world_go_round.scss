@@ -35,7 +35,11 @@
     }
 
     @media (max-width: 576px) {
+        padding: 30px 0px 30px;
         background: linear-gradient(270deg, #030332 0%, #171753 100%);
+        .section-title {
+            font-size: 40px !important;
+        }
         .btn {
             width: 164px;
             font-size: 16px !important;
