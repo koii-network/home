@@ -396,11 +396,17 @@ function wings_img_spin() {
   wings_img_spin()
   $(".lazy").lazyload(); // image and iframe lazy loading
   $( '#cbp-fwslider' ).cbpFWSlider();
+
+
 })
 window.addEventListener('load', (event) => {
   console.log('page is fully loaded');
   $(".cbp-fwnext").trigger('click')
   nextFwCurrent()
+
+  $('.finnie-card').hover(function(){
+    $(this).toggleClass('flipped');
+  });
   $(".horizontal-roadmap-prev").click(function(){
     $(".cbp-fwprev").trigger('click')
     prevFwCurrent()
