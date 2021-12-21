@@ -2,17 +2,41 @@
 
 #finnie {
   position: relative;
-  height: 400px;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  padding: 21px 0;
   .left-dots {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 104px;
   }
   .right-dots {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 104px;
+  }
+  .finnie-content {
+    margin-bottom: 56px;
+    h1 {
+      line-height: 48px;
+      font-weight: normal;
+      letter-spacing: -0.04em;
+    }
+    h6 {
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .btn {
+      width: 221px;
+      height: 40px;
+      border-radius: 24px;
+    }
+  }
+  .finnie-card {
+    h5 {
+      font-weight: 600;
+      font-size: 20px !important;
+      line-height: 32px;
+    }
   }
   @media (max-width: $sm) {
   }
