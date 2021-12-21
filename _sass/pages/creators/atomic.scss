@@ -2,7 +2,11 @@
 
 #atomic {
   position: relative;
-  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  background: url(/img/creators/bg-automic.svg), linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: left;
+  background-size: auto 100%;
   padding: 122px 0;
   color: white;
   display: flex;
