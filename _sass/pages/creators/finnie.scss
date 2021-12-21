@@ -14,6 +14,9 @@
     right: 0;
     top: 104px;
   }
+  .hover-text {
+    margin-left: 75px;
+  }
   .finnie-content {
     margin-bottom: 56px;
     h1 {
@@ -32,12 +35,42 @@
     }
   }
   .finnie-card {
+    img {
+      width: 150px;
+    }
     h5 {
       font-weight: 600;
       font-size: 20px !important;
       line-height: 32px;
     }
   }
-  @media (max-width: $sm) {
+  @media (max-width: $xs) {
+    padding-top: 87px;
+    .left-dots-mobile {
+      position: absolute;
+      left: 0;
+      top: 54px;
+    }
+    .right-dots-mobile {
+      position: absolute;
+      right: 0;
+      top: 54px;
+    }
+    .hover-text {
+      margin-left: unset;
+      text-align: center;
+    }
+    .finnie-content {
+      h1 {
+        font-size: 32px !important;
+        line-height: 40px;
+        margin-bottom: 68px;
+      }
+    }
+    .finnie-card {
+      img {
+        width: 128px;
+      }
+    }
   }
 }

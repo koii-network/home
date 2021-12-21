@@ -1,29 +1,33 @@
 <section id="finnie">
-  <img src="/img/creators/dots-left.svg" class="left-dots" />
-  <img src="/img/creators/dots-right.svg" class="right-dots" />
+  <img src="/img/creators/dots-left.svg" class="left-dots d-none d-sm-block" />
+  <img src="/img/creators/dots-right.svg" class="right-dots d-none d-sm-block" />
+  <img src="/img/creators/dots-left-mobile.svg" class="left-dots-mobile d-sm-none" />
+  <img src="/img/creators/dots-right-mobile.svg" class="right-dots-mobile d-sm-none" />
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="finnie-content d-flex flex-column align-items-center">
-          <h1 class="text-light-green">Easier than ever before</h1>
+        <div class="finnie-content d-flex flex-column align-items-center text-center">
+          <h1 class="text-light-green">Easier than <br class="d-sm-none" /> ever before</h1>
           <h6 class="text-white">
-            With Finnie, making an Atomic NFT has never been easier. It
-            <br />takes less than one minute, and costs as little as one cent.
+            With Finnie, making an Atomic<br class="d-sm-none" /> NFT has never been easier. It
+            <br />takes less than one minute, and<br class="d-sm-none" /> costs as little as one cent.
           </h6>
           <h6 class="text-white">
-            Finnie is the best NFT wallet on the market.
+            Finnie is the best NFT wallet on<br class="d-sm-none" /> the market.
           </h6>
           <a class="btn btn-greenLightest mt-3">Get Finnie</a>
         </div>
       </div>
     </div>
+    <p class="text-light-green hover-text d-none d-sm-block">Hover for details</p>
+    <p class="text-light-green hover-text d-sm-none">Tap bubbles for details</p>
     <div class="row">
       {% for item in site.data.creators_finnie %}
-      <div class="col-md-3 col-sm-6 col-12">
+      <div class="col-md-3 col-sm-6 col-6">
         <div
           class="finnie-card d-flex flex-column align-items-center w-100 mb-3"
         >
-          <img src="/img/creators/{{item.img}}.svg" width="150" class="mb-2" />
+          <img src="/img/creators/{{item.img}}.svg" class="mb-2" />
           <h5 class="text-orange text-center">{{item.title}}</h5>
         </div>
       </div>
