@@ -49,10 +49,11 @@
       }
     }
   }
-  @media (max-width: 1200px) {
-  }
-  @media (max-width: 400px) {
-  }
-  @media (max-width: $sm) {
+  @media (max-width: 576px) {
+    background: url(/img/creators/bg-automic-mobile.svg),
+      linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 100% auto;
   }
 }
