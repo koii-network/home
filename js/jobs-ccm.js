@@ -60,7 +60,7 @@ function option7() {
     </div>
     </div>
     <div class="job-apply d-flex align-items-center">
-          <a href="https://share.hsforms.com/142u1Vp02TGuojOXCTUBGGQc20dg" target="_blank"><div class="btn btn-apply">Apply for this job</div></a>
+          <a href="/form/career/" target="_blank"><div class="btn btn-apply">Apply for this job</div></a>
     </div>
     `
     }
