@@ -48,40 +48,56 @@
     }
   }
   @media (max-width: 576px) {
+    padding-bottom: 70px;
+    padding-top: 195px;
     background: url(/img/creators/bg-automic-mobile.svg),
       linear-gradient(90deg, #030332 0%, #171753 100%);
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: 100% auto;
+    h1 {
+      font-size: 32px !important;
+    }
     .img-wrapper-mobile {
       position: relative;
       width: 200px;
+      margin-top: 150px;
+      margin-bottom: 200px;
       .chart-desc {
         position: absolute;
+        p {
+          font-size: 14px !important;
+        }
         &.desc1 {
-          bottom: 11px;
-          left: -149px;
+          bottom: 174px;
+          right: -106px;
         }
         &.desc2 {
-          top: 73px;
-          left: -125px;
+          top: -94px;
+          right: -110px;
         }
         &.desc3 {
-          top: -76px;
-          left: -50px;
+          top: -100px;
+          left: 14px;
         }
         &.desc4 {
-          top: -76px;
-          right: -58px;
+          bottom: 42px;
+          right: -130px;
         }
         &.desc5 {
-          top: 75px;
-          right: -135px;
+          bottom: -67px;
+          right: -94px;
         }
         &.desc6 {
-          bottom: -59px;
-          right: -175px;
+          bottom: -153px;
+          left: 15px;
         }
+      }
+    }
+    .mobile-bottom {
+      .btn {
+        width: 221px;
+        border-radius: 24px;
       }
     }
   }
