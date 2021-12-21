@@ -10,8 +10,6 @@
   background-size: auto 100%;
   padding: 168px 0 191px;
   color: white;
-  display: flex;
-  align-items: center;
   font-family: $sora;
   a {
     text-decoration: none;
@@ -55,5 +53,36 @@
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: 100% auto;
+    .img-wrapper-mobile {
+      position: relative;
+      width: 200px;
+      .chart-desc {
+        position: absolute;
+        &.desc1 {
+          bottom: 11px;
+          left: -149px;
+        }
+        &.desc2 {
+          top: 73px;
+          left: -125px;
+        }
+        &.desc3 {
+          top: -76px;
+          left: -50px;
+        }
+        &.desc4 {
+          top: -76px;
+          right: -58px;
+        }
+        &.desc5 {
+          top: 75px;
+          right: -135px;
+        }
+        &.desc6 {
+          bottom: -59px;
+          right: -175px;
+        }
+      }
+    }
   }
 }
