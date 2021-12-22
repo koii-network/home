@@ -82,5 +82,38 @@ function jobmenu() {
     </div>
 </div>
 <hr / class="mt20">
+<div class="detail-card">
+    <div class="detail-left">
+        <div class="title mt10">Rust Developer</div>
+        <div class="sub mt10">Remote</div>
+        <div class="date mt10">Posted on Dec 21, 2021</div>
+    </div>
+    <div class="detail-right">
+        <a class="apply mt10" onclick="option8()">Apply Now</a>
+    </div>
+</div>
+<hr / class="mt20">
+<div class="detail-card">
+<div class="detail-left">
+    <div class="title mt10">Jr. Node Developer</div>
+    <div class="sub mt10">Remote</div>
+    <div class="date mt10">Posted on Dec 21, 2021</div>
+</div>
+<div class="detail-right">
+    <a class="apply mt10" onclick="option9()">Apply Now</a>
+</div>
+</div>
+<hr / class="mt20">
+<div class="detail-card">
+<div class="detail-left">
+    <div class="title mt10">Jr. DevOps Developer</div>
+    <div class="sub mt10">Remote</div>
+    <div class="date mt10">Posted on Dec 21, 2021</div>
+</div>
+<div class="detail-right">
+    <a class="apply mt10" onclick="option10()">Apply Now</a>
+</div>
+</div>
+<hr / class="mt20">
     `
     }
