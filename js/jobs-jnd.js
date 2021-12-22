@@ -1,23 +1,23 @@
-function option8() {
+function option9() {
     var elements = document.getElementsByClassName('btn btn-secondary active');
       while(elements.length > 0){
           elements[0].classList.remove('active');
       }
-    var active = document.getElementById("rd");
+    var active = document.getElementById("jnd");
     active.classList.add("active");
   
       document.getElementById("detail").innerHTML = `
       <div class="bcak-icon"><img src="/img/jobs/icon/Job/Return-button.svg" onclick="jobmenu()"></div>
       <div class="job-content">
-      <div class="job-title">Rust Developer</div>
+      <div class="job-title">Jr. Node Developer</div>
       <div class="job-green">Who we are</div>
       <div class="job-detail">
         Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their digital content.
         <br /><br />We’ve got solutions to some of the biggest problems facing development of the next generation of Web 3.0 applications. We’re building an advanced, but accessible framework for creating applications that leverage blockchain consensus, decentralized file networks and attention rewards.
         <br /><br />Koii just closed a third successful funding round and we’re looking for talent to help us grow.
       </div>
-      <div class="job-green">Job Type: <spam class="job-line">Full-time</spam></div>
-      <div class="job-green">About the Role: <spam class="job-line">Rust Developer</spam></div>
+      <div class="job-green">Job Type: <spam class="job-line">Full-time, Independent Contractor</spam></div>
+      <div class="job-green">About the Role: <spam class="job-line">Jr. Node Developer</spam></div>
       <div class="job-detail">
       You are an intellectually curious and highly motivated software developer who wants to empower others by building the best dApp framework. You are a team player and good collaborator with good time management skills. You know when to ask for help and your work gets finished without intense management from a supervisor. You have a high attention to detail and comment thoroughly on your code. When you finish a task, you help your teammates without being asked.
       <br><br>At Koii, we are committed to developing and growing talent. Promotions and career development at Koii can happen over the course of weeks and months, not years. We’re always looking to promote leaders from within.
@@ -25,8 +25,10 @@ function option8() {
       <div class="job-green">You must have (requirements): </div>
       <div class="job-detail">
         <ul>
-        <li>3-4 Years of Software Development
-        <li>1-2 Years of Rust Development Experience
+        <li>1-2 Years of Node.js Development
+        <li>Demonstrated interest in microservices technology
+        <li>Interest in web3 and blockchain
+        <li>A desire to build systems without owners
         <li>A willingness to learn constantly and build new technology
         <li>A history of open-source development contributions
          </ul>
@@ -34,10 +36,11 @@ function option8() {
       <div class="job-green">It would be great if you have: </div>
       <div class="job-detail">
         <ul>
-       <li>Experience working with public key cryptography, Web3.0 technology or blockchain-based systems directly. 
-       <li>Hands-on experience with smart contracts, decentralized file storage and the like 
-       <li>Active in developer communities: hackathons, public forums, dev discords, stackoverflow
-       <li>A live project you built from start-to-finish
+        <li>Experience working with public key cryptography, Web3.0 technology or blockchain-based systems directly. 
+        <li>Hands-on experience with smart contracts, decentralized file storage and the like 
+        <li>Distributed Systems certifications or experience
+        <li>Active in developer communities: hackathons, public forums, dev discords, stackoverflow
+        <li>A live project you built from start-to-finish        
        </ul>
       </div>
       <div class="job-green">To Apply: </div>
@@ -45,8 +48,8 @@ function option8() {
       Please submit the following information:
       <ul>
         <li>Resume/CV</li>
-        <li>Brief Cover Letter / Introductory Email</li>
-        <li>Link to your portfolio/ GitHub for any past projects relevant to this role.
+        <li>Brief Cover Letter/Introductory Email</li>
+        <li>Link to your portfolio/GitHub for any past projects relevant to this role.
 </li>
       </ul>
       </div>

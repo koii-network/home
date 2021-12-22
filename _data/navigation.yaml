@@ -109,6 +109,11 @@
       class: normal
       newtab: target="_blank"
 
+    - name: Apply Now
+      link: /jobs/
+      class: normal
+      newtab: target="_blank"
+
     - name: support@koii.network
       link: "mailto:support@koii.network"
       class: normal
@@ -118,11 +123,6 @@
     #   link: "mailto:investors@koii.network"
     #   class: normal
     #   newtab: target="_blank"
-
-    - name: jobs@koii.network
-      link: "mailto:jobs@koii.network"
-      class: normal
-      newtab: target="_blank"
 
     - name: press@koii.network
       link: "mailto:press@koii.network"

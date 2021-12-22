@@ -49,7 +49,8 @@ function option7() {
     <ul>
       <li>Resume/CV</li>
       <li>Brief Cover Letter / Introductory Email</li>
-      <li>Link to your portfolio of any past projects relevant to this role.</li>
+      <li>Link to your portfolio/ GitHub for any past projects relevant to this role.
+</li>
     </ul>
     </div>
     <div class="job-green">About Koii </div>
