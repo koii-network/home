@@ -116,7 +116,7 @@
       }
     }
     .finnie-card {
-      img {
+      img.front {
         width: 128px;
       }
     }
@@ -125,11 +125,17 @@
 .popover-body {
   background: #ecfffe;
   .finnie-pop-container {
+    position: relative;
     padding: 16px;
+    #icon-close {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
   }
 }
 .arrow {
   &::after {
-    border-bottom-color: #ECFFFE;
+    border-bottom-color: #ECFFFE !important;
   }
 }

@@ -48,7 +48,7 @@
     <p class="text-light-green hover-text d-sm-none">Tap bubbles for details</p>
     <div class="row">
       {% for item in site.data.creators_finnie %}
-      <div class="col-md-3 col-sm-6 col-6">
+      <div class="col-md-3 col-sm-6 col-6 mb-3">
         <div
           class="finnie-card d-flex flex-column align-items-center w-100 mb-3"
         >
@@ -57,7 +57,7 @@
             class="front mb-2"
             width="100%"
           />
-          <div class="back mb-2">
+          <div class="back mb-2" id="back">
             <div class="d-flex justify-content-center align-items-center h-100">
               <p class="">
                 {{item.desc}} {% if item.hastooltip == true %}
@@ -68,12 +68,13 @@
                   data-container="body"
                   data-toggle="popover"
                   data-placement="bottom"
-                  data-content="<div class='finnie-pop-container'>
+                  data-content="<div class='finnie-pop-container' id='finnie-pop-container'>
+                    <div id='icon-close'><img src='/img/icons/close.svg' /></div>
                     Each chain has its advantages, and you shouldn’t have to choose which one you want to work on forever. Upload with Koii and you can send your NFT to whichever chain you need right now. 
                     Current chains: Arweave, Ethereum, Polygon, more coming soon.
                   </div>"
                 >
-                  <img src="/img/icons/icon-tooltip.svg" width="10px"
+                  <img src="/img/icons/icon-tooltip.svg" width="10px" class="icon-tooltip"
                 /></span>
                 {% endif %}
               </p>
