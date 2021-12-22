@@ -43,6 +43,7 @@ function option7() {
       <li>Experience mentoring and developing talent</li>
       </ul>
     </div>
+    <a href="/form/career" target="_blank" style="text-decoration: none">
     <div class="job-green">To Apply: </div>
     <div class="job-detail">
     Please submit the following information:
@@ -53,6 +54,7 @@ function option7() {
 </li>
     </ul>
     </div>
+    <a>
     <div class="job-green">About Koii </div>
     <div class="job-detail">
       At Koii, we are building a protocol that creates infrastructure for quality information on the internet that is verified trustlessly. Anyone can use or build on top of our protocol and this network to track and reward attention. We value accessibility and transparency both in our products and in our organization.
