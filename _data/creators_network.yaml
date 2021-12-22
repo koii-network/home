@@ -1,0 +1,12 @@
+- left:
+  classname: left
+  children:
+    - img: 1
+    - img: 2
+    - img: 3
+- right:
+  classname: right
+  children:
+    - img: 4
+    - img: 5
+    - img: 6
