@@ -53,6 +53,13 @@
       -o-transform: rotateY(180deg);
       transform: rotateY(180deg);
     }
+    p {
+      font-size: 14px !important;
+      line-height: 16px !important;
+      color: $blueDark;
+      text-align: center;
+      margin-bottom: 0;
+    }
     h5 {
       font-weight: 600;
       font-size: 20px !important;
@@ -74,7 +81,7 @@
       backface-visibility: hidden;
     }
     .back {
-      background-color: #BEF0ED;
+      background-color: #bef0ed;
       border-radius: 50%;
       font-size: 16px;
       text-align: left;
@@ -113,5 +120,16 @@
         width: 128px;
       }
     }
+  }
+}
+.popover-body {
+  background: #ecfffe;
+  .finnie-pop-container {
+    padding: 16px;
+  }
+}
+.arrow {
+  &::after {
+    border-bottom-color: #ECFFFE;
   }
 }
