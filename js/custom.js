@@ -258,6 +258,50 @@ function vertical_slider(direction = 'next') {
   });
 }
 
+function centerPositionOfDiv(obj) {
+  let x_left = 0, y_top = 0
+  y_top = obj.offset().top + obj.height() / 2
+  x_left = obj.offset().left + obj.width() / 2
+  return {left: x_left, top: y_top} 
+}
+function wings_img_spin() {
+  var mouseXY = {};
+    $( document ).on( "mousemove", function( event ) {
+      mouseXY.X = event.pageX; 
+      mouseXY.Y = event.pageY;
+    });
+    var iCow = $("#spread_main_img");
+    var prevXY = {X: null, Y: null};
+    console.log("here is image position", centerPositionOfDiv(iCow));
+    console.log("here is image offset", iCow.offset())
+    var cowInterval = setInterval(function()
+    {
+      if(prevXY.Y != mouseXY.Y || prevXY.X != mouseXY.X && (prevXY.Y != null || prevXY.X != null)) {
+      
+      var cowXY = centerPositionOfDiv(iCow)
+      var diffX = cowXY.left - mouseXY.X;
+      var diffY = cowXY.top - mouseXY.Y;
+      var tan = diffY / diffX;
+     
+      var atan = Math.atan(tan)* 180 / Math.PI;;
+       if(diffY > 0 && diffX > 0) {
+      
+      	atan += 180; 
+      }
+      else if(diffY < 0 && diffX > 0) {
+      
+      	atan -= 180;
+      }
+      
+      atan += -45
+      
+      prevXY.X = mouseXY.X;
+      prevXY.Y = mouseXY.Y;
+      iCow.css({transform: "rotate(" + atan + "deg)"});
+    }
+  }, 10);
+}
+
 (jQuery)(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
@@ -349,6 +393,7 @@ function vertical_slider(direction = 'next') {
     $(this).css('display', 'none');
   });
   revolution_show_video()
+  wings_img_spin()
   $(".lazy").lazyload(); // image and iframe lazy loading
   $( '#cbp-fwslider' ).cbpFWSlider();
 })

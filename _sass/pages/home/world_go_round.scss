@@ -1,0 +1,51 @@
+@import "variables";
+
+#world_go_round {
+    position: relative;
+    font-family: $sora;
+    padding: 200px 0px 47px;
+    background-color: linear-gradient(270deg, #030332 0%, #171753 100%);
+    background: url(/img/homepage/world_go_round/bottom-right.svg), linear-gradient(90deg, #171753 0%, #030332 100%);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+    .img-world-go-round {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .section-title {
+        font-size: 50px !important;
+        font-weight: 600;
+        line-height: 72px;
+    }
+
+    h6.description {
+        line-height: 32px;
+        font-weight: normal;
+    }
+
+    .btn {
+        border-radius: 24px;
+        height: 48px;
+        padding: 0 28px;
+    }
+
+    @media (max-width: 576px) {
+        padding: 30px 0px 30px;
+        background: linear-gradient(270deg, #030332 0%, #171753 100%);
+        .section-title {
+            font-size: 40px !important;
+        }
+        .btn {
+            width: 164px;
+            font-size: 16px !important;
+            padding: 0;
+        }
+    }
+
+    @media (max-width: 355px) {}
+}

@@ -92,8 +92,20 @@ p {
   background: $orange;
   color: $blueDark;
 }
+.btn-orangeLight {
+  background: #FFC78F;
+  color: $blueDark;
+}
 .btn-white {
   background: $white;
+  color: $blueDark;
+}
+.btn-greenLight {
+  background: $greenLight;
+  color: $blueDark;
+}
+.btn-greenLightest {
+  background: #5ED9D1;
   color: $blueDark;
 }
 .fade-1 {
@@ -167,6 +179,12 @@ p {
 .font-green {
   letter-spacing: 0.03em;
   color: $green;
+}
+.text-light-green {
+  color: #5ED9D1;
+}
+.text-orange {
+  color: $orange;
 }
 
 /* Hover Effects */
