@@ -2,7 +2,8 @@
 
 #koi-network {
   position: relative;
-  background: url(/img/creators/koi-network-bottom.svg), linear-gradient(90deg, #030332 0%, #171753 100%);
+  background: url(/img/creators/koi-network-bottom.svg),
+    linear-gradient(90deg, #030332 0%, #171753 100%);
   background-position-y: bottom;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -53,14 +54,33 @@
       top: 60px;
       width: fit-content;
       margin-right: 36px;
+      flex: 1;
     }
     .imgs-group-right {
       position: relative;
       top: -60px;
       width: fit-content;
+      flex: 1;
     }
   }
   @media (max-width: $xs) {
-    
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+    padding: 30px 0;
+    .imgs-group {
+      padding: 100px 0;
+      img {
+        width: 100%;
+        margin-top: 16px;
+      }
+      .imgs-group-left {
+        margin-right: 16px;
+      }
+    }
+    .koi-network-left {
+      .btn {
+        margin-left: auto;
+    margin-right: auto;
+      }
+    }
   }
 }
