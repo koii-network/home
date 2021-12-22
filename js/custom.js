@@ -302,6 +302,15 @@ function wings_img_spin() {
   }, 10);
 }
 
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+  $(".hover-text").on('click', function(){
+    $('[data-toggle="popover"]').popover('hide'); 
+  })
+  // $(".finnie-card").mouseleave(function() {
+  //   $('[data-toggle="popover"]').popover('hide'); 
+  // });
+});
 (jQuery)(function($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
