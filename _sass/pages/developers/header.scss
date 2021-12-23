@@ -50,6 +50,7 @@
       position: absolute;
       width: auto;
       height: 100%;
+      right: 0;
     }
     .header-content {
       height: calc(100vw * 730 / 375);
@@ -61,8 +62,8 @@
         margin-bottom: 50px;
       }
       .header-title {
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 35px;
+        line-height: 53px;
       }
       .header-description {
         font-size: 18px;
@@ -70,6 +71,10 @@
       }
       .btn {
         margin-top: 18px;
+        padding: 0px;
+        width: 271px;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
