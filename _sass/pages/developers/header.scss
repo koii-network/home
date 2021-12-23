@@ -1,65 +1,75 @@
 @import "variables";
 
-#developers-header {
+#developers-hero {
   position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  .bg-hero {
+    position: absolute;
+    width: 100%;
+  }
   color: $white;
   display: flex;
   align-items: center;
   margin-top: 74px;
   font-family: $sora;
-  overflow: hidden;
-  .bg-desktop {
-    // height: calc(100vw * 477 / 1000);
-    width: 100%;
-    min-height: 300px;
-    max-height: 600px;
-  }
-  .bg-mobile {
-    display: none;
-  }
-  .hero-content {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 100%;
+
+  .header-content {
+    height: calc(100vw * 1009 / 1920);
     display: flex;
-    align-items: center;
-    .container {
-      z-index: 9;
-      text-align: -webkit-center;
-      .font-cap1 {
-        font-weight: 600;
-        font-size: 56px;
-        line-height: 72px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color: #ffffff;
-        max-width: 575px;
-      }
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .header-title {
+      font-size: 56px;
+      line-height: 72px;
+      letter-spacing: -0.02em;
+      font-weight: 600;
+    }
+    .header-description {
+      margin-top: 23px;
+      margin-bottom: 26px;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      color: white;
+      font-weight: 400;
+    }
+    .btn {
+      box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+      border-radius: 24px;
+      padding: 0 69px;
+      height: 40px;
+      margin-top: 51px;
     }
   }
-  @media (max-width: 768px) {
-  }
-  @media (max-width: 572px) {
-    .bg-desktop {
+  @media (max-width: 576px) {
+    &::before {
       display: none;
     }
-    .bg-mobile {
-      display: block;
-      width: 100%;
+    .bg-hero {
+      position: absolute;
+      width: auto;
+      height: 100%;
     }
-    .hero-content {
-      .container {
-        .font-cap1 {
-          font-weight: 600;
-          font-size: 36px;
-          line-height: 56px;
-          text-align: center;
-          letter-spacing: -0.02em;
-          color: #f8f7fc;
-          max-width: 320px;
-        }
+    .header-content {
+      height: calc(100vw * 730 / 375);
+      align-items: flex-start;
+      padding-top: 75px;
+      padding-bottom: 75px;
+      img {
+        max-width: 100%;
+        margin-bottom: 50px;
+      }
+      .header-title {
+        font-size: 36px;
+        line-height: 50px;
+      }
+      .header-description {
+        font-size: 18px;
+        line-height: 32px;
+      }
+      .btn {
+        margin-top: 18px;
       }
     }
   }
