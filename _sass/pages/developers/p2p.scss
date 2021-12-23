@@ -1,0 +1,29 @@
+#p2p {
+  background: url(/img/developers/bg-p2p.svg),
+    linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  font-family: $sora;
+  padding: 107px 0 132px;
+  h1 {
+    font-weight: 600;
+    font-size: 45px !important;
+    line-height: 61px;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-weight: normal;
+    font-size: 26px !important;
+    line-height: 24px;
+    margin-bottom: 42px;
+  }
+  .p2p-card {
+    width: 308px;
+    height: 308px;
+    background: #ffffff;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width: 768px) {
+  }
+}
