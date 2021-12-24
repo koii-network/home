@@ -1,0 +1,20 @@
+- title: Layer N
+  classname: 'content-left'
+  children:
+    - subtitle: Write to Koii nodes instead of directly on chain
+    - subtitle: Applications are cross-chain by default<
+    - subtitle: Users can easily join without buying tokens first (easy onboarding)
+- title: Gradual Consensus
+  classname: 'content-right'
+  children:
+    - subtitle: Proof of Stake games are defined by three functions (“Tasks”)
+    - subtitle: Highly scalable&#x3a; Gas fees are much cheaper than traditional hosting
+            costs - most interactions are feeless
+    - subtitle: Eco-friendly
+    - subtitle: Designed for humans, not finance
+- title: Proof of Real Traffic
+  classname: 'content-bottom'
+  children:
+    - subtitle: Track verified human attention on any content
+    - subtitle: Fairly reward users based on traffic
+    - subtitle: Prevent spam and collusion to monopolize rewards

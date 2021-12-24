@@ -5,36 +5,16 @@
     <h1 class="text-white text-uppercase">How does it work?</h1>
     <div class="how-works-content">
       <img src="/img/developers/how-main.svg" class="img-main" />
-      <div class="how-content content-left">
-        <h2 class="text-green">Layer N</h2>
+      {% for item in site.data.developers_how_works %}
+      <div class="how-content {{item.classname}}">
+        <h2 class="text-green">{{item.title}}</h2>
         <ul>
-          <li>Write to Koii nodes instead of directly on chain</li>
-          <li>Applications are cross-chain by default</li>
-          <li>
-            Users can easily join without buying tokens first (easy onboarding)
-          </li>
+          {% for child in item.children %}
+          <li>{{child.subtitle}}</li>
+          {% endfor %}
         </ul>
       </div>
-      <div class="how-content content-right">
-        <h2 class="text-green">Gradual Consensus</h2>
-        <ul>
-          <li>Proof of Stake games are defined by three functions (“Tasks”)</li>
-          <li>
-            Highly scalable: Gas fees are much cheaper than traditional hosting
-            costs - most interactions are feeless
-          </li>
-          <li>Eco-friendly</li>
-          <li>Designed for humans, not finance</li>
-        </ul>
-      </div>
-      <div class="how-content content-bottom">
-        <h2 class="text-green">Proof of Real Traffic</h2>
-        <ul>
-          <li>Track verified human attention on any content</li>
-          <li>Fairly reward users based on traffic</li>
-          <li>Prevent spam and collusion to monopolize rewards</li>
-        </ul>
-      </div>
+      {% endfor %}
       <img src="/img/developers/how-arrows.svg" class="how-arrows" />
     </div>
   </div>
