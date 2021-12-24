@@ -6,6 +6,7 @@
   background-position-y: top;
   font-family: $sora;
   padding: 107px 0 132px;
+  position: relative;
   h1 {
     font-weight: 600;
     font-size: 45px !important;
@@ -25,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 32px;
     &.above {
       min-height: 308px;
     }
@@ -35,6 +37,27 @@
       flex: 1;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
+    background: url(/img/developers/bg-p2p-mobile.svg),
+    linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    padding: 35px 0;
+    .img-p2p-bottom {
+      position: absolute;
+      bottom: 0;
+    }
+    h1 {
+      font-size: 40px !important;
+      line-height: 53px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px !important;
+      line-height: 32px;
+      margin-bottom: 62px;
+    }
+    .p2p-card {
+      margin-bottom: 16px;
+    }
   }
 }
