@@ -1,12 +1,12 @@
 - left:
   classname: left
   children:
-    - img: 1
-    - img: 2
-    - img: 3
+    - imgid: PTAc3SqvA_IWhriuuXktVHjf1CXQ8prURSMVVmXfStc
+    - imgid: dSF-bNuJMl_miV7U7EvzJonWuyaYfigGWrcnqDU9wv8
+    - imgid: BjGv2ixxP0gGjIYcJDFTNG0xOT9Ag649SUfif-vtcho
 - right:
   classname: right
   children:
-    - img: 4
-    - img: 5
-    - img: 6
+    - imgid: NG2x3iN4LM-uj8Jcjk5TpsonGoVuk3_j2m0bKWiuQkM
+    - imgid: EoxxObM_mxny40qxKRsHTB-m1n3OOd69cXhaMhtd-3M
+    - imgid: QpQhTHplOrJrwfE6fRjnH12UChWjG8VeZrx8ctv84qY
