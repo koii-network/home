@@ -1,23 +1,23 @@
 <section id="p2p">
   <img src="/img/developers/p2p-bottom-mobile.svg" class="img-p2p-bottom d-sm-none" />
   <div class="container">
-    <h1 class="text-white">An <br class="d-sm-none" /> unstoppable peer-to-peer network</h1>
-    <h3 class="text-lighter-green">
+    <h1 class="text-white text-center">An <br class="d-sm-none" /> unstoppable peer-to-peer network</h1>
+    <h3 class="text-lighter-green text-center">
       Use attention rewards to pay for decentralized hosting
     </h3>
     <div class="row">
       {% for item in site.data.developers_p2p %}
       <div class="col-sm-4">
         <div class="p2p-card {{item.classname}}">
-          <div class="p2p-card-title mb-auto d-flex justify-content-center align-items-center">
-            <p>{{item.title}}</p>
+          <div class="p2p-card-title mb-auto d-flex justify-content-center align-items-start">
+            <p class="text-center">{{item.title}}</p>
           </div>
           <ul>
             {% for child in item.children %}
             <li>{{child.subtitle}}</li>
             {% endfor %}
           </ul>
-          <a href="#" class="text-green">{{item.cta}}</a>
+          <a href="#" class="text-green underline text-uppercase">{{item.cta}}</a>
         </div>
       </div>
       {% endfor %}

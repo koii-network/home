@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 32px;
+    padding: 32px 20px 20px;
     &.above {
       min-height: 308px;
     }
@@ -35,11 +36,20 @@
     }
     .p2p-card-title {
       flex: 1;
+      p {
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: #171753;
+      }
+    }
+    ul {
+      padding-left: 20px;
     }
   }
   @media (max-width: 576px) {
     background: url(/img/developers/bg-p2p-mobile.svg),
-    linear-gradient(90deg, #030332 0%, #171753 100%);
+      linear-gradient(90deg, #030332 0%, #171753 100%);
     background-repeat: no-repeat;
     padding: 35px 0;
     .img-p2p-bottom {
