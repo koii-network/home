@@ -1,149 +1,141 @@
 @import "variables";
 
-#registration {
+#finnie {
+  position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
-  padding: 182px 0;
-  color: $blueDark;
-  font-family: $sora;
-  .registration-wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 16px;
-    .registration-dots {
-      position: absolute;
-      bottom: 18px;
-      left: 347px;
+  padding: 21px 0;
+  .left-dots {
+    position: absolute;
+    left: 0;
+    top: 104px;
+  }
+  .right-dots {
+    position: absolute;
+    right: 0;
+    top: 104px;
+  }
+  .hover-text {
+    margin-left: 75px;
+  }
+  .finnie-content {
+    margin-bottom: 56px;
+    h1 {
+      line-height: 48px;
+      font-weight: normal;
+      letter-spacing: -0.04em;
     }
-    .registration-content {
-      width: 100%;
-      height: 495px;
-      background-color: $lightestBlue;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
-      padding-left: 110px;
+    h6 {
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .btn {
+      width: 221px;
+      height: 40px;
+      border-radius: 24px;
+    }
+  }
+  .finnie-card {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    /*transition effects */
+    -webkit-transition: -webkit-transform 0.6s;
+    -moz-transition: -moz-transform 0.6s;
+    -o-transition: -o-transform 0.6s;
+    transition: transform 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    &.flipped {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+    p {
+      font-size: 14px !important;
+      line-height: 16px !important;
+      color: $blueDark;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    h5 {
+      font-weight: 600;
+      font-size: 20px !important;
+      line-height: 32px;
+    }
+    .front,
+    .back {
+      display: block;
+      height: 150px;
+      width: 150px;
+      line-height: 60px;
+      color: white;
+      text-align: center;
+      font-size: 4em;
+      position: absolute;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .back {
+      background-color: #bef0ed;
+      border-radius: 50%;
+      font-size: 16px;
+      text-align: left;
+      line-height: 25px;
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+  }
+  @media (max-width: $xs) {
+    padding-top: 87px;
+    .left-dots-mobile {
+      position: absolute;
+      left: 0;
+      top: 54px;
+    }
+    .right-dots-mobile {
+      position: absolute;
+      right: 0;
+      top: 54px;
+    }
+    .hover-text {
+      margin-left: unset;
+      text-align: center;
+    }
+    .finnie-content {
       h1 {
-        font-family: $sora !important;
-      }
-      p {
-        margin-bottom: 36px;
-        font-family: $sora !important;
+        font-size: 32px !important;
+        line-height: 40px;
+        margin-bottom: 68px;
       }
     }
-    .registration-cards {
+    .finnie-card {
+      img.front {
+        width: 128px;
+      }
+    }
+  }
+}
+.popover-body {
+  background: #ecfffe;
+  .finnie-pop-container {
+    position: relative;
+    padding: 16px;
+    #icon-close {
       position: absolute;
-      right: 57px;
-      max-width: 700px;
-      .cards-background {
-        background-color: red;
-      }
-      .registration-card {
-        height: 296px;
-        background: #ffffff;
-        box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: flex-start;
-        padding: 60px 20px 10px;
-        transition: all 0.2s ease-in;
-        // &:hover {
-        //   transform: translate(0, -1em);
-        //   transition: all 0.2s ease-out;
-        // }
-        h3 {
-          font-family: $sora !important;
-          font-weight: 400;
-          letter-spacing: -0.02em;
-        }
-        p {
-          font-family: $sora !important;
-          font-weight: 400;
-          font-size: 14px !important;
-        }
-        img {
-          margin-bottom: 27px;
-        }
-        a {
-          text-decoration: underline;
-          line-height: 32px;
-        }
-        p.hint {
-          font-size: 9px !important;
-          color: #237b75;
-          line-height: 16px;
-          margin-bottom: 0;
-        }
-      }
+      right: 0;
+      top: 0;
     }
   }
-  @media (max-width: 1200px) {
-    padding: 53px 0;
-    .registration-wrapper {
-      .registration-content {
-        height: fit-content;
-        background-color: transparent;
-        color: white;
-        padding: 0;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        margin-bottom: 80px;
-      }
-      .registration-cards {
-        position: relative;
-        right: unset;
-        background: #ecfffe;
-        padding-top: 20px;
-        .row {
-          position: relative;
-        }
-        .registration-card {
-          margin-bottom: 20px;
-        }
-      }
-    }
-  }
-  @media (max-width: 768px) {
-    padding: 53px 0;
-    .registration-wrapper {
-      .registration-content {
-        height: fit-content;
-        background-color: transparent;
-        color: white;
-        padding: 0;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        margin-bottom: 80px;
-      }
-      .registration-cards {
-        position: relative;
-        right: unset;
-        background: #ecfffe;
-        left: -150px;
-        padding-top: 20px;
-        .row {
-          position: relative;
-          left: 150px;
-        }
-        .registration-card {
-          margin-bottom: 20px;
-        }
-      }
-    }
-  }
-  @media (max-width: $sm) {
+}
+.arrow {
+  &::after {
+    border-bottom-color: #ECFFFE !important;
   }
 }

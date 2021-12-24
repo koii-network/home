@@ -2,14 +2,17 @@
 
 #hybrid {
   position: relative;
-  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  background: url(/img/developers/bg-hybrid.svg), linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
   color: $white;
-  padding: 187px 0;
+  padding: 187px 0 150px;
   display: flex;
   align-items: center;
   font-family: $sora;
   overflow: hidden;
-  .dots {
+  .img-hybrid-top {
     position: absolute;
     top: 0;
     left: 0;
@@ -53,10 +56,12 @@
       width: 100%;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     padding: 132px 0;
-    .dots {
-      top: -30px;
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+    .img-hybrid-bottom {
+      position: absolute;
+      bottom: 0;
     }
     .text-left {
       .font-cap1 {

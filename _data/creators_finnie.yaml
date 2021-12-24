@@ -1,0 +1,25 @@
+- title: Drag & Drop 
+  img: icon-create1
+  desc: Create an NFT<br /> from any file in <br /> your computer.<br />It's quick, easy,<br />and affordable.
+- title: Personal NFT<br /> Gallery 
+  img: icon-create2
+  desc: Hold all your<br /> NFTs in one <br />place, no matter<br /> what chain<br /> they're on.
+- title: Create NFT <br />Collections 
+  img: icon-create3
+  desc: Easily create <br />entire<br /> collections with<br /> batch uploads.
+- title: One-click NFT<br /> bridging 
+  img: icon-create4
+  desc: Transfer your NFT<br /> to another chain<br /> easily and<br /> quickly.
+  hastooltip: true
+- title: Eco friendly,<br /> low gas fees 
+  img: icon-create5
+  desc: With Koii's PoRT<br /> and Arweave's<br /> PoA, energy<br /> usage is up to<br /> 99% less than<br /> other options.
+- title: Send & receive<br /> tokens 
+  img: icon-create6
+  desc: Just like any<br /> other wallet, yo<br /> can send and<br /> receive tokens of<br /> all kinds.0
+- title: Earn attention<br /> rewards 
+  img: icon-create7
+  desc: Get on Koii's NFT<br /> leaderboard and<br /> earn rewards for<br /> every view - no<br /> extra steps.
+- title: Create your first <br />5 NFTs for free 
+  img: icon-create8
+  desc: Get KOII & AR<br /> from the faucet<br /> to create your<br /> first NFTs, then<br /> use attention<br /> rewards to make<br /> more!

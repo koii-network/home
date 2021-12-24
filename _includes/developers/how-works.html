@@ -1,0 +1,42 @@
+<section id="how-works">
+  <img src="/img/developers/how-dots-left.svg" class="dots-left d-none d-sm-block" />
+  <img src="/img/developers/how-dots-right.svg" class="dots-right d-none d-sm-block" />
+  <div class="container d-none d-sm-block">
+    <h1 class="text-white text-uppercase">How does it work?</h1>
+    <div class="how-works-content">
+      <img src="/img/developers/how-main.svg" class="img-main" />
+      {% for item in site.data.developers_how_works %}
+      <div class="how-content {{item.classname}}">
+        <h2 class="text-green">{{item.title}}</h2>
+        <ul>
+          {% for child in item.children %}
+          <li>{{child.subtitle}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+      <img src="/img/developers/how-arrows.svg" class="how-arrows" />
+    </div>
+  </div>
+  <div class="d-sm-none">
+    <img src="/img/developers/how-main-mobile.svg" width="100%" class="mb-5" />
+    <h1 class="text-white text-uppercase mb-0">
+      How<br />
+      does it<br />
+      work?
+    </h1>
+    <div class="how-works-content-mobile">
+      <img src="/img/developers/how-branch-mobile.svg" />
+      {% for item in site.data.developers_how_works %}
+      <div class="how-content {{item.classname}}">
+        <h2 class="text-green">{{item.title}}</h2>
+        <ul>
+          {% for child in item.children %}
+          <li>{{child.subtitle}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,123 @@
+#how-works {
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  font-family: $sora;
+  padding: 107px 0 276px;
+  position: relative;
+  .dots-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .dots-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 40px !important;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.285em;
+  }
+  h3 {
+    font-weight: normal;
+    font-size: 26px !important;
+    line-height: 24px;
+    margin-bottom: 42px;
+  }
+  .how-works-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .img-main {
+      margin-right: 160px;
+    }
+    .how-content {
+      position: absolute;
+      h2 {
+        font-weight: 600;
+        font-size: 35px !important;
+        line-height: 32px;
+        margin-bottom: 39px;
+        color: #49ce8b;
+      }
+      ul {
+        padding-left: 22px !important;
+      }
+      li {
+        font-weight: normal;
+        font-size: 18px !important;
+        line-height: 30px;
+        color: #bef0ed;
+      }
+      &.content-left {
+        max-width: 274px;
+        top: 171px;
+        left: -16px;
+      }
+      &.content-right {
+        max-width: 368px;
+        top: 173px;
+        right: -97px;
+      }
+      &.content-bottom {
+        max-width: 354px;
+        bottom: -250px;
+      }
+    }
+    .how-arrows {
+      position: absolute;
+      bottom: -200px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    padding: 27px 0 316px;
+    h1 {
+      font-size: 40px !important;
+      line-height: 53px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px !important;
+      line-height: 32px;
+      margin-bottom: 62px;
+    }
+    .how-works-content-mobile {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      .how-content {
+        position: absolute;
+        max-width: 251px;
+        left: 91px;
+        h2 {
+          font-weight: 600;
+          font-size: 35px !important;
+          line-height: 39px;
+          margin-bottom: 18px;
+          color: #49ce8b;
+        }
+        ul {
+          padding-left: 22px !important;
+        }
+        li {
+          font-weight: normal;
+          font-size: 18px !important;
+          line-height: 30px;
+          color: #bef0ed;
+        }
+        &.content-left {
+          top: 105px;
+        }
+        &.content-right {
+          top: 437px;
+        }
+        &.content-bottom {
+          bottom: -298px;
+        }
+      }
+    }
+  }
+}

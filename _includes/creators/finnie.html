@@ -1,25 +1,89 @@
-<section id="registration">
-  <div class="registration-wrapper">
-    <div class="registration-content">
-      <h1>Atomic<br />Registration</h1>
-      <div class="d-flex align-items-center">
-        <a href="https://koi.rocks" class="text-green text-bold" target="_blank">Check out the Atomic NFTs</a>
-        <img src="/img/homepage/arrow-right.svg" class="ml-2" />
+<section id="finnie">
+  <img src="/img/creators/dots-left.svg" class="left-dots d-none d-sm-block" />
+  <img
+    src="/img/creators/dots-right.svg"
+    class="right-dots d-none d-sm-block"
+  />
+  <img
+    src="/img/creators/dots-left-mobile.svg"
+    class="left-dots-mobile d-sm-none"
+  />
+  <img
+    src="/img/creators/dots-right-mobile.svg"
+    class="right-dots-mobile d-sm-none"
+  />
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div
+          class="
+            finnie-content
+            d-flex
+            flex-column
+            align-items-center
+            text-center
+          "
+        >
+          <h1 class="text-light-green">
+            Easier than <br class="d-sm-none" />
+            ever before
+          </h1>
+          <h6 class="text-white">
+            With Finnie, making an Atomic<br class="d-sm-none" />
+            NFT has never been easier. It <br />takes less than one minute,
+            and<br class="d-sm-none" />
+            costs as little as one cent.
+          </h6>
+          <h6 class="text-white">
+            Finnie is the best NFT wallet on<br class="d-sm-none" />
+            the market.
+          </h6>
+          <a class="btn btn-greenLightest mt-3" href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj" target="_blank">Get Finnie</a>
+        </div>
       </div>
     </div>
-    <img src="/img/homepage/Dots.svg" class="registration-dots" />
-    <div class="registration-cards">
-      <div class="row">
-        {% for item in site.data.creators_registration %}
-        <div class="col-md-6">
-          <div class="registration-card">
-            <h3>{{item.title}}</h3>
-            <p>{{item.subtitle}}</p>
-            <p class="hint">{{item.hint}}</p>
+    <p class="text-light-green hover-text d-none d-sm-block">
+      Hover for details
+    </p>
+    <p class="text-light-green hover-text d-sm-none">Tap bubbles for details</p>
+    <div class="row">
+      {% for item in site.data.creators_finnie %}
+      <div class="col-md-3 col-sm-6 col-6 mb-3">
+        <div
+          class="finnie-card d-flex flex-column align-items-center w-100 mb-3"
+        >
+          <img
+            src="/img/creators/{{item.img}}.svg"
+            class="front mb-2"
+            width="100%"
+          />
+          <div class="back mb-2" id="back">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <p class="">
+                {{item.desc}} {% if item.hastooltip == true %}
+                <span
+                  class=""
+                  role="button"
+                  data-html="true"
+                  data-container="body"
+                  data-toggle="popover"
+                  data-placement="bottom"
+                  data-content="<div class='finnie-pop-container' id='finnie-pop-container'>
+                    <div id='icon-close'><img src='/img/icons/close.svg' /></div>
+                    Each chain has its advantages, and you shouldn’t have to choose which one you want to work on forever. Upload with Koii and you can send your NFT to whichever chain you need right now. 
+                    Current chains: Arweave, Ethereum, Polygon, more coming soon.
+                  </div>"
+                >
+                  <img src="/img/icons/icon-tooltip.svg" width="10px" class="icon-tooltip"
+                /></span>
+                {% endif %}
+              </p>
+            </div>
           </div>
         </div>
-        {% endfor %}
+        <h5 class="text-orange text-center mb-0">{{item.title}}</h5>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>

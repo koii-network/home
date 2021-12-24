@@ -1,0 +1,73 @@
+#p2p {
+  background: url(/img/developers/bg-p2p.svg),
+    linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  font-family: $sora;
+  padding: 107px 0 132px;
+  position: relative;
+  h1 {
+    font-weight: 600;
+    font-size: 45px !important;
+    line-height: 61px;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-weight: normal;
+    font-size: 26px !important;
+    line-height: 24px;
+    margin-bottom: 42px;
+  }
+  .p2p-card {
+    background: #ffffff;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: 32px 20px 20px;
+    &.above {
+      min-height: 308px;
+    }
+    &.below {
+      min-height: 198px;
+    }
+    .p2p-card-title {
+      flex: 1;
+      p {
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: #171753;
+      }
+    }
+    ul {
+      padding-left: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    background: url(/img/developers/bg-p2p-mobile.svg),
+      linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    padding: 35px 0;
+    .img-p2p-bottom {
+      position: absolute;
+      bottom: 0;
+    }
+    h1 {
+      font-size: 40px !important;
+      line-height: 53px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px !important;
+      line-height: 32px;
+      margin-bottom: 62px;
+    }
+    .p2p-card {
+      margin-bottom: 16px;
+    }
+  }
+}

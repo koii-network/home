@@ -1,0 +1,115 @@
+@import "variables";
+
+#decentralized {
+  position: relative;
+  background: url(/img/developers/bg-decentralized.svg),
+    linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  padding: 50px 0;
+  color: white;
+  font-family: $sora;
+  .decentralized-left {
+    .content-wrapper {
+      position: relative;
+      .img-left {
+        position: absolute;
+        left: -100px;
+        width: calc(100% / 0.65);
+      }
+      .img-close {
+        position: absolute;
+        left: 153px;
+        top: -19px;
+      }
+      h1 {
+        margin-bottom: 14px;
+      }
+      p {
+        line-height: 32px;
+      }
+    }
+  }
+  .decentralized-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .decentralized-options {
+      position: relative;
+      margin-bottom: 53px;
+      .option {
+        position: absolute;
+        left: 149px;
+        font-weight: 600;
+        font-size: 25px !important;
+        line-height: 35px;
+        letter-spacing: 0.335em;
+        text-transform: uppercase;
+        &.option1 {
+          top: 8px;
+        }
+        &.option2 {
+          top: 115px;
+        }
+        &.option3 {
+          top: 224px;
+        }
+        &.option4 {
+          top: 314px;
+        }
+      }
+    }
+    .btn {
+      width: 300px;
+      background: #5ed9d1;
+      border-radius: 24px;
+    }
+  }
+  @media (max-width: 576px) {
+    padding: 152px 0 126px;
+    background: url(/img/developers/bg-decentralized-mobile.svg),
+      linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    .decentralized-left {
+      .content-wrapper {
+        .img-close {
+          left: 41px;
+          top: -113px;
+        }
+        h1 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .decentralized-right {
+      margin-top: 200px;
+      .decentralized-options {
+        padding-bottom: 53px;
+        .img-right {
+          position: relative;
+          left: -18px;
+        }
+        .option {
+          left: 114px;
+          font-size: 20px !important;
+          letter-spacing: 0.235em;
+          &.option3 {
+            top: 210px;
+          }
+        }
+      }
+      .btn {
+        width: 300px;
+        background: #5ed9d1;
+        border-radius: 24px;
+      }
+    }
+  }
+}

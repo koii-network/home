@@ -6,10 +6,15 @@
   padding: 50px 0;
   color: white;
   font-family: $sora;
-  .vector-left {
+  .img-help-left {
     position: absolute;
     left: 0;
-    top: 84px;
+    top: 101px;
+  }
+  .img-help-right {
+    position: absolute;
+    right: 0;
+    top: 101px;
   }
   .vector-right {
     position: absolute;
@@ -38,9 +43,12 @@
     a {
       text-decoration: none;
     }
+    .help-cta {
+      font-size: 12px !important;
+      text-align: center;
+    }
     .join-btn {
       font-weight: 500;
-      margin: 50px 10px 0 0;
       background: #bef0ed;
       padding: 10px 40px;
       border-radius: 24px;
@@ -48,19 +56,25 @@
       width: max-content;
       font-family: $sora !important;
     }
+    .btn-checkout {
+      background: #5ED9D1;
+      padding: 10px 40px;
+      border-radius: 24px;
+      font-weight: 500;
+    }
     .big-map {
       display: flex;
       width: 100%;
-    }
-    .small-map {
-      display: none;
+      margin-bottom: 59px;
     }
   }
+  .small-map {
+    display: none;
+  }
   @media (max-width: 768px) {
-    padding: 128px 0 0;
-    .vector-left {
-      top: 20px;
-      width: 100px;
+    padding: 152px 0 0;
+    .img-help-left {
+      top: 0px;
     }
     .vector-right {
       width: 69px;
@@ -68,10 +82,13 @@
     .big-map {
       display: none !important;
     }
-    .small-map {
-      display: flex !important;
-      width: 100%;
-      margin-top: 95px;
+    .btn-checkout {
+      margin-top: 36px;
     }
+  }
+  .small-map {
+    display: flex !important;
+    width: 100%;
+    margin-top: 35px;
   }
 }

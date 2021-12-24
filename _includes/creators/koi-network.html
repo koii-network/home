@@ -1,0 +1,88 @@
+<section id="koi-network">
+  <img
+    src="/img/creators/koi-network-top.svg"
+    class="img-top d-none d-sm-block"
+  />
+  <img
+    src="/img/creators/koi-network-dots.svg"
+    class="img-dots-left d-none d-sm-block"
+  />
+  <img
+    src="/img/creators/koi-network-dots-right.svg"
+    class="img-dots-right d-none d-sm-block"
+  />
+  <img
+    src="/img/creators/koi-network-top-mobile.svg"
+    class="img-top-mobile d-sm-none mb-5"
+    width="100%"
+  />
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 order-sm-0 order-1">
+        <div
+          class="
+            koi-network-left
+            d-flex
+            flex-column
+            align-items-start
+            justify-content-center
+            h-100
+          "
+        >
+          <h1 class="text-lightest-green font-weight-normal d-none d-sm-block">
+            The Koii Network<br />
+            depends on<br />
+            creators like you
+          </h1>
+          <p class="text-lightest-green description">
+            When you make something people love, you should get rewarded for it.
+            Creators make the network engaging.
+          </p>
+          <p class="text-lightest-green description">
+            Attention is the only way to earn (or “mine”) the tokens from the
+            daily release. Koii is about creating and curating the content that
+            people want to see and engage with, so let’s get started.
+          </p>
+          <a class="btn btn-orange" href="https://koi.rocks/" target="_blank">Create Content Now</a>
+          <div class="d-flex justify-content-start align-items-center">
+            <img src="/img/creators/koi-network-programming.svg" />
+            <p class="text-lightest-green mb-0 ml-3">
+              Want to learn more about developer tools?<br />
+              <a href="/earn/developers" class="text-green">Check out the Developers’ page.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 order-sm-1 order-0">
+        <h2
+          class="text-lightest-green font-weight-normal d-sm-none text-center"
+        >
+          The Koii Network<br />
+          depends on<br />
+          creators like you
+        </h2>
+        <div class="imgs-group">
+          <div class="d-flex">
+            {% for item in site.data.creators_network %}
+            <div class="imgs-group-{{item.classname}}">
+              {% for child in item.children %}
+              <div class="img-wrapper">
+                <img src="https://koii.live/{{child.imgid}}.png" class="img-network" />
+                <div class="middle">
+                  <a href="https://koi.rocks/" target="_blank"><img src="/img/icons/icon-expand.svg" /></a>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="/img/creators/koi-network-bottom-mobile.svg"
+    class="img-bottom-mobile d-sm-none"
+    width="100%"
+  />
+</section>
