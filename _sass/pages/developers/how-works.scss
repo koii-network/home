@@ -73,6 +73,7 @@
   }
 
   @media (max-width: 576px) {
+    padding: 27px 0 316px;
     h1 {
       font-size: 40px !important;
       line-height: 53px;
@@ -83,8 +84,40 @@
       line-height: 32px;
       margin-bottom: 62px;
     }
-    .p2p-card {
-      margin-bottom: 16px;
+    .how-works-content-mobile {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      .how-content {
+        position: absolute;
+        max-width: 251px;
+        left: 91px;
+        h2 {
+          font-weight: 600;
+          font-size: 35px !important;
+          line-height: 39px;
+          margin-bottom: 18px;
+          color: #49ce8b;
+        }
+        ul {
+          padding-left: 22px !important;
+        }
+        li {
+          font-weight: normal;
+          font-size: 18px !important;
+          line-height: 30px;
+          color: #bef0ed;
+        }
+        &.content-left {
+          top: 105px;
+        }
+        &.content-right {
+          top: 437px;
+        }
+        &.content-bottom {
+          bottom: -298px;
+        }
+      }
     }
   }
 }
