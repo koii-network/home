@@ -1,26 +1,32 @@
 - title: Interface with multiple<br /> storage layers depending<br /> on your needs
-  classname: 'above'
+  classname: "above"
   children:
     - subtitle: Permanent content (like NFTs) is<br /> stored on Arweave forever.
     - subtitle: Dynamic content )(like<br /> thumbnails) is stored on IPFS
+  hyperlink: "https://atomicnft.com"
   cta: Learn about Atomic NFTs
 - title: Build across multiple<br /> chains, depending on your<br /> need for each moment
-  classname: 'above'
+  classname: "above"
   children:
     - subtitle: Arweave, Ethereum, Polygon, and IPFS integrations are live.
     - subtitle: Many more coming soon including Filecoin, Avalanche, and Solana.
+  hyperlink: "https://github.com/koii-network/bridge-server#koii-bridge-server"
   cta: Dive into Bridging
 - title: Write simple<br /> executable “Tasks”
-  classname: 'above'
+  classname: "above"
   children:
     - subtitle: Ask the node network to work for you! Like generating mobile responsive thumbnail images, or scraping competitor websites
+  hyperlink: "https://koii.network/form/pre-register/"
   cta: See the possibilities
 - title: 100% javascript so<br /> developers new to<br /> blockchain can hit the<br /> ground running
-  classname: 'below'
+  classname: "below"
+  hyperlink: "https://docs.koii.network/"
   cta: Check out the Docs
 - title: Make it easy by using<br /> any existing NPM<br /> modules
-  classname: 'below'
+  classname: "below"
+  hyperlink: "https://github.com/koii-network/tools"
   cta: Adapt Current Code
 - title: dApps and content earn<br /> attention rewards based on<br /> how many people are using<br /> them
-  classname: 'below'
+  classname: "below"
+  hyperlink: "https://koi.rocks/"
   cta: See the Leaderboard
