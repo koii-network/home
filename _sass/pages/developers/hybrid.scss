@@ -9,7 +9,7 @@
   align-items: center;
   font-family: $sora;
   overflow: hidden;
-  .dots {
+  .img-hybrid-top {
     position: absolute;
     top: 0;
     left: 0;
@@ -55,8 +55,9 @@
   }
   @media (max-width: 768px) {
     padding: 132px 0;
-    .dots {
-      top: -30px;
+    .img-hybrid-bottom {
+      position: absolute;
+      bottom: 0;
     }
     .text-left {
       .font-cap1 {
