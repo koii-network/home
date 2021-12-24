@@ -1,26 +1,25 @@
 <section id="p2p">
   <div class="container">
     <h1 class="text-white">An unstoppable peer-to-peer network</h1>
-    <h3 class="text-lighter-green">Use attention rewards to pay for decentralized hosting</h3>
+    <h3 class="text-lighter-green">
+      Use attention rewards to pay for decentralized hosting
+    </h3>
     <div class="row">
+      {% for item in site.data.developers_p2p %}
       <div class="col-sm-4">
-        <div class="p2p-card"></div>
+        <div class="p2p-card {{item.classname}}">
+          <div class="p2p-card-title mb-auto d-flex justify-content-center align-items-center">
+            <p>{{item.title}}</p>
+          </div>
+          <ul>
+            {% for child in item.children %}
+            <li>{{child.subtitle}}</li>
+            {% endfor %}
+          </ul>
+          <a href="#" class="text-green">{{item.cta}}</a>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <div class="p2p-card"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="p2p-card"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="p2p-card"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="p2p-card"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="p2p-card"></div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
