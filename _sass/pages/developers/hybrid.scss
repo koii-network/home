@@ -2,9 +2,12 @@
 
 #hybrid {
   position: relative;
-  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  background: url(/img/developers/bg-hybrid.svg), linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
   color: $white;
-  padding: 187px 0;
+  padding: 187px 0 150px;
   display: flex;
   align-items: center;
   font-family: $sora;
@@ -53,8 +56,9 @@
       width: 100%;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     padding: 132px 0;
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
     .img-hybrid-bottom {
       position: absolute;
       bottom: 0;
