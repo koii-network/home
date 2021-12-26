@@ -2,7 +2,7 @@
   classname: "above"
   children:
     - subtitle: Permanent content (like NFTs) is<br /> stored on Arweave forever.
-    - subtitle: Dynamic content )(like<br /> thumbnails) is stored on IPFS
+    - subtitle: Dynamic content (like<br /> thumbnails) is stored on IPFS
   hyperlink: "https://atomicnft.com"
   cta: Learn about Atomic NFTs
 - title: Build across multiple<br /> chains, depending on your<br /> need for each moment
