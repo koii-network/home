@@ -2,7 +2,7 @@
   classname: "content-left"
   children:
     - subtitle: Write to Koii nodes instead of directly on chain
-    - subtitle: Applications are cross-chain by default<
+    - subtitle: Applications are cross-chain by default
     - subtitle: Users can easily join without buying tokens first (easy onboarding)
 - title: Gradual Consensus
   classname: "content-right"
