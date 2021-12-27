@@ -13,7 +13,7 @@
   hastooltip: true
 - title: Eco friendly,<br /> low gas fees
   img: icon-create5
-  desc: With Koii's PoRT<br /> and Arweave's<br /> PoA, energy<br /> usage is up to<br /> 99% less than<br /> other options.
+  desc: With Koii's <a style='color:#171753' href="/proofs-of-real-traffic.pdf"><u>PoRT</u></a><br /> and Arweave's<br /> PoA, energy<br /> usage is up to<br /> 99% less than<br /> other options.
 - title: Send & receive<br /> tokens
   img: icon-create6
   desc: Just like any<br /> other wallet, you<br /> can send and<br /> receive tokens of<br /> all kinds.
