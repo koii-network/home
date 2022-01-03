@@ -10,7 +10,7 @@
   children:
     - subtitle: Arweave, Ethereum, Polygon, and IPFS integrations are live.
     - subtitle: Many more coming soon including Filecoin, Avalanche, and Solana.
-  hyperlink: "https://github.com/koii-network/bridge-server#koii-bridge-server"
+  hyperlink: "https://docs.koii.network/#koii-bridge-server"
   cta: Dive into Bridging
 - title: Write simple<br /> executable “Tasks”
   classname: "above"
