@@ -4,7 +4,12 @@
   position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
   font-family: $sora;
-
+  padding: 48px 0 87px;
+  .bg-options {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
   .option-wrapper {
     display: flex;
     flex-direction: column;
@@ -15,6 +20,7 @@
       line-height: 24px;
       letter-spacing: -0.01em;
       margin-top: 21px;
+      text-align: center;
     }
   }
   @media (max-width: 576px) {
