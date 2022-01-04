@@ -3,14 +3,20 @@
 #ids-hero {
   position: relative;
   background: linear-gradient(90deg, #030332 0%, #171753 100%);
-  .bg-hero {
-    position: absolute;
-    width: 594px;
-  }
-  display: flex;
-  align-items: center;
   margin-top: 74px;
   font-family: $sora;
+  display: flex;
+  align-items: center;
+  padding: 50px 0 150px;
+  .bg-hero {
+    position: absolute;
+    right: 0;
+  }
+  .img-vector {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 
   .header-content {
     display: flex;
@@ -38,6 +44,32 @@
       padding: 0 69px;
       height: 40px;
       margin: 15px 0 50px;
+    }
+  }
+  .video-item {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    max-width: 330px;
+    background: #0b0b3e;
+    box-shadow: 0px 124px 144px -56px rgba(43, 29, 103, 0.06);
+    z-index: 9;
+    transition: all 0.2s ease-out;
+    min-height: 385px;
+    &:hover {
+      transform: translate(0, -1rem);
+      transition: all 0.2s ease-out;
+    }
+    .ytblink {
+      width: 330px;
+      height: 197px;
+    }
+    img {
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      width: 330px;
+      height: 232px;
+      max-width: 100%;
+      object-fit: fill;
     }
   }
   @media (max-width: 576px) {
