@@ -1,7 +1,8 @@
 <header id="ids-hero">
   <img src="/img/ids/bg-hero.svg" class="d-none d-sm-block bg-hero" />
   <img src="/img/ids/bg-hero-mobile.svg" class="d-sm-none bg-hero-mobile" />
-  <img src="/img/ids/hero-vector.svg" class="img-vector" />
+  <img src="/img/ids/hero-vector.svg" class="img-vector d-none d-sm-block" />
+  <img src="/img/ids/hero-vector-mobile.svg" class="img-vector d-sm-none" />
   <!-- <img src="/img/creators/creators-header-mobile.svg" class="d-sm-none bg-hero" /> -->
   <div class="container">
     <div class="row">
@@ -13,7 +14,7 @@
             NFTs—
             <br /><b class="text-orange">Completely decentralized.</b>
           </h3>
-          <div class="video-item-mobile">
+          <div class="video-item-mobile d-sm-none">
             <div class="video-title text-white mb-2">It’s quick and easy:</div>
             <iframe
               class="lazy d-sm-none"
@@ -24,16 +25,22 @@
               allowtransparency="true"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-            <div class="video-description text-white mt-3">
-              Need help getting Finnie set up? Check out the tutorial.
+            <div class="video-description text-white mt-0 mt-sm-3">
+              Need help getting Finnie set up? <a href='#' class="text-white">Check out the tutorial.</a>
             </div>
           </div>
-          <p class="text-white">
+          <a
+            class="btn btn-greenLightest d-sm-none"
+            target="_blank"
+            href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj"
+            >Set Up My Decentralized ID</a
+          >
+          <h6 class="text-white">
             Using the Finnie Wallet from Koii Network you can:
-          </p>
+          </h6>
           <ul class="text-white">
             <li>
-              Keep all your cross-chain keys and NFTs in one easy-to-use place
+              Keep all your <b class='text-orange'>cross-chain keys and NFTs</b> in one easy-to-use place
             </li>
             <li>
               Create a decentralized profile with the links you want to share
@@ -44,7 +51,7 @@
             </li>
           </ul>
           <a
-            class="btn btn-greenLightest"
+            class="btn btn-greenLightest d-none d-sm-flex"
             target="_blank"
             href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj"
             >Set Up My Decentralized ID</a
@@ -52,7 +59,7 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="video-item">
+        <div class="video-item d-none d-sm-flex">
           <div class="video-title text-white mb-2">It’s quick and easy:</div>
           <iframe
             class="lazy d-none d-sm-block"
