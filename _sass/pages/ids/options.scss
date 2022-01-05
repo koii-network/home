@@ -24,13 +24,22 @@
     }
   }
   @media (max-width: 576px) {
+    padding: 0px 0 21px;
     .bg-options {
       position: absolute;
       bottom: 0;
       right: 0;
     }
+    .bg-options-mobile {
+      position: relative;
+      top: -50px;
+    }
+    .options-hint {
+      font-size: 12px;
+      color: white;
+    }
     .option-wrapper {
-      margin-bottom: 41px;
+      margin-top: 41px;
       img {
         width: 82px;
       }
