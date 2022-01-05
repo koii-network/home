@@ -109,9 +109,12 @@
       margin-bottom: 199px;
     }
     .popover {
+      width: 100%;
+      max-width: 343px;
       .popover-body {
         background: #373765;
         color: white;
+        font-size: 12px;
       }
       .arrow {
         &::after {
