@@ -108,5 +108,16 @@
     .bg-hero-mobile {
       margin-bottom: 199px;
     }
+    .popover {
+      .popover-body {
+        background: #373765;
+        color: white;
+      }
+      .arrow {
+        &::after {
+          border-top-color: #373765;
+        }
+      }
+    }
   }
 }

@@ -26,13 +26,19 @@
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
             <div class="video-description text-white mt-0 mt-sm-3">
-              Need help getting Finnie set up? <a href='#' class="text-white">Check out the tutorial.</a>
+              Need help getting Finnie set up?
+              <a href="#" class="text-white">Check out the tutorial.</a>
             </div>
           </div>
           <a
+            tabindex="0"
             class="btn btn-greenLightest d-sm-none"
-            target="_blank"
-            href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj"
+            role="button"
+            data-placement="top"
+            data-toggle="popover"
+            data-trigger='focus'
+            data-container='#ids-hero'
+            data-content="The mobile version of the Finnie wallet is still in progress. To get a Koii ID, visit koii.id from a computer."
             >Set Up My Decentralized ID</a
           >
           <h6 class="text-white">
@@ -40,7 +46,9 @@
           </h6>
           <ul class="text-white">
             <li>
-              Keep all your <b class='text-orange'>cross-chain keys and NFTs</b> in one easy-to-use place
+              Keep all your
+              <b class="text-orange">cross-chain keys and NFTs</b> in one
+              easy-to-use place
             </li>
             <li>
               Create a decentralized profile with the links you want to share
@@ -50,10 +58,7 @@
               32-character wallet address
             </li>
           </ul>
-          <a
-            class="btn btn-greenLightest d-none d-sm-flex"
-            target="_blank"
-            href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj"
+          <a class="btn btn-greenLightest d-none d-sm-flex" href="#"
             >Set Up My Decentralized ID</a
           >
         </div>
