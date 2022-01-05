@@ -24,28 +24,19 @@
     }
   }
   @media (max-width: 576px) {
-    &::before {
-      display: none;
+    .bg-options {
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
-    .header-content {
-      height: calc(100vw * 730 / 375);
-      align-items: flex-start;
-      padding-top: 75px;
-      padding-bottom: 75px;
+    .option-wrapper {
+      margin-bottom: 41px;
       img {
-        max-width: 100%;
-        margin-bottom: 50px;
+        width: 82px;
       }
-      .header-title {
-        font-size: 36px;
-        line-height: 50px;
-      }
-      .header-description {
-        font-size: 18px;
-        line-height: 32px;
-      }
-      .btn {
-        margin-top: 18px;
+      h6 {
+        font-size: 14px !important;
+        text-transform: uppercase;
       }
     }
   }
