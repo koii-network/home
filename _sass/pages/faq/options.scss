@@ -57,6 +57,18 @@
       }
     }
   }
+  .faqs {
+    .faq-item {
+      .questions {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .faq-accordion {
+          width: 712px;
+        }
+      }
+    }
+  }
   @media (max-width: 576px) {
     padding: 0px 0 21px;
     .bg-options {
