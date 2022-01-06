@@ -14,17 +14,21 @@
     bottom: 0;
     right: 0;
   }
-  .option-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h6 {
-      font-weight: 600 !important;
-      color: white;
-      line-height: 24px;
-      letter-spacing: -0.01em;
-      margin-top: 21px;
-      text-align: center;
+  .cards-wrapper {
+    background-color: #ECFFFE;
+    padding: 0 65px;
+    .faq-cards {
+      position: relative;
+      top: -35px;
+      .faq-card {
+        width: 100%;
+        height: 166px;
+        background-color: blue;
+        margin-bottom: 32px;
+        &.last {
+          margin-bottom: 0px;
+        }
+      }
     }
   }
   @media (max-width: 576px) {
