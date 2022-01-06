@@ -1,5 +1,6 @@
 - general:
   classname: general
+  img: faq-general
   children:
     - q: What is the Koii Network?[a]
       a: Koii stands for Knowledgable, Open, and Infinite Internet. Koii is a protocol focused on infrastructure to bring true decentralization to all dApps in the Web3 space. Koii has a fully self-sustaining ecosystem driven by the KOII token[b].
@@ -26,3 +27,87 @@
       cta: Chat with Support
     - q: I’m new to blockchain. Where do I start?
       a: aaaaaaaaa
+- finnie:
+  classname: finnie
+  img: faq-finnie
+  children:
+    - q: What is Finnie?
+      a: Finnie is Koii’s browser extension wallet—the best wallet around for NFTs and cross-chain bridging. Finnie will be your companion to the decentralized web. Some cool features include&#x3a;
+        <ul>
+          <li>Drag & Drop NFT creation</li>
+          <li>Share NFTs to earn attention rewards</li>
+          <li>1-click cross-chain bridging</li>
+          <li>Decentralized ID (DID) that links your cross-chain keys together</li>
+          <li>DID profile that includes personalized links to your pages</li>
+          <li>NFT gallery&#x3a; See all your NFTs (from multiple chains/keys) in one place</li>
+          <li>Easy NFT collections</li>
+        </ul>
+    - q: How do I create an NFT with Koii?
+      a: The easiest way to create NFTs on Koii is by using the Finnie wallet. Finnie is a browser extension that has a drag & drop NFT creation. It takes less than a minute to create an NFT and costs as little as one cent.
+    - q: What type of content can I upload?
+      a: You can upload anything from images to videos and PDF files.
+    - q: Why should I use Koii for my NFTs?
+      a: Koii uses the new Atomic NFT standard for all NFT, which has a few critical features&#x3a;
+          <ul>
+            <li>Making NFTs with Koii is fast, affordable, and easy. With the Finnie wallet, you can drag & drop any file and make it into an NFT in under 1 minute.</li>
+            <li>The contract and media file are stored together on Arweave. This means you will never lose your file, you can’t be rug-pulled, and you’ll never find a broken link.</li>
+            <li>All Atomic NFTs registered on Koii receive attention rewards</li>
+            <li>Easily transfer your NFT between blockchains. Want to sell your NFT on Opensea? We’ve got a bridge for that—and many more in the works!</li>
+          </ul>
+    - q: How can I get tokens to upload my NFT?
+      a: You can get a few KOII tokens and a small amount of AR (to pay for the storage fee) from the KOII faucet at koii.network/faucet. This will provide you with the tokens needed to get started on the network. You can also purchase additional AR tokens from several different exchanges. More info on AR tokens can be found here.
+    - q: If I create an NFT with Finnie, do I need to pay KOII and AR to store the NFT?
+      a: Yes. Koii is built on the Arweave permaweb, AR will be used to store the file forever, and KOII tokens will allow you to begin earning attention rewards.
+    - q: Where can I find my uploaded content?
+      a: Once you have connected your wallet to the leaderboard you can click on the “My Content” button on the right hand side of the screen to take you to your artist page.You can also view your content from within the Finnie wallet by selecting the “Go to My Gallery” button at the bottom of the wallet.
+    - q: I uploaded the same thing twice. I want to remove one of them.
+      a: Everything uploaded to Arweave is permanent, no content can be taken down once uploaded and we cannot interfere with registration. If you do upload the same content twice just be sure to always share the same one so you can earn attention rewards accordingly.
+        <br /><br />We are looking into a "de-list" feature but we’re not quite there yet.
+        <br /><br />Check out our blog on permanence to learn more&#x3a; https://blog.koii.network/Almost-Infinite/ 
+    - q: How do I use the bridge from Arweave to other blockchains?
+      a: Currently Finnie supports bridinging from Arweave to Ethereum and vice versa, with more blockchains on the way. If you are interested in using the bridge more information can be found on this blog post.
+    - q: Do I have to run a node to post content?
+      a: No, you can be a creator and earn regardless of whether you run a node.
+          <br /><br />However, running a node is super easy (it takes about the same space and RAM as a music player app). If you do, you'll earn KOII that you can spend to register more content. You can pre-register to run a node here&#x3a; https://koii.me/KoiiNode
+          <br /><br />I uploaded an NFT to the leaderboard and every time I check it still has 0 views even though I've shared it to Twitter and my friends.
+          <br /><br />KOII has gradual consensus using Proof of Real Traffic (PoRT), your views will update in between 24-30 hours depending on the speed of the Arweave network. Please check out the lightpaper and proof of real traffic for more details.
+    - q: Why is Arweave a better place for NFTs than Ethereum?
+      a: On Arweave, your content is stored permanently so it can never be rug-pulled. On Ethereum, if you have an image file (for example) that image is not actually stored on-chain. Only the transaction ID is stored there.
+          <br /><br />https://koii.network/lightpaper.pdf 
+          <br />https://koii.network/proofs-of-real-traffic.pdf
+- nodes:
+  classname: nodes
+  img: faq-nodes
+  children:
+    - q: I want to run a node!
+      a: Sign up here so you’ll be on the list to run a node as soon as it is ready.
+    - q: Does running a node require high PC specs & computational power like ETH & BTC require?
+      a: Nope. It'll be a lot like running an app like Spotify. You need less than 1GB of RAM, pre-register to run a node here&#x3a; https://koii.me/KoiiNode
+- build:
+  classname: build
+  img: faq-build
+  children:
+    - q: I have an app, how do I decentralize it?
+      a: There are a few places to get started. Koii-X[c] is the UI template center where you can find easy-to-integrate components for things like connecting to Finnie, displaying NFTs, and distributing rewards.
+          <br />If you already have an app built. Koii Tasks allow you to use Koii nodes for microservices, all in a decentralized way.[d]
+    - q: What blockchains does Koii bridge to?
+      a: Koii has bridges up and running from Arweave to Ethereum and Polygon. We are currently developing bridges to Filecoin, Solana, and Avalanche, with more planned after that.
+          <br />Do you have a chain you want Koii to integrate with? Tweet @KoiiNetwork to let us know which one with the tag &sharp;bridgetoKoii so that we can prioritize bridges based on the needs of the community.
+- invest:
+  classname: invest
+  img: faq-invest
+  children:
+    - q: qqqqqqq
+      a: aaaaaaa
+- token:
+  classname: token
+  img: faq-token
+  children:
+    - q: qqqqqqq
+      a: aaaaaaa
+- partnerships:
+  classname: partnerships
+  img: faq-partnerships
+  children:
+    - q: qqqqqqq
+      a: aaaaaaa
