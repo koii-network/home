@@ -32,11 +32,11 @@
     <div class="faq-item {{item.classname}}">
       <div class="row">
         <div class="col-sm-4">
-          <img src="/img/faq/faq-general.svg" />
+          <img src="/img/faq/{{item.img}}.svg" />
         </div>
         <div class="col-sm-8">
           <div class="questions">
-            <div class="faq-accordion">
+            <div class="faq-accordion faq-accordion-{{item.classname}}">
               {% for child in item.children %}
               <div class="ac">
                 <h2 class="ac-header">

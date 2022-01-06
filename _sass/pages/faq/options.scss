@@ -9,7 +9,6 @@
   background-size: 100% auto;
   font-family: $sora;
   padding: 48px 0 87px;
-  height: 3500px;
   .bg-options {
     position: absolute;
     bottom: 0;
@@ -59,6 +58,7 @@
   }
   .faqs {
     .faq-item {
+      margin-top: 160px;
       .questions {
         display: flex;
         justify-content: center;
