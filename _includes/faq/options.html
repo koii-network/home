@@ -44,7 +44,13 @@
                 </h2>
                 <div class="ac-panel">
                   <p class="ac-text">{{child.a}}</p>
-                  <a href="#" class="{{item.classname}}">{{child.cta}}</a>
+                  {% if child.cta %}
+                  <div class="d-flex justify-content-end cta-wrapper">
+                    <a href="#" class="qa-cta {{item.classname}}"
+                      >{{child.cta}}</a
+                    >
+                  </div>
+                  {% endif %}
                 </div>
               </div>
               {% endfor %}

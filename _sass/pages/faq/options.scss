@@ -75,6 +75,9 @@
               .ac-trigger {
                 min-height: 60px;
                 padding: 0 48px;
+                font-size: 20px;
+                color: #171753;
+                font-weight: normal;
                 &:hover {
                   background-color: #ffffff;
                   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.16);
@@ -87,6 +90,52 @@
                   font-size: 28px;
                   font-weight: normal;
                   right: 20px;
+                }
+              }
+            }
+            .ac-panel {
+              .ac-text {
+                font-size: 20px;
+                padding: 10px 48px;
+                color: #171753;
+              }
+              .cta-wrapper {
+                padding-right: 48px;
+                margin-bottom: 20px;
+              }
+              .qa-cta {
+                opacity: 0.9;
+                color: #171753;
+                padding: 8px 30px;
+                border-radius: 20px;
+                &.general {
+                  background-color: #ffa6a6;
+                }
+                &.finnie {
+                  background-color: #ffc78f;
+                }
+                &.nodes {
+                  background-color: #9be7c4;
+                }
+                &.build {
+                  background-color: #49ce8b;
+                }
+                &.invest {
+                  background-color: #5ed9d1;
+                }
+                &.token {
+                  background-color: #ffee81;
+                }
+                &.partnerships {
+                  background-color: #ffa54b;
+                }
+              }
+            }
+            &.is-active {
+              background-color: white;
+              .ac-header {
+                .ac-trigger {
+                  font-weight: 600;
                 }
               }
             }
