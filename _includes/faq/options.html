@@ -4,26 +4,24 @@
     <div class="cards-wrapper">
       <div class="faq-cards">
         <div class="row">
+          {% for item in site.data.faq_cards %}
           <div class="col-sm-4">
-            <div class="faq-card"></div>
+            <div class="faq-card {{item.classname}}">
+              <img src="/img/faq/{{item.img}}.svg" />
+              <h3 class="">{{item.title}}</h3>
+            </div>
           </div>
+          {% endfor %}
           <div class="col-sm-4">
-            <div class="faq-card"></div>
-          </div>
-          <div class="col-sm-4">
-            <div class="faq-card"></div>
-          </div>
-          <div class="col-sm-4">
-            <div class="faq-card"></div>
-          </div>
-          <div class="col-sm-4">
-            <div class="faq-card"></div>
-          </div>
-          <div class="col-sm-4">
-            <div class="faq-card"></div>
-          </div>
-          <div class="col-sm-4">
-            <div class="faq-card last"></div>
+            <a href="https://koii.me/support" target="_blank">
+              <div class="faq-extra-cta">
+                <img src="/img/faq/extra-cta.svg" />
+                <h6 class="mb-0 ml-2">
+                  Or get in touch with<br />
+                  our support team.
+                </h6>
+              </div>
+            </a>
           </div>
         </div>
       </div>
