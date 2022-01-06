@@ -65,6 +65,32 @@
         width: 100%;
         .faq-accordion {
           width: 712px;
+          // background: white;
+          // padding: 20px 0;
+          .ac {
+            margin-top: 0;
+            border: unset;
+            background-color: #f5f5f5;
+            .ac-header {
+              .ac-trigger {
+                min-height: 60px;
+                padding: 0 48px;
+                &:hover {
+                  background-color: #ffffff;
+                  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.16);
+                }
+                &::after {
+                  border: solid 1px;
+                  border-radius: 50%;
+                  width: 35px;
+                  height: 35px;
+                  font-size: 28px;
+                  font-weight: normal;
+                  right: 20px;
+                }
+              }
+            }
+          }
         }
       }
     }

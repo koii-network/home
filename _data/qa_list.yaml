@@ -1,0 +1,28 @@
+- general:
+  classname: general
+  children:
+    - q: What is the Koii Network?[a]
+      a: Koii stands for Knowledgable, Open, and Infinite Internet. Koii is a protocol focused on infrastructure to bring true decentralization to all dApps in the Web3 space. Koii has a fully self-sustaining ecosystem driven by the KOII token[b].
+    - q: How can I be a part of the Koii Network?
+      a: Because Koii has a fully self-sustaining ecosystem, there are multiple ways to get involved with Koii. <b>Creators, Developers</b>, and <b>Node Runners</b> are instrumental to the success of the network, and we are always growing our network of <b>Investors, Influencers</b>, and <b>Ambassadors</b> to spread the word.
+          <b>Creators</b>&#x3a; Get the Finnie wallet to start uploading content.
+          <b>Developers</b>&#x3a; Check out the Koii Docs to start building dApps entirely on-chain.
+          <b>Node Runners</b>&#x3a; Pre-register to run a node here. Node release planned for Q1 2022.
+          <b>Investors</b>&#x3a; Get on the investor waitlist here.
+          <b>Influencers</b>&#x3a; Email us at press@koii.network.
+          <b>Ambassadors</b>&#x3a; Join our Discord to get started.
+          <b>Everyone</b>&#x3a; Join us on social media
+          Twitter, Telegram, Discord, Youtube, Linkedin, Github
+    - q: Why should I use Koii for my dApp?
+      a: Koii nodes are the best way to decentralize your app quickly and easily, without building your own trusted node network. All requests to the network (“Tasks”) are written in Javascript so any app can easily become a dApp. Koii easily integrates with Arweave and IPFS for fully decentralized storage as well. Learn more on the Developers’ page and ask questions in the Discord.
+    - q: Is Koii bad for the environment?
+      a: One big criticism of popular blockchains is that they are terrible for the environment. Proof of Work requires an enormous amount of energy. At Koii, we developed a new verification method, Proof of Real Traffic, to engage all the benefits of blockchain without such environmental harm.
+    - q: Why is Koii sometimes written in all caps, but not always?
+      a: Koii refers to the network and its artifacts, which includes topics like the Koii Protocol, Koii Nodes and Koii Tasks. KOII refers to the token that runs the network. When you earn rewards, you earn KOII tokens from creating content or running a Koii node.
+    - q: How can I get in touch with support?
+      a: For issues related to the faucet&#x3a; https://koii.me/faucet
+            For all other issues&#x3a; https://koii.me/support
+            Include as much detail as you can in your submission so we can help you as quickly as possible.
+      cta: Chat with Support
+    - q: I’m new to blockchain. Where do I start?
+      a: aaaaaaaaa
