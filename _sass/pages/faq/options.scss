@@ -8,7 +8,38 @@
   background-position-y: top;
   background-size: 100% auto;
   font-family: $sora;
-  padding: 48px 0 87px;
+  padding: 0 0 87px;
+  .search-wrapper {
+    margin-bottom: 134px;
+    display: flex;
+    justify-content: center;
+    .search-input {
+      max-width: 1070px;
+      width: 100%;
+      .form-group {
+        position: relative;
+        display: flex;
+        align-items: center;
+        input {
+          height: 52px;
+          border-radius: 32px;
+          &:focus {
+            border-color: transparent;
+            box-shadow: unset;
+          }
+        }
+        .btn {
+          position: absolute;
+          right: 7px;
+          background: #171753;
+          border-radius: 24px;
+          font-size: 14px;
+          color: white;
+          height: 42px;
+        }
+      }
+    }
+  }
   .bg-options {
     position: absolute;
     bottom: 0;
