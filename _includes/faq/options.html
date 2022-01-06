@@ -18,10 +18,12 @@
         <div class="row">
           {% for item in site.data.faq_cards %}
           <div class="col-sm-4">
-            <div class="faq-card {{item.classname}}">
-              <img src="/img/faq/{{item.img}}.svg" />
-              <h3 class="">{{item.title}}</h3>
-            </div>
+            <a href="#{{item.id}}">
+              <div class="faq-card {{item.classname}}">
+                <img src="/img/faq/{{item.img}}.svg" />
+                <h3 class="">{{item.title}}</h3>
+              </div>
+            </a>
           </div>
           {% endfor %}
           <div class="col-sm-4">
@@ -41,7 +43,7 @@
   </div>
   <div class="faqs">
     {% for item in site.data.qa_list %}
-    <div class="faq-item {{item.classname}}">
+    <div id="{{item.classname}}" class="faq-item {{item.classname}}">
       <div class="row">
         <div class="col-sm-4">
           <img src="/img/faq/{{item.img}}.svg" />

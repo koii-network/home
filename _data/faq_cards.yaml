@@ -1,15 +1,22 @@
 - title: General Info
   img: icon-card1
+  id: general
 - title: Finnie & Creators
   img: icon-card2
+  id: finnie
 - title: Nodes
   img: icon-card3
+  id: nodes
 - title: Build on Koii
   img: icon-card4
+  id: build
 - title: Invest
   img: icon-card5
+  id: invest
 - title: KOII Token
   img: icon-card6
+  id: token
 - title: Partnerships
   img: icon-card7
   classname: last
+  id: partnerships
