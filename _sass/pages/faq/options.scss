@@ -135,6 +135,12 @@
                 font-size: 20px;
                 padding: 10px 48px;
                 color: #171753;
+                a {
+                  color: #237B75;
+                  &:hover { 
+                    font-weight: 600;
+                  }
+                }
               }
               ul {
                 padding-left: 83px;
