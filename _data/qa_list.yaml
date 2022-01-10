@@ -2,8 +2,8 @@
   classname: general
   img: faq-general
   children:
-    - q: What is the Koii Network?<sup>[a]</sup>
-      a: Koii stands for Knowledgable, Open, and Infinite Internet. Koii is a protocol focused on infrastructure to bring true decentralization to all dApps in the Web3 space. Koii has a fully self-sustaining ecosystem driven by the KOII token<sup>[b]</sup>.
+    - q: What is the Koii Network?
+      a: Koii stands for Knowledgable, Open, and Infinite Internet. Koii is a protocol focused on infrastructure to bring true decentralization to all dApps in the Web3 space. Koii has a fully self-sustaining ecosystem driven by the KOII token.
     - q: How can I be a part of the Koii Network?
       a: Because Koii has a fully self-sustaining ecosystem, there are multiple ways to get involved with Koii. <b>Creators, Developers</b>, and <b>Node Runners</b> are instrumental to the success of the network, and we are always growing our network of <b>Investors, Influencers</b>, and <b>Ambassadors</b> to spread the word.
           <br /><br /><b>Creators</b>&#x3a; Get the <a href="#" target="_blank">Finnie wallet</a> to start uploading content.
@@ -97,8 +97,8 @@
   img: faq-build
   children:
     - q: I have an app, how do I decentralize it?
-      a: There are a few places to get started. Koii-X<sup>[c]</sup> is the UI template center where you can find easy-to-integrate components for things like connecting to Finnie, displaying NFTs, and distributing rewards.
-          <br />If you already have an app built. Koii Tasks allow you to use Koii nodes for microservices, all in a decentralized way.<sup>[d]</sup>
+      a: There are a few places to get started. Koii-X is the UI template center where you can find easy-to-integrate components for things like connecting to Finnie, displaying NFTs, and distributing rewards.
+          <br />If you already have an app built. Koii Tasks allow you to use Koii nodes for microservices, all in a decentralized way.
     - q: What blockchains does Koii bridge to?
       a: Koii has bridges up and running from Arweave to Ethereum and Polygon. We are currently developing bridges to Filecoin, Solana, and Avalanche, with more planned after that.
           <br /><br />Do you have a chain you want Koii to integrate with? Tweet <a href="#" target="_blank">@KoiiNetwork</a> to let us know which one with the tag &sharp;bridgetoKoii so that we can prioritize bridges based on the needs of the community.
@@ -107,7 +107,7 @@
   img: faq-invest
   children:
     - q: Where can I buy KOII?
-      a: KOII is not currently available for public sale. Sign up for the waitlist here<sup>[e]</sup>.
+      a: KOII is not currently available for public sale. Sign up for the waitlist here.
     - q: What are Attention Rewards and how do I get them?
       a: Every day, the network distributes KOII tokens to all the content that received attention (or was interacted with) in the previous 24 hour period. The amount of tokens a wallet receives depends on the proportion of attention its content receives compared to all of the attention in the network.
     - q: How do I mine KOII tokens?
