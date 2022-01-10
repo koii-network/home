@@ -56,9 +56,12 @@
     }
   }
   @media (max-width: 576px) {
-    &::before {
-      display: none;
-    }
+    background: url(/img/faq/bg-hero-mobile.svg),
+      linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: bottom;
     .header-content {
       height: calc(100vw * 730 / 375);
       align-items: flex-start;
