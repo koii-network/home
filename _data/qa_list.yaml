@@ -71,9 +71,9 @@
         <li>Easily transfer your NFT between blockchains. Want to sell your NFT on Opensea? We’ve got a bridge for that—and many more in the works!</li>
         </ul>
     - q: How can I get tokens to upload my NFT?
-      a: You can get a few KOII tokens and a small amount of AR (to pay for the storage fee) from the KOII faucet at <a href="https://koi.rocks/faucet" target="_blank">koi.rocks/faucet</a>. This will provide you with the tokens needed to get started on the network. You can also purchase additional AR tokens from several different exchanges. More info on AR tokens can be found <a href="#" target="_blank">here</a>.
+      a: You can get a few KOII tokens and a small amount of AR (to pay for the storage fee) from the KOII faucet at <a href="https://koi.rocks/faucet" target="_blank">koi.rocks/faucet</a>. This will provide you with the tokens needed to get started on the network. You can also purchase additional AR tokens from several different exchanges. More info on AR tokens can be found <a href="https://www.coingecko.com/en/coins/arweave?__cf_chl_managed_tk__=gXCBpCk67JAb.r558vCIN_axToCf49InEMaUTpsl_uU-1639414896-0-gaNycGzNCSU#markets" target="_blank">here</a>.
     - q: If I create an NFT with Finnie, do I need to pay KOII and AR to store the NFT?
-      a: Yes. Koii is built on the <a href="#" target="_blank">Arweave</a> permaweb, AR will be used to store the file forever, and KOII tokens will allow you to begin earning attention rewards.
+      a: Yes. Koii is built on the <a href="https://www.arweave.org/" target="_blank">Arweave</a> permaweb, AR will be used to store the file forever, and KOII tokens will allow you to begin earning attention rewards.
     - q: Where can I find my uploaded content?
       a: Once you have connected your wallet to the leaderboard you can click on the “My Content” button on the right hand side of the screen to take you to your artist page.You can also view your content from within the Finnie wallet by selecting the “Go to My Gallery” button at the bottom of the wallet.
     - q: I uploaded the same thing twice. I want to remove one of them.
@@ -99,9 +99,11 @@
   img: faq-nodes
   children:
     - q: I want to run a node!
-      a: <a href="#" target="_blank">Sign up</a> here so you’ll be on the list to run a node as soon as it is ready.
+      a: <a href="/form/pre-register" target="_blank">Sign up</a> here so you’ll be on the list to run a node as soon as it is ready.
     - q: Does running a node require high PC specs & computational power like ETH & BTC require?
-      a: Nope. It'll be a lot like running an app like Spotify. You need less than 1GB of RAM, pre-register to run a node here&#x3a; <a href="https://koii.me/KoiiNode" target="_blank">https://koii.me/KoiiNode</a>
+      a: Nope. It'll be a lot like running an app like Spotify. You need less than 1GB of RAM, pre-register to run a node here&#x3a; <a href="/form/pre-register" target="_blank">Pre-register form</a>
+      cta: Run a Node
+      ctalink: /form/pre-register
 - build:
   classname: build
   img: faq-build
@@ -113,7 +115,7 @@
     - q: What blockchains does Koii bridge to?
       a:
         Koii has bridges up and running from Arweave to Ethereum and Polygon. We are currently developing bridges to Filecoin, Solana, and Avalanche, with more planned after that.
-        <br /><br />Do you have a chain you want Koii to integrate with? Tweet <a href="#" target="_blank">@KoiiNetwork</a> to let us know which one with the tag &sharp;bridgetoKoii so that we can prioritize bridges based on the needs of the community.
+        <br /><br />Do you have a chain you want Koii to integrate with? Tweet <a href="https://twitter.com/KoiiNetwork" target="_blank">@KoiiNetwork</a> to let us know which one with the tag &sharp;bridgetoKoii so that we can prioritize bridges based on the needs of the community.
 - invest:
   classname: invest
   img: faq-invest
@@ -123,16 +125,17 @@
     - q: What are Attention Rewards and how do I get them?
       a: Every day, the network distributes KOII tokens to all the content that received attention (or was interacted with) in the previous 24 hour period. The amount of tokens a wallet receives depends on the proportion of attention its content receives compared to all of the attention in the network.
     - q: How do I mine KOII tokens?
-      a: The only way to “mine” KOII tokens is by making content that receives attention. You will earn KOII tokens proportional to the amount of attention your content earns every 24 hours. You can earn tokens by <a href="#" target="_blank">running a node</a>, but those tokens are supplied by bounties from the Task creators, not the daily mint.
+      a: The only way to “mine” KOII tokens is by making content that receives attention. You will earn KOII tokens proportional to the amount of attention your content earns every 24 hours. You can earn tokens by <a href="/form/pre-register" target="_blank">running a node</a>, but those tokens are supplied by bounties from the Task creators, not the daily mint.
     - q: Why do I need two different kinds of tokens to make an NFT?
       a: Since the KOII token is not yet available for public sale, AR tokens are necessary to pay the permanent, one-time, storage fees on Arweave. After KOII becomes available to the public, we will require only KOII tokens for interacting with the network.
     - q: I didn’t get any tokens from the faucet. What should I do?
-      a: Please fill out the form at <a href="https://koii.me/faucet" target="_blank">https://koii.me/faucet</a> and someone from our support team will respond within 24 hours.
+      a: Please fill out the form at <a href="/form/faucet" target="_blank">here</a> and someone from our support team will respond within 24 hours.
     - q: What is the total supply of KOII?
-      a: There will be a genesis supply of 10 billion tokens. After that an additional 1 million KOII will be minted per day and distributed across the KOII network. You can only mine KOII by receiving Proofs of Real Traffic for content that you submit. You can find more details about inflation and token burn in the <a href="#" target="_blank">tokenomics paper</a>.
+      a: There will be a genesis supply of 10 billion tokens. After that an additional 1 million KOII will be minted per day and distributed across the KOII network. You can only mine KOII by receiving Proofs of Real Traffic for content that you submit. You can find more details about inflation and token burn in the <a href="/tokenomics.pdf" target="_blank">tokenomics paper</a>.
     - q: I have not received my attention rewards, what should I do?
-      a: KOII has gradual consensus using Proof of Real Traffic(PoRT), attention rewards should be sent to you 24 hours after your views are confirmed. Please check out the <a href="#" target="_blank">Lightpaper</a> and <a href="#" target="_blank">Proof of Real Traffic</a> for more details.
+      a: KOII has gradual consensus using Proof of Real Traffic(PoRT), attention rewards should be sent to you 24 hours after your views are confirmed. Please check out the <a href="/lightpaper.pdf" target="_blank">Lightpaper</a> and <a href="/proofs-of-real-traffic.pdf" target="_blank">Proof of Real Traffic</a> for more details.
       cta: Read the Lightpaper
+      ctalink: /lightpaper.pdf
 - token:
   classname: token
   img: faq-token
