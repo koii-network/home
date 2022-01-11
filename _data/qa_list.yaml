@@ -120,28 +120,16 @@
   classname: invest
   img: faq-invest
   children:
-    - q: Where can I buy KOII?
-      a: KOII is not currently available for public sale. Sign up for the waitlist here.
-    - q: What are Attention Rewards and how do I get them?
-      a: Every day, the network distributes KOII tokens to all the content that received attention (or was interacted with) in the previous 24 hour period. The amount of tokens a wallet receives depends on the proportion of attention its content receives compared to all of the attention in the network.
-    - q: How do I mine KOII tokens?
-      a: The only way to “mine” KOII tokens is by making content that receives attention. You will earn KOII tokens proportional to the amount of attention your content earns every 24 hours. You can earn tokens by <a href="/form/pre-register" target="_blank">running a node</a>, but those tokens are supplied by bounties from the Task creators, not the daily mint.
-    - q: Why do I need two different kinds of tokens to make an NFT?
-      a: Since the KOII token is not yet available for public sale, AR tokens are necessary to pay the permanent, one-time, storage fees on Arweave. After KOII becomes available to the public, we will require only KOII tokens for interacting with the network.
-    - q: I didn’t get any tokens from the faucet. What should I do?
-      a: Please fill out the form at <a href="/form/faucet" target="_blank">here</a> and someone from our support team will respond within 24 hours.
-    - q: What is the total supply of KOII?
-      a: There will be a genesis supply of 10 billion tokens. After that an additional 1 million KOII will be minted per day and distributed across the KOII network. You can only mine KOII by receiving Proofs of Real Traffic for content that you submit. You can find more details about inflation and token burn in the <a href="/tokenomics.pdf" target="_blank">tokenomics paper</a>.
-    - q: I have not received my attention rewards, what should I do?
-      a: KOII has gradual consensus using Proof of Real Traffic(PoRT), attention rewards should be sent to you 24 hours after your views are confirmed. Please check out the <a href="/lightpaper.pdf" target="_blank">Lightpaper</a> and <a href="/proofs-of-real-traffic.pdf" target="_blank">Proof of Real Traffic</a> for more details.
-      cta: Read the Lightpaper
-      ctalink: /lightpaper.pdf
+    - q: I want to invest in Koii Network.
+      a: Sign up on the waitlist and you will be notified when the token is available to purchase. If you are looking for a partnership, fill out <a href="https://koii.network/form/partnership/" target="_blank">this form</a> as well.
+      cta: Get on the Waitlist
+      ctalink: /form/partnership/
 - token:
   classname: token
   img: faq-token
   children:
     - q: Where can I buy KOII?
-      a: KOII is not currently available for public sale. Sign up for the waitlist here[e].
+      a: KOII is not currently available for public sale. Sign up for the waitlist <a href="/form/investor" target="_blank">here</a>.
     - q: What are Attention Rewards and how do I get them?
       a: Every day, the network distributes KOII tokens to all the content that received attention (or was interacted with) in the previous 24 hour period. The amount of tokens a wallet receives depends on the proportion of attention its content receives compared to all of the attention in the network.
     - q: How do I mine KOII tokens?
