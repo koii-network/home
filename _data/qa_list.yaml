@@ -7,32 +7,38 @@
     - q: How can I be a part of the Koii Network?
       a:
         Because Koii has a fully self-sustaining ecosystem, there are multiple ways to get involved with Koii. <b>Creators, Developers</b>, and <b>Node Runners</b> are instrumental to the success of the network, and we are always growing our network of <b>Investors, Influencers</b>, and <b>Ambassadors</b> to spread the word.
-        <br /><br /><b>Creators</b>&#x3a; Get the <a href="#" target="_blank">Finnie wallet</a> to start uploading content.
-        <br /><b>Developers</b>&#x3a; Check out the <a href="#" target="_blank">Koii Docs</a> to start building dApps entirely on-chain.
-        <br /><b>Node Runners</b>&#x3a; Pre-register to run a node <a href="#" target="_blank">here</a>. Node release planned for Q1 2022.
-        <br /><br /><b>Investors</b>&#x3a; Get on the investor waitlist <a href="#" target="_blank">here</a>.
+        <br /><br /><b>Creators</b>&#x3a; Get the <a href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj" target="_blank">Finnie wallet</a> to start uploading content.
+        <br /><b>Developers</b>&#x3a; Check out the <a href="https://docs.koii.network" target="_blank">Koii Docs</a> to start building dApps entirely on-chain.
+        <br /><b>Node Runners</b>&#x3a; Pre-register to run a node <a href="/form/pre-register" target="_blank">here</a>. Node release planned for Q1 2022.
+        <br /><br /><b>Investors</b>&#x3a; Get on the investor waitlist <a href="/form/investor" target="_blank">here</a>.
         <br /><b>Influencers</b>&#x3a; Email us at <a href="https://press@koii.network" target="_blank">press@koii.network</a>.
-        <br /><b>Ambassadors</b>&#x3a; Join our <a href="#" target="_blank">Discord</a> to get started.
+        <br /><b>Ambassadors</b>&#x3a; Join our <a href="https://discord.gg/koii" target="_blank">Discord</a> to get started.
         <br /><b>Everyone</b>&#x3a; Join us on social media
         <br />
-        <a href="#" target="_blank">Twitter</a>,
-        <a href="#" target="_blank">Telegram</a>,
-        <a href="#" target="_blank">Discord</a>,
-        <a href="#" target="_blank">Youtube</a>,
-        <a href="#" target="_blank">Linkedin</a>,
-        <a href="#" target="_blank">Github</a>
+        <a href="https://twitter.com/KoiiNetwork" target="_blank">Twitter</a>,
+        <a href="https://t.me/koiinetwork" target="_blank">Telegram</a>,
+        <a href="https://discord.gg/koii" target="_blank">Discord</a>,
+        <a href="https://www.youtube.com/channel/UCG0Rd0WehAxx6GIW7DuRyJQ" target="_blank">Youtube</a>,
+        <a href="https://www.linkedin.com/company/koii-network/mycompany/" target="_blank">Linkedin</a>,
+        <a href="https://github.com/koii-network" target="_blank">Github</a>
     - q: Why should I use Koii for my dApp?
-      a: Koii nodes are the best way to decentralize your app quickly and easily, without building your own trusted node network. All requests to the network (“Tasks”) are written in Javascript so any app can easily become a dApp. Koii easily integrates with Arweave and IPFS for fully decentralized storage as well. Learn more on the <a href="#" target="_blank">Developers’ page</a> and ask questions in the Discord.
+      a:
+        Koii nodes are the best way to decentralize your app quickly and easily,
+        without building your own trusted node network. All requests to the network (“Tasks”)
+        are written in Javascript so any app can easily become a dApp. Koii easily integrates with
+        Arweave and IPFS for fully decentralized storage as well.
+        Learn more on the <a href="/earn/developers/" target="_blank">Developers’ page</a> and ask questions in the Discord.
     - q: Is Koii bad for the environment?
       a: One big criticism of popular blockchains is that they are terrible for the environment. Proof of Work requires an enormous amount of energy. At Koii, we developed a new verification method, Proof of Real Traffic, to engage all the benefits of blockchain without such environmental harm.
     - q: Why is Koii sometimes written in all caps, but not always?
       a: Koii refers to the network and its artifacts, which includes topics like the Koii Protocol, Koii Nodes and Koii Tasks. KOII refers to the token that runs the network. When you earn rewards, you earn KOII tokens from creating content or running a Koii node.
     - q: How can I get in touch with support?
       a:
-        For issues related to the faucet&#x3a; <a href="https://koii.me/faucet" target="_blank">https://koii.me/faucet</a>
-        <br /><br />For all other issues&#x3a; <a href="https://koii.me/support" target="_blank">https://koii.me/support</a>
+        For issues related to the faucet&#x3a; <a href="/form/faucet" target="_blank">here</a>
+        <br /><br />For all other issues&#x3a; <a href="/form/support" target="_blank">here</a>
         <br /><br />Include as much detail as you can in your submission so we can help you as quickly as possible.
       cta: Chat with Support
+      ctalink: /form/support
     # - q: I’m new to blockchain. Where do I start?
     #   a:
 - finnie:
@@ -52,7 +58,7 @@
         <li>Easy NFT collections</li>
         </ul>
     - q: How do I create an NFT with Koii?
-      a: The easiest way to create NFTs on Koii is by using the <a href="#" target="_blank">Finnie wallet</a>. Finnie is a browser extension that has a drag & drop NFT creation. It takes less than a minute to create an NFT and costs as little as one cent.
+      a: The easiest way to create NFTs on Koii is by using the <a href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj" target="_blank">Finnie wallet</a>. Finnie is a browser extension that has a drag & drop NFT creation. It takes less than a minute to create an NFT and costs as little as one cent.
     - q: What type of content can I upload?
       a: You can upload anything from images to videos and PDF files.
     - q: Why should I use Koii for my NFTs?
@@ -65,7 +71,7 @@
         <li>Easily transfer your NFT between blockchains. Want to sell your NFT on Opensea? We’ve got a bridge for that—and many more in the works!</li>
         </ul>
     - q: How can I get tokens to upload my NFT?
-      a: You can get a few KOII tokens and a small amount of AR (to pay for the storage fee) from the KOII faucet at <a href="https://koii.network/faucet" target="_blank">koii.network/faucet</a>. This will provide you with the tokens needed to get started on the network. You can also purchase additional AR tokens from several different exchanges. More info on AR tokens can be found <a href="#" target="_blank">here</a>.
+      a: You can get a few KOII tokens and a small amount of AR (to pay for the storage fee) from the KOII faucet at <a href="https://koi.rocks/faucet" target="_blank">koi.rocks/faucet</a>. This will provide you with the tokens needed to get started on the network. You can also purchase additional AR tokens from several different exchanges. More info on AR tokens can be found <a href="#" target="_blank">here</a>.
     - q: If I create an NFT with Finnie, do I need to pay KOII and AR to store the NFT?
       a: Yes. Koii is built on the <a href="#" target="_blank">Arweave</a> permaweb, AR will be used to store the file forever, and KOII tokens will allow you to begin earning attention rewards.
     - q: Where can I find my uploaded content?
@@ -75,7 +81,7 @@
         Everything uploaded to Arweave is permanent, no content can be taken down once uploaded and we cannot interfere with registration. If you do upload the same content twice just be sure to always share the same one so you can earn attention rewards accordingly.
         <br /><br />We are looking into a "de-list" feature but we’re not quite there yet.
         <br /><br />Check out our blog on permanence to learn more&#x3a;
-        <br /><a href="https://blog.koii.network/Almost-Infinite/" target="_blank">https://blog.koii.network/Almost-Infinite/ </a>
+        <br /><a href="https://blog.koii.network/Almost-Infinite/" target="_blank">Read blog "Almost Infinite" </a>
     - q: How do I use the bridge from Arweave to other blockchains?
       a: Currently Finnie supports bridinging from Arweave to Ethereum and vice versa, with more blockchains on the way. If you are interested in using the bridge more information can be found on this blog post.
     - q: Do I have to run a node to post content?
@@ -87,9 +93,7 @@
       a:
         On Arweave, your content is stored permanently so it can never be rug-pulled. On Ethereum, if you have an image file (for example) that image is not actually stored on-chain. Only the transaction ID is stored there.
         <br /><br />
-        <a href="https://koii.network/lightpaper.pdf" target="_blank">https://koii.network/lightpaper.pdf</a>
-        <br />
-        <a href="https://koii.network/proofs-of-real-traffic.pdf" target="_blank">https://koii.network/proofs-of-real-traffic.pdf</a>
+        <a href="https://koii.network/lightpaper.pdf" target="_blank">Read the Lightpaper</a>
 - nodes:
   classname: nodes
   img: faq-nodes
