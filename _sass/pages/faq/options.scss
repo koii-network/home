@@ -137,9 +137,13 @@
                 color: #171753;
                 a {
                   color: #237B75;
+                  &:hover { 
+                    font-weight: 600;
+                  }
                 }
               }
               ul {
+                color: #171753;
                 padding-left: 83px;
                 li {
                   font-size: 14px;
