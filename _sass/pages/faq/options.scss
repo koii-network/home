@@ -135,6 +135,9 @@
                 font-size: 20px;
                 padding: 10px 48px;
                 color: #171753;
+                a {
+                  color: #237B75;
+                }
               }
               ul {
                 padding-left: 83px;
@@ -233,7 +236,7 @@
         .faq-card {
           margin: 0 -30px;
           width: unset;
-          margin-top: 40px ;
+          margin-top: 40px;
         }
         .faq-extra-cta {
           flex-direction: column-reverse;
@@ -243,6 +246,32 @@
             text-align: center;
             margin-bottom: 21px !important;
             line-height: 25px;
+          }
+        }
+      }
+    }
+    .faqs {
+      .faq-item {
+        margin-top: 86px;
+        .questions {
+          padding: 0 22px;
+          position: relative;
+          top: -50px;
+          .faq-accordion {
+            width: 100%;
+            .ac {
+              .ac-header {
+                .ac-trigger {
+                  padding: 12px 84px 12px 22px;
+                  font-size: 16px;
+                }
+              }
+              .ac-panel {
+                .ac-text {
+                  padding: 10px 22px;
+                }
+              }
+            }
           }
         }
       }
