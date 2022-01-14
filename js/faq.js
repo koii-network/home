@@ -45,14 +45,14 @@ window.addEventListener('load', (event) => {
         });
         var inputValue = values.faq
         var filtered = qaList.filter(element => {
-            return inputValue && (element.q.includes(inputValue) || element.a.includes(inputValue))
+            return inputValue && (element.q.toLowerCase().includes(inputValue.toLowerCase()) || element.a.toLowerCase().includes(inputValue.toLowerCase()))
         });
         let resultsWrapper = document.querySelector('#search-results')
         let resultsDiv = document.createElement('div')
         resultsDiv.id = 'faq-results'
         let closeDiv = document.createElement('div')
         closeDiv.id = 'faq-close'
-        closeDiv.onclick = function() {
+        closeDiv.onclick = function () {
             $("#faq-results").remove()
         }
         if (filtered.length > 0) {
