@@ -141,7 +141,7 @@
     - q: What is the total supply of KOII?
       a: There will be a genesis supply of 10 billion tokens. After that an additional 1 million KOII will be minted per day and distributed across the KOII network. You can only mine KOII by receiving Proofs of Real Traffic for content that you submit. You can find more details about inflation and token burn in the <a href="/tokenomics.pdf " target="_blank">tokenomics paper</a>.
     - q: I have not received my attention rewards, what should I do?
-      a: KOII has gradual consensus using Proof of Real Traffic(PoRT), attention rewards should be sent to you 24 hours after your views are confirmed. Please check out the <a href="/proofs-of-real-traffic.pdf" target="_blank">Lightpaper</a> and <a href="#" target="_blank">Proof of Real Traffic</a> for more details.
+      a: KOII has gradual consensus using Proof of Real Traffic(PoRT), attention rewards should be sent to you 24 hours after your views are confirmed. Please check out the <a href="/lightpaper.pdf" target="_blank">Lightpaper</a> and <a href="/proofs-of-real-traffic.pdf" target="_blank">Proof of Real Traffic</a> for more details.
       cta: Read the Lightpaper
       ctalink: /lightpaper.pdf
 - partnerships:
