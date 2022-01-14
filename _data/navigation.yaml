@@ -57,6 +57,10 @@
 - header: GET INVOLVED
   class: col-sm-4 get-involved
   children:
+    - name: FAQ
+      link: /faq
+      class: normal
+
     - name: Run a Node
       link: /form/pre-register/
       class: normal
