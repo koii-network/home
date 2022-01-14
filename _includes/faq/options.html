@@ -1,0 +1,81 @@
+<header id="faq-options">
+  <div class="container">
+    <div class="search-wrapper">
+      <form class="search-input" id="search-input">
+        <div class="form-group">
+          <input
+            type="text"
+            name="faq"
+            class="form-control"
+            aria-describedby="emailHelp"
+            placeholder="How do I download a node?"
+          />
+          <button type="submit" class="btn">Search</button>
+        </div>
+      </form>
+      <div id="search-results"></div>
+    </div>
+    <div class="cards-wrapper">
+      <div class="faq-cards">
+        <div class="row">
+          {% for item in site.data.faq_cards %}
+          <div class="col-sm-4">
+            <div id="cta-{{item.id}}" class="faq-card {{item.classname}}">
+              <img src="/img/faq/{{item.img}}.svg" />
+              <h3 class="">{{item.title}}</h3>
+            </div>
+          </div>
+          {% endfor %}
+          <div class="col-sm-4">
+            <a href="https://koii.me/support" target="_blank">
+              <div class="faq-extra-cta">
+                <img src="/img/faq/extra-cta.svg" />
+                <h6 class="mb-0 ml-2">
+                  Or get in touch with<br />
+                  our support team.
+                </h6>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="faqs">
+    {% for item in site.data.qa_list %}
+    <div id="{{item.classname}}" class="faq-item {{item.classname}}">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="/img/faq/{{item.img}}.svg" class="d-none d-sm-block" />
+          <img src="/img/faq/{{item.img}}-mobile.svg" class="d-sm-none" />
+        </div>
+        <div class="col-sm-8">
+          <div class="questions">
+            <div class="faq-accordion faq-accordion-{{item.classname}}">
+              {% for child in item.children %}
+              <div class="ac">
+                <h2 class="ac-header">
+                  <button class="ac-trigger">{{child.q}}</button>
+                </h2>
+                <div class="ac-panel">
+                  <p class="ac-text">{{child.a}}</p>
+                  {% if child.cta %}
+                  <div class="d-flex justify-content-end cta-wrapper">
+                    <a
+                      href="{{ child.ctalink }}"
+                      class="qa-cta {{item.classname}}"
+                      >{{child.cta}}</a
+                    >
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</header>

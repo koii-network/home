@@ -1,0 +1,52 @@
+@import "variables";
+
+#ids-options {
+  position: relative;
+  background: linear-gradient(90deg, #030332 0%, #171753 100%);
+  font-family: $sora;
+  padding: 48px 0 87px;
+  .bg-options {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .option-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h6 {
+      font-weight: 600 !important;
+      color: white;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      margin-top: 21px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 576px) {
+    padding: 0px 0 21px;
+    .bg-options {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    .bg-options-mobile {
+      position: relative;
+      top: -50px;
+    }
+    .options-hint {
+      font-size: 12px;
+      color: white;
+    }
+    .option-wrapper {
+      margin-top: 41px;
+      img {
+        width: 82px;
+      }
+      h6 {
+        font-size: 14px !important;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
