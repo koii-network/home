@@ -50,6 +50,11 @@ window.addEventListener('load', (event) => {
         let resultsWrapper = document.querySelector('#search-results')
         let resultsDiv = document.createElement('div')
         resultsDiv.id = 'faq-results'
+        let closeDiv = document.createElement('div')
+        closeDiv.id = 'faq-close'
+        closeDiv.onclick = function() {
+            $("#faq-results").remove()
+        }
         if (filtered.length > 0) {
             filtered.forEach(_item => {
                 let itemDiv = document.createElement('ul')
@@ -72,6 +77,7 @@ window.addEventListener('load', (event) => {
             noResult.innerHTML = `<p>No Result</p>`
             resultsDiv.appendChild(noResult)
         }
+        resultsDiv.appendChild(closeDiv)
         resultsWrapper.appendChild(resultsDiv)
         $("#search-results").css('display', 'block')
     })
