@@ -44,9 +44,8 @@
     #search-results {
       position: absolute;
       width: 100%;
-      min-height: 100px;
       background: #ecfffe;
-      top: 88px;
+      top: 65px;
       z-index: 12;
       display: none;
       padding: 20px 50px;
@@ -54,11 +53,14 @@
       .result-item {
         border-bottom: 1px solid #d6d6d6;
         padding: 15px 20px;
-        .result-question {
+        margin-bottom: 0;
+        li {
           margin-bottom: 13px;
-          cursor: pointer;
-          font-size: 20px !important;
-          color: #171753;
+          .result-question {
+            cursor: pointer;
+            font-size: 20px !important;
+            color: #171753;
+          }
         }
         .result-answer {
           margin-bottom: 0;
@@ -67,6 +69,14 @@
             color: #171753;
             margin-bottom: 0;
           }
+          a {
+            color: #237b75;
+          }
+        }
+      }
+      .faq-no-result {
+        p {
+          margin-bottom: 0;
         }
       }
     }
