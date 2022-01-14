@@ -41,13 +41,34 @@
         }
       }
     }
-    .search-results {
+    #search-results {
       position: absolute;
       width: 100%;
-      height: 100px;
+      min-height: 100px;
       background: #ecfffe;
       top: 88px;
       z-index: 12;
+      display: none;
+      padding: 20px 50px;
+      .result-item {
+        border-bottom: 1px solid #D6D6D6;
+        padding: 15px 20px;
+        .result-question {
+          margin-bottom: 13px;
+          p {
+            font-size: 20px !important;
+            color: #171753;
+          }
+        }
+        .result-answer {
+          margin-bottom: 0;
+          p {
+            font-size: 14px !important;
+            color: #171753;
+            margin-bottom: 0;
+          }
+        }
+      }
     }
   }
   .bg-options {
