@@ -13,16 +13,17 @@
           <button type="submit" class="btn">Search</button>
         </div>
       </form>
+      <div id="search-results"></div>
     </div>
     <div class="cards-wrapper">
       <div class="faq-cards">
         <div class="row">
           {% for item in site.data.faq_cards %}
           <div class="col-sm-4">
-              <div id="cta-{{item.id}}" class="faq-card {{item.classname}}">
-                <img src="/img/faq/{{item.img}}.svg" />
-                <h3 class="">{{item.title}}</h3>
-              </div>
+            <div id="cta-{{item.id}}" class="faq-card {{item.classname}}">
+              <img src="/img/faq/{{item.img}}.svg" />
+              <h3 class="">{{item.title}}</h3>
+            </div>
           </div>
           {% endfor %}
           <div class="col-sm-4">
@@ -60,7 +61,9 @@
                   <p class="ac-text">{{child.a}}</p>
                   {% if child.cta %}
                   <div class="d-flex justify-content-end cta-wrapper">
-                    <a href="{{ child.ctalink }}" class="qa-cta {{item.classname}}"
+                    <a
+                      href="{{ child.ctalink }}"
+                      class="qa-cta {{item.classname}}"
                       >{{child.cta}}</a
                     >
                   </div>

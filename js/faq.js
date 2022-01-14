@@ -37,6 +37,7 @@ window.addEventListener('load', (event) => {
     });
     $("#search-input").submit(function (event) {
         event.preventDefault()
+        $(".result-item").remove()
         var $inputs = $('#search-input :input');
         var values = {};
         $inputs.each(function () {
@@ -46,8 +47,23 @@ window.addEventListener('load', (event) => {
         var filtered = qaList.filter(element => {
             return element.q.includes(inputValue) || element.a.includes(inputValue)
         });
-        console.log({ filtered })
-
+        let resultsDiv = document.querySelector('#search-results')
+        filtered.forEach(_item => {
+            let itemDiv = document.createElement('ul')
+            let questionDiv = document.createElement('li')
+            let question = document.createElement('a')
+            let answer = document.createElement('p')
+            itemDiv.className = 'result-item'
+            question.className = 'result-question'
+            answer.className = 'result-answer'
+            question.innerHTML = _item.q
+            answer.innerHTML = `<p>` + _item.a + `</p>`
+            questionDiv.appendChild(question)
+            itemDiv.appendChild(questionDiv)
+            itemDiv.appendChild(answer)
+            resultsDiv.appendChild(itemDiv)
+        })
+        $("#search-results").css('display', 'block')
     })
 });
 var qaList = [
