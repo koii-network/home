@@ -43,7 +43,11 @@ window.addEventListener('load', (event) => {
             values[this.name] = $(this).val();
         });
         var inputValue = values.faq
-        console.log({ inputValue })
+        var filtered = qaList.filter(element => {
+            return element.q.includes(inputValue) || element.a.includes(inputValue)
+        });
+        console.log({ filtered })
+
     })
 });
 var qaList = [
