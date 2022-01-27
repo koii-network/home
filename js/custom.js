@@ -1,4 +1,5 @@
 var Categories = ['learn', 'earn', 'connect', 'explore']
+var isHomePage = false
 function showSubMenu(category, sm) {
   const subMenu = $("#sub_menu")
   subMenu.find('.sub-menu-container').css('display', 'none')
@@ -50,17 +51,6 @@ function num_animations() {
     $(this).addClass('active')
   })
   $('.num').each(function () {
-    // console.log("$(this).text() ===", $(this).text())
-
-    // $({ Counter: 0 }).animate({
-    //   Counter: $(this).text()
-    // }, {
-    //   duration: 1000,
-    //   easing: 'swing',
-    //   step: function() {
-    //     $(this).text(getRupeesFormat(Math.ceil(this.Counter)));
-    //   }
-    // });
 
     $(this).prop('Counter', 0).animate({
       Counter: $(this).text()
@@ -106,32 +96,6 @@ function httpGet(theUrl) {
       }, 100)
     }
   });
-  // $.ajax({
-  //   url: theUrl,
-  //   type: 'GET',
-  //   crossDomain: true,
-  //   dataType: 'jsonp',
-  //   contentType: 'application/json',
-  //   success: function(data) { 
-  //     console.log( "Sample of data:", data );
-  //     if(data) {
-  //       $(".num_users").text(data.users)
-  //       $(".num_koii_earned").text(data.koii_earned)
-  //       $(".num_atomic_nfts").text(data.atomic_nfts)
-  //     }
-  //     num_animations()
-  //     alert("Success"); },
-  //   error: function(err) { 
-  //     console.log(err); 
-  //     console.log('Failed!'); 
-  //     $(".num_users").text(2894)
-  //     $(".num_koii_earned").text(88240)
-  //     $(".num_atomic_nfts").text(3325)
-  //     setTimeout(function(){
-  //       num_animations()
-  //     },100)
-  //   }
-  // });
 }
 function setActiveMenu(category, subCategory) {
   // console.log("category :", category)
@@ -211,6 +175,7 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+// homepage roadmap
 var cbp_fwcurrent = 0;
 function prevFwCurrent() {
   $(".horizontal-roadmap-prev").css("display", "flex");
@@ -219,6 +184,7 @@ function prevFwCurrent() {
   if (cbp_fwcurrent === 0) {
     $(".horizontal-roadmap-prev").css("display", "none");
   }
+  console.log("current : " + cbp_fwcurrent)
 }
 function nextFwCurrent() {
   $(".horizontal-roadmap-prev").css("display", "flex");
@@ -272,34 +238,38 @@ function wings_img_spin() {
     mouseXY.Y = event.pageY;
   });
   var iCow = $("#spread_main_img");
-  var prevXY = { X: null, Y: null };
-  // console.log("here is image position", centerPositionOfDiv(iCow));
-  // console.log("here is image offset", iCow.offset())
-  var cowInterval = setInterval(function () {
-    if (prevXY.Y != mouseXY.Y || prevXY.X != mouseXY.X && (prevXY.Y != null || prevXY.X != null)) {
+  console.log(iCow);
+  if(iCow) {
 
-      var cowXY = centerPositionOfDiv(iCow)
-      var diffX = cowXY.left - mouseXY.X;
-      var diffY = cowXY.top - mouseXY.Y;
-      var tan = diffY / diffX;
-
-      var atan = Math.atan(tan) * 180 / Math.PI;;
-      if (diffY > 0 && diffX > 0) {
-
-        atan += 180;
+    var prevXY = { X: null, Y: null };
+    // console.log("here is image position", centerPositionOfDiv(iCow));
+    // console.log("here is image offset", iCow.offset())
+    var cowInterval = setInterval(function () {
+      if (prevXY.Y != mouseXY.Y || prevXY.X != mouseXY.X && (prevXY.Y != null || prevXY.X != null)) {
+  
+        var cowXY = centerPositionOfDiv(iCow)
+        var diffX = cowXY.left - mouseXY.X;
+        var diffY = cowXY.top - mouseXY.Y;
+        var tan = diffY / diffX;
+  
+        var atan = Math.atan(tan) * 180 / Math.PI;;
+        if (diffY > 0 && diffX > 0) {
+  
+          atan += 180;
+        }
+        else if (diffY < 0 && diffX > 0) {
+  
+          atan -= 180;
+        }
+  
+        atan += -45
+  
+        prevXY.X = mouseXY.X;
+        prevXY.Y = mouseXY.Y;
+        iCow.css({ transform: "rotate(" + atan + "deg)" });
       }
-      else if (diffY < 0 && diffX > 0) {
-
-        atan -= 180;
-      }
-
-      atan += -45
-
-      prevXY.X = mouseXY.X;
-      prevXY.Y = mouseXY.Y;
-      iCow.css({ transform: "rotate(" + atan + "deg)" });
-    }
-  }, 10);
+    }, 10);
+  }
 }
 
 function onClickOutside(e) {
@@ -343,6 +313,16 @@ $(document).ready(function () {
   }
   if (category === 'connect') {
     show_slide()
+  }
+  console.log(category)
+  if (category === '') {
+    isHomePage = true
+    // home page
+    revolution_show_video()
+    wings_img_spin()
+    $('#cbp-fwslider').cbpFWSlider();
+  }else {
+    isHomePage = false
   }
   setActiveMenu(category, subCat)
   $("#tap1").on('click', function () {
@@ -419,36 +399,35 @@ $(document).ready(function () {
   $(".bbl-btn-active").mouseleave(function () {
     $(this).css('display', 'none');
   });
-  revolution_show_video()
-  wings_img_spin()
   $(".lazy").lazyload(); // image and iframe lazy loading
-  $('#cbp-fwslider').cbpFWSlider();
+  
 
 })
 window.addEventListener('load', (event) => {
   // console.log('page is fully loaded');
-  $(".cbp-fwnext").trigger('click')
-  $(".cbp-fwnext").trigger('click')
-  nextFwCurrent()
-  nextFwCurrent()
-
   $('.finnie-card').hover(function () {
     $(this).toggleClass('flipped');
   });
-  $(".horizontal-roadmap-prev").click(function () {
-    $(".cbp-fwprev").trigger('click')
-    prevFwCurrent()
-  });
-  $(".horizontal-roadmap-next").click(function () {
-    $(".cbp-fwnext").trigger('click')
-    nextFwCurrent()
-  });
-  $(".vertical-roadmap-next").trigger('click')
-  vertical_slider('next')
-  $(".vertical-roadmap-prev").click(function () {
-    vertical_slider('prev')
-  });
-  $(".vertical-roadmap-next").click(function () {
+  if(isHomePage) {
+    setTimeout(() => {
+      $(".cbp-fwnext").trigger('click')
+      nextFwCurrent()
+    }, 500)
+    $(".horizontal-roadmap-prev").click(function () {
+      $(".cbp-fwprev").trigger('click')
+      prevFwCurrent()
+    });
+    $(".horizontal-roadmap-next").click(function () {
+      $(".cbp-fwnext").trigger('click')
+      nextFwCurrent()
+    });
+    $(".vertical-roadmap-next").trigger('click')
     vertical_slider('next')
-  });
+    $(".vertical-roadmap-prev").click(function () {
+      vertical_slider('prev')
+    });
+    $(".vertical-roadmap-next").click(function () {
+      vertical_slider('next')
+    });
+  }
 });
