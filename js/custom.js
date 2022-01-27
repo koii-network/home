@@ -184,7 +184,7 @@ function prevFwCurrent() {
   if (cbp_fwcurrent === 0) {
     $(".horizontal-roadmap-prev").css("display", "none");
   }
-  console.log("current : " + cbp_fwcurrent)
+  // console.log("current : " + cbp_fwcurrent)
 }
 function nextFwCurrent() {
   $(".horizontal-roadmap-prev").css("display", "flex");
@@ -193,7 +193,7 @@ function nextFwCurrent() {
   if (cbp_fwcurrent === 3) {
     $(".horizontal-roadmap-next").css("display", "none");
   }
-  console.log("current : " + cbp_fwcurrent)
+  // console.log("current : " + cbp_fwcurrent)
 }
 var offset = 0;
 var count = $(".slide-item-wrapper > * > *").length;
@@ -238,7 +238,6 @@ function wings_img_spin() {
     mouseXY.Y = event.pageY;
   });
   var iCow = $("#spread_main_img");
-  console.log(iCow);
   if(iCow) {
 
     var prevXY = { X: null, Y: null };
@@ -314,7 +313,6 @@ $(document).ready(function () {
   if (category === 'connect') {
     show_slide()
   }
-  console.log(category)
   if (category === '') {
     isHomePage = true
     // home page
@@ -412,6 +410,10 @@ window.addEventListener('load', (event) => {
     setTimeout(() => {
       $(".cbp-fwnext").trigger('click')
       nextFwCurrent()
+      setTimeout(() => {
+        $(".cbp-fwnext").trigger('click')
+        nextFwCurrent()
+      }, 1000)
     }, 500)
     $(".horizontal-roadmap-prev").click(function () {
       $(".cbp-fwprev").trigger('click')
