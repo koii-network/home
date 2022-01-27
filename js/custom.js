@@ -224,7 +224,7 @@ function nextFwCurrent() {
   $(".horizontal-roadmap-prev").css("display", "flex");
   $(".horizontal-roadmap-next").css("display", "flex");
   cbp_fwcurrent++;
-  if (cbp_fwcurrent === 2) {
+  if (cbp_fwcurrent === 3) {
     $(".horizontal-roadmap-next").css("display", "none");
   }
 }
@@ -249,7 +249,7 @@ function vertical_slider(direction = 'next') {
     offset = 0
     $(".vertical-roadmap-prev").css("visibility", "hidden");
   }
-  else if (activeVSlider === 2) {
+  else if (activeVSlider === 3) {
     $(".vertical-roadmap-next").css("visibility", "hidden");
   }
   // offset = (offset - div_height) % (count * div_height); // 104px div height (incl margin) -620,-1240,0
