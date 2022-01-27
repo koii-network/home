@@ -410,9 +410,11 @@ window.addEventListener('load', (event) => {
     setTimeout(() => {
       $(".cbp-fwnext").trigger('click')
       nextFwCurrent()
+      vertical_slider('next')
       setTimeout(() => {
         $(".cbp-fwnext").trigger('click')
         nextFwCurrent()
+        vertical_slider('next')
       }, 1000)
     }, 500)
     $(".horizontal-roadmap-prev").click(function () {
@@ -424,7 +426,6 @@ window.addEventListener('load', (event) => {
       nextFwCurrent()
     });
     $(".vertical-roadmap-next").trigger('click')
-    vertical_slider('next')
     $(".vertical-roadmap-prev").click(function () {
       vertical_slider('prev')
     });
