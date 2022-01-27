@@ -227,6 +227,7 @@ function nextFwCurrent() {
   if (cbp_fwcurrent === 3) {
     $(".horizontal-roadmap-next").css("display", "none");
   }
+  console.log("current : " + cbp_fwcurrent)
 }
 var offset = 0;
 var count = $(".slide-item-wrapper > * > *").length;
@@ -426,6 +427,7 @@ $(document).ready(function () {
 })
 window.addEventListener('load', (event) => {
   // console.log('page is fully loaded');
+  $(".cbp-fwnext").trigger('click')
   $(".cbp-fwnext").trigger('click')
   nextFwCurrent()
   nextFwCurrent()
