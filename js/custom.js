@@ -80,13 +80,13 @@ function httpGet(theUrl) {
     dataType: 'json',
     success: function (data) {
       if (data) {
-        console.log("success api call")
+        // console.log("success api call")
         $(".num_users").text(data.users)
         $(".pre_register").text(data.pre_register)
         $(".total_attention").text(data.total_attention)
         num_animations()
       } else {
-        console.log("error api call")
+        // console.log("error api call")
         $(".num_users").text(14244)
         $(".pre_register").text(21141)
         $(".total_attention").text(8016332)
@@ -96,8 +96,8 @@ function httpGet(theUrl) {
       }
     },
     error: function (err) {
-      console.log(err);
-      console.log('Failed!');
+      // console.log(err);
+      // console.log('Failed!');
       $(".num_users").text(2894)
       $(".num_koii_earned").text(88240)
       $(".num_atomic_nfts").text(3325)
@@ -134,8 +134,8 @@ function httpGet(theUrl) {
   // });
 }
 function setActiveMenu(category, subCategory) {
-  console.log("category :", category)
-  console.log("sub :", subCategory)
+  // console.log("category :", category)
+  // console.log("sub :", subCategory)
   if (category === '') {
     httpGet('https://koii.live/info.json')
     return
@@ -272,8 +272,8 @@ function wings_img_spin() {
   });
   var iCow = $("#spread_main_img");
   var prevXY = { X: null, Y: null };
-  console.log("here is image position", centerPositionOfDiv(iCow));
-  console.log("here is image offset", iCow.offset())
+  // console.log("here is image position", centerPositionOfDiv(iCow));
+  // console.log("here is image offset", iCow.offset())
   var cowInterval = setInterval(function () {
     if (prevXY.Y != mouseXY.Y || prevXY.X != mouseXY.X && (prevXY.Y != null || prevXY.X != null)) {
 
@@ -307,7 +307,7 @@ function onClickOutside(e) {
       // Clicked in box
     } else {
       // $('[data-toggle="popover"]').popover('hide');
-      console.log('outside')
+      // console.log('outside')
       closePopover()
     }
   }
@@ -331,7 +331,7 @@ $(document).ready(function () {
 (jQuery)(function ($) {
   var pathname = window.location.pathname;
   var paths = pathname.split('/')
-  console.log({ paths })
+  // console.log({ paths })
   // ["", "learn", "about"]
   var category = '', subCat = ''
   if (paths.length === 2) {
@@ -377,7 +377,7 @@ $(document).ready(function () {
       document.getElementById('showconfirm').style.display = "flex";
       document.getElementById('mc-embedded-subscribe-form').style.display = "none";
     } else {
-      console.log('ran')
+      // console.log('ran')
       alert('You should input an email');
       return;
     }
@@ -391,7 +391,7 @@ $(document).ready(function () {
       document.getElementById('showconfirm1').style.display = "flex";
       document.getElementById('mc-embedded-signup-form').style.display = "none";
     } else {
-      console.log('ran')
+      // console.log('ran')
       alert('You should input an email');
       return;
     }
@@ -405,14 +405,14 @@ $(document).ready(function () {
       document.getElementById('showconfirm2').style.display = "flex";
       document.getElementById('mc-embedded-submit-form').style.display = "none";
     } else {
-      console.log('ran')
+      // console.log('ran')
       alert('You should input an email');
       return;
     }
   })
   $(".bbl-btn").mouseover(function () {
     let key = $(this).attr('data')
-    console.log("hover", ".btn" + key + "-hover")
+    // console.log("hover", ".btn" + key + "-hover")
     $(".btn" + key + "-hover").css('display', 'flex');
   })
   $(".bbl-btn-active").mouseleave(function () {
@@ -425,7 +425,7 @@ $(document).ready(function () {
 
 })
 window.addEventListener('load', (event) => {
-  console.log('page is fully loaded');
+  // console.log('page is fully loaded');
   $(".cbp-fwnext").trigger('click')
   nextFwCurrent()
 
