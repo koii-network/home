@@ -428,6 +428,7 @@ window.addEventListener('load', (event) => {
   // console.log('page is fully loaded');
   $(".cbp-fwnext").trigger('click')
   nextFwCurrent()
+  nextFwCurrent()
 
   $('.finnie-card').hover(function () {
     $(this).toggleClass('flipped');
