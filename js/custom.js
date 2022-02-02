@@ -64,22 +64,27 @@ function num_animations() {
   })
 }
 function httpGet(theUrl) {
+  console.log("get")
   jQuery.ajax({
     type: 'GET',
     url: theUrl,
     dataType: 'json',
     success: function (data) {
       if (data) {
-        // console.log("success api call")
+        console.log("success api call")
         $(".num_users").text(data.users)
         $(".pre_register").text(data.pre_register)
         $(".total_attention").text(data.total_attention)
+        $(".num_koii_earned").text(data.koii_earned)
+        $(".num_atomic_nfts").text(data.atomic_nfts)
         num_animations()
       } else {
         // console.log("error api call")
         $(".num_users").text(14244)
         $(".pre_register").text(21141)
         $(".total_attention").text(8016332)
+        $(".num_koii_earned").text(88240)
+        $(".num_atomic_nfts").text(3325)
         setTimeout(function () {
           num_animations()
         }, 100)
@@ -100,7 +105,7 @@ function httpGet(theUrl) {
 function setActiveMenu(category, subCategory) {
   // console.log("category :", category)
   // console.log("sub :", subCategory)
-  if (category === '') {
+  if (category === ''|| category === 'getFinnie') {
     httpGet('https://koii.live/info.json')
     return
   }
