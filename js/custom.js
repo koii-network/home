@@ -47,7 +47,7 @@ function getRupeesFormat(val) {
 }
 function num_animations() {
   $(".numerial-item").each(function () {
-    console.log($(this))
+    // console.log($(this))
     $(this).addClass('active')
   })
   $('.num').each(function () {
@@ -64,14 +64,13 @@ function num_animations() {
   })
 }
 function httpGet(theUrl) {
-  console.log("get")
   jQuery.ajax({
     type: 'GET',
     url: theUrl,
     dataType: 'json',
     success: function (data) {
       if (data) {
-        console.log("success api call")
+        // console.log("success api call")
         $(".num_users").text(data.users)
         $(".pre_register").text(data.pre_register)
         $(".total_attention").text(data.total_attention)
