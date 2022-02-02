@@ -1,0 +1,38 @@
+<section id="finnie-reward">
+  <img src="/img/homepage/reward_vector_left.svg" class="img-left" />
+  <img src="/img/homepage/reward_vector_right.svg" class="img-right" />
+  <div class="reward-wrapper">
+    <div class="reward-content">
+      <div class="content-part">
+        <h1>Get Rewarded For Your Work</h1>
+        <!-- <a href="/NFTs-FAQ" target="_blank">Do I always get the same amount of KOII for each view?</a> -->
+      </div>
+      <div class="content-part btns-wrapper">
+        <a href="https://koi.rocks/contents"><div class="btn btn-get">Learn How</div></a>
+      </div>
+    </div>
+    <div class="reward-cards-wrapper">
+      <div class="reward-cards">
+        <div class="row">
+          {% for item in site.data.home_reward %}
+          <div class="col-md-3">
+            <a href="{{ item.link }}" target="_blank">
+              <div class="reward-card">
+                <img class="lazy" width="100%" height="300px" data-src="https://arweave.net/{{item.url}}" title="Koii NFT image" frameborder="0" allowfullscreen>
+                <br>
+                <h3>{{item.title}}</h3>
+                <p class="subtitle">{{item.subtitle}}</p>
+                <p><span class="view-ct">{{item.view}}</span> views</p>
+                <p><span class="view-ct">{{item.reward}}</span> total KOII rewards</p>
+              </div>
+          </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="nft-faq">
+      <!-- <a href="/NFTs-FAQ" target="_blank"><i>Why do some NFTs earn more KOII than others?</i></a> -->
+    </div>
+  </div>
+</section>
