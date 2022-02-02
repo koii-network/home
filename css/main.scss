@@ -5,6 +5,9 @@
 
 @import "mixins", "base", "variables";
 
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   // height: 100%;

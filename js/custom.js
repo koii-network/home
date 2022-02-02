@@ -287,6 +287,23 @@ function onClickOutside(e) {
     }
   }
 }
+function revolution_finnie_video() {
+  $('#finnie-video-display').prettyEmbed({
+    videoID: 'zoxAW6R9NEM',
+    previewSize: 'thumb-default',				// use either this option...
+    customPreviewImage: 'https://img.youtube.com/vi/zoxAW6R9NEM/0.jpg',			// ...or this option
+
+    // Embed controls
+    showInfo: true,
+    showControls: true,
+    loop: false,
+
+    colorScheme: 'dark',
+    showRelated: false,
+
+    // useFitVids: true
+  });
+}
 function closePopover() {
   $('[data-toggle="popover"]').popover('hide');
   window.removeEventListener('click', onClickOutside)
@@ -318,6 +335,7 @@ $(document).ready(function () {
   if (category === 'connect') {
     show_slide()
   }
+  revolution_finnie_video()
   if (category === '') {
     isHomePage = true
     // home page
