@@ -8,7 +8,7 @@
   background-position-y: top;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  min-height: 475px;
+  height: 475px;
   padding-top: 74px;
   .ethdenver-overlay {
     .bg-hero {
@@ -30,7 +30,10 @@
         font-size: 55px;
         line-height: 128.7%;
         color: #ffffff;
-        font-weight: 600;
+        font-weight: normal;
+        b {
+          letter-spacing: 26px;
+        }
       }
       .hero-description {
         margin-top: 16px;
@@ -53,9 +56,13 @@
     .hero-right {
       height: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: flex-start;
+      p {
+        font-weight: normal;
+        font-size: 32px !important;
+        line-height: 48px;
+      }
     }
   }
   @media (max-width: 576px) {
