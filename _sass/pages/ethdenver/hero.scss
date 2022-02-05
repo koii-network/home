@@ -10,7 +10,9 @@
   background-repeat: no-repeat;
   height: 475px;
   padding-top: 74px;
-  .hero-img-tablet, .hero-img-mobile {
+  .hero-img-tablet,
+  .hero-img-mobile,
+  .mobile-title {
     display: none;
   }
   .ethdenver-overlay {
@@ -74,7 +76,6 @@
     background-size: 100%;
     background-position-x: right;
     background-position-y: bottom;
-    height: 775px;
     .ethdenver-overlay {
       position: relative;
       .hero-img-tablet {
@@ -98,27 +99,47 @@
     }
   }
   @media (max-width: 576px) {
-    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+    background: url(/img/ethdenver/bg-hero-mobile.svg),
+      linear-gradient(90deg, #030332 0%, #171753 100%);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-x: right;
     background-position-y: bottom;
+    height: 775px;
+    .hero-img-mobile {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 100%;
+    }
     .tablet-title {
       display: none;
+    }
+    .mobile-title {
+      display: block;
     }
     .ethdenver-overlay {
       align-items: flex-start;
       .hero-img-tablet {
         display: none;
       }
-      .hero-img-mobile {
-        position: absolute;
-        top: 0;
-        display: block;
-        width: 100%;
-      }
       .hero-left {
-        
+        .hero-title {
+          font-size: 25px;
+          margin-top: 126px;
+          b {
+            letter-spacing: 12px;
+          }
+        }
+      }
+      .hero-right {
+        justify-content: center;
+        margin-top: 236px;
+        p {
+          font-weight: normal;
+          font-size: 22px !important;
+          line-height: 39px;
+          text-align: center;
+        }
       }
     }
   }
