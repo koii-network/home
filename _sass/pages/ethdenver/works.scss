@@ -49,11 +49,23 @@
     }
   }
   @media (max-width: 576px) {
-    padding: 50px 0 21px;
-    background: url(/img/faq/bg-options-mobile.svg),
-      linear-gradient(90deg, #030332 0%, #171753 100%);
+    padding: 50px 0 421px;
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
     background-repeat: no-repeat;
     background-position-y: top;
     background-size: 100% auto;
+    .works-wrapper {
+      .works-option {
+        margin-bottom: 56px;
+      }
+    }
+    .btns-wrapper {
+      flex-direction: column;
+      margin-top: 0px;
+      .btn {
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
   }
 }
