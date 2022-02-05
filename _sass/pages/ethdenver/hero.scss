@@ -10,6 +10,9 @@
   background-repeat: no-repeat;
   height: 475px;
   padding-top: 74px;
+  .hero-img-tablet, .hero-img-mobile {
+    display: none;
+  }
   .ethdenver-overlay {
     .bg-hero {
       position: absolute;
@@ -65,40 +68,57 @@
       }
     }
   }
-  @media (max-width: 576px) {
-    background: url(/img/faq/bg-hero-mobile.svg),
-      linear-gradient(90deg, #030332 0%, #171753 100%);
+  @media (max-width: 1199px) {
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-x: right;
     background-position-y: bottom;
+    height: 775px;
     .ethdenver-overlay {
-      .hero-content {
-        align-items: center;
-        padding-top: 75px;
-        padding-bottom: 75px;
-        img {
-          max-width: 100%;
-          margin-bottom: 50px;
-        }
+      position: relative;
+      .hero-img-tablet {
+        display: block;
+        position: absolute;
+        height: 100%;
+        margin-right: 50px;
+      }
+      .hero-left {
+        margin-left: 72px;
         .hero-title {
-          font-size: 72px;
-          line-height: 76px;
-          margin-left: 46px;
-          .icon-question {
-            top: -49px;
-            right: 48%;
-            width: 42px;
+          font-size: 24px;
+          b {
+            letter-spacing: 12px;
           }
         }
-        .hero-description {
-          font-size: 18px;
-          line-height: 32px;
-          text-align: center;
-        }
-        .btn {
-          margin-top: 18px;
-        }
+      }
+      .hero-btns {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: bottom;
+    .tablet-title {
+      display: none;
+    }
+    .ethdenver-overlay {
+      align-items: flex-start;
+      .hero-img-tablet {
+        display: none;
+      }
+      .hero-img-mobile {
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 100%;
+      }
+      .hero-left {
+        
       }
     }
   }
