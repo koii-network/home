@@ -36,6 +36,18 @@
       }
     }
   }
+  .btns-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    .btn {
+      width: 345px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      border-radius: 38px;
+    }
+  }
   @media (max-width: 576px) {
     padding: 50px 0 21px;
     background: url(/img/faq/bg-options-mobile.svg),
