@@ -50,12 +50,15 @@
         font-weight: 400;
         max-width: 400px;
       }
-      .btn {
-        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
-        border-radius: 24px;
-        padding: 0 69px;
-        height: 40px;
-        margin: 15px 0 50px;
+      .hero-btns {
+        display: flex;
+        margin-top: 50px;
+        .btn {
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+          border-radius: 24px;
+          width: 220px;
+          height: 38px;
+        }
       }
     }
     .hero-right {
@@ -92,9 +95,9 @@
             letter-spacing: 12px;
           }
         }
-      }
-      .hero-btns {
-        display: none;
+        .hero-btns {
+          display: none;
+        }
       }
     }
   }
@@ -123,6 +126,9 @@
         display: none;
       }
       .hero-left {
+        .hero-btns {
+          display: none;
+        }
         .hero-title {
           font-size: 25px;
           margin-top: 126px;
@@ -139,6 +145,13 @@
           font-size: 22px !important;
           line-height: 39px;
           text-align: center;
+        }
+        .mobile-btns {
+          .btn {
+            height: 38px;
+            border-radius: 24px;
+            font-size: 16px;
+          }
         }
       }
     }
