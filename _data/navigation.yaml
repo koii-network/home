@@ -5,22 +5,22 @@
       link: /
       class: normal
 
-    - name: About
-      link: /learn/about
-      class: normal
+    # - name: About
+    #   link: /learn/about
+    #   class: normal
 
     - name: Blog
       link: https://blog.koii.network/
       class: normal
       newtab: target="_blank"
 
-    - name: News
-      link: /learn/news
-      class: normal
+    # - name: News
+    #   link: /learn/news
+    #   class: normal
 
-    - name: Node
-      link: /earn/everyone
-      class: normal
+    # - name: Node
+    #   link: /earn/everyone
+    #   class: normal
 
     - name: Get the Extension
       link: /getFinnie
@@ -33,7 +33,7 @@
       newtab: target="_blank"
 
     - name: Support
-      link: "mailto:support@koii.network"
+      link: /form/support/
       class: normal
       newtab: target="_blank"
 
