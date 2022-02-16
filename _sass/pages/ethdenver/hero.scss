@@ -1,0 +1,159 @@
+@import "variables";
+
+#ethdenver-hero {
+  position: relative;
+  background: url(/img/ethdenver/hero-img.svg),
+    linear-gradient(90deg, #030332 0%, #171753 100%);
+  background-position-x: right;
+  background-position-y: top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 475px;
+  padding-top: 74px;
+  .hero-img-tablet,
+  .hero-img-mobile,
+  .mobile-title {
+    display: none;
+  }
+  .ethdenver-overlay {
+    .bg-hero {
+      position: absolute;
+      width: 100%;
+    }
+    color: $white;
+    display: flex;
+    align-items: center;
+    font-family: $sora;
+
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      .hero-title {
+        position: relative;
+        font-size: 55px;
+        line-height: 128.7%;
+        color: #ffffff;
+        font-weight: normal;
+        b {
+          letter-spacing: 26px;
+        }
+      }
+      .hero-description {
+        margin-top: 16px;
+        margin-bottom: 27px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        color: white;
+        font-weight: 400;
+        max-width: 400px;
+      }
+      .hero-btns {
+        display: flex;
+        margin-top: 50px;
+        .btn {
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+          border-radius: 24px;
+          width: 220px;
+          height: 38px;
+        }
+      }
+    }
+    .hero-right {
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      p {
+        font-weight: normal;
+        font-size: 32px !important;
+        line-height: 48px;
+      }
+    }
+  }
+  @media (max-width: 1199px) {
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: bottom;
+    .ethdenver-overlay {
+      position: relative;
+      .hero-img-tablet {
+        display: block;
+        position: absolute;
+        height: 100%;
+        margin-right: 50px;
+      }
+      .hero-left {
+        margin-left: 72px;
+        .hero-title {
+          font-size: 24px;
+          b {
+            letter-spacing: 12px;
+          }
+        }
+        .hero-btns {
+          display: none;
+        }
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    background: url(/img/ethdenver/bg-hero-mobile.svg),
+      linear-gradient(90deg, #030332 0%, #171753 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
+    height: 775px;
+    .hero-img-mobile {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 100%;
+    }
+    .tablet-title {
+      display: none;
+    }
+    .mobile-title {
+      display: block;
+    }
+    .ethdenver-overlay {
+      align-items: flex-start;
+      .hero-img-tablet {
+        display: none;
+      }
+      .hero-left {
+        .hero-btns {
+          display: none;
+        }
+        .hero-title {
+          font-size: 25px;
+          margin-top: 126px;
+          b {
+            letter-spacing: 12px;
+          }
+        }
+      }
+      .hero-right {
+        justify-content: center;
+        margin-top: 236px;
+        p {
+          font-weight: normal;
+          font-size: 22px !important;
+          line-height: 39px;
+          text-align: center;
+        }
+        .mobile-btns {
+          .btn {
+            height: 38px;
+            border-radius: 24px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
