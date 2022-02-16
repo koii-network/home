@@ -27,9 +27,28 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  {% seo %}
+  {% seo  
+    title=false 
+    description=false
+    %}
 
   <title>Build the Permanent Record | Koii</title>
+  <meta
+    name="og:description"
+    content="Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their content.">
+  <meta name="og:url" content="https://koii.network/" />
+{% if page.image == nil %}
+<meta
+property="og:image"
+content="https://koii.network/img/thumbnail.png"
+/>
+<meta
+name="twitter:image"
+content="https://koii.network/img/thumbnail.png"
+/>
+{% endif %}
+
+  <!-- <title>Build the Permanent Record | Koii</title>
   <meta name="og:title" content="Join the Attention Economy | Koii" />
   <meta
     name="og:description"
@@ -63,7 +82,7 @@
     name="twitter:description"
     content="Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their content."
   />
-  <meta name=" twitter:creator" content="" />
+  <meta name=" twitter:creator" content="" /> -->
   <link
     rel="apple-touch-icon"
     sizes="114x114"
