@@ -49,19 +49,15 @@ include: ["node_modules"]
 exclude: []
 
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: "Build the Permanent Record | Koii"
+description: "Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their content." # this means to ignore newlines until "baseurl:"
+url: "https://koii.network/" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: KoiiNetwork
 
 # Build settings
 markdown: kramdown
 
-url: "https://koii.network/" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
