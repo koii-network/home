@@ -9,7 +9,7 @@ function option11() {
       document.getElementById("detail").innerHTML = `
       <div class="bcak-icon"><img src="/img/jobs/icon/Job/Return-button.svg" onclick="jobmenu()"></div>
       <div class="job-content">
-      <div class="job-title">Front-End Web Developer</div>
+      <div class="job-title">Community Manager</div>
       <div class="job-green">Who we are</div>
       <div class="job-detail">
         Koii was founded on fairness, trust, and one immense objective: to give creators a space where they permanently own and earn the value they deserve from their digital content.
@@ -17,24 +17,35 @@ function option11() {
         <br /><br />Koii just closed a third successful funding round and we’re looking for talent to help us grow.
       </div>
       <div class="job-green">Job Type: <spam class="job-line">Full-time, Independent Contractor</spam></div>
-      <div class="job-green">About the Role: <spam class="job-line">Front-End Web Developer</spam></div>
+      <div class="job-green">About the Role: 
+      <spam class="job-line"><br/>
+      Koii is looking for a personable, responsible, and organized candidate with a history of community enrichment and positivity.  The Koii Community Manager will be responsible for building and maintaining a brand's community  on mediums such as discord, telegram, twitter and offline. The job requires engaging audiences on a variety of outlets, providing support to our marketing team and developing community events and campaigns. 
+      <br/><br/>
+      At Koii, we are committed to developing and growing talent. Promotions and career development at Koii can happen over the course of weeks and months, not years. We’re always looking to promote leaders from within. 
+
+      </spam></div>
       <div class="job-green">You have (requirements): </div>
       <div class="job-detail">
         <ul>
-        <li>You have proven talent delivering high-performance, public-facing, responsive and mobile-friendly internet websites with demonstrative business impact</li>
-        <li>Mastery of web fundamentals including HTTP, Javascript, HTML and CSS</li>
-        <li>Proficient in TypeScript and React/Redux/Next.js</li>
-        <li>Experience with modern web development including build tools, testing and CI/CD</li>
-        <li>Good understanding of SEO principles and ensuring that application will adhere to them</li>
-        <li>Understanding of website optimization techniques such as SSR, CDN, and web-caching techniques</li>
-        <li>Self-motivated, relentlessly focused on impact, and able to operate under a great deal of independence</li>
+        <li>Experience managing brand identity through online presence via multiple social media channels</li>
+        <li>Verifiable growth of an online community thanks to your management and engagement</li>
+        <li>Knowledge of the risks associated with rapidly growing an online community, and the willingness to balance growth by prioritizing risk-mitigation, safety tools and equity considerations when it matters</li>
+        <li>Comfort with social media platform management tools such as Hootsuite, IFTTT, or Ripl. </li>
+        <li>Comfort with any graphic design software, able to assist with tailoring content pieces for the communities you manage.</li>
+        <li>Fluency and experience marketing crypto/blockchain-based technologies.</li>
+        <li>Participated in marketing and growth projects through multiple channels with large spend.</li>
+        <li>Knowledge of how to effectively grow a healthy online community, balancing rapid expansion with intelligent moderation to create a safe space for all participants.</li>
+
         </ul>
       </div>
       <div class="job-green">We’ll be excited if you also have: </div>
       <div class="job-detail">
         <ul>
-            <li>Experience with cryptocurrency and other decentralized or blockchain-based technologies.</li>
-            <li>Experience running user testing, analytics, a/b tests, or other iterative processes to get feedback.</li>
+        <li>Experience using CRM software, such as HubSpot, Salesforce, or analogous tools for Lead Generation, Email Marketing, and Customer Advocacy.<li>
+        <li>Quantitative and/or qualitative research experience with obtaining feedback from community members<li>
+        <li>Experience designing and administering moderation tools in a digital context.<li>
+        <li>Experience managing subcontractors, consultants, ambassadors and other third-party agencies to achieve marketing and growth objectives.</li>
+        
         </ul>
       </div>
       <a href="/form/career" target="_blank" style="text-decoration: none">
