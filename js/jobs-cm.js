@@ -41,11 +41,10 @@ function option11() {
       <div class="job-green">We’ll be excited if you also have: </div>
       <div class="job-detail">
         <ul>
-        <li>Experience using CRM software, such as HubSpot, Salesforce, or analogous tools for Lead Generation, Email Marketing, and Customer Advocacy.<li>
-        <li>Quantitative and/or qualitative research experience with obtaining feedback from community members<li>
-        <li>Experience designing and administering moderation tools in a digital context.<li>
-        <li>Experience managing subcontractors, consultants, ambassadors and other third-party agencies to achieve marketing and growth objectives.</li>
-        
+        <li>Experience using CRM software, such as HubSpot, Salesforce, or analogous tools for Lead Generation, Email Marketing, and Customer Advocacy.
+        <li>Quantitative and/or qualitative research experience with obtaining feedback from community members
+        <li>Experience designing and administering moderation tools in a digital context.
+        <li>Experience managing subcontractors, consultants, ambassadors and other third-party agencies to achieve marketing and growth objectives.
         </ul>
       </div>
       <a href="/form/career" target="_blank" style="text-decoration: none">
