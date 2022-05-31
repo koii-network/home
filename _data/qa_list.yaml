@@ -10,7 +10,7 @@
         <br /><br /><b>Creators</b>&#x3a; Get the <a href="https://chrome.google.com/webstore/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj" target="_blank">Finnie wallet</a> to start uploading content.
         <br /><b>Developers</b>&#x3a; Check out the <a href="https://docs.koii.network" target="_blank">Koii Docs</a> to start building dApps entirely on-chain.
         <br /><b>Node Runners</b>&#x3a; Pre-register to run a node <a href="/form/pre-register" target="_blank">here</a>. Node release planned for Q1 2022.
-        <br /><br /><b>Investors</b>&#x3a; Get on the investor waitlist <a href="/form/investor" target="_blank">here</a>.
+        <br /><br /><b>Pre-Sale</b>&#x3a; Get on the pre-Sale waitlist <a href="/form/investor" target="_blank">here</a>.
         <br /><b>Influencers</b>&#x3a; Email us at <a href="https://press@koii.network" target="_blank">press@koii.network</a>.
         <br /><b>Ambassadors</b>&#x3a; Join our <a href="https://discord.gg/koii" target="_blank">Discord</a> to get started.
         <br /><b>Everyone</b>&#x3a; Join us on social media
@@ -116,11 +116,11 @@
       a:
         Koii has bridges up and running from Arweave to Ethereum and Polygon. We are currently developing bridges to Filecoin, Solana, and Avalanche, with more planned after that.
         <br /><br />Do you have a chain you want Koii to integrate with? Tweet <a href="https://twitter.com/KoiiNetwork" target="_blank">@KoiiNetwork</a> to let us know which one with the tag &sharp;bridgetoKoii so that we can prioritize bridges based on the needs of the community.
-- invest:
+- Buying Koii:
   classname: invest
   img: faq-invest
   children:
-    - q: I want to invest in Koii Network.
+    - q: I want to buy KOII tokens.
       a: Sign up on the waitlist and you will be notified when the token is available to purchase. If you are looking for a partnership, fill out <a href="https://koii.network/form/partnership/" target="_blank">this form</a> as well.
       cta: Get on the Waitlist
       ctalink: /form/partnership/
